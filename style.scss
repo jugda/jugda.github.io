@@ -64,6 +64,11 @@ h4 {
   color: $gray;
 }
 
+h5 {
+  font-size: 16px;
+  color: $gray;
+}
+
 p {
   margin: 15px 0;
 }
@@ -311,6 +316,7 @@ footer {
 .sidebar_content {
   float: none;
   width: 100%;
+  margin-bottom: 25px;
   @include mobile {
     float: left;
     width: 33%;
@@ -349,6 +355,17 @@ blockquote {
   border-left: 3px solid $gray;
   color: $gray;
   font-style: italic;
+}
+
+.btnMailingList {
+  background-color: $blue;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 
