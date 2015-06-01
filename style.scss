@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -282,6 +282,75 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+
+.maincontent {
+  float: left;
+  width: 72%;
+  padding-right: 20px;
+  @include mobile {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+
+.sidebar {
+  float: right;
+  width: 28%;
+  margin-top: 30px;
+  padding-left: 20px;
+  @include mobile {
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 100px;
+  }
+}
+
+.sidebar_content {
+  float: none;
+  width: 100%;
+  @include mobile {
+    float: left;
+    width: 33%;
+    padding: 0px 10px;
+  }
+  @include phone {
+    float: none;
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+.speakerpic {
+  float: right;
+  width: 120px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.orgapic {
+  float: right;
+  width: 100px;
+  margin-left: 1em;
+}
+
+.archive-box {
+  list-style: none;
+  li {
+    margin-left: -25px;
+  }
+}
+
+blockquote {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 3px solid $gray;
+  color: $gray;
+  font-style: italic;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

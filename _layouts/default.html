@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -10,6 +10,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   </head>
@@ -26,21 +27,32 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/veranstaltungen">Veranstaltungen</a>
+            <a href="{{ site.baseurl }}/about">Über uns</a>
+            <a href="{{ site.baseurl }}/mitmachen">Mitmachen</a>
+            <a href="{{ site.baseurl }}/anfahrt">Anfahrt</a>
+            <a href="{{ site.baseurl }}/partner">Partner JUGs</a>
+            <a href="{{ site.baseurl }}/impressum">Impressum</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <div class="maincontent">
+        {{ content }}
+      </div>
+      <div class="sidebar">
+        {% include sidebar.html %}
+      </div>
+      <div style="clear: both"></div>
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          {% include fa-icons.html %}
         </footer>
       </div>
     </div>

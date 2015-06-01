@@ -9,7 +9,7 @@ name: Java User Group Darmstadt
 description: Community der Java Anwender in und um Darmstadt
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://dl.dropboxusercontent.com/u/9313609/jugda_logo_rund.png
+avatar: /images/jugda_logo_rund.png
 
 #
 # Flags below are optional
@@ -55,7 +55,7 @@ baseurl: ""
 
 markdown: redcarpet
 highlighter: pygments
-permalink: /:title/
+permalink: /:year/:title/
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
