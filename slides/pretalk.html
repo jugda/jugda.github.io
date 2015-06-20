@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .remark-slide-content {
+        font-size: 1.5em;
+        background-position: center right 20px;
+      }
+      .remark-slide-number {
+        font-size: 0.5em;
+      }
+
+      .logo {
+        text-align: right;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      .logo img {
+        /*width: 200px;*/
+      }
+      .copyright {
+        position: absolute;
+        right: 100px;
+        bottom: 12px;
+        font-size: 0.5em;
+      }
+      .footnote {
+        font-size: 0.5em;
+        position: absolute;
+        right: 20px;
+        bottom: 50px;
+      }
+      .slideshow {
+        position: absolute;
+        left: 20px;
+        bottom: 12px
+      }
+      .stripe {
+        font-size: 1em;
+        background-color: white;
+        border: 1px black solid;
+        padding: 5px;
+      }
+      img {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      function resizeLotteryInput(shrink) {
+        var text = document.getElementsByTagName("textarea")[0];
+//        text.setAttribute("rows", shrink ? "1" : "10");
+//        text.setAttribute("cols", shrink ? "1" : "80");
+      }
+
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
+      var slideshow = remark.create({
+        sourceUrl: 'slides.md'
+      });
+
+      function enableAutoSlideshow(id, interval) {
+        var timer;
+        document.getElementById(id).onclick=function(e){
+          if(!e.target.checked) {
+            clearInterval(timer);
+          } else {
+            timer = setInterval(function(){
+              if (slideshow.getCurrentSlideIndex() + 1 < slideshow.getSlideCount()) {
+                slideshow.gotoNextSlide();
+              } else {
+                slideshow.gotoFirstSlide();
+              }
+            }, interval);
+          }
+        }
+      }
+
+      enableAutoSlideshow("autoSlideshow", 5000);
+
+
+      document.getElementById('showAttendees').onclick=function(e){
+        if(!e.target.checked) {
+          document.getElementById('attendees').style.display = 'none';
+        } else {
+          document.getElementById('attendees').style.display = 'block';
+        }
+      }
+
+      function nextWinner() {
+        var array = document.getElementById("attendees").value.split("\n");
+        var winner = array[Math.floor(Math.random() * array.length)];
+        document.getElementById('winner').innerHTML = winner;
+      }
+    </script>
+  </body>
+</html>
