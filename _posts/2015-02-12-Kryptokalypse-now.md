@@ -7,7 +7,7 @@ title: Kryptokalypse now – Apache Tomcat aber sicher!
 
 Sicherheit wird im Internet groß geschrieben. Trotzdem hat die Zahl der Sicherheitslücken erschreckende Ausmaße angenommen. Am Beispiel des weit verbreiteten Java-Webservers Apache Tomcat wird gezeigt, welche Angriffsszenarien es gibt und was man dagegen tun kann. Mit aktuellen Gefahrenpotentialen nach OWASP und CVE werden Lösungen mit Tomcat 8 und Java 8 diskutiert. Mit wenigen konsequent und regelmäßig durchgeführten Maßnahmen lässt sich das Sicherheitsniveau erhöhen. Eine gute Möglichkeit sein Wissen zum Thema Websicherheit und Verschlüsselung auf zu frischen und sich auf Herausforderungen der Zukunft frühzeitig vorzubereiten.
 
-[Die Folien des Vortrages gibt's hier.](https://jugda.files.wordpress.com/2014/10/apache_tomcat_sicher_pientka_2015.pdf)
+[Die Folien des Vortrages gibt's hier.](/files/apache_tomcat_sicher_pientka_2015.pdf)
 
 ### Speaker
 
