@@ -12,5 +12,5 @@ Als Beispielfunktionen für die Integration in Anwendungen werden die Navigation
 
 ### Speaker
 
-<img src="/images/speaker/alexanderschwartz.jpg" class="speakerpic"/>
+<img src="/images/speaker/alexanderschwartz.png" class="speakerpic"/>
 Alexander Schwartz arbeitet als Lead IT Consultant bei msg systems ag. In den vergangenen Jahren hat er Softwareprojekte mit J(2)EE und Spring in verschiedenen Rollen als Entwickler, ScrumMaster, Architekt und Projektmanager begleitet. Im Laufe der Zeit kam er mit verschiedensten Web-Technologien in Verbindung. Er schätzt produktive Arbeitsumgebungen, agile Projekte und automatisierte Tests.
