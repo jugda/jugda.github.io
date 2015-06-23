@@ -4,6 +4,9 @@ layout: default
 
 <article class="post">
   <h1>{{ page.date | date: "%d.%m.%Y" }}: {{ page.title }}</h1>
+  {% if page.speaker %}
+    <h2><em>{{ page.speaker }}</em></h2>
+  {% endif %}
 
   <div class="entry">
     {{ content }}
