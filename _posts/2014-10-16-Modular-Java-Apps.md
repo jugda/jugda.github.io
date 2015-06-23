@@ -15,7 +15,7 @@ Being able to deal with change and dynamics are important reasons for companies 
 
 ### Speaker
 
-<img src="/speakerpics/bertertman.jpg" class="speakerpic"/>
+<img src="/images/speaker/bertertman.jpg" class="speakerpic"/>
 __Bert Ertman__ is a Fellow at Luminis in the Netherlands. Besides his day job he is a Java User Group leader for NLJUG, a frequent speaker on Java and Software Architecture related topics as well as a book author and member of the editorial advisory board for Dutch software development magazine: Java Magazine.
 
 In 2008, Bert was honored by being awarded the coveted title of Java Champion by an international panel of Java leaders and luminaries. Bert is a JavaOne 2012 Rock Star Speaker and a 2013 Duke’s Choice Award winner.

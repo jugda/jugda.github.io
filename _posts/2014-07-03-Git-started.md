@@ -14,5 +14,5 @@ Der Zuhörer erhält als Git-Neuling oder Einsteiger eine fundierte Hinführung 
 
 ### Speaker
 
-<img src="/speakerpics/benjaminschmid.jpg" class="speakerpic"/>
+<img src="/images/speaker/benjaminschmid.jpg" class="speakerpic"/>
 __Benjamin Schmid__ ist Technology Advisor bei der eXXcellent solutions und dort primärer Ansprechpartner in allen technol ogischen und methodischen Fragestellungen. Seine Erfahrungen und Wissen gibt er regelmäßig und gerne auch als Redner auf Konferenzen und Autor von Fachartikeln weiter.

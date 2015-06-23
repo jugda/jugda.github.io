@@ -10,5 +10,5 @@ Auch nach über einem Jahrzehnt ist Java immer noch eine sehr aktuelle Technolog
 
 ### Speaker
 
-<img src="/speakerpics/eberhardwolff.jpg" class="speakerpic"/>
+<img src="/images/speaker/eberhardwolff.jpg" class="speakerpic"/>
 Eberhard Wolff ([http://ewolff.com](http://ewolff.com)) arbeitet als freiberuflicher Architekt und Berater. Außerdem ist er ist Java Champion und Leiter des Technologie-Beirat der adesso AG. Sein technologischer Schwerpunkt liegt auf Spring, NoSQL und Cloud.

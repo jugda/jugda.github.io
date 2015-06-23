@@ -14,5 +14,5 @@ Während des Vortrags wird ein Ende-zu-Ende Beispiel erstellt inklusive Dokument
 
 ### Speaker
 
-<img src="/speakerpics/alexanderschwartz.png" class="speakerpic"/>
+<img src="/images/speaker/alexanderschwartz.png" class="speakerpic"/>
 __Alexander Schwartz__ ([@ahus1de](https://twitter.com/ahus1de)) ist Principal IT Consultant bei der msg systems ag in Frankfurt. Im Laufe der Zeit arbeitete er mit verschiedensten Web-Technologien. Er schätzt agile Projekte und automatisierte Tests.

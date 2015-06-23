@@ -12,8 +12,10 @@ Testen macht derzeit ca. 20% der Kosten einer neuen Software aus, Tendenz steige
 
 Monkey-Testing bezeichnet zufallsbasiertes Testen von Software über die Benutzeroberfläche, und findet vollautomatisch und kostengünstig Fehler. In diesem Vortrag zeige ich, wie jeder Anwesende mit ein paar Zeilen Code einen eigenen primitiven Affen zum automatischen Testen programmieren kann. Davon ausgehend zeige ich Ansätze und Konzepte, wie man diesen Affen (u.a. mit genetischen Algorithmen) immer weiter verbessern kann, bis er teilweise bessere Ergebnisse als menschliche Tester bringt. Dazu gibt es Demos und Erfahrungsberichte aus großen Projekten.
 
-[Die Folien des Vortrages gibt's hier.](/files/roessler-wennaffentesten.pdf)
-
 ### Speaker
 
 __Dr. Jeremias Rößler__ ist Software Ingenieur und Experte für die Erstellung und Pflege großer, komplexer Softwaresysteme. Er besitzt über sechs Jahre Berufserfahrung in der Software-Entwicklung. 2013 hat er am Lehrstuhl für Softwaretechnik an der Universität des Saarlandes promoviert. Er ist Gründer von ReTest ([www.retest.de](http://www.retest.de)), einem IT-Dienstleistungsunternehmen das Software programmunterstützt testet.
+
+### Weitere Informationen
+
+[Die Folien des Vortrages gibt's hier.](/files/roessler-wennaffentesten.pdf)

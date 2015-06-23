@@ -18,5 +18,5 @@ Ich bringe Ihnen nahe, worauf es bei Evolution, Wartung und Änderung von Softwa
 
 ### Speaker
 
-<img src="/speakerpics/gernotstarke.jpg" class="speakerpic"/>
+<img src="/images/speaker/gernotstarke.jpg" class="speakerpic"/>
 __Dr. Gernot Starke__, innoQ Fellow, Mitgründer von arc42, Mitgründer des iSAQB e.V., Gründer von aim42.org, Autor u.a. von „Effektive Softwarearchitekturen“, dem „Knigge für Softwarearchitekten“.

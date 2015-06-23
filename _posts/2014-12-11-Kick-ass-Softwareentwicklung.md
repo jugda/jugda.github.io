@@ -14,5 +14,5 @@ Diese Session stellt vor, wie wir bei Atlassian Kick-Ass Softwareentwicklung bet
 
 ### Speaker
 
-<img src="/speakerpics/svenpeters.jpg" class="speakerpic"/>
+<img src="/images/speaker/svenpeters.jpg" class="speakerpic"/>
 Sven ist ein Software-Geek und arbeitet als Evangelist für Atlassian. Er hat 1998 mit Javaentwicklung begonnen und programmiert jetzt schon länger, als er zugeben möchte. Neben dem Programmieren gilt seine Leidenschaft effektive Softwareentwicklung und der Motivation von Entwicklern. Sven ist regelmäßiger Sprecher auf Konferenzen in über 25+ Ländern.

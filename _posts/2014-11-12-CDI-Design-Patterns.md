@@ -14,7 +14,7 @@ Die Kombination von klassischen Reflection-Einsatzgebieten wie z.B. dynamic Prox
 
 ### Speaker
 
-<img src="/speakerpics/svenruppert.jpg" class="speakerpic"/>
+<img src="/images/speaker/svenruppert.jpg" class="speakerpic"/>
 __Sven Ruppert__ ([@SvenRuppert](https://twitter.com/SvenRuppert)) arbeitet als Principal IT Consultant bei der codecentric in München, spricht seit 1996 Java und arbeitet seitdem in nationalen und internationalen Projekten.
 
 In seiner Freizeit schreibt er als Gastautor für Jaxenter ([http://jaxenter.de/Sven-Ruppert-168244](http://jaxenter.de/Sven-Ruppert-168244)) und [http://www.rapidpm.org](http://www.rapidpm.org) sowie im Java-, Entwickler- und EclipseMagazin.

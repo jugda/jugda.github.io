@@ -12,5 +12,5 @@ Sicherheit wird im Internet groß geschrieben. Trotzdem hat die Zahl der Sicherh
 
 ### Speaker
 
-<img src="/speakerpics/frankpientka.jpg" class="speakerpic"/>
+<img src="/images/speaker/frankpientka.jpg" class="speakerpic"/>
 __Frank Pientka__ arbeitet als Dipl.-Informatiker (TH Karlsruhe) bei der MATERNA GmbH in Dortmund. Als Software Architect sorgt er für mehr Qualität in der Software und kümmert sich, als Gründungsmitglied des iSAQB, um eine verbesserte Ausbildung und Zertifizierung von Architekten. Seit mehr als zwei Jahrzehnten unterstützt er Firmen bei der Umsetzung tragfähiger Software-Architekturen auf Basis von JavaEE. Dabei führt er externe Reviews und Architekturbewertungen als Gutachter durch. Hierzu hat er auch schon mehrere Fachartikel veröffentlicht und Vorträge gehalten.
