@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Microservices mit Dropwizard – REST-Services ruck-zuck fertig
+speaker: Alexander Schwartz
 ---
 
 ### Abstract
@@ -14,4 +15,4 @@ Während des Vortrags wird ein Ende-zu-Ende Beispiel erstellt inklusive Dokument
 ### Speaker
 
 <img src="/speakerpics/alexanderschwartz.png" class="speakerpic"/>
-Alexander Schwartz ([@ahus1de](https://twitter.com/ahus1de)) ist Principal IT Consultant bei der msg systems ag in Frankfurt. Im Laufe der Zeit arbeitete er mit verschiedensten Web-Technologien. Er schätzt agile Projekte und automatisierte Tests.
+__Alexander Schwartz__ ([@ahus1de](https://twitter.com/ahus1de)) ist Principal IT Consultant bei der msg systems ag in Frankfurt. Im Laufe der Zeit arbeitete er mit verschiedensten Web-Technologien. Er schätzt agile Projekte und automatisierte Tests.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hazelcast – Interaktive Einführung in In-Memory Computing
+speaker: Christoph Engelbert
 ---
 
 ### Abstract
@@ -10,4 +11,4 @@ Heute wachsen die gesammelten Datenmengen exponential an. Mehr als 75% aller ges
 ### Speaker
 
 <img src="/speakerpics/noctarius2k.jpg" class="speakerpic"/>
-Christoph Engelbert ([@noctarius2k](https://twitter.com/noctarius2k)) ist ein passionierter Java Developer mit einem tiefen Engagement im Bereich OpenSource. Bei interessanten Themen wie Performance Optimierung, JVM Interna und Garbage Collector ist er immer vorne mit dabei. Er liebt Software an ihre Grenzen zu bringen und tiefe Einblicke mit Profilern und Performance Tools zu erhaschen. Sein ständig wachsendes Interesse gegenüber neuen Ideen, Technologien oder Lösungsansätzen stachelt ihn immer wieder zu neuen Diskussionen an.
+__Christoph Engelbert__ ([@noctarius2k](https://twitter.com/noctarius2k)) ist ein passionierter Java Developer mit einem tiefen Engagement im Bereich OpenSource. Bei interessanten Themen wie Performance Optimierung, JVM Interna und Garbage Collector ist er immer vorne mit dabei. Er liebt Software an ihre Grenzen zu bringen und tiefe Einblicke mit Profilern und Performance Tools zu erhaschen. Sein ständig wachsendes Interesse gegenüber neuen Ideen, Technologien oder Lösungsansätzen stachelt ihn immer wieder zu neuen Diskussionen an.

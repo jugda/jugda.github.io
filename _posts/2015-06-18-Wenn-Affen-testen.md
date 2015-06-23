@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Wenn Affen Testen – Das Ende der Bananensoftware!
+speaker: Dr. Jeremias Rößler
 ---
 
 ### Abstract
@@ -15,4 +16,4 @@ Monkey-Testing bezeichnet zufallsbasiertes Testen von Software über die Benutze
 
 ### Speaker
 
-Dr. Jeremias Rößler ist Software Ingenieur und Experte für die Erstellung und Pflege großer, komplexer Softwaresysteme. Er besitzt über sechs Jahre Berufserfahrung in der Software-Entwicklung. 2013 hat er am Lehrstuhl für Softwaretechnik an der Universität des Saarlandes promoviert. Er ist Gründer von ReTest ([www.retest.de](http://www.retest.de)), einem IT-Dienstleistungsunternehmen das Software programmunterstützt testet.
+__Dr. Jeremias Rößler__ ist Software Ingenieur und Experte für die Erstellung und Pflege großer, komplexer Softwaresysteme. Er besitzt über sechs Jahre Berufserfahrung in der Software-Entwicklung. 2013 hat er am Lehrstuhl für Softwaretechnik an der Universität des Saarlandes promoviert. Er ist Gründer von ReTest ([www.retest.de](http://www.retest.de)), einem IT-Dienstleistungsunternehmen das Software programmunterstützt testet.

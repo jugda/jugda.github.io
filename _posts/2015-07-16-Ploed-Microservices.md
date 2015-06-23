@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Anatomy of Microservice Landscapes
+speaker: Michael Plöd
 ---
 
 ### Termin
@@ -14,6 +15,6 @@ Building a Microservice is no hard task these days. With current frameworks it i
 ### Speaker
 
 <img src="/speakerpics/michael_ploed.jpg" class="speakerpic"/>
-Michael Plöd ist entwickelnder Software Architekt und in dieser Rolle überwiegend in Projekten tätig, die die Transformation großer IT-Landschaften anstreben. Michael ist Speaker auf zahlreichen Konferenzen und regelmäßiger Autor von Fachartikeln. Seine aktuellen Interessensgebiete sind Microservices, CQRS, polyglotte Persistence, Alternativen zu alteingewachsenen Software Architekturen und Präsentationstechniken für Entwickler und Architekten.
+__Michael Plöd__ ist entwickelnder Software Architekt und in dieser Rolle überwiegend in Projekten tätig, die die Transformation großer IT-Landschaften anstreben. Michael ist Speaker auf zahlreichen Konferenzen und regelmäßiger Autor von Fachartikeln. Seine aktuellen Interessensgebiete sind Microservices, CQRS, polyglotte Persistence, Alternativen zu alteingewachsenen Software Architekturen und Präsentationstechniken für Entwickler und Architekten.
 
 <iframe src="https://docs.google.com/forms/d/1_Xl8HY25wuCJARzb47H2xPi8PUI4Mjf26NUq3OJ7iNU/viewform?embedded=true" frameborder="0" width="650" height="620" marginheight="0" marginwidth="0"></iframe>
