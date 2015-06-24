@@ -2,6 +2,35 @@
 layout: default
 ---
 
-{% include next-events.html %}
+<h1>Hallo, ...</h1>
 
-<a href="{{ site.baseurl }}/veranstaltungen" style="float: right">ALLE VERANSTALTUNGEN >></a>
+<p>bla blubb...</p>
+
+<h3>Unsere nächsten Veranstaltungen</h3>
+
+<div class="posts">
+  <ul>
+
+  {% for post in site.posts reversed %}
+    {% if post.date > site.time %}
+
+    <li>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% if post.speaker %}
+        <div class="speaker">Speaker: {{ post.speaker }}</div>
+      {% endif %}
+      {% if post.important %}
+        <div class="important">{{ post.important }}</div>
+      {% endif %}
+    </li>
+
+    {% endif %}
+  {% endfor %}
+
+  </ul>
+</div>
+
+<p>
+  <a href="{{ site.baseurl }}/veranstaltungen">Hier geht's zur Übersicht aller Veranstaltungen  >></a>
+</p>

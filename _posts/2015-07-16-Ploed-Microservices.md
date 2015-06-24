@@ -2,12 +2,12 @@
 layout: post
 title: Anatomy of Microservice Landscapes
 speaker: Michael Plöd
-importantHint: Veranstaltungsort ist diesmal wieder die TU Darmstadt!
+important: Achtung, neue Website!
 ---
 
 ### Termin
 
-Der Vortrag findet am **31.12.2099** um **18:30 Uhr** im **Robert-Piloty-Gebäude** (S2|02) im **Raum C110** der **TU Darmstadt** (Hochschulstr. 10) statt ([Anfahrtsbeschreibung](/anfahrt)).
+Der Vortrag findet am **16.07.2015** um **18:30 Uhr** im **Robert-Piloty-Gebäude** (S2|02) im **Raum C110** der **TU Darmstadt** (Hochschulstr. 10) statt ([Anfahrtsbeschreibung](/anfahrt)).
 
 ### Abstract
 

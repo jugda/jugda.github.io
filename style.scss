@@ -156,7 +156,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
 }
 
 .masthead {
@@ -376,6 +376,26 @@ blockquote {
   -moz-border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+}
+
+@mixin important {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li {
+  div.speaker {
+      margin-left: 110px;
+  }
+  div.important {
+      @include important;
+      margin-left: 110px;
+  }
+}
+
+.important {
+  @include important;
 }
 
 
