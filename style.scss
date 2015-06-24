@@ -384,14 +384,12 @@ blockquote {
   font-weight: bold;
 }
 
-li {
-  div.speaker {
-      margin-left: 110px;
-  }
-  div.important {
-      @include important;
-      margin-left: 110px;
-  }
+div.talklist_speaker {
+  margin-left: 110px;
+}
+div.talklist_important {
+  @include important;
+  margin-left: 110px;
 }
 
 .important {
