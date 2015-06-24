@@ -8,8 +8,7 @@ Die JUG DA ist eine offene Non-Profit-Community mit dem Ziel sich über aktuelle
 
 Wenn du über kommende Vorträge und Themen auf dem laufenden zu bleiben möchtest, melde dich auf der [JUG DA Mailingliste](https://groups.google.com/forum/#!forum/jug-da) an oder [folge uns auf Twitter.](https://twitter.com/JUG_DA) Wenn du direkt mit den Organisatoren in Kontakt kommen willst, [schick uns eine Email.](mailto:jug-da-orga@googlegroups.com)
 
-
-
+{% include ijug.html %}
 
 ### Die JUG DA wird organisiert von:
 
