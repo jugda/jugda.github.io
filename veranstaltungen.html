@@ -28,8 +28,7 @@ permalink: /veranstaltungen/
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% if post.speaker %}
-        <br/>
-        <span style="margin-left: 110px">Speaker: {{ post.speaker }}</span>
+        <div class="speaker">Speaker: {{ post.speaker }}</div>
       {% endif %}
     </li>
   {% endfor %}

@@ -8,6 +8,10 @@ layout: default
     <h2><em>{{ page.speaker }}</em></h2>
   {% endif %}
 
+  {% if page.important %}
+    <h2 class="important">{{ page.important }}</h2>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>

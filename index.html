@@ -18,8 +18,10 @@ layout: default
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% if post.speaker %}
-        <br/>
-        <span style="margin-left: 110px">Speaker: {{ post.speaker }}</span>
+        <div class="speaker">Speaker: {{ post.speaker }}</div>
+      {% endif %}
+      {% if post.important %}
+        <div class="important">{{ post.important }}</div>
       {% endif %}
     </li>
 
@@ -30,5 +32,5 @@ layout: default
 </div>
 
 <p>
-  <a href="{{ site.baseurl }}/veranstaltungen">Hier geht's zur Übersicht aller unserer Veranstaltungen  >></a>
+  <a href="{{ site.baseurl }}/veranstaltungen">Hier geht's zur Übersicht aller Veranstaltungen  >></a>
 </p>
