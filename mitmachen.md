@@ -4,16 +4,11 @@ title: Mitmachen
 permalink: /mitmachen/
 ---
 
-Wer Mitglied der JUG Darmstadt werden möchte, trägt sich einfach in die Mailingliste [http://groups.google.com/group/jug-da](http://groups.google.com/group/jug-da) ein.
+Wer Mitglied der JUG Darmstadt werden möchte, trägt sich einfach in die Mailingliste ein. Die Teilnahme ist **kostenlos**.
 
-Die Teilnahme ist kostenlos.
+<button onclick="location.href='https://groups.google.com/group/jug-da'" class="btnMailingList">Anmeldung Mailing-Liste</button>
 
-Neue Vorträge werden über hier auf der Website und auf unserer Mailingliste bekannt gegeben. Man kann sich aber auch den [RSS-Feed abonnieren](/feed.xml) oder [JUG_DA bei Twitter](https://twitter.com/JUG_DA) folgen.
-
-Es sind auch immer eigene Beiträge willkommen.
-
-Falls Ihr Themenvorschläge habt, dann schreibt uns eine E-Mail an: [jug-da-orga@googlegroups.com](mailto:jug-da-orga@googlegroups.com)
-
+Neue Vorträge werden hier auf der Website und auf unserer Mailingliste bekannt gegeben. Man kann sich aber auch den [RSS-Feed abonnieren](/feed.xml) oder [JUG_DA bei Twitter](https://twitter.com/JUG_DA) folgen.
 
 # Ein Thema Präsentieren
 

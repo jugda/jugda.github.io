@@ -2,7 +2,7 @@
 layout: post
 title: Anatomy of Microservice Landscapes
 speaker: Michael Plöd
-important: Achtung, neue Website!
+importantHint: Veranstaltungsort ist diesmal wieder die TU Darmstadt!
 ---
 
 ### Termin
