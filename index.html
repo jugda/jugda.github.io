@@ -2,23 +2,33 @@
 layout: default
 ---
 
+<h1>Hallo, ...</h1>
+
+<p>bla blubb...</p>
+
+<h3>Unsere nächsten Veranstaltungen</h3>
+
 <div class="posts">
-  {% for post in site.posts limit:5 %}
-    <article class="post">
+  <ul>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  {% for post in site.posts reversed %}
+    {% if post.date > site.time %}
 
-      <p class="date">
-        {{ post.date | date: "%B %e, %Y" }}
-      </p>
+    <li>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% if post.speaker %}
+        <br/>
+        <span style="margin-left: 110px">Speaker: {{ post.speaker }}</span>
+      {% endif %}
+    </li>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Mehr >></a>
-    </article>
+    {% endif %}
   {% endfor %}
+
+  </ul>
 </div>
 
-<a href="{{ site.baseurl }}/archive" style="float: right">ALLE VERANSTALTUNGEN >></a>
+<p>
+  <a href="{{ site.baseurl }}/veranstaltungen">Hier geht's zur Übersicht aller unserer Veranstaltungen  >></a>
+</p>
