@@ -353,6 +353,34 @@ footer {
   }
 }
 
+.next-event-container {
+  position: relative;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.next-event-label {
+  position: absolute;
+  left:0px;
+  top:0px;
+  padding: 5px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.next-event-time {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+.next-event-title {
+  padding-top: 30px;
+}
+
 .sponsors {
   margin-top: 20px;
   padding: 20px 0;

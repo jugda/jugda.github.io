@@ -12,16 +12,16 @@
   var talkDate = new Date('{{ upcomingTalk.date | date_to_xmlschema }}');
   var daysTillTalk = Math.ceil((talkDate - today) / 1000 / 60 / 60 / 24);
 </script> 
-<div style="border:1px solid; padding: 10px;">
-<h1>Nächste Veranstaltung (noch <script>document.write(daysTillTalk);</script> Tage)</h1>
-<time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time> &raquo;
-<a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
-{% if upcomingTalk.speaker %}
-  <br/>
-  <span style="margin-left: 110px">Speaker: {{ upcomingTalk.speaker }}</span>
-{% endif %}
+
+<div class="next-event-container">
+<span class="next-event-label">Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time></span>
+<span class="next-event-time">noch <script>document.write(daysTillTalk);</script> Tage</span>
+<span class="next-event-title">
+  {% if upcomingTalk.speaker %}{{ upcomingTalk.speaker }}: {% endif %}
+  <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
+</span>
 {%if upcomingTalk.importantHint %}
   <br/>
-  <span style="color:red; margin-left: 110px">Hinweis: {{ upcomingTalk.importantHint }}</span>
+  <span class="next-event-importHint">Hinweis: {{ upcomingTalk.importantHint }}</span>
 {% endif %}
 </div>
