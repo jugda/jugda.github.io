@@ -38,7 +38,9 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {% include next-event.html %}
+      {%if page.name == 'index.html' %}
+        {% include next-event.html %}
+      {% endif %}
       <div class="maincontent">
         {{ content }}
       </div>
