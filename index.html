@@ -2,23 +2,6 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts limit:5 %}
-    <article class="post">
+{% include next-events.html %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <p class="date">
-        {{ post.date | date: "%B %e, %Y" }}
-      </p>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Mehr >></a>
-    </article>
-  {% endfor %}
-</div>
-
-<a href="{{ site.baseurl }}/archive" style="float: right">ALLE VERANSTALTUNGEN >></a>
+<a href="{{ site.baseurl }}/veranstaltungen" style="float: right">ALLE VERANSTALTUNGEN >></a>
