@@ -8,18 +8,30 @@
 {% endfor %}
 
 <script>
-  var today = new Date();
-  var talkDate = new Date('{{ upcomingTalk.date | date_to_xmlschema }}');
-  var daysTillTalk = Math.ceil((talkDate - today) / 1000 / 60 / 60 / 24);
-</script>
-<div style="border:1px solid; padding: 10px;">
-<h1>Nächste Veranstaltung (noch <script>document.write(daysTillTalk);</script> Tage)</h1>
-<time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time> &raquo;
-<a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
-{% if upcomingTalk.speaker %}
-  <div class="talklist_speaker">Speaker: {{ upcomingTalk.speaker }}</div>
-{% endif %}
-{%if upcomingTalk.importantHint %}
-  <div class="talklist_important">{{ upcomingTalk.importantHint }}</div>
+  function daysTillTalk() {
+    var today = new Date().setHours(0,0,0,0);
+    var talkDate = new Date('{{ upcomingTalk.date | date_to_xmlschema }}');
+    var days = Math.ceil((talkDate - today) / 1000 / 60 / 60 / 24);
+
+    if(days === 0) {
+      return "heute"
+    } else if(days < 0) {
+      return "war vor " + Math.abs(days) + " Tag" + (days < -1 ? "en" : "");
+    } else {
+      return "noch <strong>" + days + "</strong> Tag" + (days > 1 ? "e" : "")
+    }
+  }
+</script> 
+
+<div class="next-event-container">
+<span class="next-event-label">Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time></span>
+<span class="next-event-time"><script>document.write(daysTillTalk());</script></span>
+<span class="next-event-title">
+  {% if upcomingTalk.speaker %}{{ upcomingTalk.speaker }}: {% endif %}
+  <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
+</span>
+{%if upcomingTalk.important %}
+  <br/>
+  <span class="next-event-important">Hinweis: {{ upcomingTalk.important }}</span>
 {% endif %}
 </div>

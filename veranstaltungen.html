@@ -19,7 +19,7 @@ permalink: /veranstaltungen/
 <div style="clear: both"></div>
 
 <h2>Alle Veranstaltungen</h2>
-<ul class="archive-box">
+<ul class="talk-list">
   {% for post in site.posts %}
 
     {% unless post.next %}
@@ -34,12 +34,6 @@ permalink: /veranstaltungen/
       {% endif %}
     {% endunless %}
 
-    <li>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      {% if post.speaker %}
-        <div class="talklist_speaker">Speaker: {{ post.speaker }}</div>
-      {% endif %}
-    </li>
+    {% include talk.html %}
   {% endfor %}
 </ul>

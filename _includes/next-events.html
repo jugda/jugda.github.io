@@ -1,17 +1,8 @@
-<h1>Zukünftige Veranstaltungen (ab {{ site.time | date:'%d.%m.'}})</h1>
-{% assign creationTime = site.time | date: '%s' %}
-<ul class="archive-box">
-{% for post in site.posts %}
-  {% assign talkTime = post.date | date: '%s' %}
-  {%if creationTime <= talkTime %}
-    <li>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      {% if post.speaker %}
-        <br/>
-        <span style="margin-left: 110px">Speaker: {{ post.speaker }}</span>
-      {% endif %}
-    </li>
-  {% endif %}
-{% endfor %}
+<h1>Unsere nächsten Veranstaltungen</h1>
+<ul class="talk-list">
+  {% for post in site.posts reversed %}
+    {% if post.date > site.time %}
+      {% include talk.html %}
+    {% endif %}
+  {% endfor %}
 </ul>

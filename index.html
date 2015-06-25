@@ -2,35 +2,11 @@
 layout: default
 ---
 
-<h1>Hallo, ...</h1>
+<h1>Hallo</h1>
 
-<p>bla blubb...</p>
+<p>Die JUG DA ist eine offene Non-Profit-Community mit dem Ziel sich über aktuelle Themen zur Anwendung von Java Technologie auszutauschen. Weitere Infos gibt es unter "<a href="{{ site.baseurl }}/about">Über uns</a>"</p>
+<p>Wer an unseren kostenlosen Veranstaltungen teilnehmen oder selbst mal ein Thema präsentieren möchte, findet bei "<a href="{{ site.baseurl }}/mitmachen">Mitmachen</a>" weitere Informationen.</p>
 
-<h3>Unsere nächsten Veranstaltungen</h3>
-
-<div class="posts">
-  <ul>
-
-  {% for post in site.posts reversed %}
-    {% if post.date > site.time %}
-
-    <li>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      {% if post.speaker %}
-        <div class="talklist_speaker">Speaker: {{ post.speaker }}</div>
-      {% endif %}
-      {% if post.important %}
-        <div class="talklist_important">{{ post.important }}</div>
-      {% endif %}
-    </li>
-
-    {% endif %}
-  {% endfor %}
-
-  </ul>
-</div>
-
-<p>
-  <a href="{{ site.baseurl }}/veranstaltungen">Hier geht's zur Übersicht aller Veranstaltungen  >></a>
-</p>
+{% include next-events.html %}
+<span class="lastUpdated">Stand vom {{ site.time | date:'%d.%m.%Y'}}</span>
+<a href="{{ site.baseurl }}/veranstaltungen" class="allEvents">Alle Veranstaltungen >></a>
