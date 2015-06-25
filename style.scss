@@ -355,8 +355,9 @@ footer {
 
 .next-event-container {
   position: relative;
-  padding: 10px;
+  padding: 50px 10px 10px 10px;
   border: 1px solid;
+  background-color: lightblue;
 }
 
 .next-event-label {
@@ -366,6 +367,7 @@ footer {
   padding: 5px;
   border-right: 1px solid;
   border-bottom: 1px solid;
+  background-color: #eee;
 }
 
 .next-event-time {
@@ -375,10 +377,16 @@ footer {
   padding: 5px;
   border-left: 1px solid;
   border-top: 1px solid;
+  background-color: #eee;
 }
 
 .next-event-title {
   padding-top: 30px;
+}
+
+.next-event-important {
+  color: red;
+  font-weight: bold;
 }
 
 .sponsors {
