@@ -18,7 +18,7 @@ avatar: /images/jugda_logo_rund.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: jug-da-orga@googlegroups.com
+  email: info@jug-da.de
   facebook:
   flickr:
   github: jugda
@@ -37,11 +37,11 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-64557395-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://jugda.github.io
+url: http://www.jug-da.de
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

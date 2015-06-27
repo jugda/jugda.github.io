@@ -21,7 +21,7 @@
       return "noch <strong>" + days + "</strong> Tag" + (days > 1 ? "e" : "")
     }
   }
-</script> 
+</script>
 
 <div class="next-event-container">
 <span class="next-event-label">Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time></span>
@@ -31,7 +31,6 @@
   <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
 </span>
 {%if upcomingTalk.important %}
-  <br/>
-  <span class="next-event-important">Hinweis: {{ upcomingTalk.important }}</span>
+  <div class="next-event-important">Hinweis: {{ upcomingTalk.important }}</div>
 {% endif %}
 </div>
