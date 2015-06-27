@@ -10,7 +10,7 @@
 <script>
   function daysTillTalk() {
     var today = new Date().setHours(0,0,0,0);
-    var talkDate = new Date('{{ upcomingTalk.date | date_to_xmlschema }}');
+    var talkDate = new Date('{{ upcomingTalk.date | date_to_xmlschema }}').setHours(0,0,0,0);
     var days = Math.ceil((talkDate - today) / 1000 / 60 / 60 / 24);
 
     if(days === 0) {
