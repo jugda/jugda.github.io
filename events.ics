@@ -14,5 +14,6 @@ CLASS:PUBLIC
 DTSTART:{{ post.date | date: "%Y%m%d" }}T183000Z
 DTEND:{{ post.date | date: "%Y%m%d" }}T200000Z
 DTSTAMP:{{ post.date | date: "%Y%m%d" }}T183000Z
-END:VEVENT{% endfor %}
+END:VEVENT
+{% endfor %}
 END:VCALENDAR
