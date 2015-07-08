@@ -1,0 +1,18 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://www.jug-da.de/
+METHOD:PUBLISH
+{% for post in site.posts limit:10 %}BEGIN:VEVENT
+UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
+LOCATION:The Adress of the example
+SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
+CLASS:PUBLIC
+DTSTART:{{ post.date | date: "%Y%m%d" }}T183000Z
+DTEND:{{ post.date | date: "%Y%m%d" }}T200000Z
+DTSTAMP:{{ post.date | date: "%Y%m%d" }}T183000Z
+END:VEVENT{% endfor %}
+END:VCALENDAR
