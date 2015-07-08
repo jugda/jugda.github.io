@@ -34,5 +34,4 @@ DTSTART:{{ post.date | date: "%Y%m%d" }}T173000Z
 DTEND:{{ post.date | date: "%Y%m%d" }}T190000Z
 DTSTAMP:{{ post.date | date: "%Y%m%d" }}T173000Z
 END:VEVENT
-{% endfor %}
-END:VCALENDAR
+{% endfor %}END:VCALENDAR
