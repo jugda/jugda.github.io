@@ -8,21 +8,18 @@ permalink: /impressum/
 
 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
-Niko Köbler  
-Weingartenstr. 48a  
-65795 Hattersheim  
-Email: niko@n-k.de
+Niko Köbler, Falk Sippach  
+E-Mail: info(at)jug-da.de
 
-Jörn Hameister  
-Waldallee 7  
-65817 Eppstein  
-Email: joern@hameister.de  
+#### Die JUG DA ist Mitglied im
 
-Marcel Bruch  
-Kittlerstraße 44  
-64289 Darmstadt  
-Email: marcel.bruch@codetrails.com
+iJUG Interessenverbund der Java User Groups e.V.
 
+Tempelhofer Weg 64  
+12347 Berlin  
+Email: office(at)ijug.eu  
+Tel: 0700-11362438  
+Fax: 0700-11362439
 
 ### Haftungsausschluss:
 
