@@ -11,16 +11,6 @@ Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 Niko Köbler, Falk Sippach  
 E-Mail: info(at)jug-da.de
 
-#### Die JUG DA ist Mitglied im
-
-iJUG Interessenverbund der Java User Groups e.V.
-
-Tempelhofer Weg 64  
-12347 Berlin  
-Email: office(at)ijug.eu  
-Tel: 0700-11362438  
-Fax: 0700-11362439
-
 ### Haftungsausschluss:
 
 #### Haftung für Inhalte
