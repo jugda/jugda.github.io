@@ -30,8 +30,8 @@ ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
 LOCATION:{{ site.url }}{{ post.url }}
 SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
 CLASS:PUBLIC
-DTSTART:{{ post.date | date: "%Y%m%d" }}T173000Z
-DTEND:{{ post.date | date: "%Y%m%d" }}T190000Z
-DTSTAMP:{{ post.date | date: "%Y%m%d" }}T173000Z
+DTSTART:{{ post.date | date: "%Y%m%d" }}T183000
+DTEND:{{ post.date | date: "%Y%m%d" }}T200000
+DTSTAMP:{{ post.date | date: "%Y%m%d" }}T183000
 END:VEVENT
 {% endfor %}END:VCALENDAR
