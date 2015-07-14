@@ -27,7 +27,8 @@ END:VTIMEZONE
 {% for post in site.posts limit:10 %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
-LOCATION:{{ site.url }}{{ post.url }}
+LOCATION:{{ post.location }}
+DESCRIPTION:{{ site.url }}{{ post.url }}
 SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
 CLASS:PUBLIC
 DTSTART:{{ post.date | date: "%Y%m%d" }}T183000
