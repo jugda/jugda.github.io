@@ -1,14 +1,8 @@
 ---
-layout: post
 title: Anatomy of Microservice Landscapes
 speaker: Michael Pl&ouml;d
-location: TU Darmstadt, Robert-Piloty-Geb&auml;ude (S2|02), Raum C110, Hochschulstr. 10, 64293 Darmstadt
 important: Veranstaltungsort ist diesmal wieder die TU Darmstadt!
 ---
-
-### Termin
-
-Der Vortrag findet am **{{ page.date | date: "%d.%m.%Y" }}** um **18:30 Uhr** in der {{ page.location }} statt ([Anfahrtsbeschreibung](/anfahrt)).
 
 ### Abstract
 

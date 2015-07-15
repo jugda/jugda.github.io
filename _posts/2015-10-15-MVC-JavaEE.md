@@ -1,12 +1,7 @@
 ---
-layout: post
 title: MVC für JavaEE
 speaker: Thilo Frotscher
 ---
-
-### Termin
-
-Der Vortrag findet am **15.10.2015** um **18:30 Uhr** im **Robert-Piloty-Gebäude** (S2|02) im **Raum C110** der **TU Darmstadt** (Hochschulstr. 10) statt ([Anfahrtsbeschreibung](/anfahrt)).
 
 ### Abstract
 

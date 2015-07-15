@@ -4,8 +4,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    <meta name="description" content="{{ page.content | markdownify | strip_html }}" />
+    <meta property="og:description" content="{{ page.content | markdownify | strip_html }}" />
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
@@ -22,4 +22,6 @@
 
     {% if page.thumbnail %}
     <meta property="og:image" content="{{ page.thumbnail }}">
-    {% endif%}
+    {% else %}
+    <meta property="og:image" content="{{ site.avatar }}">
+    {% endif %}

@@ -49,10 +49,22 @@ url: http://www.jug-da.de
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+timezone: "Europe/Berlin"
+
+# some default values for Front Matter
+defaults:
+  -
+    scope:
+      path: "" # emtpy means all files
+      type: posts
+    values:
+      layout: post
+      location: "TU Darmstadt, Robert-Piloty-Geb&auml;ude (S2|02), Raum C110, Hochschulstr. 10, 64293 Darmstadt"
+      time: "18:30"
+      direction: "/anfahrt"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
 markdown: redcarpet
 highlighter: pygments
 permalink: /:year/:month/:title/
