@@ -12,6 +12,15 @@ Wenn du über kommende Vorträge und Themen auf dem laufenden zu bleiben möchte
 
 ### Die JUG DA wird organisiert von:
 
+#### Gerd Aschemann
+
+<p class="orgaperson">
+<img src="/images/gas.jpg" class="orgapic"/>
+Gerd Aschemann arbeitet als freiberuflicher Software- und Systems-Architekt und -Entwickler im Bereich Enterprise-Java (in den letzten Jahren auch gerne mit Groovy). Für seine Kunden nimmt er am liebsten eine Rolle an der Grenze zwischen Entwicklung und Betrieb wahr. Mit großem Interesse verfolgt er seit einiger Zeit die Entwicklung von Containern und Microservices und hilft Unternehmen auf ihrem Weg in dieses Universum.
+</p>
+Kontakt: [gerd@aschemann.net](mailto:gerd@aschemann.net), [http://aschemann.net](http://aschemann.net)
+Twitter: [uuɐɯǝɥɔs∀pɹǝ⅁ (@GerdAschemann)](https://twitter.com/GerdAschemann)
+
 #### Marcel Bruch
 
 <p class="orgaperson">
