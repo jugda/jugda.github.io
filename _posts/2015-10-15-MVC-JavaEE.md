@@ -1,6 +1,8 @@
 ---
 title: MVC für JavaEE
 speaker: Thilo Frotscher
+location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+direction: http://accso.de/index.php/kontakt?id=67
 ---
 
 ### Abstract
@@ -11,5 +13,9 @@ Mit Java EE 8 erhält die Plattform ein neues Webframework. Im Unterschied zu de
 
 <img src="/images/speaker/thilo_frotscher.jpg" class="speakerpic"/>
 __Thilo Frotscher__ arbeitet als freiberuflicher Softwarearchitekt und Trainer. Seine technischen Schwerpunkte sind die Java-Plattform sowie der Themenbereich Services und Systemintegration. Er unterstützt Unternehmen durch die Mitarbeit in Entwicklungsprojekten und die Durchführung praxisnaher Schulungen.
+
+<div style="clear: both;"></div>
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
+ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO!
 
 <iframe src="https://docs.google.com/forms/d/1TghOtCzj7GCHewjDLGWbCA4hN5Kr661qw2jqC7P_oCI/viewform?embedded=true" frameborder="0" width="650" height="620" marginheight="0" marginwidth="0"></iframe>
