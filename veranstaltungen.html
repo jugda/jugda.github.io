@@ -18,22 +18,46 @@ permalink: /veranstaltungen/
 
 <div style="clear: both"></div>
 
-<h2>Alle Veranstaltungen</h2>
 <ul class="talk-list">
   {% for post in site.posts %}
+    {% if post.date > site.time %}
+      {% unless post.next %}
+        <a name="{{ post.date | date: '%Y' }}"></a>
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <a name="{{ post.date | date: '%Y' }}"></a>
+          <h3>{{ post.date | date: '%Y' }}</h3>
+        {% endif %}
+      {% endunless %}
 
-    {% unless post.next %}
-      <a name="{{ post.date | date: '%Y' }}"></a>
-      <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %}
+      {% include talk.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+<h2>Vergangene Veranstaltungen</h2>
+<ul class="talk-list">
+  {% assign firstPost = true %}
+  {% for post in site.posts %}
+    {% if post.date <= site.time %}
+      {% if firstPost %}
+        <a name="{{ post.date | date: '%Y' }}"></a>
+        <h3>{{ post.date | date: '%Y' }}</h3>
+        {% assign firstPost = false %}
+      {% endif %}
+
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         <a name="{{ post.date | date: '%Y' }}"></a>
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
-    {% endunless %}
 
-    {% include talk.html %}
+      {% include talk.html %}
+    {% endif %}
   {% endfor %}
 </ul>
