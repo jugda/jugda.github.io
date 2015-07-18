@@ -1,7 +1,18 @@
 <li>
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
-  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  {% if post.speaker %}
-    <div class="speaker">Speaker: {{ post.speaker }}</div>
+  {% if showUrlAndQrCode %}
+    <img style="float:right; width:80px;" src="http://chart.apis.google.com/chart?chs=100x100&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" />
   {% endif %}
+  <div>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    {% if post.speaker %}
+      <div class="speaker">Speaker: {{ post.speaker }}</div>
+    {% endif %}
+    {% if post.important and post.date > site.time and page.name != 'veranstaltungen.html' %}
+      <div class="important">Hinweis: {{ post.important }}</div>
+    {% endif %}
+    {% if showUrlAndQrCode %}
+      <div class="url">{{site.url}}{{post.url}}</div>
+    {% endif %}
+  </div>
 </li>

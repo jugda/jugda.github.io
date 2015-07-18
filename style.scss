@@ -415,12 +415,58 @@ blockquote {
 }
 
 li {
-  div.speaker {
+  div.speaker, div.url {
       margin-left: 110px;
   }
   div.important {
       @include important;
       margin-left: 110px;
+  }
+}
+
+ul.poster-list > li {
+  list-style-type: none;
+}
+
+body.poster {
+  div.poster-header {
+      text-align: right;
+      img {
+        height: 100px;
+      }
+  }
+  hr.poster-line {
+    height:20px;
+    border: 0;
+    border-top: 8px solid #000;
+  }
+  div.poster-content {
+    background-image:url('/images/poster_back.svg');
+    background-repeat: repeat-y;
+    background-size:contain;
+    position: relative;
+    top: -50px;
+    padding-left: 10%;
+    padding-top: 50px;
+    ul {
+      li {
+        margin-bottom: 20px;
+      }
+    }
+    div.poster-sponsors {
+      text-align: right;
+      margin-top: 20px;
+      img {
+        vertical-align: middle;
+        height: 2em;
+      }
+    }
+  }
+  div.poster-footer {
+    div.lastUpdated {
+      text-align:right;
+      font-size: 0.8em;
+    }
   }
 }
 
