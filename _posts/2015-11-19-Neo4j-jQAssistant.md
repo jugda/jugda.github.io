@@ -21,5 +21,5 @@ Für die Deklaration von Konzepten zur Anreicherung des Graphen aber auch für C
 
 ### Speaker
 
-<img src="/images/speaker/dirkmahler.jpg" class="speakerpic"/>
+<img src="/images/speaker/dirk_mahler.jpg" class="speakerpic"/>
 Dirk Mahler ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus mit Sitz in Dresden. Der Schwerpunkt seiner mittlerweile mehr als 10-jährigen Tätigkeit liegt im Bereich Architektur für Java-Applikationen im Unternehmensumfeld. Den Fokus setzt er dabei auf Erarbeitung und Umsetzung ausgewogener Lösungen im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit. Vor diesem Hintergrund engagiert er sich für die Themen Softwareanalysen und Qualitätssicherung auf der Basis des Open-Source-Projektes jQAssistant.

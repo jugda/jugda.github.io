@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuous Updating mit VersionEye
-speaker: Robert Reitz
+speaker: Robert Reiz
 ---
 
 ### Abstract
@@ -11,7 +11,7 @@ Das sind alles Fragen auf die in dem Vortrag eingegangen wird.
 
 ### Speaker
 
-<img src="/images/speaker/robertreitz.png" class="speakerpic"/>
+<img src="/images/speaker/robert_reiz.png" class="speakerpic"/>
 Robert hat von 2000 bis 2005 in Mannheim Informatik studiert. 2008 gründete er die PLOIN GmbH, ein Java Consulting Haus in Mannheim. Ende 2010 verkaufte er das Unternehmen an die Reutax AG. 2011 hat er an dem StartUp WildGigs in San Francisco / Silicon Valley mitgewirkt. Seit 2012 ist er wieder in Deutschland und arbeitet seit dem an [http://www.VersionEye.com](http://www.VersionEye.com). Er beschäftigt sich mit Paket-Managern und dem Thema Continuous Updating.
 
 #### Kontakt
