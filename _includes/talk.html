@@ -8,8 +8,11 @@
     {% if post.speaker %}
       <div class="speaker">Speaker: {{ post.speaker }}</div>
     {% endif %}
-    {% if post.important and post.date > site.time and page.name != 'veranstaltungen.html' %}
-      <div class="important">Hinweis: {{ post.important }}</div>
+    {% if post.location contains 'C110' %}
+    {% else %}
+      {% if post.date > site.time and page.name != 'veranstaltungen.html' and page.name != 'index.html' %}
+        <div class="location">Ort: {{ post.location }}</div>
+      {% endif %}
     {% endif %}
     {% if showUrlAndQrCode %}
       <div class="url">{{site.url}}{{post.url}}</div>
