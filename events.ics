@@ -5,6 +5,9 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:http://www.jug-da.de/
 METHOD:PUBLISH
+X-WR-CALNAME:JUG DA
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:Veranstaltungen der Java User Group Darmstadt
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
