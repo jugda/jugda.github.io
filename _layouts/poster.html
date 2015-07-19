@@ -17,14 +17,14 @@
 
   <body class="poster" onload="if(window.confirm('Bitte ausdrucken (Kopf- und Fußzeilen im nachfolgenden Druck-Dialog ausblenden) und aufhängen!')){window.print()};">
     <div class="poster-header" style="text-align:right;">
-      <img height="100" src="/images/poster_logo.svg" />
+      <img src="/images/poster_logo.svg" />
     </div>
     <hr class="poster-line" />
     <div class="poster-content">
       {{ content }}
-      <div class="poster-sponsors">Mit freundlicher Unterstützung von: <img src="/images/sponsors/tud.png" /> <img src="/images/sponsors/accso.png" /> <img src="/images/sponsors/it-for-work.png" /></div>
     </div>
     <div class="poster-footer">
+      <div class="poster-sponsors">Mit freundlicher Unterstützung von: <img src="/images/sponsors/tud.png" /> <img src="/images/sponsors/accso.png" /> <img src="/images/sponsors/it-for-work.png" /></div>
       Die Vorträge finden, sofern nicht anders angegeben, um 18:30 Uhr an der TU Darmstadt in der Hochschulstraße 10, Piloty-Gebäude S2|02, Raum C110 statt. Es kann aber kurzfristig zu Abweichungen kommen. Bitte vorher auf {{site.url}} vorbeischauen.
       <div class="lastUpdated">Stand: {{ site.time | date:'%m/%Y'}}, &copy; {{ site.time | date:'%Y'}} Java User Group Darmstadt ({{site.url}}{{page.url}})</div>
     </div>

@@ -424,10 +424,6 @@ li {
   }
 }
 
-ul.poster-list > li {
-  list-style-type: none;
-}
-
 body.poster {
   div.poster-header {
       text-align: right;
@@ -437,8 +433,7 @@ body.poster {
   }
   hr.poster-line {
     height:20px;
-    border: 0;
-    border-top: 8px solid #000;
+    background-color: black;
   }
   div.poster-content {
     background-image:url('/images/poster_back.svg');
@@ -451,19 +446,21 @@ body.poster {
     ul {
       li {
         margin-bottom: 20px;
-      }
-    }
-    div.poster-sponsors {
-      text-align: right;
-      margin-top: 20px;
-      img {
-        vertical-align: middle;
-        height: 2em;
+        list-style-type: none;
       }
     }
   }
   div.poster-footer {
+    font-size: 0.8em;
+    div.poster-sponsors {
+      margin-bottom: 10px;
+      img {
+        vertical-align: middle;
+        height: 1.5em;
+      }
+    }
     div.lastUpdated {
+      margin-top: 10px;
       text-align:right;
       font-size: 0.8em;
     }
