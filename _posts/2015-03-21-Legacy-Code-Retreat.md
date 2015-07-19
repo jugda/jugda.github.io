@@ -12,7 +12,7 @@ title: 1. Darmstädter Legacy Code Retreat
 
 _“Developing software is a bit like playing an instrument. The big difference is that as a musician you take a lot of time practicing and only a fraction of your time performing on stage. As a developer at work, we are constantly on stage and we never take enough time to practice. In our day to day jobs, we have the pressure to get things done, causing us to rush. And so we try to cut corners, but sometimes we do not cut the corners in the best way, because we never have time to explore some alternatives.”_ – Corey Haines
 
-<img src="/images/tu_jug.png" style="width: 350px; border: solid 1px lightgray"/>
+<img src="/images/sponsors/tu_jug.png" style="width: 350px; border: solid 1px lightgray"/>
 
 Die Software Technology Group der TU Darmstadt und die Java-User-Group Darmstadt laden zum Code Retreat am 21.3.2015 nach Darmstadt ein. Aber nicht zu irgendeinem Code Retreat! Nein, zum 1. Darmstädter Legacy Code Retreat. Gemeinsam werden wir uns einen Tag lang im Umgang mit Legacy Code üben. Wir werden im Pair-Programming mit wechselnden Partnern arbeiten, Teststrategien entwickeln, refactorn, fachsimpeln, Leute kennenlernen und am Abend ein bisschen bessere Softwareentwickler sein.
 

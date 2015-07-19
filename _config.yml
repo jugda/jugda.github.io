@@ -59,8 +59,7 @@ defaults:
       type: posts
     values:
       layout: post
-      location: "TU Darmstadt, Robert-Piloty-Geb&auml;ude (S2|02), Raum C110, Hochschulstr. 10, 64293 Darmstadt"
-      time: "18:30"
+      location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64293 Darmstadt"
       direction: "/anfahrt"
 #
 # !! You don't need to change any of the configuration flags below !!
