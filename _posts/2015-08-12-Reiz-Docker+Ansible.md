@@ -3,6 +3,7 @@ title: Infrastruktur Deployment mit Ansible & Docker bei VersionEye
 speaker: Robert Reiz
 speakerpic: robert_reiz.png
 date: 2015-08-12 18:30:00 CEST
+formid: 1465R2_Vd6SAe94dz_KuNsSsnKTvAJQd49I1hCWm4ytE
 ---
 
 ### Abstract
@@ -20,4 +21,3 @@ Twitter: [http://twitter.com/RobertReiz](http://twitter.com/RobertReiz) <br/>
 Twitter: [http://twitter.com/VersionEye](http://twitter.com/VersionEye) <br/>
 GitHub: [https://github.com/reiz](https://github.com/reiz) <br/>
 Blog: [http://robert-reiz.com/](http://robert-reiz.com/)
-
