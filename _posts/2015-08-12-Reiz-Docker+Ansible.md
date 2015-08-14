@@ -21,3 +21,7 @@ Twitter: [http://twitter.com/RobertReiz](http://twitter.com/RobertReiz) <br/>
 Twitter: [http://twitter.com/VersionEye](http://twitter.com/VersionEye) <br/>
 GitHub: [https://github.com/reiz](https://github.com/reiz) <br/>
 Blog: [http://robert-reiz.com/](http://robert-reiz.com/)
+
+### Weitere Informationen
+
+- [Folien](http://de.slideshare.net/robertreiz/docker-ansible-51576034)
