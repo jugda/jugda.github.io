@@ -54,7 +54,7 @@ Twitter: [@dasniko](https://twitter.com/dasniko)
 <img src="/images/sro.jpg" class="orgapic"/>
 Sebastian Rose ist Software-Entwickler bei der AOE GmbH. Er interessiert sich für Themen rund um Integration in Unternehmensanwendungen und Handelsplattformen. Dabei ist ein Schwerpunkt die Nutzung von Keycloak als SSO-Komponente. Außerdem interessiert er sich für Scala und aktorbasierte Systeme.
 </p>
-Kontakt: [sebastian.rose@gmail.com](mailto:sebastian.rose@gmail.com)
+Kontakt: [sebastian.rose@gmail.com](mailto:sebastian.rose@gmail.com)  
 Twitter: [@srose204](https://twitter.com/srose204)
 
 #### Falk Sippach
