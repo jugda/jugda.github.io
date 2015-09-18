@@ -52,7 +52,7 @@ Twitter: [@dasniko](https://twitter.com/dasniko)
 
 <p class="orgaperson">
 <img src="/images/sro.jpg" class="orgapic"/>
-Sebastian Rose ist Software-Developer bei AOE GmbH. Er interessiert sich für Themen rund um MDD/MDA und Testautomatisierung im JEE Umfeld. Privat beschäftigt er sich aktuell mit Scala.
+Sebastian Rose ist Software-Entwickler bei der AOE GmbH. Er interessiert sich für Themen rund um Integration in Unternehmensanwendungen und Handelsplattformen. Dabei ist ein Schwerpunkt die Nutzung von Keycloak als SSO-Komponente. Außerdem interessiert er sich für Scala und aktorbasierte Systeme.
 </p>
 
 #### Falk Sippach
