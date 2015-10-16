@@ -5,8 +5,6 @@ speakerpic: thilo_frotscher.jpg
 date: 2015-10-15 18:30:00+02:00
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
-important: Der Vortrag findet diesmal bei der Accso GmbH statt.
-formid: 1TghOtCzj7GCHewjDLGWbCA4hN5Kr661qw2jqC7P_oCI
 ---
 
 ### Abstract
