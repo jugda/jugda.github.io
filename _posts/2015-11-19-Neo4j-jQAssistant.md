@@ -3,7 +3,6 @@ title: Neo4j und jQAssistant
 speaker: Dirk Mahler
 speakerpic: dirk_mahler.jpg
 date: 2015-11-19 18:30:00+01:00
-formid: 15Ggbgwjt3tWVDvnnPYAORQbfDSAfDiaFVP10PpGg5Dw
 ---
 
 ### Abstract
