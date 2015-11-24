@@ -23,3 +23,17 @@ Für die Deklaration von Konzepten zur Anreicherung des Graphen aber auch für C
 
 {% include speakerpic.html %}
 __Dirk Mahler__ ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus mit Sitz in Dresden. Der Schwerpunkt seiner mittlerweile mehr als 10-jährigen Tätigkeit liegt im Bereich Architektur für Java-Applikationen im Unternehmensumfeld. Den Fokus setzt er dabei auf Erarbeitung und Umsetzung ausgewogener Lösungen im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit. Vor diesem Hintergrund engagiert er sich für die Themen Softwareanalysen und Qualitätssicherung auf der Basis des Open-Source-Projektes jQAssistant.
+
+### Kontakt
+
+- Web: [http://jqassistant.org](http://jqassistant.org)
+- Mail: [info@jqassistant.org](mailto:info@jqassistant.org)
+- Twitter: [@jqassistant](https://twitter.com/jqassistant)
+- Twitter: [@dirkmahler](https://twitter.com/dirkmahler)
+
+### Weitere Informationen
+
+Downloads
+
+- [Folien zum Neo4j-Intro](/files/Neo4j-Intro.pdf)
+- [Folien zum Teil "Software Analysis Using jQAssistant and Neo4j"](/files/Software Analysis Using jQAssistant and Neo4j.pdf)
