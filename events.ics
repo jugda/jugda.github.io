@@ -31,7 +31,7 @@ END:VTIMEZONE
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
 LOCATION:{{ post.location }}
-DESCRIPTION:{{ post.content | xml_escape }}
+DESCRIPTION:{{ site.url }}{{ post.url }}
 URL:{{ site.url }}{{ post.url }}
 SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
 CLASS:PUBLIC
