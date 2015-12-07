@@ -2,7 +2,7 @@
 title: Vom Wiegen allein wird die Sau nicht fett
 speaker: Dr. Elmar Jürgens
 speakerpic: elmarjuergens.png
-date: 2016-10-13 18:30:00+01:00
+date: 2016-10-13 18:30:00+02:00
 ---
 
 ## Vom Wiegen allein wird die Sau nicht fett - von Qualitätsanalyse zu wirksamer Qualitätsverbesserung
