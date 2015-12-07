@@ -2,7 +2,7 @@
 title: JavaFX und IoT
 speaker: Jens Deters
 speakerpic: jensdeters.png
-date: 2016-08-04 18:30:00+01:00
+date: 2016-08-04 18:30:00+02:00
 published: false
 ---
 

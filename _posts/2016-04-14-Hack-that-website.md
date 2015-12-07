@@ -2,7 +2,7 @@
 title: Hack that website!
 speaker: Dr. Stefan Schlott
 speakerpic: stefanschlott.png
-date: 2016-04-14 18:30:00+01:00
+date: 2016-04-14 18:30:00+02:00
 ---
 
 ### Abstract
