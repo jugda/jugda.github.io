@@ -9,11 +9,10 @@ layout: default
     <h2><em>{{ page.speaker }}</em></h2>
   {% endif %}
 
-  {% if page.important %}
-    <h2 class="important">{{ page.important }}</h2>
-  {% endif %}
-
   {% if page.date > site.time %}
+    {% if page.important %}
+      <h2 class="important">{{ page.important }}</h2>
+    {% endif %}
     <div>
       <h3>{{ page.date | date: "%H:%M" }} Uhr</h3>
     </div>
