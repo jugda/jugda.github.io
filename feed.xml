@@ -13,7 +13,7 @@ layout: null
         <title>
           {{ post.date | date: "%d.%m.%Y" }}: {{ post.title | xml_escape }}
           {% if post.speaker %}
-            ({{ post.speaker | xml_escape }})
+            ({{ post.speaker | xml_escape }}{% if post.twitter %}, <a href="https://twitter.com/{{post.twitter | xml_escape }}">@{{post.twitter | xml_escape }}</a>{% endif %})
           {% endif %}
         </title>
         <description>{{ post.content | xml_escape }}</description>
