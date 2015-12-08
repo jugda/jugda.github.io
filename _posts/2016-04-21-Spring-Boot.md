@@ -2,7 +2,7 @@
 title: Spring Boot
 speaker: Josh Long
 speakerpic: joshlong.png
-date: 2016-04-21 18:30:00+01:00
+date: 2016-04-21 18:30:00+02:00
 ---
 
 ### Abstract
