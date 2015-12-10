@@ -9,6 +9,7 @@ permalink: /plakat/
   {% if post.date > site.time and counter < 5 %}
       {% assign showUrlAndQrCode = true %}
       {% include talk.html %}
+      <hr />
       {% assign counter=counter | plus:1 %}
   {% endif %}
 {% endfor %}

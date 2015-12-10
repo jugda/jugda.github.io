@@ -448,6 +448,12 @@ body.poster {
       li {
         margin-bottom: 20px;
         list-style-type: none;
+        img {
+          float:right;
+          border:1px solid;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
       }
     }
   }

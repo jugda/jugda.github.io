@@ -1,6 +1,6 @@
 <li>
   {% if showUrlAndQrCode %}
-    <img style="float:right;border:1px solid;" src="http://chart.apis.google.com/chart?chs=80x80&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" />
+    <img src="http://chart.apis.google.com/chart?chs=80x80&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" />
   {% endif %}
   <div>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
@@ -15,7 +15,7 @@
       {% endif %}
     {% endif %}
     {% if showUrlAndQrCode %}
-      <div class="url">{{site.url}}{{post.url}}</div>
+      <div class="url"><a href="{{site.url}}{{post.url}}">{{site.url}}{{post.url}}</a></div>
     {% endif %}
   </div>
 </li>

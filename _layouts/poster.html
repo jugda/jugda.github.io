@@ -10,6 +10,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-print.css" media="print" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -18,13 +19,13 @@
   <body class="poster" onload="if(window.confirm('Bitte ausdrucken (Kopf- und Fußzeilen im nachfolgenden Druck-Dialog ausblenden) und aufhängen!')){window.print()};">
     <div class="poster-header" style="text-align:right;">
       <img src="/images/poster_logo.svg" />
+      <hr class="poster-line" />
     </div>
-    <hr class="poster-line" />
     <div class="poster-content">
       {{ content }}
     </div>
     <div class="poster-footer">
-      <div class="poster-sponsors">Mit freundlicher Unterstützung von: <img src="/images/sponsors/tud.png" /> <img src="/images/sponsors/accso.png" /> <img src="/images/sponsors/it-for-work.png" /></div>
+      <div class="poster-sponsors">Mit freundlicher Unterstützung von: <img src="/images/sponsors/tud.png" /> <img src="/images/sponsors/accso.png" /> <img src="/images/sponsors/it-for-work.png" /> {% include sponsoren.html %}</div>
       Die Vorträge finden, sofern nicht anders angegeben, um 18:30 Uhr an der TU Darmstadt in der Hochschulstraße 10, Piloty-Gebäude S2|02, Raum C110 statt. Es kann aber kurzfristig zu Abweichungen kommen. Bitte vorher auf {{site.url}} vorbeischauen.
       <div class="lastUpdated">Stand: {{ site.time | date:'%m/%Y'}}, &copy; {{ site.time | date:'%Y'}} Java User Group Darmstadt ({{site.url}}{{page.url}})</div>
     </div>
