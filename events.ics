@@ -35,8 +35,8 @@ DESCRIPTION:{{ site.url }}{{ post.url }}
 URL:{{ site.url }}{{ post.url }}
 SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
 CLASS:PUBLIC
-DTSTART:{{ post.date | date: "%Y%m%d" }}T183000
-DTEND:{{ post.date | date: "%Y%m%d" }}T200000
-DTSTAMP:{{ post.date | date: "%Y%m%d" }}T183000
+DTSTART:{{ post.date | date: "%Y%m%d" }}T{{ post.date | date: "%H%M" }}00
+DTEND:{{ post.date | date: "%Y%m%d" }}T203000
+DTSTAMP:{{ post.date | date: "%Y%m%d" }}T{{ post.date | date: "%H%M" }}00
 END:VEVENT
 {% endfor %}END:VCALENDAR
