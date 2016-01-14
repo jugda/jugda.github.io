@@ -4,6 +4,9 @@ speaker: Lars Röwekamp
 twitter: mobileLarson
 speakerpic: larsroewekamp.png
 date: 2016-11-10 18:30:00+01:00
+location: CoSee GmbH c/o TIZ Darmstadt, Konferenzraum 1 EG, Robert-Bosch-Str. 7, 64293 Darmstadt
+direction: http://www.tiz-darmstadt.de/index.php?id=54&L=1%27
+important: Der Vortrag findet diesmal bei der ber CoSee GmbH im TIZ Darmstadt statt.
 ---
 
 ### Abstract
@@ -12,4 +15,8 @@ Die Zeiten einfacher Webanwendungen sind gezählt. Moderne Unternehmen stehen he
 
 ### Speaker
 
-{% include speakerpic-name.html %}, Gründer des IT-Beratungs- und Entwicklungsunternehmens open knowledge, beschäftigt sich als „CIO New Technologies“ mit der Analyse und Bewertung neuer Software- und Technologietrends. Ein besonderer Schwerpunkt seiner Arbeit liegt derzeit auf Enterprise und Mobile Computing, wobei neben Design- und Architekturfragen insbesondere die Real-Life-Aspekte im Fokus seiner Betrachtung stehen. Er ist Autor vieler Fachartikel und -bücher und beschäftigt sich seit der Geburtsstunde von Java mit dieser Programmiersprache.
+{% include speakerpic-name.html %}, Gründer des IT-Beratungs- und Entwicklungsunternehmens _open knowledge_, beschäftigt sich als „CIO New Technologies“ mit der Analyse und Bewertung neuer Software- und Technologietrends. Ein besonderer Schwerpunkt seiner Arbeit liegt derzeit auf Enterprise und Mobile Computing, wobei neben Design- und Architekturfragen insbesondere die Real-Life-Aspekte im Fokus seiner Betrachtung stehen. Er ist Autor vieler Fachartikel und -bücher und beschäftigt sich seit der Geburtsstunde von Java mit dieser Programmiersprache.
+
+<div style="clear: both;"></div>
+[![CoSee Logo](/images/sponsors/cosee.png)](http://www.cosee.biz)
+CoSee lädt uns zu sich ein und stellt nach dem Vortag Essen und Getränke zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei CoSee!
