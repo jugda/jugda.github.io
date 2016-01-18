@@ -4,3 +4,4 @@ _site
 .bundle
 .sass-cache
 Gemfile.lock
+*.iml
