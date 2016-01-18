@@ -4,6 +4,8 @@ speaker: Dr. Elmar Jürgens
 twitter: elmarjuergens
 speakerpic: elmarjuergens.png
 date: 2016-10-13 18:30:00+02:00
+location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+direction: http://accso.de/index.php/kontakt?id=67
 ---
 
 ## Vom Wiegen allein wird die Sau nicht fett - von Qualitätsanalyse zu wirksamer Qualitätsverbesserung
@@ -18,3 +20,7 @@ Dabei gebe ich konkrete Empfehlungen und gehe neben technischen Faktoren auch au
 ### Speaker
 
 {% include speakerpic-name.html %} hat für seine Doktorarbeit über statische Code-Analyse den Software-Engineering-Preis der Ernst-Denert Stiftung erhalten. Er ist Mitgründer der CQSE GmbH und begleitet seit 7 Jahren Teams bei der Verbesserung ihrer Qualitätssicherungs- und Testprozesse. Er spricht regelmäßig auf Konferenzen, wie der OOP, ICSE, CSMR, JAX oder den XP Days. Auf den Clean Code Days 2015 und den Software Quality Days 2015 wurde er zum besten Sprecher gewählt.
+
+<div style="clear: both;"></div>
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
+ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO!

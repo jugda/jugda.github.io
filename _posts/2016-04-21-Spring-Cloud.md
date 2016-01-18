@@ -3,6 +3,8 @@ title: Getting started with Spring Cloud
 speaker: Josh Long
 speakerpic: joshlong.png
 date: 2016-04-21 18:30:00+02:00
+location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+direction: http://accso.de/index.php/kontakt?id=67
 formid: 1qxsvRHlRoaLdn-c48u-FBEGoQPibSfyTfSFUYWBfFK8
 ---
 
@@ -14,3 +16,7 @@ Spring Cloud is here! It offers a powerful way to create and consume microservic
 
 {% include speakerpic.html %}
 __Josh Long__ ([@starbuxman](http://twitter.com/starbuxman)) is the [Spring Developer Advocate](http://spring.io/team/jlong) on the Spring team at Pivotal. He is a Java Champion, a JavaOne rockstar, a [blogger](http://spring.io/team/jlong), and spends entirely too much time on Twitter. Josh is the lead-author on 5 books on Spring (including a new book from O'Reilly tentatively titled "Building Microservices with Spring Boot") and a new video training series - Building Microservices with Spring Boot Livelessons - from Addison-Wesley on using Spring and Cloud Foundry to build cloud-native applications.
+
+<div style="clear: both;"></div>
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
+ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO!
