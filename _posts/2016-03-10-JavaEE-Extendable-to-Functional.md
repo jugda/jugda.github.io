@@ -2,7 +2,7 @@
 title: Java EE, Extendable to Functional
 speaker: David Blevins
 twitter: dblevins
-speakerpic: davidblevins.png
+speakerpic: davidblevins.jpg
 date: 2016-03-10 18:30:00+01:00
 formid: 1DabKJixUWi0AoHxVtjai2H_4rkmGNZNWPbsI2XyaMOw
 ---
