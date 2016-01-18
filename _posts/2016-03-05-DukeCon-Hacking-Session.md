@@ -24,12 +24,9 @@ Auf Basis der aktuellen [Code-Basis](https://github.com/dukecon) erstellen unter
 
 ### Ort
 
-[codecentric AG](https://www.codecentric.de/), Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main
+[codecentric AG](https://www.codecentric.de/), Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main (Parkplätze in der näheren Umgebung vorhanden bzw. Nähe Westbahnhof)
 
-Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die Verpflegung.
-
-<a href="https://www.codecentric.de/"><img src="/images/sponsors/codecentric.png" class="sponsorpic"/></a><br/>
-_Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der Vordenker für agile Software-Entwicklung und innovative Technologien in Deutschland. Über 300 Mitarbeiter an vierzehn europäischen Standorten entwickeln Software-Lösungen der Zukunft. Dafür kombiniert codecentric das Know-how der besten IT-Architekten und Software-Entwickler mit dem Praxiswissen aus zahlreichen Projekten in den Bereichen Continuous Delivery, Big Data, Performance Solutions, Agile und Enterprise Development. Für optimale Java Performance, Skalierbarkeit und Stabilität haben codecentric-Kunden Zugriff auf umfassende Risiko-Management-, Troubleshooting-, Java-Optimierungs- und Performance-Management-Services nebst Werkzeugen._
+Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die Verpflegung (bitte Werbung unten beachten!).
 
 ### Agenda
 
@@ -44,3 +41,9 @@ _Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der
 - 15:30 Kaffeepause
 - 17:30 Ergebnisse vorstellen
 - 18:30 Ende
+
+### Sponsor
+
+<a href="https://www.codecentric.de/"><img src="/images/sponsors/codecentric.png" class="sponsorpic"/></a><br/>
+_Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der Vordenker für agile Software-Entwicklung und innovative Technologien in Deutschland. Über 300 Mitarbeiter an vierzehn europäischen Standorten entwickeln Software-Lösungen der Zukunft. Dafür kombiniert codecentric das Know-how der besten IT-Architekten und Software-Entwickler mit dem Praxiswissen aus zahlreichen Projekten in den Bereichen Continuous Delivery, Big Data, Performance Solutions, Agile und Enterprise Development. Für optimale Java Performance, Skalierbarkeit und Stabilität haben codecentric-Kunden Zugriff auf umfassende Risiko-Management-, Troubleshooting-, Java-Optimierungs- und Performance-Management-Services nebst Werkzeugen._
+
