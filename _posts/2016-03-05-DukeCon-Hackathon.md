@@ -1,5 +1,5 @@
 ---
-title: DukeCon Hacking Session
+title: DukeCon Hackathon
 date: 2016-03-05 09:30:00+01:00
 duration: 09:00
 location: codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main
@@ -9,7 +9,7 @@ formid: 1y7QLvIKwFf57cg9YJQSYobChafSO8hh6KmSm6RwprxI
 
 ### Um was geht es?
 
-Das DukeCon-Team lädt am 05.03.2016 zu einer ganztägigen Hacking-Session nach Frankfurt ein. Bei DukeCon handelt es sich um eine als Open Source entwickelte Anwendung, die jederzeit Zugriff auf das Programm einer Konferenz geben und zudem Vortrags-Favoriten verwalten kann. Zukünftige Funktionen könnten beispielsweise das Geben von Feedback an die Speakern durch die Teilnehmer oder das Einblenden von Twitter-Kommentaren sein. 
+Das DukeCon-Team lädt am 05.03.2016 zu einer ganztägigen Hacking-Session nach Frankfurt ein. Bei DukeCon handelt es sich um eine als Open Source entwickelte Anwendung, die jederzeit Zugriff auf das Programm einer Konferenz geben und zudem Vortrags-Favoriten verwalten kann. Zukünftige Funktionen könnten beispielsweise das Geben von Feedback an die Speaker durch die Teilnehmer oder das Einblenden von Twitter-Kommentaren sein. 
 
 Nachdem die Idee bei der Javaland 2015 aufgekommen war, haben sich die Java User Groups Darmstadt und Kaiserslautern an die Arbeit gemacht und das Projekt "DukeCon" ins Leben gerufen (http://dukecon.org/, Twitter: @DukeConference). Mit der Unterstützung von iJUG und DOAG ist ein REST-Service für die Konferenzdaten entstanden, auf dem mehrere Clients aufsetzen. Die Clients sind voll benutzbar und man kann sich jetzt schon damit sein Programm für die Javaland 2016 zusammenstellen. Andere JUGs, Organisationen und Einzelpersonen unterstützen das Projekt mittlerweile. Außerdem gibt es Interesse zur Nutzung bei weiteren Konferenzen.
 
