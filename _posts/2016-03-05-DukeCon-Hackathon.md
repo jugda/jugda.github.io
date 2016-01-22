@@ -5,7 +5,6 @@ duration: 09:00
 location: codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main
 direction: https://www.google.de/maps?q=Kreuznacher+Stra%C3%9Fe+30,+60486,+Frankfurt+am+Main,+Deutschland
 formid: 1y7QLvIKwFf57cg9YJQSYobChafSO8hh6KmSm6RwprxI
-published: false
 ---
 
 ### Um was geht es?
