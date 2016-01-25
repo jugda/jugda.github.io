@@ -1,3 +1,3 @@
-{% if page.date > site.time and page.formid != "" %}
+{% if page.date > site.time and page.formid != null %}
   <iframe src="https://docs.google.com/forms/d/{{ page.formid }}/viewform?embedded=true" frameborder="0" width="650" height="620" marginheight="0" marginwidth="0"></iframe>
 {% endif %}
