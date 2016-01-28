@@ -4,7 +4,6 @@ date: 2016-03-05 09:30:00+01:00
 duration: 09:00
 location: codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main
 direction: https://www.google.de/maps?q=Kreuznacher+Stra%C3%9Fe+30,+60486,+Frankfurt+am+Main,+Deutschland
-formid: 1y7QLvIKwFf57cg9YJQSYobChafSO8hh6KmSm6RwprxI
 ---
 
 ### Um was geht es?
@@ -40,6 +39,10 @@ Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die V
 - 15:30 Kaffeepause
 - 17:30 Ergebnisse vorstellen
 - 18:30 Ende
+
+### Anmeldung
+
+Zur [Anmeldung mit Eventbrite](https://www.eventbrite.de/e/dukecon-hackathon-2016-tickets-21004334530)
 
 ### Sponsor
 
