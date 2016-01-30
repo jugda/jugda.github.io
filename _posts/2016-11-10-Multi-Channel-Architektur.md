@@ -3,7 +3,7 @@ title: Herausforderung "Multi-Channel"-Architektur
 speaker: Lars Röwekamp
 twitter: mobileLarson
 speakerpic: larsroewekamp.png
-date: 2016-11-10 18:30:00+01:00
+date: 2016-11-10 18:30
 location: CoSee GmbH c/o TIZ Darmstadt, Konferenzraum 1 EG, Robert-Bosch-Str. 7, 64293 Darmstadt
 direction: http://www.tiz-darmstadt.de/index.php?id=54&L=1%27
 important: Der Vortrag findet diesmal bei der ber CoSee GmbH im TIZ Darmstadt statt.

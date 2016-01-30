@@ -2,7 +2,7 @@
 title: Robuste Cloud Architekturen
 speaker: Agim Emruli
 speakerpic: agimemruli.png
-date: 2016-05-12 18:30:00+02:00
+date: 2016-05-12 18:30
 location: IT FOR WORK, c/o IHK Darmstadt, Rheinstrasse 89, Raum S 18 (Untergeschoss), 64295 Darmstadt
 direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
 important: Der Vortrag findet diesmal bei der IHK Darmstadt im Raum S 10 im Untergeschoss statt.

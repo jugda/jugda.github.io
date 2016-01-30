@@ -2,7 +2,7 @@
 title: Netflix durch die Architektenbrille
 speaker: Stefan Toth
 speakerpic: stefan.png
-date: 2016-06-09 18:30:00+02:00
+date: 2016-06-09 18:30
 ---
 
 ### Abstract

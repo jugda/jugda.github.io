@@ -2,7 +2,7 @@
 title: Getting started with Spring Cloud
 speaker: Josh Long
 speakerpic: joshlong.png
-date: 2016-04-21 18:30:00+02:00
+date: 2016-04-21 18:30
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
 formid: 1qxsvRHlRoaLdn-c48u-FBEGoQPibSfyTfSFUYWBfFK8

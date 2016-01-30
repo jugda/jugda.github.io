@@ -3,7 +3,7 @@ title: noch offen
 speaker: Stefan Tilkov
 twitter: stilkov
 speakerpic: stefantilkov.png
-date: 2016-09-08 18:30:00+02:00
+date: 2016-09-08 18:30
 published: false
 ---
 
