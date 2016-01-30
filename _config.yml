@@ -59,6 +59,7 @@ defaults:
       type: posts
     values:
       layout: post
+      duration: 2
       location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
       direction: "/anfahrt"
 #
