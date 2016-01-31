@@ -1,6 +1,6 @@
 ---
 title: DukeCon Hackathon
-date: 2016-03-05 09:30:00 Europe/Berlin
+startTime: "09:30"
 duration: 9
 location: codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main
 direction: https://www.google.de/maps?q=Kreuznacher+Stra%C3%9Fe+30,+60486,+Frankfurt+am+Main,+Deutschland

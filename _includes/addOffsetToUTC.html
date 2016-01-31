@@ -1,0 +1,2 @@
+{% assign newOffset = include.time | date: "%:::z" | plus : include.offset %}
+{{ include.time | date: "%Y-%m-%d %H:%M:%S +0" | append: newOffset | date: "%s"}}

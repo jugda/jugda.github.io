@@ -14,8 +14,7 @@ layout: default
       <h2 class="important">{{ page.important }}</h2>
     {% endif %}
     <div>
-      {% assign durationInSeconds = page.duration | times : 3600 %}
-      <h3>{{ page.date | date: "%H:%M" }} bis {{ page.date | date: "%s" | plus : durationInSeconds | date: "%H:%M" }} Uhr</h3>
+      {% include getDateWithStartAndEndTimeFromEvent.html event=page %}<h3>{{ dateWithStartTime | date: "%H:%M" }} bis {{ dateWithEndTime | date: "%H:%M" }} Uhr</h3>
     </div>
     <div>
       {{ page.location }} (<a href="{{ page.direction }}">Anfahrtsbeschreibung</a>)

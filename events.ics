@@ -35,8 +35,8 @@ DESCRIPTION:{{ site.url }}{{ post.url }}
 URL:{{ site.url }}{{ post.url }}
 SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
 CLASS:PUBLIC
-DTSTART:{{ post.date | date: "%Y%m%d" }}T{{ post.date | date: "%H%M" }}00
-{% assign durationInSeconds = post.duration | times : 3600 %}DTEND:{{ post.date | date: "%Y%m%d" }}T{{ post.date | date: "%s" | plus : durationInSeconds | date: "%H%M" }}00
-DTSTAMP:{{ post.date | date: "%Y%m%d" }}T{{ post.date | date: "%H%M" }}00
+{% include getDateWithStartAndEndTimeFromEvent.html event=post %}DTSTART:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
+DTEND:{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}
+DTSTAMP:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 END:VEVENT
 {% endfor %}END:VCALENDAR
