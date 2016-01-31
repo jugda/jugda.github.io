@@ -3,7 +3,7 @@ title: Vom Wiegen allein wird die Sau nicht fett
 speaker: Dr. Elmar Jürgens
 twitter: elmarjuergens
 speakerpic: elmarjuergens.png
-date: 2016-10-13 18:30
+date: 2016-10-13 18:30:00+02:00
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
 ---

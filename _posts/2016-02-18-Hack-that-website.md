@@ -2,7 +2,7 @@
 title: Hack that website!
 speaker: Dr. Stefan Schlott
 speakerpic: stefanschlott.png
-date: 2016-02-18 18:00:00
+date: 2016-02-18 18:00
 location: Deutsche Telekom AG, Products & Innovation, T-Online-Allee 1 Darmstadt, 64295 Darmstadt
 direction: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=T.-Online-Allee,+64295+Darmstadt&sll=49.87373,8.604012&sspn=0.04912,0.090294&g=T.-Online-Allee,+64295+Darmstadt,+Hessen,+Germany&ie=UTF8&hq=&hnear=T.-Online-Allee,+64295+Darmstadt,+Hessen,+Germany&ll=49.863739,8.626638&spn=0.04913,0.090294&z=13
 important: Beginn diesmal schon um 18 Uhr bei der Deutschen Telekom! Bitte unbedingt mit Vor- und Nachnamen anmelden.
