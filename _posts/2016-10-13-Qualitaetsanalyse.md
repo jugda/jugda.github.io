@@ -1,5 +1,6 @@
 ---
 title: Vom Wiegen allein wird die Sau nicht fett
+date: 2016-10-13 18:30
 speaker: Dr. Elmar Jürgens
 twitter: elmarjuergens
 speakerpic: elmarjuergens.png
