@@ -1,6 +1,6 @@
 ---
 title: Herausforderung "Multi-Channel"-Architektur
-date: 2016-11-10 18:30
+date: 2016-11-17 18:30
 speaker: Lars Röwekamp
 twitter: mobileLarson
 speakerpic: larsroewekamp.png
