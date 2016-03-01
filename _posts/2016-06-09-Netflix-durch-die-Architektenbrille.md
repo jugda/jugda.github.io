@@ -3,6 +3,9 @@ title: Netflix durch die Architektenbrille
 speaker: Stefan Toth
 speakerpic: stefan.png
 date: 2016-06-09 18:30
+location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
+direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
+important: Der Vortrag findet diesmal beim Fraunhofer IGD Darmstadt (Fraunhoferstraße 5) statt.
 ---
 
 ### Abstract
