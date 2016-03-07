@@ -27,7 +27,7 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
-{% for post in site.posts limit:10 %}BEGIN:VEVENT
+{% for post in site.posts reversed %}{% if post.date > site.time %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
 LOCATION:{{ post.location }}
@@ -39,4 +39,4 @@ CLASS:PUBLIC
 DTEND:{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}
 DTSTAMP:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 END:VEVENT
-{% endfor %}END:VCALENDAR
+{% endif %}{% endfor %}END:VCALENDAR
