@@ -4,8 +4,6 @@ speaker: David Blevins (Stephen Chin und Sebastian Daschner)
 twitter: dblevins
 speakerpic: davidblevins.jpg
 date: 2016-03-10 19:00
-formid: 1DabKJixUWi0AoHxVtjai2H_4rkmGNZNWPbsI2XyaMOw
-important: Achtung, der Vortrag beginnt diesmal erst um 19 Uhr!
 ---
 
 ### Nighthacking on Tour
