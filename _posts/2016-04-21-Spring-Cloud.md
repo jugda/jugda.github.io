@@ -6,6 +6,7 @@ date: 2016-04-21 18:30
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
 formid: 1qxsvRHlRoaLdn-c48u-FBEGoQPibSfyTfSFUYWBfFK8
+important: Der Vortrag findet bei Accso in der Berliner Allee 58 statt.
 ---
 
 ### Abstract
