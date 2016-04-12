@@ -3,6 +3,7 @@ title: API-Design für Java-Entwickler
 speaker: Kai Spichale
 speakerpic: kaispichale.png
 date: 2016-07-14 18:30
+formid: 1pMpMt8m0uINcNcLzYsRg1CwGdKg3XNpACv6RpbygBxw
 ---
 
 ### Abstract
