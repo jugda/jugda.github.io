@@ -25,3 +25,7 @@ Stephen Chin ([@steveonjava](https://twitter.com/steveonjava)) is the Lead Java 
 
 <img src="/images/speaker/sebastiandaschner.png" class="speakerpic"/>
 Sebastian Daschner ([@DaschnerS](https://twitter.com/DaschnerS)) is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is an JCP member, participating in the JSR processes and hacking on various open source projects on Github. He has been working with Java for more than 5 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com.
+
+### Weitere Informationen
+- [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4799)
+- [Blog-Beitrag Martin Funke](http://www.tomitribe.com/blog/2016/04/jug-da-meetup-not-only-a-lesson-in-java-technology)
