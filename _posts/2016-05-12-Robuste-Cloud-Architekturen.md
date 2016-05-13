@@ -3,7 +3,7 @@ title: Robuste Cloud Architekturen
 speaker: Agim Emruli
 speakerpic: agimemruli.png
 date: 2016-05-12 18:30
-location: IT FOR WORK, c/o IHK Darmstadt, Rheinstrasse 89, Raum S 18 (Untergeschoss), 64295 Darmstadt
+location: IT FOR WORK, c/o IHK Darmstadt, Rheinstrasse 89, Raum S 10 (Erdgeschoss), 64295 Darmstadt
 direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
 ---
 
@@ -15,6 +15,15 @@ direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/An
 
 {% include speakerpic.html %}
 __Agim Emruli__ ([@aemruli](https://twitter.com/aemruli)) ist Geschäftsführer bei der mimacom Deutschland GmbH und für die Technologie Ausrichtung der Unternehmensgruppe verantwortlich. Er beschäftigt sich primär als Software-Architekt in der Umsetzung von Unternehmensanwendungen auf Basis der Java, Amazon Webservices sowie Cloudfoundry plattform. Agim Emruli ist in verschiedenen Open-Source Projekten (Spring Framework) involviert und referiert regelmäßig national und international auf Konferenzen darüber.
+
+### Weitere Informationen
+
+Downloads
+
+- [Folien](/files/anti-fragile-cloud.pdf)
+- [Code-Beispiele](https://github.com/aemruli/anti-fragile-demo) (Nachverfolgen der Schritte über die Commit-Historie)
+
+### Sponsor
 
 <div style="clear: both;"></div>
 [![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de)
