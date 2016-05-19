@@ -23,7 +23,7 @@ Downloads
 - [Folien](/files/anti-fragile-cloud.pdf)
 - [Code-Beispiele](https://github.com/aemruli/anti-fragile-demo) (Nachverfolgen der Schritte über die Commit-Historie)
 - [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4877)
-- 
+
 ### Sponsor
 
 <div style="clear: both;"></div>
