@@ -4,6 +4,7 @@ speaker: Jens Deters
 twitter: jerady
 speakerpic: jensdeters.png
 date: 2016-08-04 18:30
+formid: 1l_zcCie6cGR6XQPTc-ndBJ5qH4v3pF4FuZRU0Udyql0
 ---
 
 ## Glue for the Internet of Things - A full IoT stack with sensors, actors and (mobile) clients

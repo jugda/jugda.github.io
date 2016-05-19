@@ -7,6 +7,7 @@ speakerpic: larsroewekamp.png
 location: CoSee GmbH c/o TIZ Darmstadt, Konferenzraum 1 EG, Robert-Bosch-Str. 7, 64293 Darmstadt
 direction: http://www.tiz-darmstadt.de/index.php?id=54&L=1%27
 important: Der Vortrag findet diesmal bei der ber CoSee GmbH im TIZ Darmstadt statt.
+formid: 1bTKFPIjyipE0ACEM_57WA-uF3w5ctm8qfuKTbAZQtew
 ---
 
 ### Abstract

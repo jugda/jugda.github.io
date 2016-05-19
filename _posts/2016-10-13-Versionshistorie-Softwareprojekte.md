@@ -6,6 +6,7 @@ twitter: DennisPagano
 speakerpic: dennispagano.jpg
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
+formid: 1fzrmLXSvjTFQYH5k5A86C7bz-gkvEJVVFYN7sp_gZns
 ---
 
 ## Was kann man aus der Versionshistorie eines Softwareprojekts lernen?
