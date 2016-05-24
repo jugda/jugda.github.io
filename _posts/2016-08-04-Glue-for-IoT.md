@@ -4,7 +4,10 @@ speaker: Jens Deters
 twitter: jerady
 speakerpic: jensdeters.png
 date: 2016-08-04 18:30
+location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
+direction: http://www.nterra.com/kontakt/
 formid: 1l_zcCie6cGR6XQPTc-ndBJ5qH4v3pF4FuZRU0Udyql0
+important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
 ---
 
 ## Glue for the Internet of Things - A full IoT stack with sensors, actors and (mobile) clients
@@ -28,3 +31,9 @@ Session schedule:
 ### Speaker
 
 {% include speakerpic-name.html %} started with (home-) computing about 25 years ago. During the last 15 years he owned several roles in the IT & Telecommunication sector (Software Developer, Trainer, Consultant, Project Manager and Product Manager). His major passion is still developing software. Currently he works as a Senior IT Consultant at codecentric in Germany. He regularly blogs about his projects to contribute to the JavaFX- and IoT-Community (www.jensd.de, www.mqttfx.org). Jens is also member of the NetBeans Dream Team.
+
+### Sponsor
+
+<div style="clear: both;"></div>
+[![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
+Die nterra GmbH lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei nterra!
