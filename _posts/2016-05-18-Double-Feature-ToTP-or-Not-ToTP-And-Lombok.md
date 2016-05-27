@@ -37,3 +37,8 @@ This presentation has something to offer for all java developers, especially tho
 __Reinier Zwitserloot__ ([@surial](https://twitter.com/surial)) has been interested in programming language evolution ever since he started working with Java professionally 15 years ago. As a result, together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium.
                         
 __Roel Spilker__ is a technology evangelist at TOPdesk. He's been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium. 
+
+### Weitere Informationen
+
+- [ToTP-Aufzeichnung aus Kaiserslautern](https://www.youtube.com/watch?v=eo4R-Q8GqSI&feature=youtu.be)
+- [Lombok-Aufzeichnung aus Darmstadt folgt](#)
