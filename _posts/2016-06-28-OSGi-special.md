@@ -10,7 +10,7 @@ formid: 15v0dlwnjra2yntfubjGyY6Xgo0T9Tpt78XgWiK9aSiQ
 
 ### Abstract
 
-The OSGi Alliance is holding its next Face to Face technical meeting in Darmstadt in late June and we are pleased to have arranged an _Evening of OSGi_ with the Darmstadt JUG, IoT Hessen and Deutsche Telekom / Qivicon’s support. 
+The [OSGi Alliance](https://www.osgi.org/) is holding its next Face to Face technical meeting in Darmstadt in late June and we are pleased to have arranged an _Evening of OSGi_ with the [Darmstadt Java User Group](http://jug-da.de), [IoT Hessen](http://www.meetup.com/IoT-Hessen/) and [Deutsche Telekom](http://www.telekom.de) / [Qivicon](https://www.qivicon.com)’s support. 
 We hope you can join us.
 
 The evening will assume no prior knowledge of OSGi, however if you already have some experience  or are hardened OSGi developer then you are also very welcome and it will be a great opportunity to meet with some of the people involved in creating the specifications and reference implementations, and you will be able to dig a lot deeper in to the technology one-on-one with them.
