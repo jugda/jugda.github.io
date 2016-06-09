@@ -10,17 +10,12 @@ formid: 15v0dlwnjra2yntfubjGyY6Xgo0T9Tpt78XgWiK9aSiQ
 
 ### Abstract
 
-The OSGi Alliance is holding its next Face to Face technical meeting in Darmstadt in late June and we are pleased to 
-have arranged an _Evening of OSGi_ with the Darmstadt JUG, IoT Hessen and Deutsche Telekom / Qivicon’s support. 
+The OSGi Alliance is holding its next Face to Face technical meeting in Darmstadt in late June and we are pleased to have arranged an _Evening of OSGi_ with the Darmstadt JUG, IoT Hessen and Deutsche Telekom / Qivicon’s support. 
 We hope you can join us.
 
-The evening will assume no prior knowledge of OSGi, however if you already have some experience  or are hardened OSGi 
-developer then you are also very welcome and it will be a great opportunity to meet with some of the people involved in
-creating the specifications and reference implementations, and you will be able to dig a lot deeper in to the technology
-one-on-one with them.
+The evening will assume no prior knowledge of OSGi, however if you already have some experience  or are hardened OSGi developer then you are also very welcome and it will be a great opportunity to meet with some of the people involved in creating the specifications and reference implementations, and you will be able to dig a lot deeper in to the technology one-on-one with them.
 
-We have a packed agenda to give you an insight and overview into OSGi and some of its activities both in IoT and 
-Enterprise, along with an introduction to OSGi enRoute, which is relatively new initiative from the OSGi Alliance to 
+We have a packed agenda to give you an insight and overview into OSGi and some of its activities both in IoT and Enterprise, along with an introduction to OSGi enRoute, which is relatively new initiative from the OSGi Alliance to 
 provide a quick start to OSGi for developers who have never used it before.   
 
 Attending and presenting will be:
