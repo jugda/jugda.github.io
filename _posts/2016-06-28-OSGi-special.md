@@ -75,4 +75,9 @@ Tim Ward is CTO at Paremus Ltd, a co-author of Enterprise OSGi in Action, and ha
 <img src="/images/speaker/osgi-peter-kriens.png" class="speakerpic"/>
 Peter Kriens is an independent consultant since 1990.He currently works for the OSGi Alliance and jpm4j. During the eighties he developed advanced distributed systems for newspapers based on microcomputers based on, at the time very novel, object oriented technologies. For this experience in Objects he was hired by a number of international companies, including Adobe, Intel, Ericsson, IBM, and many others. During his work at Ericsson Research in 1998 he got involved with the OSGi specification; later he became the primary editor for these specifications. In 2005 he was awarded the OSGi Fellows title. After taking a sabbatical in 2012 to develop jpm4j he returned to the OSGi Alliance to help increasing adoption. He is Dutch but decided to live in France.
 
+### Finale
+
+After the talks we will move over to the [Darmstadt Braustübl](http://www.braustuebl.net/) or the [4cani restaurant](http://www.4cani.com/darmstadt/)
+(depending on the weather) for some food and drinks. Please tell us via the registration form if you will join us.
+
 ### Registration
