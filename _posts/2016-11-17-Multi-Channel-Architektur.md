@@ -4,9 +4,9 @@ date: 2016-11-17 18:30
 speaker: Lars Röwekamp
 twitter: mobileLarson
 speakerpic: larsroewekamp.png
-location: CoSee GmbH c/o TIZ Darmstadt, Konferenzraum 1 EG, Robert-Bosch-Str. 7, 64293 Darmstadt
-direction: http://www.tiz-darmstadt.de/index.php?id=54&L=1%27
-important: Der Vortrag findet diesmal bei der ber CoSee GmbH im TIZ Darmstadt statt.
+location: CoSee GmbH, Mina-Rees-Straße 6-8, 64293 Darmstadt
+direction: https://goo.gl/maps/5tEPZApJiP82
+important: Der Vortrag findet diesmal bei der ber CoSee GmbH statt.
 formid: 1bTKFPIjyipE0ACEM_57WA-uF3w5ctm8qfuKTbAZQtew
 ---
 
