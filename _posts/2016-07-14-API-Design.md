@@ -14,3 +14,7 @@ Mit APIs haben Entwickler täglich zu tun. Sie dienen beispielsweise zur Arbeits
 
 {% include speakerpic.html %}
 __Kai Spichale__ ([@kspichale](https://twitter.com/kspichale)) ist IT-Berater bei innoQ Deutschland GmbH und dort für die Konzeption und Implementierung von Softwaresystemen in unterschiedlichen Kundenprojekten verantwortlich. Er ist Autor zahlreicher Fachartikel und regelmäßiger Sprecher auf Konferenzen. Seine Themenschwerpunkt sind Softwarearchitektur, API-Design und NoSQL.
+
+### Weitere Informationen
+
+- [Folien](/files/JUG_API_Design.pdf)
