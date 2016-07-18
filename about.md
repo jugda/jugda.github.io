@@ -42,8 +42,8 @@ Twitter: [@hameiste](https://twitter.com/hameiste)
 #### Niko Köbler
 
 <p class="orgaperson">
-<img src="/images/nko.png" class="orgapic"/>
-Niko Köbler ist freiberuflicher Software-Architekt, Entwickler und Trainer für Java & JavaScript (Enterprise) Lösungen, Integrationen und Webdevelopment. Er berät und unterstützt Kunden verschiedenster Branchen, hält Workshops und Trainings und führt Architektur-Reviews durch. Zudem schreibt Niko für Fachmagazine und ist regelmäßig als Sprecher auf internationalen Fachkonferenzen anzutreffen.  
+<img src="/images/nko.jpg" class="orgapic"/>
+Niko macht irgendwas mit Computern, oft im Web, meistens (funktional) auf der JVM. Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
 </p>
 Kontakt: [niko@n-k.de](mailto:niko@n-k.de), [http://www.n-k.de](http://www.n-k.de)  
 Twitter: [@dasniko](https://twitter.com/dasniko)
