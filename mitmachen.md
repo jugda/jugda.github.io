@@ -18,4 +18,4 @@ Die Java User Group Darmstadt (JUG-DA) ist der ideale Ort um eine neue Technolog
 - Zusammenfassung (Abstract) der Präsentation
 - Name & Kurz-Biographie
 
-E-Mail: [info@jug-da.de](info@jug-da.de)
+E-Mail: [info@jug-da.de](mailto:info@jug-da.de)
