@@ -3,7 +3,7 @@ title: Wait, what!? Our microservices have actual human users?
 speaker: Stefan Tilkov
 twitter: stilkov
 speakerpic: stefantilkov.png
-date: 2016-09-08 18:30
+date: 2016-09-14 18:30
 ---
 
 ### Abstract
