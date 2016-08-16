@@ -1,6 +1,6 @@
 ---
 title: 3. Darmst&auml;dter Barbecue Stammtisch
-date: 2016-09-21
+date: 2016-09-21 18:30
 location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
 direction: http://www.grillplatzver​zeichnis.de/google-maps/Grillplatz-Oberfoersterwiese.html
 formid: 1nYco-muN-G_Djue1iV0_0FrKt7eppEjOM0f7hxoan2Y
