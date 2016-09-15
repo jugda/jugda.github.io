@@ -42,3 +42,4 @@ __Roel Spilker__ is a technology evangelist at TOPdesk. He's been a professional
 
 - [ToTP-Aufzeichnung aus Kaiserslautern](https://www.youtube.com/watch?v=eo4R-Q8GqSI&feature=youtu.be)
 - [Lombok-Aufzeichnung aus Darmstadt folgt](#)
+- [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4893)
