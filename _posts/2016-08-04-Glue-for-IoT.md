@@ -37,3 +37,7 @@ Session schedule:
 <div style="clear: both;"></div>
 [![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
 Die nterra GmbH lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei nterra!
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4958)
