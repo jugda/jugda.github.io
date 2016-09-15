@@ -15,3 +15,7 @@ Netflix - das größte Internet-Business in der USA - zeichnet sich zeitweise f�
 
 {% include speakerpic.html %}
 __Stefan Toth__ ([@st_toth](https://twitter.com/st_toth)) arbeitet als Entwickler, Softwarearchitekt und Berater bei der embarc GmbH. Seine Schwerpunkte liegen in der Konzeption und der Bewertung mittlerer bis großer Softwarelösungen sowie der Verbindung dieser Themen zu agilen Vorgehen. Er ist Autor zahlreicher Artikel und des Buchs "Vorgehensmuster für Softwarearchitektur".
+
+### Weitere Informationen
+
+- [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4932)
