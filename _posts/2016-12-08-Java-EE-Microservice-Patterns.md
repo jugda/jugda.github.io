@@ -26,4 +26,4 @@ Dabei werden sich einige Muster und Idiome herauskristallisieren. Es ist eine JU
 IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma msg systems sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
 
 [![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
-[![msg Logo](/images/sponsors/msg_systems.jpg)](http://www.msg-systems.com/)
+[![msg Logo](/images/sponsors/msg.jpg)](http://www.msg-systems.com/)
