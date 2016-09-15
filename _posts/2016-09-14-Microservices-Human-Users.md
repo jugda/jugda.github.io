@@ -14,3 +14,8 @@ Microservice API styles, service lookups, datastores, scaling – all of our typ
 ### Speaker
 
 {% include speakerpic-name.html %} ist Geschäftsführer und Principal Consultant bei der innoQ Deutschland GmbH, wo er sich vorwiegend mit der strategischen Beratung von Kunden im Umfeld von Software-Architekturen beschäftigt. Er ist Autor des Buchs „REST und HTTP“, Mitherausgeber von „SOAExpertenwissen“ (beide dpunkt.verlag), Autor zahlreicher Fachartikel und häufiger Sprecher auf internationalen Konferenzen.
+
+### Weitere Informationen
+
+- [Folien](https://speakerdeck.com/stilkov/wait-what-our-microservices-have-actual-human-users-1)
+- [Video (microXchg 2016)](https://www.youtube.com/watch?v=pU1gXA0rfwc)
