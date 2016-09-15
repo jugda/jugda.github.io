@@ -18,7 +18,7 @@ Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN!
 
 ### Verpflegung / Catering
 
-<img src="/images/sponsors/msg_systems.jpg" class="speakerpic"/>
+<img src="/images/sponsors/msg.jpg" class="speakerpic"/>
 Die Firma [msg systems](http://www.msg-systems.com/) sorgt für unser leibliches Wohl (danke dafür!).
 
 ### Agenda
