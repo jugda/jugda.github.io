@@ -6,7 +6,6 @@ twitter: DennisPagano
 speakerpic: dennispagano.jpg
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
-formid: 1fzrmLXSvjTFQYH5k5A86C7bz-gkvEJVVFYN7sp_gZns
 ---
 
 ## Was kann man aus der Versionshistorie eines Softwareprojekts lernen?
@@ -19,9 +18,9 @@ Wir haben viele der Techniken selbst ausprobiert – sowohl auf bekannten Open-S
 
 Sie lernen:
 
-- Relevante Ergebnisse des Forschungsgebiets der letzten 10 Jahre 
+- Relevante Ergebnisse des Forschungsgebiets der letzten 10 Jahre
 - Anekdoten aus der Praxis
-- Möglichkeiten und Grenzen der Analysen für den Einsatz im eigenen Projekt 
+- Möglichkeiten und Grenzen der Analysen für den Einsatz im eigenen Projekt
 
 Erweiterte Beschreibung:
 

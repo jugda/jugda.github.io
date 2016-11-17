@@ -6,8 +6,6 @@ twitter: mobileLarson
 speakerpic: larsroewekamp.png
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
-important: Der Vortrag findet diesmal bei der cosee GmbH statt.
-formid: 1bTKFPIjyipE0ACEM_57WA-uF3w5ctm8qfuKTbAZQtew
 ---
 
 ### Abstract
