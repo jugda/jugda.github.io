@@ -1,9 +1,10 @@
 ---
 title: Eclipse DemoCamp
-date: 2016-11-30 17:00
+startTime: "17:00"
 duration: 4
 location: Deutsche Telekom, T-Online-Allee 1, Darmstadt
 direction: https://www.google.de/maps/place/T-Online-Allee+1,+64295+Darmstadt/@49.86471,8.6232713,17z/data=!3m1!4b1!4m5!3m4!1s0x47bd709dcdebef67:0x5b0032c42cc77a93!8m2!3d49.86471!4d8.62546
+important: Das DemoCamp findet bei der Deutschen Telekom in der T-Online-Allee 1 statt.
 ---
 
 ### Abstract
