@@ -1,0 +1,20 @@
+---
+layout: null
+---
+[
+{% for post in site.posts reversed %}{% if post.date > site.time %}
+{
+"uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
+"summary": "{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}",
+"title": "{{ post.title }}",
+{% if post.speaker %}"speaker": "{{ post.speaker | xml_escape }}",{% endif %}
+"description": "{{ post.content | xml_escape }}",
+"location": "{{ post.location }}",
+"url": "{{ site.url }}{{ post.url }}",
+{% include getDateWithStartAndEndTimeFromEvent.html event=post %}
+"start": "{{ dateWithStartTime | date: "%Y-%m-%dT%H:%M:00" }}",
+"end": "{{ dateWithEndTime | date: "%Y-%m-%dT%H:%M:00" }}"
+},
+{% endif %}{% endfor %}
+{}
+]
