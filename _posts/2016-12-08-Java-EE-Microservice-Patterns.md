@@ -4,9 +4,6 @@ speaker: Adam Bien
 twitter: AdamBien
 speakerpic: adam_bien.jpg
 date: 2016-12-08 18:30
-location: IT FOR WORK, c/o IHK Darmstadt, Rheinstrasse 89, 64295 Darmstadt, Großer Saal im Dachgeschoss
-direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
-formid: 1CRvViRjv4GYE2rBbx1MBdof_2iYucbJ0sYkuavDPqmg
 ---
 
 ### Abstract
