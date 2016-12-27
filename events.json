@@ -8,7 +8,6 @@ layout: null
 "summary": "{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}",
 "title": "{{ post.title }}",
 {% if post.speaker %}"speaker": "{{ post.speaker | xml_escape }}",{% endif %}
-"description": "{{ post.content | xml_escape }}",
 "location": "{{ post.location }}",
 "url": "{{ site.url }}{{ post.url }}",
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}
