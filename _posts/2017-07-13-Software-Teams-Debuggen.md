@@ -9,7 +9,7 @@ formid: 1cKC_YexGKjUUhB5hf1tu6kqqpRs_Doz9KeLxXqkLYIY
 
 ### Abstract
 
-Passen Architektur einer Anwendung und Kommunikationsstrukturen ihres Entwicklungsteams nicht zueinander, führt das zu Problemen. Sowohl die Architektur, als auch die Teamorganisation entwickeln sich jedoch---oft unabhängig voneinander---weiter. Wie können wir früh merken wenn Probleme auftreten, um rechtzeitig reagieren zu können?
+Passen Architektur einer Anwendung und Kommunikationsstrukturen ihres Entwicklungsteams nicht zueinander, führt das zu Problemen. Sowohl die Architektur, als auch die Teamorganisation entwickeln sich jedoch oft unabhängig voneinander weiter. Wie können wir früh merken wenn Probleme auftreten, um rechtzeitig reagieren zu können?
 
 Im Vortrag stelle ich moderne Analysetechniken vor, die uns hierbei unterstützen. Die Analysen beziehen dabei eine Vielzahl von Daten ein, die wir in der Software-Entwicklung produzieren: Von Code, über Versionshistorien, bis hin zu Traces und Ausführungsinformationen aus Test- und Produktionssystemen. Dadurch erlauben sie faktenbasierte Entscheidungen in einem Umfeld, in dem gerade in Krisensituationen sonst oft emotionsgeladene Diskussionen geführt werden.
 
