@@ -6,8 +6,6 @@ speakerpic: heinzkabutz.jpg
 date: 2017-01-26 18:00
 location: Deutsche Telekom (Raum 0CK27), T-Online-Allee 1, Darmstadt
 direction: https://www.google.de/maps/place/T-Online-Allee+1,+64295+Darmstadt/@49.86471,8.6232713,17z/data=!3m1!4b1!4m5!3m4!1s0x47bd709dcdebef67:0x5b0032c42cc77a93!8m2!3d49.86471!4d8.62546
-important: Der Vortrag findet bei der Deutschen Telekom in der T-Online-Allee 1 statt.
-formid: 1vH7h322EyyK4yGzFL-FULMaEXD5ifQyZ43g0reNhKGw
 ---
 
 ### Abstract
