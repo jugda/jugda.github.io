@@ -4,7 +4,6 @@ speaker: Wolfgang Weigend
 twitter: wolflook
 speakerpic: wolfgangweigend.jpg
 date: 2017-02-23 18:30
-formid: 1bXF9WYUeW2sT7AosbHrvDZO_6d8gUX0Ny9VsjiBLvxI
 ---
 
 ### Abstract
@@ -15,3 +14,6 @@ Im Vortrag geht es um die JDK 9 Plattformmodularisierung mit dem Projekt Jigsaw.
 
 {% include speakerpic-name.html %} arbeitet als Sen. Leitender Systemberater bei der Oracle Deutschland B.V. & Co. KG. Er beschäftigt sich mit Java-Technologie und Architektur für unternehmensweite Anwendungsentwicklung.
 
+### Weitere Informationen
+
+- [Folien](https://www.slideshare.net/wolfgangweigend/jdk-9-und-die-modulare-plattform-jigsaw)
