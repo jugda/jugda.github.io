@@ -4,7 +4,7 @@ speaker: Stefan Zörner
 twitter: StefanZoerner
 speakerpic: stefanzoerner.jpg
 date: 2017-03-16 18:30
-location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+location: ACHTUNG - Aufgrund zahlreicher Anmeldungen müssen wir evtl. kurzfristig eine neue Location bekanntgeben! Sonst bleibts bei "Accso GmbH, Berliner Allee 58, 64295 Darmstadt"
 direction: http://accso.de/index.php/kontakt?id=67
 formid: 1zj4RCmPEroeFBzf72gS6-0QA3IQSPjBORhBIWtDS6ME
 ---
