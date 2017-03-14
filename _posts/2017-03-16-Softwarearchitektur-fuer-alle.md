@@ -4,10 +4,10 @@ speaker: Stefan Zörner
 twitter: StefanZoerner
 speakerpic: stefanzoerner.jpg
 date: 2017-03-16 18:30
-location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
-direction: http://accso.de/index.php/kontakt?id=67
+location: TOP Tagungszentren AG, Wittichstraße 2, 64295 Darmstadt
+direction: http://top-tagung.de/standort-darmstadt/anfahrt
 formid: 1zj4RCmPEroeFBzf72gS6-0QA3IQSPjBORhBIWtDS6ME
-important: ACHTUNG - Aufgrund der zahlreichen Anmeldungen müssen wir evtl. kurzfristig eine neue Location bekanntgeben!
+important: ACHTUNG - Aufgrund der zahlreichen Anmeldungen wird der Vortrag von der Accso zur TOP Tagungszentren AG, Wittichstraße 2, 64295 Darmstadt verlegt!
 ---
 
 ### Abstract
@@ -21,3 +21,9 @@ In diesem Vortrag zeige ich Euch, welche grundlegenden Techniken und Methoden au
 ### Speaker
 
 {% include speakerpic.html %} Von der Bayer AG über IBM und oose zu [embarc](http://www.embarc.de). Stefan Zörner ([@StefanZoerner](https://twitter.com/StefanZoerner)) blickt auf zwanzig Jahre IT-Erfahrung zurück und stets gespannt nach vorn. Er unterstützt in Architektur- und Umsetzungsfragen mit dem Ziel, gute Architekturansätze wirksam in der Implementierung zu verankern. Sein Wissen und seine Erfahrung teilt er regelmäßig in Vorträgen, Artikeln und Workshops. Stefan ist aktives Board-Mitglied im iSAQB und Autor des Buchs „Softwarearchitekturen dokumentieren und kommunizieren“ (Carl Hanser Verlag, 2. Auflage 2015).
+
+### Sponsoren
+
+Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
