@@ -22,6 +22,10 @@ In diesem Vortrag zeige ich Euch, welche grundlegenden Techniken und Methoden au
 
 {% include speakerpic.html %} Von der Bayer AG über IBM und oose zu [embarc](http://www.embarc.de). Stefan Zörner ([@StefanZoerner](https://twitter.com/StefanZoerner)) blickt auf zwanzig Jahre IT-Erfahrung zurück und stets gespannt nach vorn. Er unterstützt in Architektur- und Umsetzungsfragen mit dem Ziel, gute Architekturansätze wirksam in der Implementierung zu verankern. Sein Wissen und seine Erfahrung teilt er regelmäßig in Vorträgen, Artikeln und Workshops. Stefan ist aktives Board-Mitglied im iSAQB und Autor des Buchs „Softwarearchitekturen dokumentieren und kommunizieren“ (Carl Hanser Verlag, 2. Auflage 2015).
 
+### Weitere Informationen
+
+- [Folien](http://www.embarc.de/wp-content/uploads/2017/03/szoerner_swa_fuer_alle_jug_darmstadt_2017_deploy.pdf)
+
 ### Sponsoren
 
 Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
