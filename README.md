@@ -10,4 +10,19 @@ Webseiten der [JUG Darmstadt](http://www.jug-da.de)
 
 ## Lokaler Test
 
-```jekyll server``` (Weil Gerd es immer wieder vergisst!)
+`jekyll server` (Weil Gerd es immer wieder vergisst!)
+
+oder (mit Bundler, näher am Github-Pages Mechanismus dran)
+
+`bundle exec jekyll serve`
+
+
+## Steuerung der Registrierung
+
+- Die `eventId` errechnet sich automatisch aus dem Event-Datum im Format `yyyy-mm-dd` (`ISO_DATE`)
+- Das default `seatLimit` steht auf `60`, kann aber im Header jeder Veranstaltung überschrieben werden.
+- Die default `registrationDeadline` ist am Veranstaltungstag auf 18:00 Uhr gelegt, kann aber bei Bedarf im Header jeder Veranstaltung überschrieben werden.
+
+### Übersicht der Anmeldungen
+
+URL: https://gxsqj77rg0.execute-api.eu-central-1.amazonaws.com/prod/list?eventId= + `eventId`

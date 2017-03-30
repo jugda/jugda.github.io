@@ -1,0 +1,16 @@
+{% if page.date > site.time %}
+
+{% capture queryString %}?eventId={{ page.date | date: "%Y-%m-%d" %}}&limit={{ page.seatLimit }}{% if page.registrationDeadline %}&deadline={{ page.registrationDeadline }}{% endif %}{% endcapture %}
+
+<h3>Anmeldung</h3>
+<p>
+Zur besseren Planung bitten wir um eine unverbindliche Anmeldung mit Vor- und Zunamen und E-Mail Adresse.
+Das ermöglicht uns, bei Änderungen kurzfristig mit Euch in Kontakt zu treten. Wir geben Eure Daten nicht weiter!
+</p>
+
+<p>
+Wer sich bis <strong>24 Stunden</strong> vor dem Vortrag anmeldet und bei der Veranstaltung anwesend ist, nimmt an unserer <strong>Verlosung</strong> teil. Gewinnen kann man Bücher, Software-Lizenzen, Zeitschriften-Abos und manchmal auch Freikarten zu lokalen Konferenzen. Der Rechtsweg ist hierbei ausgeschlossen.
+</p>
+
+<iframe src="{{ page.registrationUrl }}{{ queryString }}" frameborder="0" width="100%" height="400" marginheight="0" marginwidth="0"></iframe>
+{% endif %}
