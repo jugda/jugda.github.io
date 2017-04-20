@@ -25,6 +25,6 @@ oder (mit Bundler, näher am Github-Pages Mechanismus dran)
 
 ### Übersicht der Anmeldungen
 
-URL: https://gxsqj77rg0.execute-api.eu-central-1.amazonaws.com/prod/list?eventId= + `eventId`
+URL: https://registration.jug-da.de/list?eventId= + `eventId`
 
-JSON-Output: https://gxsqj77rg0.execute-api.eu-central-1.amazonaws.com/prod/list?type=json&eventId= + `eventId`
+JSON-Output: https://registration.jug-da.de/list?type=json&eventId= + `eventId`

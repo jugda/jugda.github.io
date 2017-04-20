@@ -58,7 +58,7 @@ defaults:
       duration: 2
       location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
       direction: "/anfahrt"
-      registrationUrl: https://gxsqj77rg0.execute-api.eu-central-1.amazonaws.com/prod/registration
+      registrationUrl: https://registration.jug-da.de/registration
       seatLimit: 60
 #
 # !! You don't need to change any of the configuration flags below !!
