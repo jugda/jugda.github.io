@@ -8,9 +8,9 @@ date: 2017-09-21 18:30
 
 ### Abstract
 
-Mit Version 8 hat die funktionale Programmierung in Java Einzug gehalten. Allerdings fehlen in der Standardbibliothek noch viele Features, die man von anderen Programmiersprachen wie Scala kennt. Das Open-Source-Projekt Vavr (ehemals Javaslang) möchte diese Lücke füllen und stellt unter anderem persistente Datenstrukturen, algebraische Datentypen und bessere funktionale Schnittstellen für Java 8 bereit.
-
-Resilience4j ist eine leichtgewichtige Fehlertoleranzbibliothek die speziell für funktionale Programmierung und Vavr implementiert wurde. Resilience4j stellt Funktionen höherer Ordnung (Higher-order Functions) bereit, mit denen funktionale Schnittstellen, Lambda-Ausdrücke und Methodenreferenzen um CircuitBreaker, Retry oder Ratelimiter Funktionalität erweitert werden können.
+Als zeitgemäßer Entwickler muss man eine Vielzahl an Sprachen sicher beherrschen. Wir definieren unsere Entwicklungsumgebung mit Gradle, wir bauen unsere Software in Java, Kotlin oder sogar JavaScript. Wir verwenden Groovy und Scala um unsere Software zu testen. Die Build-Pipeline wird per DSL und JSON definiert. Mit YAML und Python beschreiben wir die Infrastruktur und das Deployment unserer Anwendungen. Die Dokumentation unserer Architekturen erledigen wir mit AsciiDoc und JRuby. Willkommen in Babel! Hallo Software-Industrialisierung!
+ 
+Use the right tool for the job! Das ist das Motto dieser Session. Jede Sprache hat Stärken in einer bestimmten Domäne. Diese Stärken gilt es zu nutzen. Aber einfach blind jede gerade angesagte Sprache einzusetzen ist sicher nicht die Lösung. Genau das versuchen wir mit dieser Session zu vermitteln. Stattdessen braucht es eine gut integrierte und abgestimmte Tool-Chain. Wir berichten aus der Praxis.
 
 
 ### Speaker
