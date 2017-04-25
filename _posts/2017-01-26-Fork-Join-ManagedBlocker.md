@@ -1,5 +1,6 @@
 ---
 title: Turbo Charge CPU Utilization in Fork/Join Using the ManagedBlocker
+shortTitle: Fork/Join using ManagedBlocker
 speaker: Dr. Heinz Kabutz
 twitter: kabutz
 speakerpic: heinzkabutz.jpg
