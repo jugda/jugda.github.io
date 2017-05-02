@@ -4,6 +4,10 @@ speaker: Mario-Leander Reimer
 twitter: LeanderReimer
 speakerpic: mario_leander_reimer.png
 date: 2017-09-21 18:30
+location: IT FOR WORK, c/o IHK Darmstadt, Großer Saal im Dachgeschoss, Rheinstrasse 89, 64295 Darmstadt
+seatLimit: 50
+direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
+important: Der Vortrag findet bei IT FOR WORK, in der Rheinstrasse 89 (IHK) statt.
 ---
 
 ### Abstract

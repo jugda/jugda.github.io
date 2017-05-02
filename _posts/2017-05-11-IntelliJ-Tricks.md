@@ -5,9 +5,9 @@ twitter: yanncebron
 speakerpic: yanncebron.png
 date: 2017-05-11 18:30
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
+seatLimit: 40
 direction: https://goo.gl/maps/fX1AfbSmFv82
 important: Der Vortrag findet bei der cosee GmbH in der Mina-Rees-Straße 8 statt!
-formid: 1vET3TySgH4RJuJk3lcIGVc_XyZKqGT0vTiUfmxZZUDU
 ---
 
 ### Abstract
