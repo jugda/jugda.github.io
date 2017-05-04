@@ -1,7 +1,7 @@
 ---
 title: Hack Darmstadt
 date: 2017-06-09 12:30
-duration: 690
+duration: 30
 registrationUrl: https://www.eventbrite.de/e/hack-darmstadt-tickets-34136292570
 location: BSI Business Systems Integration Deutschland GmbH, Rheinstraße 97, 64295 Darmstadt
 direction: https://maps.google.com/maps?f=q&hl=en&q=Rheinstra%C3%9Fe+97%2C+Darmstadt%2C+de
