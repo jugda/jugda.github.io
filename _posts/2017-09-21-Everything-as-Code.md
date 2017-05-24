@@ -20,3 +20,10 @@ Use the right tool for the job! Das ist das Motto dieser Session. Jede Sprache h
 ### Speaker
 
 {% include speakerpic-name.html %} hat in Rosenheim und an der Staffordshire University Informatik studiert und arbeitet als Cheftechnologe bei der QAware GmbH. Er ist Spezialist für den Entwurf und die Umsetzung von Cloud-nativen Anwendungen und System-Architekturen. Als Vollblut-Technologe ist er immer auf der Suche nach Innovationen und Open-Source Technologien die in Kunden-Projekten nutzbringend und erfolgreich eingesetzt werden können.
+
+### Sponsoren
+
+IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+
+[![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
+[![QAware Logo](/images/sponsors/qaware.jpg)](http://www.qaware.de/)
