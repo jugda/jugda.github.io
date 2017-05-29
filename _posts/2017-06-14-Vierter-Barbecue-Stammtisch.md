@@ -9,5 +9,6 @@ raffle: false
 
 Gemeinsam mit dem [IT Stammtisch Darmstadt](http://www.it-stammtisch-darmstadt.de/) laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern.
 
+<img src="/images/sponsors/interes.png" class="speakerpic"/>
 <img src="/images/sponsors/innoq.png" class="speakerpic"/>
-__Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit__, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor [innoQ](http://www.innoq.de). Vielen Dank dafür. 
+__Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit__, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor [innoQ](http://www.innoq.de) und das Fass vom Grohe spendiert uns diesmal [InteRES](http://www.interes.com). Vielen Dank dafür. 
