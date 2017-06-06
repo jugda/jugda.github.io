@@ -4,7 +4,7 @@ speaker: Mario-Leander Reimer
 twitter: LeanderReimer
 speakerpic: mario_leander_reimer.png
 date: 2017-09-21 18:30
-location: IT FOR WORK, c/o IHK Darmstadt, Großer Saal im Dachgeschoss, Rheinstrasse 89, 64295 Darmstadt
+location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 89, 64295 Darmstadt
 seatLimit: 50
 direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
 important: Der Vortrag findet bei IT FOR WORK, in der Rheinstrasse 89 (IHK) statt.
@@ -23,7 +23,7 @@ Use the right tool for the job! Das ist das Motto dieser Session. Jede Sprache h
 
 ### Sponsoren
 
-IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
 [![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
 [![QAware Logo](/images/sponsors/qaware.png)](http://www.qaware.de/)
