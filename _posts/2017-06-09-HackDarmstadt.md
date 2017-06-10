@@ -5,7 +5,6 @@ duration: 12
 registrationUrl: https://www.eventbrite.de/e/hack-darmstadt-tickets-34136292570
 location: BSI Business Systems Integration Deutschland GmbH, Rheinstraße 97, 64295 Darmstadt
 direction: https://maps.google.com/maps?f=q&hl=en&q=Rheinstra%C3%9Fe+97%2C+Darmstadt%2C+de
-important: Der Hackathon findet ganztags bei BSI in Darmstadt statt.
 ---
 
 ### Abstract
