@@ -4,7 +4,6 @@ speaker: Dr. Elmar Jürgens
 twitter: elmarjuergens
 speakerpic: elmarjuergens.png
 date: 2017-07-13 18:30
-formid: 1cKC_YexGKjUUhB5hf1tu6kqqpRs_Doz9KeLxXqkLYIY
 ---
 
 ### Abstract
