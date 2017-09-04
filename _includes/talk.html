@@ -1,6 +1,6 @@
 <li>
   {% if showUrlAndQrCode %}
-    <img src="http://chart.apis.google.com/chart?chs=80x80&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" />
+    <img src="https://chart.apis.google.com/chart?chs=80x80&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" />
   {% endif %}
   <div>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;

@@ -36,7 +36,7 @@ google_analytics: UA-64557395-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.jug-da.de
+url: https://www.jug-da.de
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -57,7 +57,7 @@ defaults:
       startTime: "18:30"
       duration: 2
       location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
-      direction: "/anfahrt"
+      direction: "/anfahrt/"
       registrationUrl: https://registration.jug-da.de/registration
       seatLimit: 60
       raffle: true
@@ -78,6 +78,7 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jemoji
 
 # Exclude these files from your production _site
 exclude:

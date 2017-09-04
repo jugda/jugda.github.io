@@ -45,7 +45,7 @@ Twitter: [@hameiste](https://twitter.com/hameiste)
 <img src="/images/nko.jpg" class="orgapic"/>
 Niko macht irgendwas mit Computern, oft im Web, meistens (funktional) auf der JVM. Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
 </p>
-Kontakt: [niko@n-k.de](mailto:niko@n-k.de), [http://www.n-k.de](http://www.n-k.de)  
+Kontakt: [niko@n-k.de](mailto:niko@n-k.de), [https://www.n-k.de](https://www.n-k.de)  
 Twitter: [@dasniko](https://twitter.com/dasniko)
 
 #### Sebastian Rose
