@@ -43,7 +43,9 @@ Twitter: [@hameiste](https://twitter.com/hameiste)
 
 <p class="orgaperson">
 <img src="/images/nko.jpg" class="orgapic"/>
-Niko macht irgendwas mit Computern, oft im Web, meistens (funktional) auf der JVM. Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
+Niko macht irgendwas mit Computern, oft in der Cloud, im Web und On-Premise, meist auf der JVM.
+Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
+Niko hat das Buch [Serverless Computing in der AWS Cloud](http://serverlessbuch.de) (entwickler.press Verlag) geschrieben.
 </p>
 Kontakt: [niko@n-k.de](mailto:niko@n-k.de), [https://www.n-k.de](https://www.n-k.de)  
 Twitter: [@dasniko](https://twitter.com/dasniko)
