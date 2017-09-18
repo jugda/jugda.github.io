@@ -12,7 +12,7 @@ Was _Serverless_ ist und was es bedeutet, wissen die Meisten von Euch bereits.
 Wofür man es einsetzen kann und worauf man achten muss, zeige ich Euch in meinem Kurzvortrag.
 Sehr gerne beantworte ich aber auch einfach Eure Fragen rund um das Thema.
 
-Als :christmas_tree:-Geschenk gibt's für die beste Frage ein signiertes Exemplar meines neuen Buches [Serverless Computing in der AWS Cloud](http://serverlessbuch.de) - also ruhig schon mal anfangen zu überlegen! :thinking_face: :book: :smirk:
+Als :christmas_tree:-Geschenk gibt's für die beste Frage ein signiertes Exemplar meines neuen Buches [Serverless Computing in der AWS Cloud](http://serverlessbuch.de) - also ruhig schon mal anfangen zu überlegen! :book: :smirk:
 
 
 _Ralf D. Müller, Falk Sippach:_
