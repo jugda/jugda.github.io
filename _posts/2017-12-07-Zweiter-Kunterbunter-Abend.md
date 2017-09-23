@@ -25,7 +25,10 @@ _Alexander Schwartz:_
 
 ### Refactoring Unit Tests
 
-Abstract folgt in Kürze
+Wer bestehenden Code ändern will, der muss auch die dazugehörigen Tests verstehen. 
+Wie verständliche JUnit Tests aussehen können zeigt dieser Kurzvortrag: 
+Es werden bestehende Unit-Tests refactored mit Hilfe von aussagekräftigen Namen, BDD-Strukturen und sprechenden Assertions.
+Zum Einsatz kommen JUnit 4, AssertJ und Awaitility.
 
 ### Speakers
 
@@ -44,8 +47,10 @@ Ralf D. Müller arbeitet als Architekt und Entwickler und erlebt täglich die No
 #### Alexander Schwartz
 
 <img src="/images/speaker/alexanderschwartz.png" class="speakerpic"/>
-Alexander Schwartz arbeitet als Principal IT Consultant bei msg systems ag. Im Laufe der Zeit arbeitete er mit verschiedensten Server- und Web-Technologien. Er schätzt produktive Arbeitsumgebungen, agile Projekte und automatisierte Tests. Auf Konferenzen und bei User Groups spricht er über seine Erfahrungen.
-
+Alexander Schwartz arbeitet als Principal IT Consultant bei msg systems ag. 
+Im Laufe der Zeit arbeitete er mit verschiedensten Server- und Web-Technologien. Er schätzt produktive Arbeitsumgebungen, agile Projekte und automatisierte Tests. 
+Auf Konferenzen und bei User Groups spricht er über seine Erfahrungen. 
+Alexander twittert unter @ahus1de.
 
 #### Falk Sippach
 
