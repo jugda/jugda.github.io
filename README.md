@@ -6,7 +6,7 @@ Webseiten der [JUG Darmstadt](https://www.jug-da.de)
 
 ## Info-Folien vor unseren Vorträgen
 - liegen mittlerweile in einem eigenen Repository: https://github.com/jugda/slides/tree/gh-pages
-- Github-Pages: https://jugda.github.io/slides
+- Github-Pages: https://jugda.github.io/slides/
 
 ## Lokaler Test
 
