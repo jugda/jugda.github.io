@@ -19,7 +19,7 @@ Wenn du über kommende Vorträge und Themen auf dem laufenden zu bleiben möchte
 Gerd Aschemann arbeitet als freiberuflicher Software- und Systems-Architekt und -Entwickler im Bereich Enterprise-Java (in den letzten Jahren auch gerne mit Groovy). Für seine Kunden nimmt er am liebsten eine Rolle an der Grenze zwischen Entwicklung und Betrieb wahr. Mit großem Interesse verfolgt er seit einiger Zeit die Entwicklung von Containern und Microservices und hilft Unternehmen auf ihrem Weg in dieses Universum.
 </p>
 Kontakt: [gerd@aschemann.net](mailto:gerd@aschemann.net), [http://aschemann.net](http://aschemann.net)<br/>
-Twitter: [uuɐɯǝɥɔs∀pɹǝ⅁ (@GerdAschemann)](https://twitter.com/GerdAschemann)
+Twitter: [@GerdAschemann](https://twitter.com/GerdAschemann)
 
 #### Marcel Bruch
 
