@@ -18,6 +18,6 @@ In diesem Vortrag wird gezeigt, wie der Mechanismus eines Starters funktioniert:
 
 ### Speaker
 
-{% include speakerpic-name.html %} ist Software-Architekt (CPSA-F) bei ENERKO Informatik in Aachen und entwickelt dort GIS-, EDM- und Vertriebsmanagement-Systeme für Stromnetzbetreiber und Energielieferanten. Michael ist Mitglied des _NetBeans Dream Team_ und Gründer der [Euregio JUG](http://www.euregjug.eu). Er schreibt in seinem Blog [info.michael-simons.eu](http://info.michael-simons.eu) über Java, Spring und Softwarearchitektur.
+{% include speakerpic-name.html %} arbeit als Senior Consultant bei [innoQ Deutschland](https://www.innoq.com/de/). Er ist Mitglied des _NetBeans Dream Team_ und Gründer der [Euregio JUG](http://www.euregjug.eu). Michael schreibt in seinem Blog [info.michael-simons.eu](http://info.michael-simons.eu) über Java, Spring und Softwarearchitektur. Seine Freizeit verbringt er aktuell mit dem [Spring Boot Buch](http://springbootbuch.de).
 
 Auf Twitter unterwegs als [@rotnroll666](https://twitter.com/rotnroll666), unter anderem mit Java, Music und den kleineren und größeren Problemen als Ehemann und Vater von 2 Kindern.
