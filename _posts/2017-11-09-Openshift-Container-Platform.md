@@ -16,3 +16,8 @@ This talk will give you an overview over challenges, solutions and architectural
 
 __Jürgen Hoffmann__, Redhat Solution Architect
 
+### Sponsoren
+
+Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
