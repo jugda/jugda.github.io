@@ -2,6 +2,10 @@
 title: Openshift Container Platform - Enterprise Kubernetes ++
 speaker: Jürgen Hoffmann
 date: 2017-11-09 18:30
+location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+direction: http://accso.de/index.php/kontakt?id=67
+seatLimit: 35
+important: Der Vortrag findet bei Accso in der Berliner Allee 58 statt!
 ---
 
 ### Zusammenfassung
