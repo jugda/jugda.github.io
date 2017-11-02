@@ -1,10 +1,25 @@
 ---
 ---
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
 body.poster {
   div.poster-content {
   	background-image: none;
-    padding-left: 50px;
+    padding: 0 20px 0 50px;
   }
 }
 
+.poster-footer {
+  position: absolute; 
+  bottom: 0;
+}
+
+.poster-list {
+  font-size: 0.9em;
+}
