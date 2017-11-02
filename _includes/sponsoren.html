@@ -1,11 +1,5 @@
-<a href="http://www.tu-darmstadt.de/" target="_blank"><img src="/images/sponsors/tud.png" /></a>
-<a href="http://entwickler-press.de" target="_blank"><img src="/images/sponsors/epress.png" /></a>
-<a href="http://www.dpunkt.de" target="_blank"><img src="/images/sponsors/dpunkt.png" /></a>
-<a href="http://www.hanser-fachbuch.de/computer/" target="_blank"><img src="/images/sponsors/hanser.png" /></a>
-<a href="https://www.rheinwerk-verlag.de/" target="_blank"><img src="/images/sponsors/rheinwerk.png" /></a>
-<a href="http://www.oreilly.de/" target="_blank"><img src="/images/sponsors/oreilly.png" /></a>
-<a href="http://www.it-fachportal.de/" target="_blank"><img src="/images/sponsors/mitp.png" /></a>
-<a href="http://www.jetbrains.com/idea/" target="_blank"><img src="/images/sponsors/idea.png" /></a>
-<a href="http://www.sigs-datacom.de/" target="_blank"><img src="/images/sponsors/sigs.png" /></a>
-<a href="http://sandsmedia.com/de" target="_blank"><img src="/images/sponsors/sus.png" /></a>
-<a href="http://jax.de" target="_blank"><img src="/images/sponsors/jax.png" /></a>
+{% for sponsor in site.data.sponsors %}
+{% if sponsor[1].startPage %}
+<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
+{% endif %}
+{% endfor %}

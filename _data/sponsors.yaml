@@ -1,0 +1,53 @@
+"TU Darmstadt": 
+  img: tud.png 
+  href: http://www.tu-darmstadt.de/
+  startPage: true
+"Accso Accelerated Solutions": 
+  img: accso.png 
+  href: http://accso.de/
+"IT FOR WORK e.V.": 
+  img: it-for-work.png 
+  href: https://www.it-for-work.de/
+"cosee GmbH": 
+  img:  cosee.png 
+  href: https://www.cosee.biz/
+"entwickler.press": 
+  img: epress.png 
+  href: http://entwickler-press.de
+  startPage: true
+"dpunkt": 
+  img: dpunkt.png 
+  href: http://www.dpunkt.de
+  startPage: true
+"Hanser": 
+  img: hanser.png 
+  href: http://www.hanser-fachbuch.de/computer/
+  startPage: true
+"Rheinwerk": 
+  img: rheinwerk.png 
+  href: https://www.rheinwerk-verlag.de/
+  startPage: true
+"O'Reilly": 
+  img: oreilly.png 
+  href: http://www.oreilly.de/
+  startPage: true
+"mitp": 
+  img: mitp.png 
+  href: http://www.it-fachportal.de/
+  startPage: true
+"JetBrains": 
+  img: idea.png 
+  href: http://www.jetbrains.com/idea/
+  startPage: true
+"SIGS DATACOM": 
+  img: sigs.png 
+  href: http://www.sigs-datacom.de/
+  startPage: true
+"Software & Support": 
+  img: sus.png 
+  href: http://sandsmedia.com/de
+  startPage: true
+"JAX": 
+  img: jax.png 
+  href: http://jax.de
+  startPage: true
