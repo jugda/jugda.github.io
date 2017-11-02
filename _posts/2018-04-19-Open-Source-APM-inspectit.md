@@ -3,8 +3,7 @@ title: inspectIT - Open Source Application Performance Monitoring
 speaker: Mario Mann + Christoph Heger
 speakerpic: christoph_heger.jpg
 speakerpic2: mario_mann.jpg
-published: false
-date: 2017-11-09 18:30
+date: 2018-04-19 18:30
 ---
 
 ### Zusammenfassung
