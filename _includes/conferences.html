@@ -1,9 +1,5 @@
-<a href="https://tutorials.entwickler.de/" target="_blank">
-  <img src="/images/sus_tutorials.png" title="entwickler tutorials"/>
+{% for conf in site.data.conferences %}
+<a href="{{ conf[1].href }}" target="_blank">
+  <img src="/images/{{ conf[1].img }}" title="{{ conf[0] }}"/>
 </a>
-<a href=" http://jvm-con.de/?utm_source=Kooperation&utm_medium=Banner&utm_campaign=20171005_jugdarmstadt#konferenz&utm_nooverride=1" target="_blank">
-  <img src="/images/jvm-con.jpg" title="JVM-CON 2017"/>
-</a>
-<a href="https://www.ittage.informatik-aktuell.de/" target="_blank">
-  <img src="/images/it-tage-2017.png" title="IT-Tage 2017"/>
-</a>
+{% endfor %}
