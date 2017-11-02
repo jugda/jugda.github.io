@@ -1,7 +1,8 @@
 ---
-title: Hält REST was es verspricht?!
+title: Hält REST was es verspricht und sind die Alternativen GraphQL & gRPC schon reif?
+shortTitle: Hält REST was es verspricht?
 speaker: Thomas Bayer
-speakerpic: thomas_bayer.jpg
+speakerpic: thomasbayer.png
 date: 2018-01-18 18:30
 ---
 
@@ -15,4 +16,4 @@ Im Vortrag werden die Schwächen von REST aufgezeigt. Du erfährst, für welche 
 
 ### Sprecher
 
-{% include speakerpic-name.html %} ist Geschäftsführer bei der predic8 in Bonn und Mitgründer der Orientation in Objects in Mannheim. Er ist Co-Orgranisator des Bonner Mircoservices Meetup und beschäftigt sich mit verteilten Systemen. 
+{% include speakerpic-name.html %} ist Geschäftsführer bei der predic8 in Bonn und Mitgründer der Orientation in Objects in Mannheim. Er ist Co-Organisator des Bonner Mircoservices Meetup und beschäftigt sich mit verteilten Systemen. 
