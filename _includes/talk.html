@@ -4,7 +4,7 @@
   {% endif %}
   <div>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
-    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <a href="{{ post.url | prepend: site.baseurl }}">{% if post.shortTitle %}{{ post.shortTitle }}{% else %}{{ post.title }}{% endif %}</a>
     {% if post.speaker %}
       <div class="speaker"><i class="fa fa-user" title="Speaker"></i> {{ post.speaker }}</div>
     {% endif %}

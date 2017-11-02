@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Continuous Architecture Management - Erkennen und Verhindern von Struktureller Erosion
+title: Continuous Architecture Management - Erkennen und Verhindern von struktureller Erosion
+shortTitle: Continuous Architecture Management
 speaker: Ingmar Kellner
 ---
 
