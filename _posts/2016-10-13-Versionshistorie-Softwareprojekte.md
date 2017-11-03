@@ -39,3 +39,7 @@ Dieser Vortrag ist jedoch alles andere als forschungslastig, sondern illustriert
 <div style="clear: both;"></div>
 [![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
 ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO!
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4990)

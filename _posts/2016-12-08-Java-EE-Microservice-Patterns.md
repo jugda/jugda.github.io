@@ -24,3 +24,7 @@ IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma msg syst
 
 [![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
 [![msg Logo](/images/sponsors/msg.jpg)](http://www.msg-systems.com/)
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5048)

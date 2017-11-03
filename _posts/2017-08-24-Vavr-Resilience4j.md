@@ -18,3 +18,7 @@ Resilience4j ist eine leichtgewichtige Fehlertoleranzbibliothek die speziell fü
 {% include speakerpic-name.html %} arbeitet als Softwarearchitekt bei der Deutschen Telekom AG – Connected Home / Qivicon in Darmstadt. Seine Schwerpunkte liegen auf den Themen Softewarearchitektur und Entwicklung von JVM-basierten verteilten Systemen. Er ist der Ersteller von den Open Source Projekten Resilience4j und Swagger2Markup.
 
 Website: http://www.robwin.eu/
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5270)

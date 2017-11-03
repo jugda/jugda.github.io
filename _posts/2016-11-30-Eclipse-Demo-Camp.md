@@ -29,3 +29,7 @@ In der Schwebe sind noch: Docker Tooling in Eclipse, IDE Scripting mit Eclipse E
 Detailliertere Informationen zum Programm sowie zur Registrierung finden sich im [Eclipse Wiki](http://eclipse.us14.list-manage.com/track/click?u=85594d213a5c3fdad7ca1048f&id=a7b5707c77&e=ab7d983b5d).
 
 Bitte meldet euch frühzeitig an, da die Plätze begrenzt sind.
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5034)

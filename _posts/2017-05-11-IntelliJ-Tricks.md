@@ -22,3 +22,7 @@ Der Vortrag richtet sich sowohl an erfahrene Benutzer als auch an Neueinsteiger/
 {% include speakerpic-name.html %} ist seit 2002 nicht nur begeisterter User von IntelliJ IDEA, er entwickelte im Laufe der Zeit auch eine Reihe von Plugins dafür. Seit vier Jahren ist er nun für dessen Spring Framework Support sowie das Plugin SDK verantwortlich - zu beidem hält er auch regelmässig Vorträge bei Konferenzen im In- und Ausland. 
 
 In der JUG Hannover und beim JavaForumNord ist er von Anfang an als Mitorganisator dabei.
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5144)

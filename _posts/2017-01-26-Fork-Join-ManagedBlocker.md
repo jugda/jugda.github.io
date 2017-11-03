@@ -18,3 +18,7 @@ Der Vortrag kann sowohl in Deutsch als auch in Englisch gehalten werden!
 ### Speaker
 
 {% include speakerpic-name.html %} writes the popular "The Java Specialists' Newsletter" read by tens of thousands of enthusiastic fans in over 138 countries.  To sign up, visit [http://www.javaspecialists.eu](http://www.javaspecialists.eu)
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5077)

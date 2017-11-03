@@ -19,3 +19,4 @@ Microservice API styles, service lookups, datastores, scaling – all of our typ
 
 - [Folien](https://speakerdeck.com/stilkov/wait-what-our-microservices-have-actual-human-users-1)
 - [Video (microXchg 2016)](https://www.youtube.com/watch?v=pU1gXA0rfwc)
+- [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=4980)

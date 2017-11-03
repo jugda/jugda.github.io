@@ -18,3 +18,7 @@ Ich stelle im Vortrag sowohl die Analysen, als auch Fallstudien und Beispiele au
 ### Speaker
 
 {% include speakerpic-name.html %} hat für seine Doktorarbeit über statische Code-Analyse den Software-Engineering-Preis der Ernst-Denert Stiftung erhalten. Er ist Mitgründer der CQSE GmbH und begleitet seit 7 Jahren Teams bei der Verbesserung ihrer Qualitätssicherungs- und Testprozesse. Er spricht regelmäßig auf Konferenzen, wie der OOP, ICSE, CSMR, JAX oder den XP Days. Auf den Clean Code Days 2015 und den Software Quality Days 2015 wurde er zum besten Sprecher gewählt.
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5259)

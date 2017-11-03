@@ -25,6 +25,7 @@ In diesem Vortrag zeige ich Euch, welche grundlegenden Techniken und Methoden au
 ### Weitere Informationen
 
 - [Folien](http://www.embarc.de/wp-content/uploads/2017/03/szoerner_swa_fuer_alle_jug_darmstadt_2017_deploy.pdf)
+- [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5101)
 
 ### Sponsoren
 

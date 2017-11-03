@@ -27,3 +27,7 @@ IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware s
 
 [![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
 [![QAware Logo](/images/sponsors/qaware.png)](http://www.qaware.de/)
+
+### Weitere Informationen
+
+[Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5294)
