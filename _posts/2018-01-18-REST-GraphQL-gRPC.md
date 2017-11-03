@@ -1,6 +1,6 @@
 ---
-title: Hält REST was es verspricht und sind die Alternativen GraphQL & gRPC schon reif?
-shortTitle: Hält REST was es verspricht?
+title: "REST: Versprechen, Wirklichkeit & die Alternativen GraphQL, gRPC, ..."
+shortTitle: "REST: Versprechen, Wirklichkeit & die Alternativen"
 speaker: Thomas Bayer
 speakerpic: thomasbayer.png
 date: 2018-01-18 18:30

@@ -17,9 +17,12 @@ Als :christmas_tree:-Geschenk gibt's für die beste Frage ein signiertes Exempla
 
 _Ralf D. Müller, Falk Sippach:_
 
-### Kontinuierliche und effiziente Dokumentation mit DocToolchain
+### Docs-as-Code
 
-Abstract folgt in Kürze
+Technische Dokumentation sollte man nicht mit Textverarbeitungsprogrammen erstellen. Stattdessen macht es Sinn, sie in die normalen Entwicklungsprozesse einzubeziehen, die Erstellung zu automatisieren (Continuous Documentation) und mit den typischen Werkzeugen der Entwickler, sowie mittels leichtgewichtigen Textformaten zu bearbeiten (Documentation as Code). 
+
+Mit docToolchain gibt es bereits eine ausgereifte und effiziente Lösungssammlung basierend auf AsciiDoc und Gradle. Dabei zeigt docToolchain zwar fertige Lösungen auf, soll aber in erster Linie demonstrieren, was alles möglich ist. Jeder ist eingeladen, den Ansatz zu erweitern und an seine Prozesse und Vorgehensweise anzupassen.
+
 
 _Alexander Schwartz:_
 
