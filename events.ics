@@ -33,7 +33,7 @@ ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
 LOCATION:{{ post.location }}
 DESCRIPTION:{{ site.url }}{{ post.url }}
 URL:{{ site.url }}{{ post.url }}
-SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}){% endif %}
+SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}
 CLASS:PUBLIC
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}DTSTART:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 DTEND:{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}

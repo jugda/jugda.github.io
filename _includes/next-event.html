@@ -27,7 +27,7 @@
 <span class="next-event-label">Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time></span>
 <span class="next-event-time"><script>document.write(daysTillTalk());</script></span>
 <span class="next-event-title">
-  {% if upcomingTalk.speaker %}{{ upcomingTalk.speaker }}: {% endif %}
+  {% if upcomingTalk.speaker %}{{ upcomingTalk.speaker }}{% if upcomingTalk.speaker2 %}, {{ upcomingTalk.speaker2 }}{% endif %}: {% endif %}
   <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
 </span>
 {%if upcomingTalk.important %}

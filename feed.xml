@@ -13,7 +13,9 @@ layout: null
         <title>
           {{ post.date | date: "%d.%m.%Y" }}: {{ post.title | xml_escape }}
           {% if post.speaker %}
-            ({{ post.speaker | xml_escape }}{% if post.twitter %}, <a href="https://twitter.com/{{post.twitter | xml_escape }}">@{{post.twitter | xml_escape }}</a>{% endif %})
+            ({{ post.speaker | xml_escape }}{% if post.twitter %}, <a href="https://twitter.com/{{post.twitter | xml_escape }}">@{{post.twitter | xml_escape }}</a>{% endif %}
+			{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}
+			{% if post.twitter2 %}, <a href="https://twitter.com/{{post.twitter2 | xml_escape }}">@{{post.twitter2 | xml_escape }}</a>{% endif %})
           {% endif %}
         </title>
         <description>{{ post.content | xml_escape }}</description>
