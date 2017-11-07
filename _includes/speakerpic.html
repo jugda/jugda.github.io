@@ -1,1 +1,1 @@
-{% if page.speakerpic %}<img src="/images/speaker/{{page.speakerpic}}" class="speakerpic"/>{% endif %}
+{% if page.speakerpic or include.speakerpic %}<img src="/images/speaker/{% if include.speakerpic %}{{include.speakerpic}}{% else %}{{page.speakerpic}}{% endif %}" class="speakerpic"/>{% endif %}

@@ -2,6 +2,7 @@
 layout: post
 title: Git started für Fortgeschrittene
 speaker: Benjamin Schmid
+twitter: bentolor
 ---
 
 ### Abstract

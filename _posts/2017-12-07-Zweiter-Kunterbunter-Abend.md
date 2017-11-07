@@ -2,6 +2,8 @@
 date: 2017-12-07 18:30
 title: 2. Kunterbunter Abend mit 3 Vorträgen
 speaker: Niko Köbler, Ralf D. Müller, Alexander Schwartz, Falk Sippach
+location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum __C205 (Obergeschoß)__, Hochschulstr. 10, 64289 Darmstadt"
+important: Der Vortrag findet diesmal im großen Hörsaal (C205) im Obergeschoß statt!
 ---
 
 _Niko Köbler:_

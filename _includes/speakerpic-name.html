@@ -1,2 +1,3 @@
-{% include speakerpic.html %}
-{% if page.speaker %}__{{page.speaker}}__{% if page.twitter %} ([@{{page.twitter}}](https://twitter.com/{{page.twitter}})){% endif %}{% endif %}
+{% include speakerpic.html speakerpic=include.speakerpic %}
+{% assign twitter = include.twitter | default: page.twitter %}
+{% if page.speaker or include.speaker %}__{% if include.speaker %}{{include.speaker}}{% else %}{{page.speaker}}{% endif %}__{% include speaker-twitter.html handle=twitter %}{% endif %}{% if include.bio %}{{include.bio}}{% endif %}

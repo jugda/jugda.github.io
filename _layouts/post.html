@@ -12,7 +12,7 @@ layout: default
     <h2>
       <em>
         <i class="fa fa-user"></i>&nbsp;
-        {{ page.speaker }}
+        {{ page.speaker }}{% if page.speaker2 %}, {{ page.speaker2 }}{% endif %}
       </em>
     </h2>
   {% endif %}
