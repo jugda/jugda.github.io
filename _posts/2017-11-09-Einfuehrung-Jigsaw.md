@@ -1,6 +1,6 @@
 ---
 title: "Ein Puzzlespiel: Einführung in das Modulsystem Jigsaw in Java 9"
-title: "Ein Puzzlespiel: Einführung in das Modulsystem Jigsaw"
+shortTitle: "Ein Puzzlespiel: Einführung in das Modulsystem Jigsaw"
 speaker: Martin Lehmann
 speakerpic: martinlehmann.jpg
 twitter: lemmi111171
@@ -8,10 +8,7 @@ speaker2: Dr. Kristine Schaal
 speakerpic2: kristineschaal.jpg
 twitter2: krschaal
 date: 2017-11-09 18:30
-location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
-direction: http://accso.de/index.php/kontakt?id=67
-seatLimit: 35
-important: Kurzfristige Themaänderung, der Ort bleibt Accso in der Berliner Allee 58!
+youtube: zl4vng7h2PI
 ---
 
 ### Zusammenfassung
@@ -28,8 +25,4 @@ Falls noch Zeit bleibt, zeigen wir einen Kurzüberblick über andere (Non-Jigsaw
 
 {% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 bio="ist als Softwarearchitektin bei der Accso - Accelerated Solutions GmbH tätig. Sie arbeitet seit fast 20 Jahren in der Softwareentwicklung und ist in Projekten der Individualentwicklung für Kunden verschiedener Branchen unterwegs, technisch überwiegend im Java-Umfeld." %}
 
-### Sponsoren
-
-Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
-
-[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
+### Weitere Informationen

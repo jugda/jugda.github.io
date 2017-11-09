@@ -4,6 +4,7 @@ speaker: Michael Simons
 twitter: rotnroll666
 speakerpic: michaelsimons.jpg
 date: 2017-10-19 18:30
+youtube: z8LEgR7WyLs
 ---
 
 ### Abstract
@@ -25,5 +26,3 @@ Auf Twitter unterwegs als [@rotnroll666](https://twitter.com/rotnroll666), unter
 ### Weitere Informationen
 
 [Blog-Beitrag von Jörn Hameister](http://www.hameister.org/Blog/?p=5317)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z8LEgR7WyLs" frameborder="0" allowfullscreen></iframe>
