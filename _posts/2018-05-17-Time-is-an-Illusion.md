@@ -1,5 +1,5 @@
 ---
-title: Time is an Illusion / How to handle PILE_OF_POO
+title: Time is an Illusion / How to handle 💩
 speaker: Andreas Heigl
 speakerpic: andreasheigl.jpg
 twitter: heiglandreas
