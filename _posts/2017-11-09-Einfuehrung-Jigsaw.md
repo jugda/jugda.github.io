@@ -26,3 +26,5 @@ Falls noch Zeit bleibt, zeigen wir einen Kurzüberblick über andere (Non-Jigsaw
 {% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 bio="ist als Softwarearchitektin bei der Accso - Accelerated Solutions GmbH tätig. Sie arbeitet seit fast 20 Jahren in der Softwareentwicklung und ist in Projekten der Individualentwicklung für Kunden verschiedener Branchen unterwegs, technisch überwiegend im Java-Umfeld." %}
 
 ### Weitere Informationen
+
+- [Folien](https://de.slideshare.net/lemmi/ein-puzzlespiel-einfhrung-in-das-modulsystem-jigsaw-in-java-9)
