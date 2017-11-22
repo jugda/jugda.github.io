@@ -61,3 +61,9 @@ Alexander twittert unter @ahus1de.
 
 <img src="/images/fsi.jpg" class="speakerpic"/>
 Falk Sippach hat über 15 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer, Software-Entwickler und Projektleiter tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit anderen die örtliche Java User Group. Falk twittert unter @sippsack.
+
+### Sponsoren
+
+Die Firma [Liveperson](https://www.liveperson.com/) wird für unser leibliches Wohl sorgen. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![Liveperson Logo](/images/sponsors/liveperson.png)](https://www.liveperson.com/) 
