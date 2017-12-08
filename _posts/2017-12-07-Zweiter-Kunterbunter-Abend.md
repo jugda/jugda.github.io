@@ -35,6 +35,8 @@ Wie verständliche JUnit Tests aussehen können zeigt dieser Kurzvortrag:
 Es werden bestehende Unit-Tests refactored mit Hilfe von aussagekräftigen Namen, BDD-Strukturen und sprechenden Assertions.
 Zum Einsatz kommen JUnit 4, AssertJ und Awaitility.
 
+- [Folien zum Vortrag](https://speakerdeck.com/ahus1/refactoring-unit-tests)
+
 ### Speakers
 
 #### Niko Köbler
