@@ -2,8 +2,6 @@
 date: 2017-12-07 18:30
 title: 2. Kunterbunter Abend mit 3 Vorträgen
 speaker: Niko Köbler, Ralf D. Müller, Alexander Schwartz, Falk Sippach
-location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum __C205 (Obergeschoß)__, Hochschulstr. 10, 64289 Darmstadt"
-important: Der Vortrag findet diesmal im großen Hörsaal (C205) im Obergeschoß statt!
 ---
 
 _Niko Köbler:_
@@ -15,6 +13,8 @@ Wofür man es einsetzen kann und worauf man achten muss, zeige ich Euch in meine
 Sehr gerne beantworte ich aber auch einfach Eure Fragen rund um das Thema.
 
 Als :christmas_tree:-Geschenk gibt's für die beste Frage ein signiertes Exemplar meines neuen Buches [Serverless Computing in der AWS Cloud](http://serverlessbuch.de) - also ruhig schon mal anfangen zu überlegen! :book: :smirk:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kIU9Y2lhFoM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 
 _Ralf D. Müller, Falk Sippach:_
@@ -34,6 +34,8 @@ Wer bestehenden Code ändern will, der muss auch die dazugehörigen Tests verste
 Wie verständliche JUnit Tests aussehen können zeigt dieser Kurzvortrag: 
 Es werden bestehende Unit-Tests refactored mit Hilfe von aussagekräftigen Namen, BDD-Strukturen und sprechenden Assertions.
 Zum Einsatz kommen JUnit 4, AssertJ und Awaitility.
+
+- [Folien zum Vortrag](https://speakerdeck.com/ahus1/refactoring-unit-tests)
 
 ### Speakers
 
