@@ -5,6 +5,7 @@ speaker: Thomas Bayer
 twitter: thomasub
 speakerpic: thomasbayer.png
 date: 2018-01-18 18:30
+youtube: P2NMFI8JZXo
 ---
 
 ### Zusammenfassung
