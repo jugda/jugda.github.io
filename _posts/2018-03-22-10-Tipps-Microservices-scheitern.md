@@ -10,7 +10,17 @@ direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunh
 
 ### Zusammenfassung
 
-folgt in Kürze
+Microservices sind im Wesentlichen ein paar hippe JavaScript Frameworks und eine schicke Single-Page-App mit AngularJS oder React, oder? Wenn du also absolut sicher sein willst, dass dein nächstes Microservice Projekt scheitert, dann komm in diesen Vortrag und lerne wie.
+
+Anhand echter Erfahrung aus mehreren Brownfield und Greenfield Projekten zeige ich:
+
+- wie du die notwendigen organisatorischen Einflüsse ignorierst
+- wie du Operations wahnsinnig machst, sowohl durch unreife Technologien als auch durch last-minute Monitoring
+- wie du auch ohne Continuous Delivery fehlerhafte Software rasch releasen kannst
+- wie du auch einfachste CRUD Anwendungen mit hyper-komplexen Architekturen zum Scheitern bringst
+- ... und vieles mehr
+
+Wenn du diese Tipps beachtest, wird dein Chef nie wieder auf die Idee kommen, seine IT zu modernisieren und du kannst weiterhin deinen geliebten Monolithen pflegen.
 
 ### Sprecher
 
