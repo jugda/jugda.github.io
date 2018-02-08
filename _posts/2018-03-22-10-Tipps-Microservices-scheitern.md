@@ -4,6 +4,8 @@ speaker: David Schmitz
 speakerpic: davidschmitz.jpg
 twitter: koenighotze
 date: 2018-03-22 18:30
+location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
+direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
 ---
 
 ### Zusammenfassung
