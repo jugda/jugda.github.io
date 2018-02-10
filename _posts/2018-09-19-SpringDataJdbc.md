@@ -2,7 +2,7 @@
 title: "Spring Data JDBC: The new kid on the block"
 speaker: Jens Schauder
 speakerpic: jens_schauder.png
-twitter: jensjensschauder
+twitter: jensschauder
 date: 2018-09-19 18:30
 ---
 
@@ -14,4 +14,4 @@ Diese Fragen werden wir beleuchten und wenn angemessen mit Live Coding demonstri
 
 ### Sprecher
 
-{% include speakerpic-name.html %} Jens Schauder hat vor unglaublich langer Zeit auf einem in Assembler programmierbaren Tischrechner angefangen zu programmieren. Nach über 30 Jahren, davon fast 20 als Consultant für meist große Konzerne, hat er es 2017 geschafft sich beim Spring Data Team einzuschleichen. Dort arbeitet er meist an den Modulen Commons, JPA und JDBC, erzählt davon auf Konferenzen oder hilft anderen Entwicklern auf Stackoverflow. Wenn er nicht programmiert, spielt er mit seinen Kinder, läuft, macht Freeletics, spielt oder organisiert die JUG Ostfalen.
+{% include speakerpic-name.html %} hat vor unglaublich langer Zeit auf einem in Assembler programmierbaren Tischrechner angefangen zu programmieren. Nach über 30 Jahren, davon fast 20 als Consultant für meist große Konzerne, hat er es 2017 geschafft sich beim Spring Data Team einzuschleichen. Dort arbeitet er meist an den Modulen Commons, JPA und JDBC, erzählt davon auf Konferenzen oder hilft anderen Entwicklern auf Stackoverflow. Wenn er nicht programmiert, spielt er mit seinen Kinder, läuft, macht Freeletics, spielt oder organisiert die JUG Ostfalen.
