@@ -5,7 +5,6 @@ speaker: Cosima Laube
 speakerpic: cosimalaube.jpg
 twitter: gazebo_c
 date: 2018-08-16 18:30
-published: false
 ---
 
 ### Zusammenfassung
