@@ -60,6 +60,7 @@ defaults:
       direction: "/anfahrt/"
       registrationUrl: https://registration.jug-da.de/registration
       seatLimit: 60
+      hidePub: false
       raffle: true
 #
 # !! You don't need to change any of the configuration flags below !!
