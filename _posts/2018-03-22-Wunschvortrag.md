@@ -6,13 +6,14 @@ twitter: sippsack
 date: 2018-03-22 18:30
 location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
 direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
+important: Der Vortrag findet im Fraunhofer IGD in der Fraunhoferstraße 5 statt.
 ---
 
 ### Zusammenfassung
 
 **Leider musste unser Referent David Schmitz seinen Vortrag (10 Tipps, um mit Microservices zu scheitern) aus persönlichen Gründen absagen.**
 
-Als Alternative wird Falk Sippach einen Vortrag halten, er bietet 3 Themen an. Die Abstimmung erfolgt über Twitter oder per [E-Mail](mailto: orga@jug-da.de) bis zum 22.03.2018 um 10 Uhr. Das Endergebnis wird dann hier und auch per Mailingliste und Twitter bekannt gegeben.
+Als Alternative wird Falk Sippach einen Vortrag halten, er bietet 3 Themen an. Die Abstimmung erfolgt über [Twitter](https://twitter.com/JUG_DA/status/976504607651319815) oder per [E-Mail](mailto: orga@jug-da.de) bis zum 22.03.2018 um 10 Uhr. Das Endergebnis wird dann hier und auch per Mailingliste und Twitter bekannt gegeben.
 
 Folgende Themen stehen zur Auswahl:
 
