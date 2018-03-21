@@ -39,3 +39,9 @@ Man kann zwar an vielen Stellen nachlesen, wie man Architekturdokumentation stru
 ### Sprecher
 
 {% include speakerpic-name.html %} hat über 20 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer, Software-Entwickler und Projektleiter tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit anderen die örtliche Java User Group. Falk twittert unter @sippsack.
+
+### Sponsoren
+
+Das Fraunhofer-Institut für Graphische Datenverarbeitung (IGD) stellt uns die Räumlichkeiten zur Verfügung und sorgt auch für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![IGD Logo](/images/sponsors/igd.png)](http://www.igd.fraunhofer.de//)
