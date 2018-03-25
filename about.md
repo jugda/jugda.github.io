@@ -1,8 +1,8 @@
-﻿---
+﻿----
 layout: page
 title: Über uns
 permalink: /about/
----
+----
 
 Die JUG DA ist eine offene Non-Profit-Community mit dem Ziel sich über aktuelle Themen zur Anwendung von Java Technologie auszutauschen – und darüber hinaus einen Blick auf andere VM-Sprachen und -Technologien zu werfen.
 
