@@ -1,8 +1,8 @@
----
+﻿----
 layout: page
 title: Über uns
 permalink: /about/
----
+----
 
 Die JUG DA ist eine offene Non-Profit-Community mit dem Ziel sich über aktuelle Themen zur Anwendung von Java Technologie auszutauschen – und darüber hinaus einen Blick auf andere VM-Sprachen und -Technologien zu werfen.
 
@@ -29,6 +29,15 @@ Marcel Bruch ist Projektleiter des Eclipse Code Recommenders Projekts, Eclipse-T
 </p>
 Kontakt: [marcel.bruch@codetrails.com](mailto:marcel.bruch@codetrails.com), [http://www.codetrails.com](http://www.codetrails.com)  
 Twitter: [@MarcelBruch](https://twitter.com/MarcelBruch)
+
+#### Melanie Feldmann
+
+<p class="orgaperson">
+<img src="/images/mfe.jpg" class="orgapic"/>
+Melanie Feldmann ist Technikjournalistin. Sie arbeitet als Lektorin für IT-Bücher und Konferenzmanagerin beim dpunkt.verlag. Wenn sie nicht gerade versucht, Techies vernünftiges Deutsch beizubringen oder Newcomer auf die Konferenzbühne zu holen, arbeitet sie daran, ihrem Umfeld agile Methoden näherzubringen.
+</p>
+Kontakt: [mel.feldmann@gmail.com](mailto:mel.feldmann@gmail.com), [https://www.kompassnadel.net](https://www.kompassnadel.net)  
+Twitter: [@aelindara](https://twitter.com/aelindara)
 
 #### Jörn Hameister
 
