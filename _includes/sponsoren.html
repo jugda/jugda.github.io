@@ -1,5 +1,8 @@
+<div class="sponsors">
+<p style="margin-top: -15px;">Wir danken unseren Sponsoren:</p>
 {% for sponsor in site.data.sponsors %}
 {% if sponsor[1].startPage %}
 <a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
 {% endif %}
 {% endfor %}
+</div>
