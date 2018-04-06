@@ -1,4 +1,5 @@
 ---
+eventType: hackathon
 layout: post
 title: The Ultimate Tic Tac Toe Challenge
 ---

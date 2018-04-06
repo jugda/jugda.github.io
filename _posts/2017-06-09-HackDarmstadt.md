@@ -1,5 +1,6 @@
 ---
 title: Hack Darmstadt
+eventType: hackathon
 date: 2017-06-09 09:00
 duration: 12
 registrationUrl: https://www.eventbrite.de/e/hack-darmstadt-tickets-34136292570

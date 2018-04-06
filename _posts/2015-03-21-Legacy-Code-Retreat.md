@@ -1,4 +1,5 @@
 ---
+eventType: hackathon
 layout: post
 title: 1. Darmstädter Legacy Code Retreat
 ---

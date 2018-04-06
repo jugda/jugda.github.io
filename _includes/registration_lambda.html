@@ -2,7 +2,7 @@
 
 {% capture queryString %}?eventId={{ page.date | date: "%Y-%m-%d" %}}&limit={{ page.seatLimit }}{% if page.registrationDeadline %}&deadline={{ page.registrationDeadline }}{% endif %}{% if page.hidePub == true %}&showPub=false{% endif %}{% endcapture %}
 
-<h3>Anmeldung</h3>
+<h3 id="anmeldung">Anmeldung</h3>
 {% if page.registrationUrl == "https://registration.jug-da.de/registration" %}
 <p>
 Zur besseren Planung bitten wir um eine unverbindliche Anmeldung mit Vor- und Zunamen und E-Mail Adresse.

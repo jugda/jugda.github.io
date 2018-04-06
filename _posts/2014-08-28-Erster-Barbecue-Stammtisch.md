@@ -1,4 +1,5 @@
 ---
+eventType: barbecue
 title: 1. Darmst&auml;dter Barbecue Stammtisch
 date: 2014-08-28 18:30:00+02:00
 location: Grillplatz an der Oberförsterwiese, Kann bequem auch mit der Straßenbahn (Böllenfalltor) erreicht werden!

@@ -51,9 +51,10 @@ defaults:
   -
     scope:
       path: "" # emtpy means all files
-      type: posts
+      type: posts 
     values:
       layout: post
+      eventType: talk # talk, barbecue, report, hackathon
       startTime: "18:30"
       duration: 2
       location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"

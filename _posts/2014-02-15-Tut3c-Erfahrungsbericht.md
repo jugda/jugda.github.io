@@ -1,5 +1,6 @@
 ---
 layout: post
+eventType: report
 title: The Ultimate Tic Tac Toe Challenge - ein Erfahrungsbericht
 ---
 
