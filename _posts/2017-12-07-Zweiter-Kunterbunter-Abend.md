@@ -41,7 +41,7 @@ Zum Einsatz kommen JUnit 4, AssertJ und Awaitility.
 
 #### Niko Köbler
 
-<img src="/images/nko.jpg" class="speakerpic"/>
+<img src="https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433" class="speakerpic"/>
 Niko macht irgendwas mit Computern, oft im Web, meistens (funktional) auf der JVM.
 Er ist Co-Lead der JUG Darmstadt, Autor und Sprecher auf internationalen Konferenzen.
 Niko tweetet unter @dasniko.
