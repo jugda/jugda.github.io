@@ -51,10 +51,10 @@ Twitter: [@hameiste](https://twitter.com/hameiste)
 #### Niko Köbler
 
 <p class="orgaperson">
-<img src="https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433" class="orgapic"/>
+<img src="https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433?s=100" class="orgapic"/>
 Niko macht irgendwas mit Computern, oft in der Cloud, im Web und On-Premise, meist auf der JVM.
 Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
-Niko hat das Buch [Serverless Computing in der AWS Cloud](http://serverlessbuch.de) (entwickler.press Verlag) geschrieben.
+Niko hat das Buch <a href="http://serverlessbuch.de">Serverless Computing in der AWS Cloud</a> (entwickler.press Verlag) geschrieben.
 </p>
 Kontakt: [niko@n-k.de](mailto:niko@n-k.de), [https://www.n-k.de](https://www.n-k.de)  
 Twitter: [@dasniko](https://twitter.com/dasniko)
