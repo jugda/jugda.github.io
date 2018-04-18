@@ -4,6 +4,10 @@ speaker: Andreas Heigl
 speakerpic: andreasheigl.jpg
 twitter: heiglandreas
 date: 2018-05-17 18:30
+location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
+direction: http://www.nterra.com/kontakt/
+seatLimit: 50
+important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
 ---
 
 ### Abstracts
@@ -24,4 +28,11 @@ You've got strange characters like "�" or "Ã¶" display in your application? 
 {% include speakerpic-name.html %} helps solving problems at a german corporate publishing company. He sometimes even uses code for that. Besides his family, his work as jack-of-all-trades and contributions to different open-source-projects he still finds the time to co-organize PHPUGFFM, the PHP-Usergroup in Frankfurt/Main and maintain PHP.ug and Zend\Ldap.
 
 _Ein PHP-Speaker bei einer Java User Group?_  
-Ja, warum nicht? Andreas' beide Talk-Themen haben erst mal wenig mit der verwendeten Programmiersprache zu tun und vermitteln wertvolle Informationen, über die wir alle in (fast) jedem unserer eigenen Projekt immer wieder stolpern!
+Ja, warum nicht? Andreas' beide Talk-Themen haben erst mal wenig mit der verwendeten Programmiersprache zu tun und vermitteln wertvolle Informationen, uuml;ber die wir alle in (fast) jedem unserer eigenen Projekt immer wieder stolpern!
+
+### Sponsoren
+
+Die Firma nterra stellt uns die R&auml;umlichkeiten zur Verfuuml;gung und sorgt fuuml;r unser leibliches Wohl. Vielen Dank dafuuml;r. Der uuml;bliche Abstecher in den Hotzenplotz nach dem Vortrag entf&auml;llt somit - wir bleiben einfach vor Ort!
+
+[![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
+

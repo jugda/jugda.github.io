@@ -19,3 +19,10 @@ Diese Fragen werden wir beleuchten und wenn angemessen mit Live Coding demonstri
 ### Sprecher
 
 {% include speakerpic-name.html %} hat vor unglaublich langer Zeit auf einem in Assembler programmierbaren Tischrechner angefangen zu programmieren. Nach über 30 Jahren, davon fast 20 als Consultant für meist große Konzerne, hat er es 2017 geschafft sich beim Spring Data Team einzuschleichen. Dort arbeitet er meist an den Modulen Commons, JPA und JDBC, erzählt davon auf Konferenzen oder hilft anderen Entwicklern auf Stackoverflow. Wenn er nicht programmiert, spielt er mit seinen Kinder, läuft, macht Freeletics, spielt oder organisiert die JUG Ostfalen.
+
+
+### Sponsoren
+
+IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
