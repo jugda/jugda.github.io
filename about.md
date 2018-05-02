@@ -76,3 +76,10 @@ Falk Sippach ist beruflich als Trainer, Software-Entwickler und Projektleiter im
 </p>
 Kontakt: [falk@jug-da.de](mailto:falk@jug-da.de)  
 Twitter: [@sippsack](https://twitter.com/sippsack)
+
+#### Jan Westerkamp
+<p class="orgaperson">
+<img src="/images/jwe.jpg" class="orgapic"/>
+Jan ist Geschäftsführer der Sensor Aktor GmbH. Er tauscht sich gern mit Gleichgesinnten bei User Group Treffen aus.
+</p>
+Kontakt: [jan@jug-da.de](mailto:jan@jug-da.de)  
