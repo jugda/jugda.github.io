@@ -1,11 +1,10 @@
 ---
 title: inspectIT - Open Source Application Performance Monitoring
 speaker: Dr.-Ing. Christoph Heger
-speaker2: Mario Mann
+speaker2: Jonas Kunz
 speakerpic: christoph_heger.jpg
-speakerpic2: mario_mann.jpg
+speakerpic2: jonas_kunz.jpg
 twitter: hegerchr
-twitter2: mawtourde
 date: 2018-04-19 18:30
 ---
 
@@ -34,4 +33,5 @@ In vielen Software-Projekten wissen häufig nicht nur Anwender sondern
 
 <div style="clear: both"></div>
 
-{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 bio="ist Consultant bei der NovaTec Consulting GmbH. Seit seinem erfolgreichen Studium der Informatik ist er als Performance Engineer bei einer Großbank im Einsatz. Parallel dazu ist er an Themen rund um APM - Application Performance Management - in der gleichnamigen Competence Group engagiert.​" %}
+{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 bio="studiert aktuell am Karlsruher Institut für Technologie Informatik im Master. Parallel dazu arbeitet er bei der NovaTec Consulting GmbH als Werksstudent im Bereich Application Performance Management, wobei er unter anderem an der Entwicklung des Open Source Monitoring Tools inspectIT tätig ist.​" %}
+
