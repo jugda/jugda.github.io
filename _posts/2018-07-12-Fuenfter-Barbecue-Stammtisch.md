@@ -5,7 +5,7 @@ date: 2018-07-12 18:30
 duration: 4
 location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
 seatLimit: 40
-direction: http://www.grillplatzver​zeichnis.de/google-maps/Grillplatz-Oberfoersterwiese.html		 
+direction: https://goo.gl/maps/NjohkMrUaT42		 
 raffle: false
 ---
 
