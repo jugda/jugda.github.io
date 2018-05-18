@@ -4,10 +4,7 @@ speaker: Andreas Heigl
 speakerpic: andreasheigl.jpg
 twitter: heiglandreas
 date: 2018-05-17 18:30
-location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
-direction: http://www.nterra.com/kontakt/
-seatLimit: 50
-important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
+youtube: Scg85t3qLmw
 ---
 
 ### Abstracts
