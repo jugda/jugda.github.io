@@ -30,7 +30,7 @@ layout: default
     </div>
     <div>
       <i class="fa fa-location-arrow"></i>&nbsp;
-      {{ page.location }} (<a href="{{ page.direction }}">Anfahrtsbeschreibung</a>)
+      {{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
     </div>
   {% endif %}
 
@@ -41,7 +41,7 @@ layout: default
   {% if page.youtube %}
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}
-  
+
   {% include registration_lambda.html %}
 
   <div class="hint">
