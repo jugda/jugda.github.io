@@ -7,6 +7,7 @@ location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßen
 seatLimit: 40
 direction: https://goo.gl/maps/NjohkMrUaT42		 
 raffle: false
+hidePub: true
 ---
 
 Gemeinsam mit dem [IT Stammtisch Darmstadt](http://www.it-stammtisch-darmstadt.de/) laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern.

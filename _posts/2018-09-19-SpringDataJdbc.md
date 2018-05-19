@@ -8,6 +8,7 @@ location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 8
 seatLimit: 50
 direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
 important: Der Vortrag findet bei IT FOR WORK, in der Rheinstrasse 89 (IHK) statt.
+hidePub: true
 ---
 
 ### Zusammenfassung
@@ -25,4 +26,4 @@ Diese Fragen werden wir beleuchten und wenn angemessen mit Live Coding demonstri
 
 IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
+[![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de)

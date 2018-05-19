@@ -9,13 +9,14 @@ location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
 direction: http://www.interes.com/de/#kontakt
 seatLimit: 40
 important: Der Vortrag findet diesmal bei der InterRES GmbH statt.
+hidePub: true
 ---
 
 ### Zusammenfassung
 
 Kennst Du Gedanken wie "Argh, ein Meeting! Wie soll ich da in Ruhe coden?!" oder "Wir sollten das mal refactoren... "? Hast Du schon einmal in einer Firma gearbeitet, wo "irgendwelche Manager" Prozesse ge-off-kickt haben - und die sind dann wild durchs Unternehmen gewuchert oder die Saat ging gar nicht auf?
 
-Du fühlst Dich irgendwie angesprochen? 
+Du fühlst Dich irgendwie angesprochen?
 
 Dann komm' mit auf die Expedition in den (dunklen) Dschungel der professionellen IT - von Business Analyse über Coding, von Scrum zu allem rund um Qualität und wieder zurück zum Coding. Gemeinsam entdecken wir verschiedenartige Pflanzen und begegnen allerlei ITierischem. Unser Kompass ist dabei ein wissenschaftliches Leadership-Modell. Und wir werden auch ein wenig "im Schmutz wühlen" um passende Plätze fürs gezielte Gärtnern zu finden.
 

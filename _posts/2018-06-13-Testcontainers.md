@@ -8,6 +8,7 @@ location: Software AG, Uhlandstraße 12, Customer Briefing Center, 64297 Darmsta
 direction: https://www.softwareag.com/de/company/global/howtofind/default.html
 seatLimit: 50
 important: Der Vortrag findet diesmal bei der Software AG in Eberstadt statt.
+hidePub: true
 ---
 
 ### Zusammenfassung
@@ -18,8 +19,8 @@ Going one step further, the talk will also introduce Groovy and Spock as a subst
 
 ### Sprecher
 
-{% include speakerpic-name.html %} Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Founded his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. 
-Nowadays Kevin is working at the cyber security company GDATA and focuses on topics such as software craftsmanship, infrastructure as code and continuous integration pipelines, trying to make the world a better place one container at a time. 
+{% include speakerpic-name.html %} Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Founded his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem. Fell in love with TDD because of Spock.
+Nowadays Kevin is working at the cyber security company GDATA and focuses on topics such as software craftsmanship, infrastructure as code and continuous integration pipelines, trying to make the world a better place one container at a time.
 
 ### Sponsoren
 
