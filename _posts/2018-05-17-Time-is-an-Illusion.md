@@ -32,3 +32,8 @@ Ja, warum nicht? Andreas' beide Talk-Themen haben erst mal wenig mit der verwend
 Die Firma nterra stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
 [![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
+
+### Weitere Informationen
+
+- [Folien zu "Time is an Illusion"](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20180517-javaugda/index_online.html)
+- [Folien zu "How to handle 💩"](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180517-javaugda/index_online.html)
