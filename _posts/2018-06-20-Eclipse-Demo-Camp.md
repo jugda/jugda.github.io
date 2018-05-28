@@ -1,6 +1,6 @@
 ---
 title: Eclipse DemoCamp
-startTime: "18:00"
+date: 2018-06-20 18:00
 duration: 240
 hidePub: true
 location: Deutsche Telekom, T-Online-Allee 1, Darmstadt
