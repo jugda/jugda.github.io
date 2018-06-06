@@ -8,6 +8,7 @@ layout: null
 "summary": "{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}",
 "title": "{{ post.title }}",
 {% if post.speaker %}"speaker": "{{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}",{% endif %}
+{% if post.twitter %}"twitter": "{{ post.twitter}}",{% endif %}
 "location": "{{ post.location }}",
 "url": "{{ site.url }}{{ post.url }}",
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}
