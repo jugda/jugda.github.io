@@ -51,7 +51,7 @@ defaults:
   -
     scope:
       path: "" # emtpy means all files
-      type: posts 
+      type: posts
     values:
       layout: post
       eventType: talk # talk, barbecue, report, hackathon
