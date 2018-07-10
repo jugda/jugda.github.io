@@ -1,6 +1,6 @@
 ---
 title: Anatomy of Microservice Landscapes
-speaker: Michael Pl&ouml;d
+speaker: Michael Plöd
 important: Veranstaltungsort ist diesmal wieder die TU Darmstadt!
 date: 2015-07-16 18:30:00+02:00
 ---

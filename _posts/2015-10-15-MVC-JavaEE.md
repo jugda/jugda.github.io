@@ -1,5 +1,5 @@
 ---
-title: MVC f&uuml;r JavaEE
+title: MVC für JavaEE
 speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
 date: 2015-10-15 18:30:00+02:00

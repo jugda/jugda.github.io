@@ -1,5 +1,5 @@
 ---
-title: 3. Darmst&auml;dter Barbecue Stammtisch
+title: 3. Darmstädter Barbecue Stammtisch
 eventType: barbecue
 date: 2016-09-21 18:30
 location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!

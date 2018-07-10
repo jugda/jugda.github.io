@@ -1,5 +1,5 @@
 ---
-title: 5. Darmst&auml;dter Barbecue Stammtisch
+title: 5. Darmstädter Barbecue Stammtisch
 eventType: barbecue
 date: 2018-07-12 18:30
 duration: 4
