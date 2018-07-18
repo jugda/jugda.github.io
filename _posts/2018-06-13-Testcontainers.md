@@ -7,8 +7,7 @@ date: 2018-06-13 18:30
 location: Software AG, Uhlandstraße 12, Customer Briefing Center, 64297 Darmstadt
 direction: https://www.softwareag.com/de/company/global/howtofind/default.html
 seatLimit: 50
-important: Der Vortrag findet diesmal bei der Software AG in Eberstadt statt.
-hidePub: true
+youtube: G8MjIzpmS3A
 ---
 
 ### Zusammenfassung
