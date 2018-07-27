@@ -1,5 +1,6 @@
 ---
 title: It's the Developers, stupid! - Developer Experience mit Kubernetes, Draft und Skafold steigern
+shortTitle: Developer Experience mit Kubernetes
 date: 2018-10-18 18:30
 speaker: Nicolas Byl
 speakerpic: nicolasbyl.jpg
