@@ -1,9 +1,15 @@
 "Herbstcampus":
   img: herbstcampus.jpg
   href: http://herbstcampus.de
+"Software Architecture Summit":
+  img: sus_swa_summit_2018.jpg
+  href: http://www.software-architecture-summit.de/
 "UNKONF 2018":
   img: unkonf.jpg
   href: https://www.unkonf.de/ 
+"Java Enterprise Summit 2018":
+  img: sus_enterprise_summit_2018.jpg
+  href: http://www.javaenterprisesummit.de/ 
 "Voxxed Day Microservices Paris":
   img: voxxed_microservices.jpg
   href: https://voxxeddays.com/microservices/
