@@ -28,6 +28,10 @@ Das bedeutet: es wird kurzweilig und etwas interaktiv. Lass' Dich davon nicht ab
 {% include speakerpic-name.html %} studierte Informatik und Psychologie und hat mittlerweile ihren Platz "zwischen Coding und Leadership" gefunden. Zuvor arbeitete Cosima über 12 Jahre als (agile) Software-Entwicklerin und IT-Projektleiterin in verschiedenen Organisationen - vom Mittelständler in der Finanzbranche bis hin zu Konzernen im Medizin- oder Automotive-Umfeld. Heute findet man Cosima eher beim Parsen und Debuggen zwischen Technikern, Fachspezialisten und Management sowie überall wo es sonst "menschelt". Dabei gilt ihre ganze Leidenschaft den Menschen und einer nachhaltigen, lösungsfokussierten Zusammenarbeit - ohne den Kontakt zur Technik zu verlieren.
 Obwohl Cosima eher zu den leisen, introvertierten Menschen zählt, trifft man sie regelmäßig auf Konferenzen, Unkonferenzen und Meetups, wo sie ihre Erfahrungen teilt, selbst mit organisiert oder sich z.B. mit Sketchnotes aktiv einbringt. Als Ausgleich zu alledem schnürt Cosima gerne ihre Laufschuhe und trainiert in der Natur auf die nächste Langstrecke.
 
+### Weitere Informationen
+
+- [Folien](https://www.slideshare.net/secret/g5zc7YqPzMMkzo)
+
 ### Sponsoren
 
 Die InteRES stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
