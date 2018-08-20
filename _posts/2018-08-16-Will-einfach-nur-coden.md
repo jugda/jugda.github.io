@@ -7,9 +7,7 @@ twitter: gazebo_c
 date: 2018-08-16 18:30
 location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
 direction: http://www.interes.com/de/#kontakt
-seatLimit: 40
-important: Der Vortrag findet diesmal bei der InterRES GmbH statt.
-hidePub: true
+youtube: SIl5rTOZUOg
 ---
 
 ### Zusammenfassung
