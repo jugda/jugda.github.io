@@ -1,9 +1,3 @@
-"Herbstcampus":
-  img: herbstcampus.jpg
-  href: http://herbstcampus.de
-"Software Architecture Summit":
-  img: sus_swa_summit_2018.jpg
-  href: http://www.software-architecture-summit.de/
 "UNKONF 2018":
   img: unkonf.jpg
   href: https://www.unkonf.de/ 
@@ -16,6 +10,9 @@
 "WJAX 2018":
   img: wjax.png
   href: https://www.jax.de/ 
+"IT-Tage 2018":
+  img: ittage.png
+  href: https://www.ittage.informatik-aktuell.de/
 "entwickler tutorials":
   img: sus_tutorials.png
   href: https://tutorials.entwickler.de/
