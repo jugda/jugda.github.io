@@ -5,10 +5,7 @@ speakerpic: jens_schauder.png
 twitter: jensschauder
 date: 2018-09-19 18:30
 location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 89, 64295 Darmstadt
-seatLimit: 50
-direction: http://www.darmstadt.ihk.de/servicemarken/ueber_uns/Service_Center/Anfahrt/512020/Wegbeschreibung.html
-important: Der Vortrag findet bei IT FOR WORK, in der Rheinstrasse 89 (IHK) statt.
-hidePub: true
+youtube: DD7U4i51xLI
 ---
 
 ### Zusammenfassung
