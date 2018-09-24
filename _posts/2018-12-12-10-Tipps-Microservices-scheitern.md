@@ -3,10 +3,7 @@ title: 10 Tipps, um mit Microservices zu scheitern
 speaker: David Schmitz
 speakerpic: davidschmitz.jpg
 twitter: koenighotze
-date: 2018-xx-xx 18:30
-location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
-direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
-published: false
+date: 2018-12-12 18:30
 ---
 
 ### Zusammenfassung
