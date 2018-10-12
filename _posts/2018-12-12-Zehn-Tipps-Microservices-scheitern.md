@@ -25,3 +25,9 @@ Wenn du diese Tipps beachtest, wird dein Chef nie wieder auf die Idee kommen, se
 ### Sprecher
 
 {% include speakerpic-name.html %} ist Principal Architect bei Senacor Technologies. Seit mehr als 15 Jahren arbeite ich in unterschiedlichen Projekten mit verschiedensten Technologien und Prozessen. Im Herzen bin ich zwar ein Techie und Programmierer, habe aber durch meine Projekterfahrung gelernt, dass der Erfolg immer von den Menschen im Team abhängt. Aktuell beschäftige ich mich hauptsächlich mit agilen und modernen Organisationen und Architekturen, die die Grundlage für unsere Kunden im digitalen Zeitalter darstellen.
+
+### Sponsoren
+
+Das Fraunhofer-Institut für Graphische Datenverarbeitung (IGD) stellt uns die Räumlichkeiten zur Verfügung und sorgt auch für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![IGD Logo](/images/sponsors/igd.png)](http://www.igd.fraunhofer.de//)
