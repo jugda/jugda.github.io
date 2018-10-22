@@ -5,7 +5,7 @@ date: 2018-10-18 18:30
 speaker: Nicolas Byl
 speakerpic: nicolasbyl.jpg
 twitter: NicolasByl
-youtube: zhNgwvFM-Q0
+youtube: UDWSVzu0cao
 ---
 
 ### Abstract
@@ -25,3 +25,8 @@ sammelte bereits während des Studiums der Medizinischen Informatik erste Erfahr
 
 - [Folien @ Speakerdeck](https://speakerdeck.com/nbyl/its-the-developers-stupid)
 - [Democode @ GitHub](https://github.com/nbyl/kubernetes-dx-demos)
+
+Video Teil 1:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhNgwvFM-Q0" frameborder="0" allowfullscreen></iframe>
+
+Video Teil 2:
