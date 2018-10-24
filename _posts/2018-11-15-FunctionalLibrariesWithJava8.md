@@ -8,7 +8,7 @@ location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
 direction: http://www.nterra.com/kontakt/
 seatLimit: 50
 important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
-
+hidePub: true
 ---
 
 ### Zusammenfassung
@@ -19,7 +19,7 @@ This will cover among others: Javaslang, JUnit 5, jOOL and other nice libraries 
 
 ### Sprecher
 
-{% include speakerpic-name.html %} 
+{% include speakerpic-name.html %}
 studied computer science and got a diploma in 2008. I’m co-leading the software development department and working as a software engineer on various projects at MEKOS. My main focus is on keeping the code base clean and educating the team on how to write better code. I’m a well known speaker at Java conferences and user groups around the world. I started the Java user group Bremen in 2012 and am part of the organisation team ever since. Besides software development I likes to watch Werder football games in the local Weserstadium.
 
 Most of the time I’m writing Java software based on Eclipse RCP. I configure our Continuous Integration servers and try to automate the deployments as much as possible. Sometimes I also do Javascript, C#, VBA or other languages I need to complete my current task.

@@ -6,6 +6,7 @@ twitter: koenighotze
 date: 2018-12-12 18:30
 location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
 direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
+hidePub: true
 ---
 
 ### Zusammenfassung
