@@ -39,6 +39,14 @@
   img: idea.png 
   href: http://www.jetbrains.com/idea/
   startPage: true
+"QAware":
+  img: qaware.png
+  href: http://www.qaware.de/
+  startPage: true
+"Fraunhofer IGD":
+  img: igd.png
+  href: https://www.igd.fraunhofer.de/
+  startPage: true
 "SIGS DATACOM": 
   img: sigs.png 
   href: http://www.sigs-datacom.de/
