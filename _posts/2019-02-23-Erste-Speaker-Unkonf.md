@@ -11,25 +11,35 @@ raffle: false
 published: false
 ---
 
-### Zusammenfassung
+### Was ist die SpeakerUnkonf?
 
-Die SpeakerUnkonf dient zum Erfahrungsaustausch zwischen Sprechern und auch denjenigen, die es mal werden wollen. Die Inhalte werden wir wie in einem Barcamp am Anfang des Tages abstimmen. Es kann unter anderem um die folgenden Themen gehen:
+Mit der SpeakerUnkonf möchten wir den Erfahrungsaustausch zwischen Sprecherinnen und Sprechern fördern. Denn die Skills, die man braucht, um vor einer Gruppe von Menschen zu sprechen, sind mindestens ebenso wichtig wie das Fachwissen, das hinter jedem Vortrag, Lightning-Talk oder einer Panel-Diskussion steht. Dabei ist uns besonders wichtig, dass wir Sprecherinnen und Sprecher einladen unabhängig von ihrem Erfahrungsstand, vom kompletten Neuling bis zum abgehärteten Vollprofi und alles dazwischen.
+
+### Aber was ist jetzt eigentlich eine UnKonf?
+
+Eine Unkonf, auch UnKonferenz oder Barcamp genannt, ist ein Veranstaltung, bei der die Teilnehmenden selbst am Anfang des Tages über das Programm abstimmen. Jeder teilnehmende Person kann ein potenzieller Sprecher oder eine Sprecherin sein. Das Format ist aber nicht auf Vorträge festgelegt. Es kann ebenso Workshops, Diskussionsrunden oder jegliche andere Form des Wissensaustauschs stattfinden.  
+
+### Welche Themen könnten denn auf der SpeakerUnkonf vorkommen?
 
 - Schreiben von Abstracts
-- Erfahrungsaustausch zu den verschiedenen Konferenzen
+- Erfahrungsaustausch zu verschiedenen Konferenzen
 - roter Faden für einen Vortrag
 - inhaltliche Erstellung der Folien
 - Tools für die Folienerstellung
-- Erstellung von Grafiken, Designtipps
+- Erstellung von Grafiken und Designtipps
 - Verwendung von Bildern inklusive Urheberrechtsfragen
 - "Absolut souverän wirken bei totaler Ahnungslosigkeit"
 - Best Practices für Live-Demos
 - Feedback von Zuhörern einholen
 - Sprechübungen (Betonung, Tempo)
-- Probe-Vorträge vor laufender Kamera mit Feedback
+- Probevorträge vor laufender Kamera mit Feedback
 
-### Sponsoren
+### Wer darf mitmachen?
+
+Wir freuen uns über jeden Teilnehmer und jede Teilnehmerin, egal ob alter Konferenzhase oder Neuling auf den Bühnen dieser Welt. Auch der Erfahrungsstand spielt keine Rolle. Es ist also egal, ob Teilnehmer schon 20 Jahre programmieren oder erst zwei. Wir als Veranstalter kommen zwar aus der IT-Branche, aber wir freuen uns auch über Teilnehmer aus anderen Branchen (oder den einen oder anderen Prouct Owner oder auch eine Produktmanagerin).  
+
+## Sponsoren
 
 <div style="clear: both;"></div>
 
-[![cosee Logo](/images/sponsors/cosee.png)](http://www.cosee.biz) ist unser Gastgeber, vielen Dank dafür. Wir sind noch auf der Suche nach weiteren Sponsoren. Bei Interesse bitte einfach [melden](mailto:orga@jug-da.de).
+[![cosee Logo](/images/sponsors/cosee.png)](http://www.cosee.biz) ist unser Gastgeber. Vielen Dank dafür! Wir sind noch auf der Suche nach weiteren Sponsoren. Bei Interesse bitte einfach [melden](mailto:orga@jug-da.de).
