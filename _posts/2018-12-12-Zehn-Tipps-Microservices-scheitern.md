@@ -7,6 +7,7 @@ date: 2018-12-12 18:30
 location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
 direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
 hidePub: true
+important: "Weihnachts-Special - wir freuen uns wieder über jegliche Art von (selbstgebackenen) Plätzchen und anderem Weihnachtsgebäck."
 ---
 
 ### Zusammenfassung
@@ -29,6 +30,8 @@ Wenn du diese Tipps beachtest, wird dein Chef nie wieder auf die Idee kommen, se
 
 ### Sponsoren
 
-Das Fraunhofer-Institut für Graphische Datenverarbeitung (IGD) stellt uns die Räumlichkeiten zur Verfügung und sorgt auch für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+Das Fraunhofer-Institut für Graphische Datenverarbeitung (IGD) stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![IGD Logo](/images/sponsors/igd.png)](http://www.igd.fraunhofer.de//)
+[![IGD Logo](/images/sponsors/igd.png)](http://www.igd.fraunhofer.de/)
+<br/>
+[![QAware Logo](/images/sponsors/qaware.png)](http://www.qaware.de/)
