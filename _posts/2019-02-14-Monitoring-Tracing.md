@@ -3,8 +3,8 @@ title: "Doppelvortrag: Monitoring mit Prometheus/Grafana und Tracing in der Clou
 shortTitle: Monitoring und Tracing
 speaker: Antje Landschulz
 speaker2: Björn Kasteleiner
-speakerpic: antjelandschulz.png
-speakerpic2: bjoernkasteleiner.png
+speakerpic: antjelandschulz.jpg
+speakerpic2: bjoernkasteleiner.jpg
 twitter2: bjkastel
 date: 2019-02-14 18:30
 ---

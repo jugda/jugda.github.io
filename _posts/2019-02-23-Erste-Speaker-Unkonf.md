@@ -6,9 +6,9 @@ duration: 8
 seatLimit: 40
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
+hideRegistration: true
 hidePub: true
 raffle: false
-published: false
 ---
 
 ### Was ist die SpeakerUnkonf?
@@ -17,11 +17,11 @@ Mit der SpeakerUnkonf möchten wir den Erfahrungsaustausch zwischen Sprecherinne
 
 ### Aber was ist jetzt eigentlich eine UnKonf?
 
-Eine Unkonf, auch UnKonferenz oder Barcamp genannt, ist ein Veranstaltung, bei der die Teilnehmenden selbst am Anfang des Tages über das Programm abstimmen. Jeder teilnehmende Person kann ein potenzieller Sprecher oder eine Sprecherin sein. Das Format ist aber nicht auf Vorträge festgelegt. Es kann ebenso Workshops, Diskussionsrunden oder jegliche andere Form des Wissensaustauschs stattfinden.  
+Eine Unkonf, auch UnKonferenz oder Barcamp genannt, ist ein Veranstaltung, bei der die Teilnehmenden selbst am Anfang des Tages über das Programm abstimmen. Jede teilnehmende Person kann ein potenzieller Sprecher oder eine Sprecherin sein. Das Format ist aber nicht auf Vorträge festgelegt. Es können ebenso Workshops, Diskussionsrunden oder jegliche andere Form des Wissensaustauschs stattfinden.  
 
 ### Welche Themen könnten denn auf der SpeakerUnkonf vorkommen?
 
-- Schreiben von Abstracts
+- Schreiben von Abstracts und Kurz-Bios
 - Erfahrungsaustausch zu verschiedenen Konferenzen
 - roter Faden für einen Vortrag
 - inhaltliche Erstellung der Folien
@@ -36,10 +36,18 @@ Eine Unkonf, auch UnKonferenz oder Barcamp genannt, ist ein Veranstaltung, bei d
 
 ### Wer darf mitmachen?
 
-Wir freuen uns über jeden Teilnehmer und jede Teilnehmerin, egal ob alter Konferenzhase oder Neuling auf den Bühnen dieser Welt. Auch der Erfahrungsstand spielt keine Rolle. Es ist also egal, ob Teilnehmer schon 20 Jahre programmieren oder erst zwei. Wir als Veranstalter kommen zwar aus der IT-Branche, aber wir freuen uns auch über Teilnehmer aus anderen Branchen (oder den einen oder anderen Prouct Owner oder auch eine Produktmanagerin).  
+Jeder Teilnehmer und jede Teilnehmerin ist willkommen, egal ob alter Konferenzhase oder Neuling auf den Bühnen dieser Welt. Auch der Erfahrungsstand spielt keine Rolle. Es ist egal, ob Teilnehmer schon 20 Jahre programmieren oder erst zwei. Wir als Veranstalter kommen zwar aus der IT-Branche, aber wir freuen uns auch über Teilnehmer aus anderen Branchen (oder den einen oder anderen Product Owner, Produktmanagerin oder Agile Coach).  
 
 ## Sponsoren
 
 <div style="clear: both;"></div>
 
-[![cosee Logo](/images/sponsors/cosee.png)](http://www.cosee.biz) ist unser Gastgeber. Vielen Dank dafür! Wir sind noch auf der Suche nach weiteren Sponsoren. Bei Interesse bitte einfach [melden](mailto:orga@jug-da.de).
+[![cosee Logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
+[![Accso Logo](/images/sponsors/accso.png)](http://www.accso.de)
+
+[Cosee](http://www.cosee.biz) ist unser Gastgeber und [Accso](http://www.accso.de) unterstützt uns beim Catering. Vielen Dank dafür! Wer uns ebenfalls noch unterstützen möchte, kann sich gern [per Mail melden](mailto:orga@jug-da.de).
+
+
+## Anmeldung
+
+Startet in Kürze. Bei Fragen einfach bei uns [melden](mailto:orga@jug-da.de).

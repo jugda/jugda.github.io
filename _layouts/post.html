@@ -42,7 +42,9 @@ layout: default
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}
 
+  {% if page.hideRegistration == false %}
   {% include registration.html %}
+  {% endif %}
 
   <div class="hint">
     Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
