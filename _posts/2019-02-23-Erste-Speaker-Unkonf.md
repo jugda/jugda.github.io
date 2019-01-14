@@ -50,4 +50,4 @@ Jeder Teilnehmer und jede Teilnehmerin ist willkommen, egal ob alter Konferenzha
 
 ## Anmeldung
 
-Startet in Kürze. Bei Fragen einfach bei uns [melden](mailto:orga@jug-da.de).
+Die Anmeldung ist kostenlos und erfolgt über [Eventbrite](https://www.eventbrite.de/e/speakonf-die-erste-speaker-unkonferenz-in-rheinmain-registrierung-54697506715).
