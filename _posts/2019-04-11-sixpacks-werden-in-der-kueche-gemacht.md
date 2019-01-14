@@ -18,7 +18,8 @@ Wenn auch Ihr mit einer gesunden, aber dennoch leckeren Ernährung, die auch noc
 
 ### Sprecher
 
-{% include speakerpic-name.html %} ist eigentlich als selbständiger Berater, Entwickler, Architekt & Trainer in der Software- und Cloud-Welt zu Hause, macht jetzt aber auch noch "in Fitness, Training und Gesundheit" und ist als Personal Trainer unterwegs.
+{% include speakerpic-name.html %} ist eigentlich als selbständiger Berater, Entwickler, Architekt & Trainer in der Software- und Cloud-Welt zu Hause (und als JUG DA Co-Lead bekannt), macht jetzt aber auch noch "in Fitness, Training und Gesundheit" und ist bei [K5 Personal Training - Körper. Funktion. Konzept.](https://k5-training.de) aktiv tätig.
 
-Bislang hat er nur ein Buch über Serverless Computing geschrieben.
-Vielleicht folgt ja noch eines über sein neues Lieblingsthema. Er weiß es noch nicht.
+<a href="https://k5-training.de" target="_blank">
+  <img src="/images/sponsors/k5.png" alt="K5 Personal Training - Körper. Funktion. Konzept."/>
+</a>
