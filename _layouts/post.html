@@ -38,6 +38,15 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.slides or page.youtube %}
+  <h2>Slides / Video</h2>
+  {% endif %}
+  {% if page.slides %}
+  <p>
+    <i class="fa fa-hand-o-right"></i>&nbsp;
+    <a href="{{ page.slides }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien des Vortrags</a>
+  </p>
+  {% endif %}
   {% if page.youtube %}
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}

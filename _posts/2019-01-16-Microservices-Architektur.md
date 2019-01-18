@@ -4,10 +4,7 @@ speaker: Ansgar Brauner
 speakerpic: ansgarbrauner.jpg
 twitter: a_brauner
 date: 2019-01-16 18:30
-location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
-direction: http://accso.de/index.php/kontakt?id=67
-seatLimit: 40
-hidePub: true
+youtube: VUw5y6zuryI
 ---
 
 ### Zusammenfassung
