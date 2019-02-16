@@ -26,8 +26,9 @@ Weitere Infos findet Ihr auf der [Webseite](http://www.speakonf.de/).
 [![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
 [![logo](/images/sponsors/accso.png)](http://www.accso.de)
 [![logo](/images/sponsors/bitexpert.png)](https://www.bitexpert.de/)
+[![logo](/images/sponsors/dpunkt.png)](https://www.dpunkt.de/)
 
-[Cosee](http://www.cosee.biz) ist unser Gastgeber, [Accso](http://www.accso.de) unterstützt uns beim Catering und [bitExpert](https://www.bitexpert.de/) hat uns die Social Media Account bzw. die Domain zur Verfügung gestellt. Vielen Dank dafür! Wer uns ebenfalls noch unterstützen möchte, kann sich gern [per Mail melden](mailto:orga@jug-da.de).
+[Cosee](http://www.cosee.biz) ist unser Gastgeber, [Accso](http://www.accso.de) unterstützt uns beim Catering, [bitExpert](https://www.bitexpert.de/) hat uns die Social Media Account bzw. die Domain zur Verfügung gestellt und von [dpunkt](https://www.dpunkt.de) bekommen wir Bücher für eine Verlosung. Vielen Dank dafür! Wer uns ebenfalls noch unterstützen möchte, kann sich gern [per Mail melden](mailto:orga@jug-da.de).
 
 
 ## Anmeldung
