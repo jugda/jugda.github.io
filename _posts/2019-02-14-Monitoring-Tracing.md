@@ -17,7 +17,7 @@ Besonders komfortabel und zeitsparend ist für Entwickler und Administratoren di
 
 Dieser Vortrag führt in das Monitoring mit Prometheus und Grafana ein und zeigt konkrete Einsatzszenarien für eure Vorhaben.
 
-[Die Folien des Vortrages gibt's hier.](/files/Monitoring_Prometheus_Grafana.pdf)
+[Die Folien von Antjes Vortrag gibt's hier.](/files/Monitoring_Prometheus_Grafana.pdf)
 
 ### Fährtenlesen für Microservices: Tracing in der Cloud
 
@@ -26,6 +26,8 @@ In verteilten Microservices ist es mitunter schwer, einen Überblick zu erhalten
 In unseren Projekten nutzen wir Tracing als Ergänzung zu Logging und Metriken, um diese Fragen zu beantworten. Tracing hilft, die Laufzeit von Teilschritten im Zusammenhang zu ermitteln, wiederholte Aufrufe zu identifizieren und unsinnige Reihenfolgen aufzudecken. Auch asynchrone Verarbeitung kann visualisiert werden. Insbesondere bei komplexen Zusammenhängen zwischen einzelnen Applikationen unterstützt es bei der Fehlersuche und spart damit Zeit.
 
 Der Vortrag zeigt, wie mit OpenTracing und Jaeger vorhandene Spring-Boot-Anwendungen um Tracing erweitert werden. Für HTTP/REST, Datenbanken und Queues existieren bereits vorgefertigte Standard-Instrumentierungen. An anderen Stellen können Aufrufe von Hand instrumentiert werden. Der Vortrag gibt zusätzlich einen Überblick, welche Infrastruktur-Komponenten notwendig sind.
+
+[Die Folien von Björns Vortrag gibt's hier.](https://speakerdeck.com/bjkastel/fahrtenlesen-fur-microservices-tracing-in-der-cloud)
 	
 ### Sprecher
 
