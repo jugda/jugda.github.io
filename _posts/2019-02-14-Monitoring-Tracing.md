@@ -17,6 +17,8 @@ Besonders komfortabel und zeitsparend ist für Entwickler und Administratoren di
 
 Dieser Vortrag führt in das Monitoring mit Prometheus und Grafana ein und zeigt konkrete Einsatzszenarien für eure Vorhaben.
 
+[Die Folien des Vortrages gibt's hier.](/files/Monitoring_Prometheus_Grafana.pdf)
+
 ### Fährtenlesen für Microservices: Tracing in der Cloud
 
 In verteilten Microservices ist es mitunter schwer, einen Überblick zu erhalten. Wie viel Zeit benötigen die einzelnen Teilschritte eines Aufrufs? An welcher Stelle tritt ein Fehler auf? Warum dauern einzelne Aufrufe länger als andere?
