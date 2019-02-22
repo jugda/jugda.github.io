@@ -12,9 +12,15 @@ Webseiten der [JUG Darmstadt](https://www.jug-da.de)
 
 `jekyll server` (Weil Gerd es immer wieder vergisst!)
 
+oder mit Docker, weil das zwar einen Moment dauert, aber unabhängig von Brew, MacPorts oder anderen Package-Managern ist:
+
+`docker-compose up`
+
 oder (mit Bundler, näher am Github-Pages Mechanismus dran)
 
 `bundle exec jekyll serve`
+
+Wenn Jekyll läuft, sollte man die generierten Seiten unter http://localhost:4000 finden.
 
 
 ## Steuerung der Registrierung
