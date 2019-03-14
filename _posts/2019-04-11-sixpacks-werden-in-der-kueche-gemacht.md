@@ -5,6 +5,11 @@ speaker: Niko Köbler
 speakerpic: nikokoebler.png
 twitter: dasniko
 date: 2019-04-11 18:30
+seatLimit: 40
+location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
+direction: http://www.interes.com/de/#kontakt
+hidePub: true
+important: "Vortrag findet bei InteRES in der Rheinstr. 44-46 statt."
 ---
 
 ### Zusammenfassung
@@ -23,3 +28,9 @@ Wenn auch Ihr mit einer gesunden, aber dennoch leckeren Ernährung, die auch noc
 <a href="https://k5-training.de" target="_blank">
   <img src="/images/sponsors/k5.png" alt="K5 Personal Training - Körper. Funktion. Konzept."/>
 </a>
+
+### Sponsoren
+
+Die InteRES stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+
+[![InterRES Logo](/images/sponsors/interes.png)](http://www.interes.de/)
