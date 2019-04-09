@@ -1,6 +1,6 @@
 ---
-title: 'Triple Feature: Neues von ElasticSearch 7.0, Security und Monitoring'
-shortTitle: 'ElasticSearch 7.0 + Security + Monitoring'
+title: 'Triple Feature: Neues von Elasticsearch 7.0, Security und Monitoring'
+shortTitle: 'Elasticsearch 7.0 + Security + Monitoring'
 speaker: Alexander Reelsen
 speakerpic: alexanderreelsen.png
 twitter: spinscale
@@ -9,11 +9,11 @@ date: 2019-08-15 18:30
 
 ### Zusammenfassung
 
-Alexander wird uns Spannendes rund um ElasticSearch erzählen.
+Alexander wird uns Spannendes rund um Elasticsearch erzählen.
 
 #### Elasticsearch - Was gibt's neues - Edition 7.0
 
-Elasticsearch 7.0 kommt wieder mit jeder Menge neuer Features. Dieser Vortrag soll einen kleinen Überblick über die größten und interessantesten Neuigkeiten in der neuen Major Version bringen, angefangen bei neuen Datentypen, neuen Queries, dem neuen Cluster Coordination Layer Zen2, der aktuellen Lucene Version, dem High Level Rest Client und vielem mehr.
+Elasticsearch 7.0 kommt wieder mit jeder Menge neuer Features. Dieser Vortrag soll einen kleinen Überblick über die größten und interessantesten Neuigkeiten in der neuen Major Version bringen, angefangen bei neuen Datentypen, neuen Queries, dem neuen Cluster Coordination Layer, der aktuellen Lucene Version, dem High Level Rest Client und vielem mehr.
 
 #### Elasticsearch - Securing a search engine while maintaining usability
 
@@ -31,7 +31,7 @@ Ziel des Talks ist es nicht nur, auf einige Details in Elasticsearch einzugehen,
 
 #### Monitoring mit dem Elastic Stack (Live Demo)
 
-Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitoring Daten. Wir starten mit einer Einführung in Elasticsearch und Kibana, erklären generelle Konzepte wie Indices und Shards und arbeiten uns dann sukzessive in Richtung der Anwendung, die Metriken, Logs, Spans und Traces in Elasticsearch indiziert. Anhand dieser Daten können wir uns dann konkrete UIs in Kibana anschauen, mit der es einfacher wird, einen Uberblick über die eigene Infrastruktur, APM Daten oder Uptime zu erhalten.
+Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitoring Daten. Wir starten mit einer Einführung in Elasticsearch und Kibana, erklären generelle Konzepte wie Indices und Shards und arbeiten uns dann sukzessive in Richtung der Anwendung, die Metriken, Logs, Spans und Traces in Elasticsearch indiziert. Anhand dieser Daten können wir uns dann konkrete UIs in Kibana anschauen, mit der es einfacher wird, einen Überblick über die eigene Infrastruktur, APM Daten oder Uptime zu erhalten.
 
 
 ### Sprecher
