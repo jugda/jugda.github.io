@@ -9,8 +9,10 @@ seatLimit: 40
 location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
 direction: http://www.interes.com/de/#kontakt
 hidePub: true
-important: "Vortrag findet bei InteRES in der Rheinstr. 44-46 statt."
+important: "Vortrag findet bei InteRES in der Rheinstr. 44-46 statt. Bitte beachtet, die Einfahrt zum Parkplatz ist wegen Bauarbeiten erschwert."
 ---
+
+Bitte beachtet, die Einfahrt zum Parkplatz von InteRES ist aktuell wegen Bauarbeiten erschwert, bitte nutzt besser Straßenbahn oder Fahrrad bzw parkt in der Nähe.
 
 ### Zusammenfassung
 
