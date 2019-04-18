@@ -4,6 +4,10 @@ speaker: Michael Hunger
 speakerpic: michaelhunger.png
 twitter: mesirii
 date: 2019-05-16 18:30
+location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 89, 64295 Darmstadt
+seatLimit: 80
+hidePub: true
+important: Unser 100. (!!!) Vortrag findet diesmal wieder bei der IHK Darmstadt statt.
 ---
 
 ### Zusammenfassung
@@ -14,5 +18,11 @@ Der Code den wir einmal geschrieben haben, muss oft für viele Jahre gelesen, ve
 
 {% include speakerpic-name.html %} 
 
-
 Software zu entwickeln, gehört zu Michaels großen Leidenschaften. Seit 2010 kümmert er sich um die Anwender der Graph-DB Neo4j. Er arbeitet an mehreren Open-Source-Projekten, ist Autor, Editor, Buch-Reviewer, Sprecher und Organisator von Konferenzen.
+
+### Sponsoren
+
+IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma Cegeka sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![IT FOR WORK Logo](/images/sponsors/it-for-work.png)](http://www.it-for-work.de) 
+[![Cegeka Logo](/images/sponsors/cegeka.png)](https://www.cegeka.com/de-de/)

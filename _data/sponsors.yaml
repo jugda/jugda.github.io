@@ -42,15 +42,12 @@
 "QAware":
   img: qaware.png
   href: http://www.qaware.de/
-  startPage: true
 "Fraunhofer IGD":
   img: igd.png
   href: https://www.igd.fraunhofer.de/
-  startPage: true
 "SIGS DATACOM": 
   img: sigs.png 
   href: http://www.sigs-datacom.de/
-  startPage: true
 "Software & Support": 
   img: sus.png 
   href: http://sandsmedia.com/de
