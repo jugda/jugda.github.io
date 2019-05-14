@@ -1,6 +1,3 @@
-"JAX 2019":
-  img: JAX19_Banner.jpg
-  href: https://jax.de/
 "Java Forum Stuttgart":
   img: jfs.jpg
   href: https://www.java-forum-stuttgart.de/
@@ -10,6 +7,12 @@
 "Java Forum Nord":
   img: jfn.png
   href: https://javaforumnord.de/
+"Accento":
+  img: accento.jpg
+  href: https://accento.dev/
+"WJAX 2019":
+  img: wjax.png
+  href: https://jax.de/
 "entwickler tutorials":
   img: sus_tutorials.png
   href: https://tutorials.entwickler.de/
