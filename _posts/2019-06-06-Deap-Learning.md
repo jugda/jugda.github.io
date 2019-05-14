@@ -1,9 +1,13 @@
 ---
 title: Demystifying (Big) Data and Deep Learning
-speaker: Dr. Shirin Glander
-speakerpic: shiringlander.jpg
-twitter: shiringlander
+speaker: Denis Stalz-John
+speakerpic: denisstalz-john.jpg
 date: 2019-06-06 18:30
+location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
+direction: http://www.nterra.com/kontakt/
+seatLimit: 50
+important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
+hidePub: true
 ---
 
 ### Zusammenfassung
@@ -24,4 +28,11 @@ Nach der Session werden Sie ein viel besseres Verständnis bzgl. des Warum, Was 
 
 ### Sprecher
 
-{% include speakerpic-name.html %} arbeitet als Data Scientist bei codecentric. Sie hat in der Bioinformatik promoviert und nutzt verschiedenste Methoden von Statistik bis Machine Learning, um aus Daten spannende und neue Erkenntnisse zu gewinnen. Regelmäßig bloggt sie über Data-Science-Themen und gibt Schulungen zu Deep Learning mit Keras.
+{% include speakerpic-name.html %} spezialisiert sich auf die Bereiche Computer-Vision, Semantische Segmentierung, Object Detection und Deep Learning.
+Sein beruflicher Einstieg erfolgte beim Corporate Research der Robert Bosch GmbH im Bereich Fahrer-Assistenzsysteme und autonomes Fahren. Seit 2018 arbeitet er als Data-Scientist bei der codecentric AG. 
+
+### Sponsoren
+
+Die Firma nterra stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
