@@ -7,7 +7,8 @@ date: 2019-05-16 18:30
 location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 89, 64295 Darmstadt
 seatLimit: 80
 hidePub: true
-important: Unser 100. (!!!) Vortrag findet diesmal wieder bei der IHK Darmstadt statt.
+important: Unser 100. Vortrag!!!
+youtube: kkvTmbGo2Ws
 ---
 
 ### Zusammenfassung
