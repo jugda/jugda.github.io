@@ -64,6 +64,7 @@ defaults:
       seatLimit: 60
       hidePub: false
       raffle: true
+      # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
 #
 # !! You don't need to change any of the configuration flags below !!
 #

@@ -8,6 +8,8 @@ direction: http://www.nterra.com/kontakt/
 seatLimit: 50
 important: Der Vortrag findet diesmal bei nterra in Griesheim statt.
 hidePub: true
+attachments: /files/intro_ai.pdf
+youtube: qUzFza5fupE
 ---
 
 ### Zusammenfassung

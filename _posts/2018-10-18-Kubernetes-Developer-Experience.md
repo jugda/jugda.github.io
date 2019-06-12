@@ -5,7 +5,12 @@ date: 2018-10-18 18:30
 speaker: Nicolas Byl
 speakerpic: nicolasbyl.jpg
 twitter: NicolasByl
-youtube: UDWSVzu0cao
+attachments:
+  Folien: https://speakerdeck.com/nbyl/its-the-developers-stupid
+  Demos: https://github.com/nbyl/kubernetes-dx-demos
+youtube: 
+  - UDWSVzu0cao
+  - zhNgwvFM-Q0
 ---
 
 ### Abstract
@@ -20,13 +25,3 @@ Abhängig von den benötigten Features wird dem Entwickler ein kontinuierliches 
 
 {% include speakerpic-name.html %}
 sammelte bereits während des Studiums der Medizinischen Informatik erste Erfahrungen im Umfeld Java-basierter Webportale und entdeckte seine Leidenschaft für verteilte Systeme. Bei der codecentric AG beschäftigt er sich mit mit skalierbaren cloud-nativen Infrastrukturen für die Applikationsentwicklung und die Verarbeitung von Datenströmen.
-
-### Weitere Informationen
-
-- [Folien @ Speakerdeck](https://speakerdeck.com/nbyl/its-the-developers-stupid)
-- [Democode @ GitHub](https://github.com/nbyl/kubernetes-dx-demos)
-
-Video Teil 1:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zhNgwvFM-Q0" frameborder="0" allowfullscreen></iframe>
-
-Video Teil 2:

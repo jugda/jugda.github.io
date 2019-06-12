@@ -7,6 +7,8 @@ date: 2018-03-22 18:30
 location: Fraunhofer IGD Darmstadt, Fraunhoferstraße 5, 64283 Darmstadt
 direction: https://www.igd.fraunhofer.de/Institut/Standorte/Darmstadt/Das-Fraunhofer-IGD-Darmstadt
 important: "Ersatzvortrag, der Ort ist aber weiterhin das Fraunhofer IGD in der Fraunhoferstraße 5."
+attachments: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
+
 ---
 
 ### Ersatzvortrag
@@ -24,10 +26,6 @@ Leider ist unsere Welt nicht so ideal, unser Code von gestern ist heute schon Le
 ### Sprecher
 
 {% include speakerpic-name.html %} hat über 20 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer, Software-Entwickler und Projektleiter tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit anderen die örtliche Java User Group. Falk twittert unter @sippsack.
-
-### Weitere Informationen
-
-* [Folien](https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf)
 
 ### Folgende Themen standen noch zur Auswahl
 

@@ -38,17 +38,29 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.slides or page.youtube %}
+  {% if page.attachments or page.youtube %}
   <h2>Slides / Video</h2>
   {% endif %}
-  {% if page.slides %}
+  {% if page.attachments %}
   <p>
-    <i class="fa fa-hand-o-right"></i>&nbsp;
-    <a href="{{ page.slides }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien des Vortrags</a>
+  {% if page.attachments.first %}
+	{% for attachment in page.attachments %}
+			<div><i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ attachment[1] }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den {{ attachment[0] }}</a></div>
+	{% endfor %}
+  {% else %}
+    <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien</a>
+  {% endif %}
+	
   </p>
   {% endif %}
   {% if page.youtube %}
+  {% if page.youtube.first %}
+	{% for video in page.youtube %}
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video }}" frameborder="0" allowfullscreen></iframe>
+	{% endfor %}
+  {% else %}
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+  {% endif %}
   {% endif %}
 
   {% if page.hideRegistration == false %}
