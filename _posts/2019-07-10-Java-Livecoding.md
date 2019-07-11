@@ -5,7 +5,10 @@ speaker: Nicolai Parlog
 twitter: nipafx
 speakerpic: nicolaiparlog.jpg
 date: 2019-07-10 18:30
-
+attachments:
+  Folien Teil 1: https://slides.codefx.org/java-9-migration/2019-07-10-jug-darmstadt/#/
+  Demos Teil 1: https://github.com/CodeFX-org/demo-java-9-migration
+  Folien Teil 2: https://slides.codefx.org/java-var/2019-07-10-jug-darmstadt/#/
 ---
 
 ### Zusammenfassung
