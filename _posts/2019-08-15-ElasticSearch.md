@@ -5,6 +5,11 @@ speaker: Alexander Reelsen
 speakerpic: alexanderreelsen.png
 twitter: spinscale
 date: 2019-08-15 18:30
+seatLimit: 50
+location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
+direction: https://goo.gl/maps/fX1AfbSmFv82
+hidePub: true
+important: "Vortrag findet bei Cosee in der Mina-Rees-Straße 8 statt."
 ---
 
 ### Zusammenfassung
@@ -37,3 +42,9 @@ Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitorin
 ### Sprecher
 
 {% include speakerpic-name.html %} ist Developer Advocate, Entwickler, Paaaapa, arbeitet seit 2013 bei Elastic, interessiert an Suche, Skalierung, JVM, crystallang, serverless und Basketball.
+
+## Sponsoren
+
+[Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
