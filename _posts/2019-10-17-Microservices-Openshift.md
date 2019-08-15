@@ -3,6 +3,9 @@ title: Vom Monolithen zur Workflow-Engine mit Microservices in Openshift – Ein
 shortTitle: Vom Monolithen zu Microservices in Openshift
 speaker: Sascha Hanß
 speakerpic: saschahanss.jpg
+twitter: saschahanss
+speaker2: Daniel Krämer
+speakerpic2: danielkraemer.jpg
 date: 2019-10-17 18:30
 seatLimit: 50
 location: PROSTEP AG, Dolivostraße 11, 64293 Darmstadt
@@ -21,7 +24,10 @@ Wie man sieht, ergeben sich bei der Modernisierung und Weiterentwicklung einer �
 
 ### Sprecher
 
-{% include speakerpic-name.html %} arbeitet seit 2018 als Solution Architect bei der PROSTEP AG in Darmstadt.
+{% include speakerpic-name.html %} ist seit 2018 Solution Architect bei der PROSTEP AG in Darmstadt. Sein Schwerpunkt liegt in der Entwicklung von Produkten im Bereich PLM auf Basis von Java. Weiterhin beschäftigt er sich mit Themen wie Software Architektur, CI/CD, Docker und Clean-Code.
+
+{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %} arbeitet seit 2012 bei der PROSTEP AG in Darmstadt und ist Lead Developer in der Produktentwicklung mit Schwerpunkt Java, CI/CD und QM.
+
 
 ## Sponsoren
 
