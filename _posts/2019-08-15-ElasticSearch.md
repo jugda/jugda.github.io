@@ -10,6 +10,9 @@ location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
 hidePub: true
 important: "Vortrag findet bei Cosee in der Mina-Rees-Straße 8 statt."
+attachments:
+  Folien What's new: https://noti.st/spinscale/PnLBIi/whats-new-in-the-elastic-stack-7-x-edition
+  Folien Securing Elasticsearch: https://noti.st/spinscale/zA6AwA/elasticsearch-securing-a-search-engine-while-maintaining-usability 
 ---
 
 ### Zusammenfassung
