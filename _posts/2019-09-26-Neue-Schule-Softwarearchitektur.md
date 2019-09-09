@@ -3,7 +3,12 @@ title: 'Die neue Schule der Softwarearchitektur'
 speaker: Stefan Toth
 speakerpic: stefantoth.png
 twitter: st_toth
-date: 2019-11-05 18:30
+date: 2019-09-26 18:30
+location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
+direction: http://accso.de/index.php/kontakt?id=67
+seatLimit: 45
+hidePub: true
+important: Der Vortrag findet bei der Accso in der Berliner Alle 58 statt.
 ---
 
 ### Zusammenfassung
@@ -13,3 +18,9 @@ In der heutigen Architekturpraxis sind unterschiedliche Denkschulen und Hintergr
 ### Sprecher
 
 {% include speakerpic-name.html %} arbeitet als Entwickler, Softwarearchitekt und Berater bei der embarc GmbH. Seine Schwerpunkte liegen in der Konzeption und Bewertung mittlerer bis großer Softwarelösungen sowie der Verbindung dieser Themen zu agilen Vorgehen. Er ist Autor zahlreicher Artikel und des Buchs "Vorgehensmuster für Softwarearchitektur".
+
+### Sponsoren
+
+Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!
+
+[![ACCSO Logo](/images/sponsors/accso.png)](http://www.accso.de)
