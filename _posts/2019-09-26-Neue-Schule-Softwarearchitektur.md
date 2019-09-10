@@ -8,7 +8,7 @@ location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
 seatLimit: 45
 hidePub: true
-important: Der Vortrag findet bei der Accso in der Berliner Alle 58 statt.
+important: Der Vortrag findet bei der Accso in der Berliner Allee 58 statt.
 ---
 
 ### Zusammenfassung
