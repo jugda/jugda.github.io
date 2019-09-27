@@ -4,11 +4,7 @@ speaker: Stefan Toth
 speakerpic: stefantoth.png
 twitter: st_toth
 date: 2019-09-26 18:30
-location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
-direction: http://accso.de/index.php/kontakt?id=67
-seatLimit: 45
-hidePub: true
-important: Der Vortrag findet bei der Accso in der Berliner Allee 58 statt.
+youtube: gz60QEL6BS4
 ---
 
 ### Zusammenfassung
