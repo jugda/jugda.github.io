@@ -6,6 +6,7 @@ speakerpic: saschahanss.jpg
 twitter: saschahanss
 speaker2: Daniel Krämer
 speakerpic2: danielkraemer.jpg
+twitter2: JUG_DA
 date: 2019-10-17 18:30
 seatLimit: 50
 location: PROSTEP AG, Dolivostraße 11, 64293 Darmstadt
