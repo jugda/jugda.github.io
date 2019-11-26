@@ -13,6 +13,7 @@ location: PROSTEP AG, Dolivostraße 11, 64293 Darmstadt
 direction: https://www.google.de/maps/dir//PROSTEP+AG,+Dolivostra%C3%9Fe+11,+64293+Darmstadt/@49.877311,8.6385963,17z/data=!4m15!1m6!3m5!1s0x47bd708c054c2ec7:0xf5ac2a21774ec14d!2sPROSTEP+AG!8m2!3d49.877311!4d8.640785!4m7!1m0!1m5!1m1!1s0x47bd708c054c2ec7:0xf5ac2a21774ec14d!2m2!1d8.640785!2d49.877311
 hidePub: true
 important: "Der Vortrag findet bei der PROSTEP AG in der Dolivostraße 11 statt."
+youtube: 1IQ7gOdfRDI
 ---
 
 ### Zusammenfassung

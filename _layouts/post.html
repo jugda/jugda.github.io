@@ -50,16 +50,20 @@ layout: default
   {% else %}
     <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien</a>
   {% endif %}
-	
+
   </p>
   {% endif %}
   {% if page.youtube %}
   {% if page.youtube.first %}
 	{% for video in page.youtube %}
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video }}" frameborder="0" allowfullscreen></iframe>
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ video }}" frameborder="0" allowfullscreen></iframe>
+  </div>
 	{% endfor %}
   {% else %}
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+  </div>
   {% endif %}
   {% endif %}
 
