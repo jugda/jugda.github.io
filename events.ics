@@ -30,10 +30,10 @@ END:VTIMEZONE
 {% for post in site.posts reversed %}{% if post.date > site.time %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
-LOCATION:{{ post.location }}
-DESCRIPTION:{{ site.url }}{{ post.url }}
+LOCATION:{{ post.location | replace: ",", "\," }}
+DESCRIPTION:Java User Group Darmstadt\n\n{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}\n\n{{ post.content | strip_html | normalize_whitespace | truncatewords: 50 }}
 URL:{{ site.url }}{{ post.url }}
-SUMMARY:{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}
+SUMMARY:JUG DA: {{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}
 CLASS:PUBLIC
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}DTSTART:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 DTEND:{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}
