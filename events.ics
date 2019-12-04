@@ -29,7 +29,7 @@ END:STANDARD
 END:VTIMEZONE
 {% for post in site.posts reversed %}{% if post.date > site.time %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
-ORGANIZER;CN="JUG Darmstadt":MAILTO:info@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 LOCATION:{{ post.location }}
 DESCRIPTION:{{ site.url }}{{ post.url }}
 URL:{{ site.url }}{{ post.url }}
