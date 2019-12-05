@@ -4,7 +4,7 @@ layout: null
 const nl = "\r\n";
 const tz = "BEGIN:VTIMEZONE" + nl +
     "TZID:Europe/Berlin" + nl +
-    "X-LIC-LOCATION:Europe/Berlin" + nl +
+    "X-LIC-LOCATION:{{ site.timezone }}" + nl +
     "BEGIN:DAYLIGHT" + nl +
     "TZOFFSETFROM:+0100" + nl +
     "TZOFFSETTO:+0200" + nl +
