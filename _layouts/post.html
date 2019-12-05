@@ -28,7 +28,7 @@ layout: default
         {{ dateWithStartTime | date: "%H:%M" }} bis {{ dateWithEndTime | date: "%H:%M" }} Uhr
       </h3>
       <div>
-        <a href="#" onclick="ical('{{ page.title }}{% if page.speaker %} ({{ page.speaker | xml_escape }}{% if page.speaker2 %}, {{ page.speaker2 | xml_escape }}{% endif %}){% endif %}', '{{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}', '{{ page.location }}', '{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}', '{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}', '{{ site.url }}{{ page.url }}', '{{ page.date | date: "%Y%m%d" }}')" title="iCal/ics Datei für diese Veranstaltung runterladen">
+        <a href="#" onclick="ical('{{ page.title | replace: "'", "\\'" }}{% if page.speaker %} ({{ page.speaker }}{% if page.speaker2 %}, {{ page.speaker2 }}{% endif %}){% endif %}', '{{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}', '{{ page.location }}', '{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}', '{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}', '{{ site.url }}{{ page.url }}', '{{ page.date | date: "%Y%m%d" }}')" title="iCal/ics Datei für diese Veranstaltung runterladen">
           <img src="/images/ical.png" style="height: 32px;"/>
         </a>
       </div>

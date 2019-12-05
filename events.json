@@ -13,7 +13,8 @@ layout: null
 "url": "{{ site.url }}{{ post.url }}",
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}
 "start": "{{ dateWithStartTime | date: "%Y-%m-%dT%H:%M:00" }}",
-"end": "{{ dateWithEndTime | date: "%Y-%m-%dT%H:%M:00" }}"
+"end": "{{ dateWithEndTime | date: "%Y-%m-%dT%H:%M:00" }}",
+"timezone": "{{ site.timezone }}"
 }{% unless forloop.last %},{% endunless %}
 {% endif %}{% endfor %}
 ]
