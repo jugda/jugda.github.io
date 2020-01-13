@@ -7,6 +7,11 @@ speakerpic: kaischmidt.jpg
 speakerpic2: thomasruhroth.png
 twitter: electronickai
 date: 2020-01-16 18:30
+seatLimit: 50
+location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
+direction: https://goo.gl/maps/fX1AfbSmFv82
+hidePub: true
+important: "Vortrag findet bei Cosee in der Mina-Rees-Straße 8 statt."
 ---
 
 ### Zusammenfassung
@@ -22,3 +27,9 @@ In dieser Architektur ist der Kern einer Anwendung ("Functional Core") funktiona
 {% include speakerpic-name.html %} ist freiberuflicher Software-Entwickler und -Architekt. Zuvor war bei den IT-Beratungsunternehmen .msg systems ag und Capgemini angestellt. In seiner über 10-jährigen Projekterfahrung war er größtenteils in Java und C#-Projekten in den Bereichen Logistik, Flugzeugbau sowie Handel tätig. Bereits in seiner Kindheit hat er mit einem C64 erste Programmiererfahrungen gemacht. Heute berät und beteiligt er sich gerne an betrieblichen Anwendungssystemen und ist in der JUG sowie für Kids4IT aktiv.
 
 {% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %}, Lead IT Consultant bei .msg systems ag, In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschieden Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft.
+
+## Sponsoren
+
+[Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
