@@ -2,6 +2,7 @@
 title: MVC für JavaEE
 speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
+twitter: thfro
 date: 2015-10-15 18:30:00+02:00
 location: Accso GmbH, Berliner Allee 58, 64295 Darmstadt
 direction: http://accso.de/index.php/kontakt?id=67
