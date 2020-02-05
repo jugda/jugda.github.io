@@ -9,7 +9,8 @@ date: 2020-03-04 18:30
 
 ### Meet the Experts
 
-Das Spring Data Team trifft sich in Frankfurt und kommt dann am Abend zu uns nach Darmstadt. Nach dem Vortrag gibt es noch eine Diskussionsrunde zur Zukunft des Spring Data Projekts.
+Das Spring Data Team trifft sich in Frankfurt und kommt dann am Abend zu uns nach Darmstadt.
+Nach dem Vortrag gibt es noch eine Diskussionsrunde über alles, was mit Spring zu tun hat.
 
 ### Zusammenfassung
 
