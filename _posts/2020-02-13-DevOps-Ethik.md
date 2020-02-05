@@ -27,6 +27,8 @@ In meinem Vortrag starte ich mit einer Einführung in die Unternehmensethik und 
 	
 ### Sprecher
 
-{% include speakerpic-name.html %}, Technical Architect, Deutsche Bahn - DB Systel GmbH
+Seitdem {% include speakerpic-name.html %} 2010 als Java Entwickler in seine professionelle Karriere gestartet ist, hat er sich unentwegt mit dem Thema Softwarequalität beschäftigt. Er ist dabei zu dem Schluss gekommen, dass Teams vor allem dann hohe Qualität liefern können, wenn eine gute „Developer Experience“ in den zur Verfügung stehenden Tools dies einfach macht. Seit 2017 ist Carsten als "programmierender Software Architekt" mit der DB Systel auf die Reise in eine DevOps-Transformation gestartet, und arbeitet dort in einem Plattformteam daran, die Developer Experience für andere DevOps-Teams zu verbessern.
 
-{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %}, Artificial Intelligence and Blockchain Enthusiast
+{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %} kommt aus dem Innovationsmanagement und beschäftigt sich daher stark mit Themen rund um Ethik und Digitalisierung. 
+Heute arbeitet sie als Business Development Managerin für die Kanzlei Freshfields Bruckhaus Deringer LLP und ist dort für den europäischen Financial Institution Sektor verantwortlich.
+Mein Linkedin Profil lautet: https://www.linkedin.com/in/corinna-schreier-894387118/ 
