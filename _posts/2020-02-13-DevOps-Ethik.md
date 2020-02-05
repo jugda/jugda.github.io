@@ -31,4 +31,4 @@ Seitdem {% include speakerpic-name.html %} 2010 als Java Entwickler in seine pro
 
 {% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %} kommt aus dem Innovationsmanagement und beschäftigt sich daher stark mit Themen rund um Ethik und Digitalisierung. 
 Heute arbeitet sie als Business Development Managerin für die Kanzlei Freshfields Bruckhaus Deringer LLP und ist dort für den europäischen Financial Institution Sektor verantwortlich.
-Mein Linkedin Profil lautet: https://www.linkedin.com/in/corinna-schreier-894387118/ 
+Ihr Linkedin Profil lautet: [www.linkedin.com/in/corinna-schreier-894387118/](https://www.linkedin.com/in/corinna-schreier-894387118/)
