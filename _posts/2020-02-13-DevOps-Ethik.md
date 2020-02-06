@@ -1,5 +1,5 @@
 ---
-title: "Doppelvortrag: 'DevOps – mehr Geschwindigkeit auf der Schiene' und 'Ethik, Moral – und Chatbots'"
+title: 'Doppelvortrag: "DevOps – mehr Geschwindigkeit auf der Schiene" und "Ethik, Moral – und Chatbots"'
 shortTitle: "Doppelvortrag: DevOps und Ethik"
 speaker: Carsten Hoffmann
 speaker2: Corinna Schreier

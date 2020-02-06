@@ -12,15 +12,15 @@ Auf Basis von über 6 Jahren Java Lehre an der Uni Bamberg und dem Korrigieren v
 
 Wir freuen uns auf euch!
 
-[1] https://java.by-comparison.com
+[1] [java.by-comparison.com](https://java.by-comparison.com)
 
-[2] https://java.by-comparison.com/game
+[2] [java.by-comparison.com/game](https://java.by-comparison.com/game)
 
 ### Sprecher
 
 
 {% include speakerpic-name.html %} ist Senior Consultant bei INNOQ. Mit dem Wissen aus seiner Zeit als Dozent an der Uni Bamberg hat er an dem Buch Java by Comparison mitgearbeitet, das Anfängern mittels Vorher/Nachher-Beispielen beibringt saubereren Java-Code zu schreiben. Seit August 2018 ist er bekennender Remote Mob Programmer [3] und möchte nie wieder anders arbeiten. Aktuell interessiert er sich stark für neue Praktiken in der DevOps Welt, insbesondere GitOps [4].
 
-[3] https://remotemobprogramming.org
+[3] [remotemobprogramming.org](https://remotemobprogramming.org)
 
-[4] https://gitops.tech
+[4] [gitops.tech](https://gitops.tech)
