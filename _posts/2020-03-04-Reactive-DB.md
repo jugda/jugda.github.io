@@ -5,7 +5,6 @@ speaker: Greg Turnquist
 speakerpic: gregturnquist.jpg
 twitter: gregturn
 date: 2020-03-04 18:30
-important: Veranstaltungsort steht noch nicht fest! Event location may still change!
 ---
 
 ### Meet the Experts
