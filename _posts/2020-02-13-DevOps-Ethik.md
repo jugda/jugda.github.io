@@ -5,6 +5,7 @@ speaker: Carsten Hoffmann
 speaker2: Corinna Schreier
 speakerpic: carstenhoffmann.jpg
 speakerpic2: corinnaschreier.jpg
+twitter1: Morl99
 twitter2: DasAusgerufene
 date: 2020-02-13 18:30
 ---
