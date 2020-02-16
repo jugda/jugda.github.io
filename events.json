@@ -5,8 +5,8 @@ layout: null
 {% for post in site.posts reversed %}{% if post.date > site.time %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
-"summary": "{{ post.title }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}",
-"title": "{{ post.title }}",
+"summary": "{{ post.title | smartify }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}",
+"title": "{{ post.title | smartify }}",
 {% if post.speaker %}"speaker": "{{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}",{% endif %}
 {% if post.twitter %}"twitter": "{{ post.twitter}}",{% endif %}
 "location": "{{ post.location }}",
