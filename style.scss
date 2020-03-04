@@ -535,6 +535,17 @@ img[alt=logo] {
   height: 100%;
 }
 
+.alert {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 8px;
+  font-weight: bold;
+  a {
+    color: red;
+    text-decoration: underline;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
