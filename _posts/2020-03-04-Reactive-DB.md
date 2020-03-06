@@ -1,10 +1,13 @@
 ---
 shortTitle: Reactive Relational Database Connectivity
 title: 'Meet the experts of the Spring Data team - Reactive Relational Database Connectivity with R2DBC'
-speaker: Greg Turnquist
-speakerpic: gregturnquist.jpg
-twitter: gregturn
+speaker: Mark Paluch
+speakerpic: mark_paluch.png
+twitter: mp911de
 date: 2020-03-04 18:30
+attachments:
+  Folien: https://speakerdeck.com/mp911de/reactive-relational-database-connectivity-2020
+  Beispielen: https://github.com/mp911de/r2dbc-examples
 ---
 
 ### Meet the Experts
@@ -18,4 +21,4 @@ More and more projects are taking advantage of reactive programming. A key disco
 
 ### Sprecher
 
-As a test-bitten script junky, {% include speakerpic-name.html %} works on the Spring team as a principal developer at Pivotal. He is a committer to Spring HATEOAS, Spring Data, Spring Boot, R2DBC, and Spring Session for MongoDB. He also wrote Packt's best-selling title, Learning Spring Boot 2.0 2nd Edition based on the reactive paradigm. He founded the Nashville JUG in 2010 and hasn't met a Java app (yet) he doesn't like. 
+{% include speakerpic-name.html %} ist Software Craftsman und leitet das Spring-Data-Projekt bei Pivotal. Sein Fokus liegt derzeit auf reaktiven Treibern und Infrastrukturkomponenten. Mark ist auch Maintainer des Lettuce Redis Treibers.
