@@ -7,7 +7,6 @@
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
@@ -19,7 +18,11 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font-family: $helvetica;
+  font-size: 16px;
+  font-weight: $fontWeightRegular;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
   color: $darkGray;
 }
 
@@ -31,12 +34,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
+  font-weight: $fontWeightBold;
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 0.5em;
   padding: 0;
 
   @include mobile {
@@ -108,31 +108,11 @@ em, i {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: $fontWeightBold;
 }
 
 img {
   max-width: 100%;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
-}
-
-// Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -197,18 +177,13 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: $fontWeightRegular;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
 
   @include mobile {
     margin: 3px 0;
@@ -218,7 +193,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $helvetica;
   font-size: 18px;
 
   @include mobile {
@@ -324,6 +299,12 @@ footer {
   }
 }
 
+.flexContainerSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .speakerpic {
   float: right;
   max-width: 140px;
@@ -352,16 +333,24 @@ footer {
 @mixin important {
   color: $dukeRed;
   font-style: italic;
-  font-weight: bold;
+  font-weight: $fontWeightBold;
+}
+
+.important {
+  @include important;
 }
 
 .talk-list {
   list-style: none;
+  line-height: 1.5;
   h3 {
     margin-left: -25px;
   }
   li {
     margin-left: -15px;
+    div.speaker, div.url, div.location {
+        margin-left: 96px;
+    }
   }
 }
 
@@ -398,10 +387,6 @@ footer {
   padding-top: 30px;
 }
 
-.next-event-important {
-  @include important;
-}
-
 .sponsors {
   margin-top: 20px;
   padding: 20px 0;
@@ -423,7 +408,7 @@ blockquote {
   background-color: $darkBlue;
   color: white;
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: $fontWeightBold;
   border-radius: 10px;
   -moz-border-radius: 10px;
   padding: 10px;
@@ -433,23 +418,18 @@ blockquote {
   }
 }
 
-li {
-  div.speaker, div.url, div.location {
-      margin-left: 110px;
-  }
-  div.important {
-      @include important;
-      margin-left: 110px;
-  }
-}
+
+//
+// POSTER
+//
 
 body.poster {
   div.poster-header {
-      text-align: right;
-      img {
-        height: 100px;
-		margin: 1em;
-      }
+    text-align: right;
+    img {
+      height: 100px;
+      margin: 1em;
+    }
   }
   hr.poster-line {
     height:20px;
@@ -480,7 +460,7 @@ body.poster {
   }
   div.poster-footer {
     font-size: 0.8em;
-	padding: 2em;
+    padding: 2em;
     div.poster-sponsors {
       margin-bottom: 10px;
       img {
@@ -496,21 +476,16 @@ body.poster {
   }
 }
 
-span.lastUpdated {
-  font-size: 0.8em;
-  float: left;
-}
+//
+// POSTER END
+//
 
-a.allEvents {
-  float: right;
-}
-
-.important {
-  @include important;
-}
+//
+// VARIOUS
+//
 
 .hint {
-  font-size: 0.7em;
+  font-size: 0.75em;
   font-style: italic;
 }
 
@@ -536,16 +511,11 @@ img[alt=logo] {
 }
 
 .alert {
-  border: 2px solid red;
+  border: 2px solid $dukeRed;
   background-color: rgba(255, 0, 0, 0.05);
   padding: 8px;
-  font-weight: bold;
+  font-weight: $fontWeightBold;
   a {
-    color: red;
-    text-decoration: underline;
+    color: $dukeRed;
   }
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";

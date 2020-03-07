@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Hallo</h1>
+<h1>Hallo!</h1>
 
 <p class="alert">
   <a href="/covid19">Aktuelle Informationen zum Umgang mit dem Corona-Virus (COVID-19 / SARS-CoV-2) auf den Veranstaltungen des iJUG, organisiert von der JUG DA, findet Ihr hier.</a>
@@ -12,5 +12,8 @@ layout: default
 <p>Wer an unseren kostenlosen Veranstaltungen teilnehmen oder selbst mal ein Thema präsentieren möchte, findet bei "<a href="{{ site.baseurl }}/mitmachen/">Mitmachen</a>" weitere Informationen.</p>
 
 {% include next-events.html %}
-<span class="lastUpdated">Stand vom {{ site.time | date:'%d.%m.%Y'}}</span>
-<a href="{{ site.baseurl }}/veranstaltungen/" class="allEvents">Alle Veranstaltungen >></a>
+
+<div class="flexContainerSpaceBetween">
+  <span class="hint">Stand vom {{ site.time | date:'%d.%m.%Y'}}</span>
+  <a href="{{ site.baseurl }}/veranstaltungen/">Alle Veranstaltungen >></a>
+</div>
