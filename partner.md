@@ -27,8 +27,3 @@ permalink: /partner/
 
 <i class="fa fa-home"></i> [http://jug-karlsruhe.de](http://jug-karlsruhe.de)  
 <i class="fa fa-twitter"></i> [@jugka](https://twitter.com/jugka)
-
-
-### User Groups Rhein Main
-
-[![User Groups Rheim Main](/images/ugrm.png)](http://usergroups.rheinmainrocks.de)

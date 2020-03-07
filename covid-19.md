@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Aktuelle Informationen zum Corona-Virus / COVID-19 / SARS-CoV-2
+title: Aktuelle Informationen zum Coronavirus / SARS-CoV-2 / COVID-19
 permalink: /covid19/
 ---
 
-Derzeit ist das "Corona-Virus", auch bekannt als "COVID-19" oder "SARS-CoV-2" in aller Munde.
+Derzeit ist das "Coronavirus", auch bekannt als "SARS-CoV-2", oder in Zusammenhang mit der Lungenkrankheit "COVID-19", in aller Munde.
 
 Bei unseren Veranstaltungen (_Veranstaltungen des iJUG e.V., organisiert durch die JUG DA_) werden sich mehrere Menschen am gleichen Ort treffen.
-Es ist also möglich, dass einer oder jeder dieser Teilnehmer den Corona-Virus in sich trägt und Du Dich infizieren kannst.
+Es ist also möglich, dass einer oder jeder dieser Teilnehmer den Coronavirus in sich trägt und Du Dich infizieren kannst.
 
 Daher müssen wir betonen, dass die Teilnahme an unseren Veranstaltungen auf Dein eigenes Risiko erfolgt und wir (oder der Ort, an dem wir Gastgeber sind, oder ein Sponsor) keine Haftung für Deine Sicherheit übernehmen.
 Wenn Du Dich unwohl fühlst, nehme nicht teil - schließlich bist Du erwachsen und für Deine eigenen Handlungen verantwortlich.
