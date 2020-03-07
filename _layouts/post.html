@@ -21,7 +21,7 @@ layout: default
     {% if page.important %}
       <h2 class="important">{{ page.important }}</h2>
     {% endif %}
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="flexContainerSpaceBetween">
       {% include getDateWithStartAndEndTimeFromEvent.html event=page %}
       <h3>
         <i class="fa fa-clock-o"></i>&nbsp;
