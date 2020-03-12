@@ -9,7 +9,8 @@ seatLimit: 40
 location: HUB31, Technologie- und Gründerzentrum Verwaltungs GmbH, Hilpertstraße 31, 64295 Darmstadt
 direction: https://goo.gl/maps/BAFL6Q431NgWVpxb6
 hidePub: true
-important: "Vortrag findet im HUB31, in der Hilpertstraße 31 statt."
+# important: "Vortrag findet im HUB31, in der Hilpertstraße 31 statt."
+important: 'Ob und wie der Vortrag stattfindet, ist derzeit noch nicht bekannt. Siehe auch <a href="/coronavirus">hier</a>'
 ---
 
 ### Zusammenfassung
@@ -29,4 +30,4 @@ Change-Driven Testing analysiert, welche (manuellen oder automatisierten) Tests 
 
 [CQSE](https://www.cqse.eu/de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![logo](/images/sponsors/cqse.png)](https://www.cqse.eu/de/) 
+[![logo](/images/sponsors/cqse.png)](https://www.cqse.eu/de/)
