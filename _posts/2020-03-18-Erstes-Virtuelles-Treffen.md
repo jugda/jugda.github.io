@@ -15,17 +15,18 @@ hidePub: true
 location: Remote
 raffle: false
 registration: false
-important: "Remote-Veranstaltung mit Sprechern der ausgefallen JavaLand, weitere Infos folgen in Kürze."
+important: "Remote-Veranstaltung mit Sprechern der ausgefallen JavaLand."
 ---
 
 ### Zusammenfassung
 
-Die JavaLand musste aufgrund der aktuellen Situation rund um den Corona-Virus leider abgesagt werden. Darum haben wir kurzfristig drei Sprecher der JavaLand aus unserer Region zu unserem ersten virtuellen JUG Darmstadt Treffen eingeladen. Die Teilnahme ist frei und für alle offen. Weitere Infos zur Plattform folgen in Kürze. 
+Die JavaLand musste aufgrund der aktuellen Situation rund um den Corona-Virus leider abgesagt werden. Darum haben wir kurzfristig drei Sprecher der JavaLand aus unserer Region zu unserem ersten virtuellen JUG Darmstadt Treffen eingeladen. Die Teilnahme ist frei und für alle offen (Anmeldung siehe unten).
 
-* 16:00 Uhr: GraalVM im Java-Ökosystem (Wolfgang Weigend, ORACLE Deutschland B.V. & Co. KG)
-* 17:00 Uhr: MicroProfile-Implementierungen – welche passt zu mir? (Tim Zöller, JUG Mainz, ilum:e informatik ag)
-* 18:00 Uhr: Knowledge Graphs: Wer kennt wen und andere Beziehungsprobleme (Wolfgang Schell, majug)
-* 19:00 Uhr: Virtueller Stammtisch - Diskussionen rund um die Vorträge
+* 16:00 Uhr: Begrüßung
+* 16:15 Uhr: GraalVM im Java-Ökosystem (Wolfgang Weigend, ORACLE Global Services Germany GmbH)
+* 17:15 Uhr: MicroProfile-Implementierungen – welche passt zu mir? (Tim Zöller, JUG Mainz, ilum:e informatik ag)
+* 18:15 Uhr: Knowledge Graphs: Wer kennt wen und andere Beziehungsprobleme (Wolfgang Schell, majug, metaphacts GmbH)
+* 19:00 Uhr: Virtueller Stammtisch - Diskussionen rund um die Vorträge, Feedbackrunde
 
 ### Details
 
@@ -33,7 +34,7 @@ Die JavaLand musste aufgrund der aktuellen Situation rund um den Corona-Virus le
 
 Die GraalVM ist eine universelle Virtuelle Maschine (VM) für Anwendungen, die in JavaScript, Python, Ruby, R oder mit den JVM-basierten Programmiersprachen Java, Scala, Kotlin, Clojure und LLVM-basierten Sprachen C/C++ geschrieben wurden. Im Jahr 2019 wurde die GraalVM 19.3 freigegeben, mit Performance-Verbesserungen und polyglotter Unterstützung für verschiedene Programmiersprachen. Sie ermöglicht damit die Interoperabilität in einer gemeinsamen Laufzeitumgebung. GraalVM kann eigenständig oder im Kontext von OpenJDK, Node.js, Oracle-Datenbank oder MySQL betrieben werden. Mit GraalVM-Ahead-of-Time-Fähigkeit kompilierte Native Images verfügen über eine optimierte Start-up-Zeit und verringern den Memory-Verbrauch von JVM-basierten Applikationen. Die GraalVM kann wahlweise als Open Source Community Edition (CE) oder als Enterprise Edition (EE) mit OTN-Lizenz verwendet werden. Im Vortrag wird die GraalVM-Architektur im Java-Ökosystem dargestellt und ihre Einsatzgebiete werden erläutert, beispielsweise der in Java entwickelte C2-JIT-Compiler oder die Verwendung von GraalVM Native Images mit Functions in der Cloud. GraalVM und OpenJDK können auch für den Kubernetes-Native-Java-Stack Quarkus.io verwendet werden.
 
-{% include speakerpic-name.html %} is a senior systems engineer at Oracle Deutschland B.V. & Co. KG. He works with Java technology and the appropriate architecture to develop enterprise Java applications.
+{% include speakerpic-name.html %} is a senior systems engineer at ORACLE Global Services Germany GmbH. He works with Java technology and the appropriate architecture to develop enterprise Java applications.
 
 
 #### MicroProfile-Implementierungen – welche passt zu mir?
@@ -54,4 +55,9 @@ Dieser Vortrag zeigt anhand einiger Beispiele, wie man einen Knowledge Graph mit
 
 ### Registrierung
 
-Dieses Event führen wir auf einer Online-Plattform in Form eines Webinars durch. Dafür muss man sich registrieren und kann dann aber auch mit den Sprechern interagieren. Weitere Infos folgen in Kürze.
+Dieses Event führen wir auf der Online-Plattform BigMarker in Form eines Webinars durch. Dafür muss man sich registrieren und kann dann den Sprechern auch Fragen stellen.
+
+[Anmeldung](https://www.bigmarker.com/cyberland/1-JUG-Darmstadt-Remote-Treffen)
+
+Meldet Euch bei Fragen bitte über [info@jug-da.de](mailto:info@jug-da.de).
+
