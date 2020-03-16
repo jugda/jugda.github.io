@@ -15,7 +15,7 @@ hidePub: true
 location: Remote
 raffle: false
 registration: false
-important: "Remote-Veranstaltung mit Sprechern der ausgefallen JavaLand."
+important: "Remote-Veranstaltung mit Sprechern der ausgefallenen JavaLand."
 ---
 
 ### Zusammenfassung
