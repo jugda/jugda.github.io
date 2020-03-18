@@ -1,4 +1,5 @@
 ---
+published: false
 title: Live Coding mit dem MicroProfile
 speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
