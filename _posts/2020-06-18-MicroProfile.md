@@ -4,7 +4,7 @@ title: Live Coding mit dem MicroProfile
 speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
 twitter: thfro
-date: 2020-03-26 18:30
+date: 2020-06-18 18:30
 seatLimit: 40
 location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
 direction: http://www.interes.com/de/#kontakt
