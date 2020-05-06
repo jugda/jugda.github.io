@@ -8,8 +8,8 @@ date: 2020-05-14 18:30
 hidePub: true
 location: Remote
 raffle: false
-registration: false
-important: 'Ob und wie der Vortrag stattfindet, ist derzeit noch nicht bekannt. Siehe auch <a href="/coronavirus">hier</a>'
+registration: true
+important: 'Der Vortrag wird als Remote-Event stattfinden, weitere Infos folgen in Kürze.'
 ---
 
 ### Zusammenfassung
