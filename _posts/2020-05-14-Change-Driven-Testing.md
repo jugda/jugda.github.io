@@ -8,7 +8,7 @@ date: 2020-05-14 18:30
 hidePub: true
 location: Remote
 raffle: false
-registration: true
+hideRegistration: false
 important: 'Der Vortrag wird als Remote-Event stattfinden, weitere Infos folgen in Kürze.'
 ---
 
@@ -23,4 +23,3 @@ Change-Driven Testing analysiert, welche (manuellen oder automatisierten) Tests 
 ### Sprecher
 
 {% include speakerpic-name.html %} ist Berater der CQSE GmbH für Software Qualität. Er studierte Informatik an der Technischen Universität Darmstadt sowie der Pontifícia Universidade Católica do Rio de Janeiro (Brasilien). Er promovierte im Bereich Softwaretechnik an der Technischen Universität Darmstadt.
-
