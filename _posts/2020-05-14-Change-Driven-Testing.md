@@ -9,7 +9,7 @@ hidePub: true
 location: Remote
 raffle: false
 hideRegistration: false
-important: 'Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung.'
+youtube: 6ki4IFarSso
 ---
 
 ### Zusammenfassung
@@ -23,7 +23,3 @@ Change-Driven Testing analysiert, welche (manuellen oder automatisierten) Tests 
 ### Sprecher
 
 {% include speakerpic-name.html %} ist Berater der CQSE GmbH für Software Qualität. Er studierte Informatik an der Technischen Universität Darmstadt sowie der Pontifícia Universidade Católica do Rio de Janeiro (Brasilien). Er promovierte im Bereich Softwaretechnik an der Technischen Universität Darmstadt.
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.
