@@ -23,3 +23,9 @@ Change-Driven Testing analysiert, welche (manuellen oder automatisierten) Tests 
 ### Sprecher
 
 {% include speakerpic-name.html %} ist Berater der CQSE GmbH für Software Qualität. Er studierte Informatik an der Technischen Universität Darmstadt sowie der Pontifícia Universidade Católica do Rio de Janeiro (Brasilien). Er promovierte im Bereich Softwaretechnik an der Technischen Universität Darmstadt.
+
+### Sponsoren
+
+AOE stellt uns das Videokonferenz-Tool zur Verfügung gestellt. Vielen Dank dafür.
+
+[![AOE Logo](/images/sponsors/aoe.png)](http://www.aoe.com)
