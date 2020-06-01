@@ -6,7 +6,7 @@ speakerpic: svenamann.jpg
 twitter: svamann
 date: 2020-05-14 18:30
 hidePub: true
-location: Remote
+location: Online
 raffle: false
 hideRegistration: false
 youtube: 6ki4IFarSso

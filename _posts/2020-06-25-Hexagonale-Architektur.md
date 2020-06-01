@@ -4,7 +4,7 @@ title: 'Mein Service hat sechs Ecken - Hexagonale Architektur mit Spring Boot'
 speaker: Christoph Thelen
 date: 2020-06-25 18:30
 hidePub: true
-location: Remote
+location: Online
 raffle: true
 hideRegistration: false
 important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."

@@ -5,7 +5,7 @@ speaker: Hanna Prinz
 speakerpic: hannaprinz.jpg
 twitter: HannaPrinz
 date: 2020-07-16 18:30
-location: Remote
+location: Online
 hidePub: true
 important: "Der Vortrag findet voraussichtlich Remote statt, weitere Infos folgen."
 ---
