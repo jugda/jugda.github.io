@@ -4,6 +4,12 @@ speaker: Simon Harrer
 speakerpic: simonharrer.jpg
 twitter: simonharrer
 date: 2020-10-22 18:30
+hidePub: true
+location: Online
+seatLimit: 100
+raffle: true
+hideRegistration: false
+important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
 ---
 
 ### Zusammenfassung
@@ -24,3 +30,7 @@ Wir freuen uns auf euch!
 [3] [remotemobprogramming.org](https://remotemobprogramming.org)
 
 [4] [gitops.tech](https://gitops.tech)
+
+### Registrierung
+
+Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.

@@ -1,9 +1,12 @@
-"JAX 2020":
-  img: jax.jpg
-  href: https://jax.de/mainz/
 "Accento 2020":
   img: accento.jpg
   href: https://2020.accento.dev/
+"JAX 2020":
+  img: jax.jpg
+  href: https://jax.de/mainz/
+"SpeaKonf Online 2020":
+  img: speakonf.svg
+  href: https://speakonf.de/
 "WJAX 2020":
   img: wjax.png
   href: https://jax.de/muenchen/

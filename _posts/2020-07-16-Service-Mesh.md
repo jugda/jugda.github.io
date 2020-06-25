@@ -5,9 +5,12 @@ speaker: Hanna Prinz
 speakerpic: hannaprinz.jpg
 twitter: HannaPrinz
 date: 2020-07-16 18:30
-location: Online
 hidePub: true
-important: "Der Vortrag findet voraussichtlich Remote statt, weitere Infos folgen."
+location: Online
+seatLimit: 100
+raffle: true
+hideRegistration: false
+important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
 ---
 
 ### Zusammenfassung
@@ -20,3 +23,7 @@ Wir müssen reden – über sinnvolle Anwendungsfälle für Service Mesh Technol
 
 
 {% include speakerpic-name.html %} ist Entwicklerin und Consultant bei INNOQ mit dem Schwerpunkt Infrastruktur und Service Mesh. Davor arbeitete sie als Entwicklerin für Backend, Web und Apps und als Dozentin für Programmierung – bis sie den Herausforderungen des Betriebs begegnete und nicht widerstehen konnte. Seitdem beschäftigt sie sich mit allen Themen im Bereich Automatisierung und DevOps wie Kubernetes, CI/CD und Service Meshes.
+
+### Registrierung
+
+Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.
