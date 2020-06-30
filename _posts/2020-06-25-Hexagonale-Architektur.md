@@ -12,6 +12,7 @@ raffle: true
 hideRegistration: false
 attachments:
   Folien: https://docs.google.com/presentation/d/1vthda4Wz75VKOdikBYFk2YAMDre1E9j_g_WIrcJWjxY/edit?usp=sharing
+youtube: Xw6n9nNV6jo
 ---
 
 ### Zusammenfassung
