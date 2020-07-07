@@ -5,7 +5,7 @@ speakerpic: thilo_frotscher.jpg
 twitter: thfro
 date: 2020-11-12 18:30
 seatLimit: 60
-important: 'Ob und wie der Vortrag stattfindet, ist derzeit noch nicht bekannt. Siehe auch <a href="/coronavirus">hier</a>'
+published: false
 ---
 
 ### Zusammenfassung
