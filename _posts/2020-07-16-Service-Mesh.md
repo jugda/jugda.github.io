@@ -10,7 +10,7 @@ location: Online
 seatLimit: 100
 raffle: true
 hideRegistration: false
-ttachments:
+attachments:
   Folien: https://speakerdeck.com/hannaprinz/service-mesh-was-die-neue-infrastruktur-fur-microservices-taugt-f33b005f-93d4-4933-9cc3-33643f6f8439
 ---
 
