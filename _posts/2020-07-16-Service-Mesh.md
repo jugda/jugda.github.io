@@ -10,7 +10,8 @@ location: Online
 seatLimit: 100
 raffle: true
 hideRegistration: false
-important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
+ttachments:
+  Folien: https://speakerdeck.com/hannaprinz/service-mesh-was-die-neue-infrastruktur-fur-microservices-taugt-f33b005f-93d4-4933-9cc3-33643f6f8439
 ---
 
 ### Zusammenfassung
@@ -23,7 +24,3 @@ Wir müssen reden – über sinnvolle Anwendungsfälle für Service Mesh Technol
 
 
 {% include speakerpic-name.html %} ist Entwicklerin und Consultant bei INNOQ mit dem Schwerpunkt Infrastruktur und Service Mesh. Davor arbeitete sie als Entwicklerin für Backend, Web und Apps und als Dozentin für Programmierung – bis sie den Herausforderungen des Betriebs begegnete und nicht widerstehen konnte. Seitdem beschäftigt sie sich mit allen Themen im Bereich Automatisierung und DevOps wie Kubernetes, CI/CD und Service Meshes.
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.
