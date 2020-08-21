@@ -4,12 +4,6 @@ speaker: Oliver Milke
 speakerpic: olivermilke.jpg
 twitter: olivermilke
 date: 2020-11-12 18:30
-hidePub: true
-location: Online
-seatLimit: 100
-raffle: true
-hideRegistration: false
-important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
 ---
 
 ### Zusammenfassung
@@ -26,7 +20,7 @@ Wenn du dir auch schon immer mal vorgenommen hast, dich genauer mit diesem Thema
 
 {% include speakerpic-name.html %} is
 * dev at heart
-* involved in 4Kids, co-orga of JUG Ostfalen, co-founder @ithubbs 
+* involved in 4Kids, co-orga of JUG Ostfalen, co-founder @ithubbs
 * gym aficionado and free athlete, board gamer
 * working @cloudogu
 

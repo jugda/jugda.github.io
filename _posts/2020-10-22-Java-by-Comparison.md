@@ -4,17 +4,11 @@ speaker: Simon Harrer
 speakerpic: simonharrer.jpg
 twitter: simonharrer
 date: 2020-10-22 18:30
-hidePub: true
-location: Online
-seatLimit: 100
-raffle: true
-hideRegistration: false
-important: "Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
 ---
 
 ### Zusammenfassung
 
-Auf Basis von über 6 Jahren Java Lehre an der Uni Bamberg und dem Korrigieren von unzähligen Java-Aufgaben haben wir - Jörg Lenhard, Linus Dietz und Simon Harrer - ein Buch geschrieben, welches die typischen Fehler in einer innovativen Vorher/Nachher-Darstellung aufzeigt und erklärt: Java by Comparison [1]. Durch diese Vergleiche können Einsteigerinnen und Einsteiger schneller eine Intuition für “Clean Code” entwickeln, Profis hilft es, ihre Denkweisen Einsteigern besser zu erklären und vielleicht das eine oder andere aufzufrischen. Wir stellen erst die Geschichte des Buches vor und gehen dann konkret auf ein paar der Vergleiche aus dem Buch ein. Danach wollen wir gemeinsam kreativ sein und mit euch ein von uns entwickeltes Spiel namens “Comparison Jeopardy” [2] spielen. 
+Auf Basis von über 6 Jahren Java Lehre an der Uni Bamberg und dem Korrigieren von unzähligen Java-Aufgaben haben wir - Jörg Lenhard, Linus Dietz und Simon Harrer - ein Buch geschrieben, welches die typischen Fehler in einer innovativen Vorher/Nachher-Darstellung aufzeigt und erklärt: Java by Comparison [1]. Durch diese Vergleiche können Einsteigerinnen und Einsteiger schneller eine Intuition für “Clean Code” entwickeln, Profis hilft es, ihre Denkweisen Einsteigern besser zu erklären und vielleicht das eine oder andere aufzufrischen. Wir stellen erst die Geschichte des Buches vor und gehen dann konkret auf ein paar der Vergleiche aus dem Buch ein. Danach wollen wir gemeinsam kreativ sein und mit euch ein von uns entwickeltes Spiel namens “Comparison Jeopardy” [2] spielen.
 
 Wir freuen uns auf euch!
 

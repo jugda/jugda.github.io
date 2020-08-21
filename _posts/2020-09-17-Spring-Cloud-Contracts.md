@@ -6,12 +6,6 @@ speakerpic: fabiankrueger.jpg
 twitter: hiiamfabian
 date: 2020-09-17 17:00
 duration: 3
-hidePub: true
-location: Online
-seatLimit: 100
-raffle: true
-hideRegistration: false
-important: "Der Workshop wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
 ---
 
 ### Zusammenfassung
@@ -60,15 +54,15 @@ Learn how to use Spring Cloud Contract to verify with generated tests and stubs 
 
 ### Sprecher
 
-{% include speakerpic-name.html %} arbeitet seit mehr als 15 Jahren im Bereich Softwareentwicklung mit verschiedenen Technologien in unterschiedlichen Rollen und Industriezweigen. 
+{% include speakerpic-name.html %} arbeitet seit mehr als 15 Jahren im Bereich Softwareentwicklung mit verschiedenen Technologien in unterschiedlichen Rollen und Industriezweigen.
 
-Seit 2019 arbeitet er bei VMware Pivotal Labs (vormals Pivotal) als Senior Solutions Architect für Spring/Java. 
+Seit 2019 arbeitet er bei VMware Pivotal Labs (vormals Pivotal) als Senior Solutions Architect für Spring/Java.
 
 Dabei unterstützt und berät er Kunden bei Entwicklung und Modernisierung von Applikationen für den Einsatz moderner Cloud Technologien wie Kubernetes und Cloudfoundry.
 
 Fabian ist Spring Enthusiast und interessiert sich für alle Themen rund um Softwarearchitektur, Softwarequalität, Clean Code und Testautomation.
 
- 
+
 
 ### Registrierung
 

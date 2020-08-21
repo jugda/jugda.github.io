@@ -57,13 +57,15 @@ defaults:
       eventType: talk # talk, barbecue, report, hackathon, conference
       startTime: "18:30"
       duration: 2
-      location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
+      # location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
+      location: Online
       direction: "/anfahrt/"
-      hideRegistration: true
+      hideRegistration: false
       registrationUrl: https://registration.jug-da.de/registration
-      seatLimit: 60
-      hidePub: false
+      seatLimit: 100
+      hidePub: true
       raffle: true
+      important: "Der Workshop wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
       # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
 #
 # !! You don't need to change any of the configuration flags below !!
