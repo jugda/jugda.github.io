@@ -1,3 +1,9 @@
+- name: Melanie Andrisek
+  image: /images/mfe.jpg
+  bio: Melanie Andrisek ist Technikjournalistin. Sie arbeitet als Lektorin für IT-Bücher und Konferenzmanagerin beim dpunkt.verlag. Wenn sie nicht gerade versucht, Techies vernünftiges Deutsch beizubringen oder Newcomer auf die Konferenzbühne zu holen, arbeitet sie daran, ihrem Umfeld agile Methoden näherzubringen.
+  email: mel.andrisek@gmail.com
+  website: https://www.kompassnadel.net
+  twitter: aelindara
 - name: Gerd Aschemann
   image: /images/gas.jpg
   bio: Gerd Aschemann arbeitet als freiberuflicher Software- und Systems-Architekt und -Entwickler im Bereich Enterprise-Java (in den letzten Jahren auch gerne mit Groovy). Für seine Kunden nimmt er am liebsten eine Rolle an der Grenze zwischen Entwicklung und Betrieb wahr. Mit großem Interesse verfolgt er seit einiger Zeit die Entwicklung von Containern und Microservices und hilft Unternehmen auf ihrem Weg in dieses Universum.
@@ -10,12 +16,6 @@
   email: marcel.bruch@codetrails.com
   website: http://www.codetrails.com
   twitter: MarcelBruch
-- name: Melanie Feldmann
-  image: /images/mfe.jpg
-  bio: Melanie Feldmann ist Technikjournalistin. Sie arbeitet als Lektorin für IT-Bücher und Konferenzmanagerin beim dpunkt.verlag. Wenn sie nicht gerade versucht, Techies vernünftiges Deutsch beizubringen oder Newcomer auf die Konferenzbühne zu holen, arbeitet sie daran, ihrem Umfeld agile Methoden näherzubringen.
-  email: mel.feldmann@gmail.com
-  website: https://www.kompassnadel.net
-  twitter: aelindara
 - name: Jörn Hameister
   image: /images/jha.jpg
   bio: Jörn Hameister arbeitet als Software-Entwickler und Projektleiter im Java- und JEE-Umfeld. Privat beschäftigt er sich unter anderem mit Objective-C & Cocoa und hat ein Buch zu dem Thema geschrieben. Außerdem veröffentlicht er regelmäßig Tutorials und Artikel zu verschiedenen Programmierthemen auf seiner Webseite.
