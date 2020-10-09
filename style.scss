@@ -256,6 +256,13 @@ nav.legal {
 footer {
   padding: 20px 0;
   text-align: center;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 
@@ -297,6 +304,12 @@ footer {
     width: 100%;
     padding: 0px;
   }
+}
+
+.flexContainerSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .flexContainerSpaceBetween {
@@ -507,4 +520,9 @@ body.poster {
   a {
     color: $dukeRed;
   }
+}
+
+.conferenceLogo {
+  max-width: 250px;
+  margin: 1em;
 }

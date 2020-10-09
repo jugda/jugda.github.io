@@ -40,13 +40,9 @@
       {%if page.name == 'index.html' %}
         {% include next-event.html %}
       {% endif %}
-      <div class="maincontent">
+      <div>
         {{ content }}
       </div>
-      <div class="sidebar">
-        {% include sidebar.html %}
-      </div>
-      <div style="clear: both"></div>
     </div>
 
     <div class="wrapper-footer">
@@ -58,7 +54,6 @@
     </div>
 
     {% include sponsoren.html %}
-    {% include analytics.html %}
     <script src="/js/script.js"></script>
   </body>
 </html>

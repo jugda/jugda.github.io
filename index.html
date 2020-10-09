@@ -13,3 +13,12 @@ layout: default
   <span class="hint">Stand vom {{ site.time | date:'%d.%m.%Y'}}</span>
   <a href="{{ site.baseurl }}/veranstaltungen/">Alle Veranstaltungen >></a>
 </div>
+
+<hr/>
+
+<div>
+  <h3>Beachtet auch gerne unsere Partner-Events:</h3>
+  <div class="flexContainerSpaceAround" style="flex-wrap: wrap;">
+    {% include conferences.html %}
+  </div>
+</div>

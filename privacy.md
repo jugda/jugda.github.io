@@ -144,6 +144,9 @@ Die Verarbeitung der bei der Registrierung eingegebenen Daten erfolgt auf Grundl
 
 Die bei der Registrierung erfassten Daten werden von uns gespeichert, solange Sie für die Nutzung des jeweiligen Angebotes oder Dienstes, für den Sie sich  registriert haben, notwendig sind und werden anschließend gelöscht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.
 
+Die Daten werden bei Amazon Web Services in der Region Frankfurt (eu-central-1) gespeichert und verarbeitet.
+Mit Amazon Web Services haben wir einen Auftragsverarbeitungsvertrag unter Einbeziehung der EU-Standardvertragsklauseln geschlossen.
+
 
 ### Soziale Medien
 
