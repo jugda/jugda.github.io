@@ -32,12 +32,6 @@ Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger
 
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
 
-#### Analyse-Tools und Tools von Drittanbietern
-
-Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen.
-
-Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
-
 
 ### Hosting und Content Delivery Netowrks (CDN)
 
@@ -148,20 +142,6 @@ Die Daten werden bei Amazon Web Services in der Region Frankfurt (eu-central-1) 
 Mit Amazon Web Services haben wir einen Auftragsverarbeitungsvertrag unter Einbeziehung der EU-Standardvertragsklauseln geschlossen.
 
 
-### Soziale Medien
-
-#### Twitter Plugin
-
-Auf dieser Website sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, D02 AX07, Irland. Durch das Benutzen von Twitter und der Funktion „Re-Tweet“ werden die von Ihnen besuchten Websites mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter: [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
-
-Die Verwendung des Twitter-Plugins erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
-
-Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier:
-[https://gdpr.twitter.com/en/controller-to-controller-transfers.html](https://gdpr.twitter.com/en/controller-to-controller-transfers.html).
-
-Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter [https://twitter.com/account/settings](https://twitter.com/account/settings) ändern.
-
-
 ### Plugins und Tools
 
 #### YouTube
@@ -181,6 +161,42 @@ Gegebenenfalls können nach dem Start eines YouTube-Videos weitere Datenverarbei
 Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
 
 Weitere Informationen über Datenschutz bei YouTube finden Sie in deren Datenschutzerklärung unter: [https://policies.google.com/privacy?hl=de](https://policies.google.com/privacy?hl=de).
+
+#### Zoom Videokonferenzen
+
+Wir nutzen das Tool Zoom, um Videokonferenzen und Online-Meetings (nachfolgend nur "Online-Meetings") durchzuführen.
+Zoom ist ein Service der Zoom Video Communications, Inc., die ihren Sitz in den USA hat.
+
+Bei der Nutzung von Zoom werden verschiedene Datenarten verarbeitet. Der Umfang der Daten hängt dabei auch davon ab, welche Angaben zu Daten Sie vor bzw. bei der Teilnahme an einem Online-Meeting machen.
+Folgende personenbezogene Daten sind Gegenstand der Verarbeitung (auf diese haben wir keinen Einfluss):
+* Angaben zum Benutzer (Vorname, Nachname, Telefon (optional), E-Mail-Adresse, Profilbild (optional))
+* Meeting-Metadaten (Thema, Beschreibung (optional), Teilnehmer-IP-Adresse, Geräte-/Hardware-Informationen))
+* Bei Aufzeichnungen (optional): MP4-Datei aller Video-, Audio- und Präsentationsaufnahmen, M4A-Datei aller Audioaufnahmen, Textdatei des Online-Meeting-Chats.
+* Bei Einwahl mit dem Telefon: Angabe zur eingehenden und ausgehenden Rufnummer, Ländername, Start- und Endzeit. Ggf. können weitere Verbindungsdaten wie z.B. die IP-Adresse des Gerätes gespeichert werden.
+
+**Text-, Audio- und Videodaten:**
+Sie haben ggf. die Möglichkeit, in einem Online-Meeting die Chat-, Fragen- oder Umfragenfunktion zu nutzen. Insoweit werden die von Ihnen gemachten Texteingaben verarbeitet, um diese im Online-Meeting anzuzeigen und ggf. zu protokollieren. Um die Anzeige von Video und die Wiedergabe von Audio zu ermöglichen, werden entsprechend während der Dauer des Meetings die Daten vom Mikrofon Ihres Endgeräts sowie von einer etwaigen Videokamera des Endgeräts verarbeitet. Sie können die Kamera oder das Mikrofon jederzeit selbst über die Zoom-Applikationen abschalten bzw. stummstellen.
+
+Um an einem Online-Meeting teilzunehmen bzw. den Meeting-Raum zu betreten, müssen Sie zumindest Angaben zu Ihrem Namen machen.
+
+Wir verwenden Zoom, um Online-Meetings durchzuführen. Wenn wir Online-Meetings aufzeichnen wollen, werden wir Ihnen das im Vorfeld transparent mitteilen und – soweit erforderlich – um eine Zustimmung bitten. Die Tatsache der Aufzeichnung wird Ihnen zudem in der Zoom-App angezeigt.
+
+Wenn es für die Zwecke der Protokollierung von Ergebnissen eines Online-Meetings erforderlich ist, werden wir die Chatinhalte protokollieren. Das wird jedoch in der Regel nicht der Fall sein.
+Im Falle von Webinaren können wir für Zwecke der Aufzeichnung und Nachbereitung von Webinaren auch die gestellten Fragen von Webinar-Teilnehmenden verarbeiten.
+
+Wenn Sie bei Zoom als Benutzer registriert sind, dann können Berichte über Online-Meetings (Meeting-Metadaten, Daten zur Telefoneinwahl, Fragen und Antworten in Webinaren, Umfragefunktion in Webinaren) bis zu einem Monat bei Zoom gespeichert werden. Hierauf haben wir keinen Einfluss.
+
+Eine automatisierte Entscheidungsfindung i.S.d. Art. 22 DSGVO kommt nicht zum Einsatz.
+
+Rechtsgrundlage der Datenverarbeitung bei der Nutzung von Zoom ist unser Interesse an der effektiven Durchführung von Online-Meetings (Art. 6 Abs. 1 lit. f DSGVO).
+
+Personenbezogene Daten, die im Zusammenhang mit der Teilnahme an Online-Meetings verarbeitet werden, werden grundsätzlich nicht an Dritte weitergegeben, sofern sie nicht gerade zur Weitergabe bestimmt sind. Beachten Sie bitte, dass Inhalte aus Online-Meetings wie auch bei persönlichen Besprechungstreffen häufig gerade dazu dienen, um Informationen mit Kunden, Interessenten oder Dritten zu kommunizieren und damit zur Weitergabe bestimmt sind.
+
+Der Anbieter von Zoom erhält notwendigerweise Kenntnis von den o.g. Daten, soweit dies im Rahmen unseres Auftragsverarbeitungsvertrages mit Zoom vorgesehen ist.
+
+Zoom ist ein Dienst, der von einem Anbieter aus den USA erbracht wird. Eine Verarbeitung der personenbezogenen Daten findet damit auch in einem Drittland statt. Wir haben mit dem Anbieter von Zoom einen Auftragsverarbeitungsvertrag geschlossen, der den Anforderungen von Art. 28 DSGVO entspricht. Ein angemessenes Datenschutzniveau ist zum einen durch den Abschluss der sog. EU-Standardvertragsklauseln garantiert. Als ergänzende Schutzmaßnahmen haben wir ferner unsere Zoom-Konfiguration so vorgenommen, dass für die Durchführung on Online-Meetings nur Rechenzentren in der EU, dem EWR, bzw. sicheren Drittstaaten wie z.B. Kanada oder Japan genutzt werden.
+
+Weitere Informationen über Datenschutz bei Zoom finden Sie in der Datenschutzerklärung unter [https://zoom.us/de-de/privacy.html](https://zoom.us/de-de/privacy.html) und der DSGVO-Compliance unter [https://zoom.us/de-de/gdpr.html](https://zoom.us/de-de/gdpr.html).
 
 ---
 
