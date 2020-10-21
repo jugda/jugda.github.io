@@ -1,9 +1,12 @@
 ---
 title: Java by Comparison
 speaker: Simon Harrer
+speaker2: Linus Dietz
 speakerpic: simonharrer.jpg
+speakerpic2: LinusDietz.jpg
 twitter: simonharrer
-date: 2020-10-22 18:30
+twitter2: Lynyus
+date: 2021-xx-xx 18:30
 ---
 
 ### Zusammenfassung
@@ -20,6 +23,8 @@ Wir freuen uns auf euch!
 
 
 {% include speakerpic-name.html %} ist Senior Consultant bei INNOQ. Mit dem Wissen aus seiner Zeit als Dozent an der Uni Bamberg hat er an dem Buch Java by Comparison mitgearbeitet, das Anfängern mittels Vorher/Nachher-Beispielen beibringt saubereren Java-Code zu schreiben. Seit August 2018 ist er bekennender Remote Mob Programmer [3] und möchte nie wieder anders arbeiten. Aktuell interessiert er sich stark für neue Praktiken in der DevOps Welt, insbesondere GitOps [4].
+
+{% include speakerpic-name.html speaker=page.speaker2 speakerpic=page.speakerpic2 twitter=page.twitter2 %} ist Wissenschaftlicher Mitarbeiter an der Fakultät für Informatik der Technischen Uni München. Er forscht dort zu Empfehlungsdiensten für Reisende und Mobilität im Generellen. Zuvor hat er zusammen mit Simon an der Uni Bamberg Programmierung in Java unterrichtet und den dort gewonnenen Erfahrungsschatz in Form des Buches "Java by Comparison" aufgeschrieben.
 
 [3] [remotemobprogramming.org](https://remotemobprogramming.org)
 
