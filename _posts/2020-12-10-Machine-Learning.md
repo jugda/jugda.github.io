@@ -13,7 +13,7 @@ Machine Learning revolutioniert in vielen Bereichen das Bild der Anwendungsentwi
 ### Sprecher
 
 
-{% include speakerpic-name.html %} Oliver hat über Jahrzehnte in vielen unterschiedlichen Sprachen und mit vielen Technologien Software entwickelt. In den letzten Jahren ist er tief in die Analyse großer Datenmengen, unter anderem auch mit Techniken des Machine Learning, eingestiegen.
+{% include speakerpic-name.html %} arbeitet bei embarc und hat über Jahrzehnte in vielen unterschiedlichen Sprachen und mit vielen Technologien Software entwickelt. In den letzten Jahren ist er tief in die Analyse großer Datenmengen, unter anderem auch mit Techniken des Machine Learning, eingestiegen.
 
 
 ### Registrierung
