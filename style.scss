@@ -115,6 +115,10 @@ img {
   max-width: 100%;
 }
 
+code {
+  font-family: monospace;
+}
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -525,4 +529,8 @@ body.poster {
 .conferenceLogo {
   max-width: 250px;
   margin: 1em;
+}
+
+#registrierung, #anmeldung {
+  clear: both;
 }
