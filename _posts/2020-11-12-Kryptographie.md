@@ -23,8 +23,3 @@ Wenn du dir auch schon immer mal vorgenommen hast, dich genauer mit diesem Thema
 * involved in 4Kids, co-orga of JUG Ostfalen, co-founder @ithubbs
 * gym aficionado and free athlete, board gamer
 * working @cloudogu
-
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.

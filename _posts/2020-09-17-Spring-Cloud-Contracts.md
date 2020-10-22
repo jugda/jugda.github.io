@@ -61,9 +61,3 @@ Seit 2019 arbeitet er bei VMware Pivotal Labs (vormals Pivotal) als Senior Solut
 Dabei unterstützt und berät er Kunden bei Entwicklung und Modernisierung von Applikationen für den Einsatz moderner Cloud Technologien wie Kubernetes und Cloudfoundry.
 
 Fabian ist Spring Enthusiast und interessiert sich für alle Themen rund um Softwarearchitektur, Softwarequalität, Clean Code und Testautomation.
-
-
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.

@@ -25,7 +25,3 @@ In den letzten zwei Jahren gingen bzgl. der neuen Java Roadmap und der geändert
 ### Sprecher
 
 {% include speakerpic-name.html %} is a co-founder of Karakun AG and lives in Dortmund, Germany. He is the founder and leader of the Java User Group Dortmund and gives talks and presentations in user groups and conferences. His JavaFX book “Mastering JavaFX 8 Controls” was released in 2014 by Oracle press. Hendrik is a JavaOne Rockstar, JSR expert group member and Java Champion. Hendrik is a member of the AdoptOpenJDK TSC.
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.

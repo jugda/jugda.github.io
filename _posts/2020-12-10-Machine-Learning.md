@@ -14,8 +14,3 @@ Machine Learning revolutioniert in vielen Bereichen das Bild der Anwendungsentwi
 
 
 {% include speakerpic-name.html %} arbeitet bei embarc und hat über Jahrzehnte in vielen unterschiedlichen Sprachen und mit vielen Technologien Software entwickelt. In den letzten Jahren ist er tief in die Analyse großer Datenmengen, unter anderem auch mit Techniken des Machine Learning, eingestiegen.
-
-
-### Registrierung
-
-Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail (schaut auch in Eure Spam-Ordner!). Wer sehr kurzfristig dazustossen will, muss uns am besten unter orga@jug-da.de oder über eine Direktnachricht auf Twitter (@JUG_DA) anpingen.
