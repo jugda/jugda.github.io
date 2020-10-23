@@ -5,18 +5,8 @@ speaker: Hendrik Ebbers
 speakerpic: hendrikebbers.png
 twitter: hendrikebbers
 date: 2020-10-22 18:30
-hidePub: true
-location: Online
-seatLimit: 100
-raffle: true
-hideRegistration: false
-important: "Achtung: Kurzfristige Themaänderung! Der Vortrag wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
+youtube: Y9chepoB7QM
 ---
-
-### Ersatzvortrag
-
-**Leider fällt unser ursprünglich geplanter Vortrag zu "Java by Comparison" mit Simon Harrer und Linus Dietz aus. Er wird Anfang nächsten Jahres nachgeholt. Wir haben aber kurzfristig Hendrik mit einem ebenfalls spannenden und sehr aktuellen Thema gewinnen können. Vielen Dank dafür.**
-
 
 ### Zusammenfassung
 
