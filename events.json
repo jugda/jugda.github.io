@@ -15,7 +15,8 @@ layout: null
 "start": "{{ dateWithStartTime | date: "%Y-%m-%dT%H:%M:00" }}",
 "end": "{{ dateWithEndTime | date: "%Y-%m-%dT%H:%M:00" }}",
 "timezone": "{{ site.timezone }}",
-"hideRegistration": {{ post.hideRegistration }}
+"hideRegistration": {{ post.hideRegistration }},
+"externalEvent": {{ post.externalEvent }}
 }{% unless forloop.last %},{% endunless %}
 {% endif %}{% endfor %}
 ]

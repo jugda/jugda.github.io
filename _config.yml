@@ -65,6 +65,7 @@ defaults:
       seatLimit: 100
       hidePub: true
       raffle: true
+      externalEvent: false
       important: "Der Workshop wird als Remote-Event stattfinden, weitere Infos unten bei der Registrierung."
       # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
 #

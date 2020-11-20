@@ -27,7 +27,7 @@ permalink: /veranstaltungen/
 <ul class="talk-list">
   {% assign firstPost = true %}
   {% for post in site.posts %}
-    {% if post.date <= site.time %}
+    {% if post.date <= site.time and post.externalEvent == false %}
       {% if firstPost %}
         <a name="{{ post.date | date: '%Y' }}"></a>
         <h3>{{ post.date | date: '%Y' }}</h3>

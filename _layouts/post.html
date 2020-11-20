@@ -57,9 +57,9 @@ layout: default
   {% else %}
     <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien</a>
   {% endif %}
-
   </p>
   {% endif %}
+
   {% if page.youtube %}
   {% if page.youtube.first %}
 	{% for video in page.youtube %}
@@ -79,6 +79,12 @@ layout: default
   {% endif %}
 
   <div class="hint">
+  {% if page.externalEvent == false %}
     Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  {% else %}
+    Die JUG DA ist nicht Veranstalter dieses Events.
+    Verantwortlich für diese Veranstaltung ist der oben im Text auf dieser Seite genannte (und ggf. verlinkte) Veranstalter.
+    Es gelten dessen Bestimmungen und Richtlinien.
+  {% endif %}
   </div>
 </article>
