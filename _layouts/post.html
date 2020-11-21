@@ -8,6 +8,7 @@ layout: default
     {{ page.date | date: "%d.%m.%Y" }}
   </h2>
   <h1>{{ page.title }}</h1>
+  {% if page.externalEvent == true %} <h2 class="externalEvent"><i class="fa fa-external-link" aria-hidden="true"></i> Externe Veranstaltung</h2>{% endif %}
   {% if page.speaker %}
     <h2>
       <em>
