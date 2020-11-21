@@ -1,6 +1,6 @@
 ---
 title: CyberLand 2D
-speaker: Verschiedene
+speaker: S. Gerberding, S. Parsick, G. Berky, E. Wolff
 date: 2020-12-03 18:00
 duration: 4
 externalEvent: true
