@@ -1,10 +1,10 @@
 ---
 title: CyberLand Late Night
 speaker: Sandra Parsick und Hendrik Ebbers mit Gästen
-date: 2020-12-15 20:00
-duration: 4
+date: 2021-01-15 20:00
+duration: 2
 externalEvent: true
-registrationUrl: https://cyberland.ijug.eu/2020-12-late-night/
+registrationUrl: https://cyberland.ijug.eu/2021-01-late-night-manta-edition/
 important: false
 ---
 

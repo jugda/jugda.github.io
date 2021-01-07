@@ -75,6 +75,11 @@ layout: default
   {% endif %}
   {% endif %}
 
+  {% if page.externalEvent and page.registrationUrl %}
+    <a href="{{ page.registrationUrl }}">Weitere Infos ...</a>
+  {% endif %}
+
+
   {% if page.hideRegistration == false %}
   {% include registration.html %}
   {% endif %}
