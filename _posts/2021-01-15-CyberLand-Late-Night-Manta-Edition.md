@@ -1,7 +1,7 @@
 ---
-title: CyberLand Late Night
+title: CyberLand Late Night Manta Manta Edition
 speaker: Sandra Parsick und Hendrik Ebbers mit Gästen
-date: 2021-01-15 20:00
+date: 2021-01-20 20:00
 duration: 2
 externalEvent: true
 registrationUrl: https://cyberland.ijug.eu/2021-01-late-night-manta-edition/
