@@ -1,7 +1,7 @@
 ---
 title: CyberLand Ladies Night
 speaker: Diverse Sprecherinnen
-date: 2021-01-25 18:00
+date: 2021-01-25 17:00
 duration: 4
 externalEvent: true
 registrationUrl: https://cyberland.ijug.eu/2021-01/
