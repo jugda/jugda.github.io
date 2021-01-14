@@ -3,7 +3,7 @@ title: Live Coding mit dem MicroProfile
 speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
 twitter: thfro
-date: 2020-11-12 18:30
+date: 2021-05-20 18:30
 ---
 
 ### Zusammenfassung
