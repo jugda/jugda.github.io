@@ -6,7 +6,7 @@ speakerpic: simonharrer.jpg
 speakerpic2: LinusDietz.jpg
 twitter: simonharrer
 twitter2: Lynyus
-date: 2021-xx-xx 18:30
+date: 2021-03-25 18:30
 published: false
 ---
 
