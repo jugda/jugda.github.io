@@ -4,8 +4,6 @@ speaker: Thilo Frotscher
 speakerpic: thilo_frotscher.jpg
 twitter: thfro
 date: 2020-11-12 18:30
-seatLimit: 60
-published: false
 ---
 
 ### Zusammenfassung
