@@ -25,23 +25,17 @@ permalink: /veranstaltungen/
 
 <h2>Vergangene Veranstaltungen</h2>
 <ul class="talk-list">
-  {% assign firstPost = true %}
-  {% for post in site.posts %}
-    {% if post.date <= site.time and post.externalEvent == false %}
-      {% if firstPost %}
-        <a name="{{ post.date | date: '%Y' }}"></a>
-        <h3>{{ post.date | date: '%Y' }}</h3>
-        {% assign firstPost = false %}
-      {% endif %}
-
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
+  {% assign internalEvents = site.posts | where: 'externalEvent', false %}
+  {% assign yearLastPost = 0 %}
+  {% for post in internalEvents %}
+    {% if post.date <= site.time %}
+      {% assign year = post.date | date: '%Y' %}
+      {% if year != yearLastPost %}
         <a name="{{ post.date | date: '%Y' }}"></a>
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
-
       {% include talk.html %}
+      {% assign yearLastPost = year %}
     {% endif %}
   {% endfor %}
 </ul>
