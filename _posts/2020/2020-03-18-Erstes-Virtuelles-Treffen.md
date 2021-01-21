@@ -2,6 +2,16 @@
 title: 1. Virtuelles JUG Darmstadt Treffen
 date: 2020-03-18 16:00
 duration: 4
+speakers:
+  - name: Wolfgang Weigend
+    pic: wolfgangweigend.jpg
+    twitter: wolflook
+  - name: Tim Zöller
+    pic: timzoeller.png
+    twitter: javahippie
+  - name: Wolfgang Schell
+    pic: wolfgangschell.jpg
+    twitter: jetztgradnet
 speaker: Wolfgang Weigend
 speaker2: Tim Zöller
 speaker3: Wolfgang Schell
