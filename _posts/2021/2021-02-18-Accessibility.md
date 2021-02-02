@@ -1,5 +1,5 @@
 ---
-title: Building truely accessible software
+title: Building truly accessible software
 speaker: Anna Maier
 speakerpic: annamaier.jpg
 twitter: a_n_n_a_m
