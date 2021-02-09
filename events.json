@@ -5,10 +5,10 @@ layout: null
 {% for post in site.posts reversed %}{% if post.date > site.time %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
-"summary": "{{ post.title | smartify }}{% if post.speaker %} ({{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}){% endif %}",
+"summary": "{{ post.title | smartify }}{% if post.speaker %} ({% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}){% endif %}",
 "title": "{{ post.title | smartify }}",
-{% if post.speaker %}"speaker": "{{ post.speaker | xml_escape }}{% if post.speaker2 %}, {{ post.speaker2 | xml_escape }}{% endif %}",{% endif %}
-{% if post.twitter %}"twitter": "{{ post.twitter}}",{% endif %}
+{% if post.speaker %}"speaker": "{% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}",{% endif %}
+{% if post.twitter or post.speaker.first.twitter %}"twitter": "{{ post.twitter | default: post.speaker.first.twitter }}",{% endif %}
 "location": "{{ post.location }}",
 "url": "{{ site.url }}{{ post.url }}",
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}

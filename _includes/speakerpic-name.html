@@ -1,4 +1,6 @@
 <div style="clear: both;"></div>
-{% include speakerpic.html speakerpic=include.speakerpic %}
-{% assign twitter = include.twitter | default: page.twitter %}
-{% if page.speaker or include.speaker %}__{% if include.speaker %}{{include.speaker}}{% else %}{{page.speaker}}{% endif %}__{% include speaker-twitter.html handle=twitter %}{% endif %}{% if include.bio %}{{include.bio}}{% endif %}
+{% assign speaker = include.speaker | default: page.speaker[0] | default: page.speaker %}
+{% assign speakerpic = speaker.pic | default: include.speakerpic %}
+{% assign twitter = speaker.twitter | default: include.twitter | default: page.twitter %}
+{% include speakerpic.html speakerpic=speakerpic %}
+{% if speaker %}__{% if speaker.name %}{{speaker.name}}{% else %}{{speaker}}{% endif %}__{% include speaker-twitter.html handle=twitter %}{% endif %}{% if include.bio %}{{include.bio}}{% endif %}

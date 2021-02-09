@@ -1,0 +1,1 @@
+{% if include.speaker.first %}{{ include.speaker | map: "name" | join: ", " | xml_escape }}{% else %}{% if include.speaker %}{{ include.speaker | xml_escape }}{% if include.speaker2 %}, {{ include.speaker2 | xml_escape }}{% endif %}{% if include.speaker3 %}, {{ upcomingTalk.speaker3 | xml_escape }}{% endif %}{% endif %}{% endif %}
