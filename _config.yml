@@ -63,7 +63,7 @@ defaults:
       hideRegistration: false
       registrationUrl: https://registration.jug-da.de/registration
       seatLimit: 100
-      hidePub: true
+      showPub: false
       raffle: true
       externalEvent: false
       important: "Wir führen momentan alle unsere Veranstaltungen nur als Remote-Events durch, weitere Infos unten bei der Registrierung."
