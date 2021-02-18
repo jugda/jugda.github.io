@@ -8,6 +8,8 @@ date: 2021-04-15 18:30
 
 ### Zusammenfassung
 
+_(Vortrag wird auf deutsch sein, Abstract liegt bislang nur in English vor)_
+
 Scala 3 is on the horizon, and in many ways, it is a completely new language. 
 If you have have already formed an opinion on Scala, you would do well to take a fresh and impartial look at its latest incarnation. 
 In this talk, I will show you why Scala 3 is relevant in 2021. 
