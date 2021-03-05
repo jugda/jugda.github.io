@@ -1,6 +1,5 @@
-
 ---
-title: CyberLand Late Night Enterprise Edition
+title: CyberLand Late Night JavaLand Edition
 speaker: Sandra Parsick und Hendrik Ebbers mit Gästen
 date: 2021-03-16 20:00
 duration: 2
