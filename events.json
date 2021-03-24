@@ -4,7 +4,7 @@ layout: null
 [
 {% for post in site.posts reversed %}{% if post.date > site.time %}
 {
-"uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
+"uid": "{{ post.eventId | default: post.date | date: "%Y%m%d" }}@jug-da.de",
 "summary": "{{ post.title | smartify }}{% if post.speaker %} ({% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}){% endif %}",
 "title": "{{ post.title | smartify }}",
 {% if post.speaker %}"speaker": "{% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}",{% endif %}
