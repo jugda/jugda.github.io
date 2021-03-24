@@ -7,7 +7,6 @@ speakerpic2: LinusDietz.jpg
 twitter: simonharrer
 twitter2: Lynyus
 date: 2021-03-31 18:30
-eventId: 2021-03-25
 important: Achtung! Der Vortrag wurde vom 25.03. auf den 31.03. verschoben!
 ---
 
