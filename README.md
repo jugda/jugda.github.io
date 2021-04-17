@@ -34,3 +34,4 @@ Wenn Jekyll läuft, sollte man die generierten Seiten unter http://localhost:400
 URL: https://registration.jug-da.de/list?eventId= + `eventId`
 
 JSON-Output: https://registration.jug-da.de/list?type=json&eventId= + `eventId`
+
