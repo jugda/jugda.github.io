@@ -5,6 +5,10 @@ speaker: Matthias Häußler
 speakerpic: matthiashaeussler.jpg
 twitter: maeddes
 date: 2021-07-15 18:30
+youtube: XNLu__eUBVQ
+attachments:
+  Folien: /files/JUGS_Options_Galore.pdf
+  "Vortrag beim ETKA (in unserer Aufnahme ist nur die Demo, dafür ausführlicher)": https://www.youtube.com/watch?v=ga8iqQ25lUY
 ---
 
 ### Zusammenfassung
