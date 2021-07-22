@@ -1,5 +1,5 @@
 ---
-shortTitle: Terraform – Grundlagen und ein bisschen mehr≈ç
+shortTitle: Terraform – Grundlagen und ein bisschen mehr
 title: "YATT: Yet another Terraform Talk – Grundlagen und ein bisschen mehr"
 speaker: Sandra Gerberding
 speakerpic: sandragerberding.jpg

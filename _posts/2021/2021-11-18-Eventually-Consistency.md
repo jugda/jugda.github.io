@@ -1,6 +1,5 @@
 ---
-shortTitle: Eventual Consistency
-title: "Eventual Consistency – Du musst keine Angst haben"
+title: Eventual Consistency – Du musst keine Angst haben
 speaker: Susanne Braun
 speakerpic: susanne_braun.jpg
 twitter: susannebraun

@@ -1,5 +1,4 @@
 ---
-shortTitle: Vom Source Code zum Container
 title: Viele Wege führen vom Source Code bis zur Containerlaufzeit
 speaker: Matthias Häußler
 speakerpic: matthiashaeussler.jpg
