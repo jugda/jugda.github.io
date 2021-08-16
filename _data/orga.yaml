@@ -24,12 +24,12 @@
   twitter: hameiste
 - name: Niko Köbler
   image: "https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433?s=100"
-  bio: 'Niko macht irgendwas mit Computern, oft in der Cloud, im Web und On-Premise, meist auf der JVM.
-  Er schreibt für Fachmagazine und ist regelmäßig als Speaker auf internationalen Fachkonferenzen anzutreffen.
-  Niko hat das Buch <a href="http://serverlessbuch.de">Serverless Computing in der AWS Cloud</a> (entwickler.press Verlag) geschrieben.'
+  bio: 'Niko macht irgendwas mit Computern, On-Premise, im Web und in der Cloud. Er schreibt und deployt Software und hilft Anderen dabei, dies zu tun. Serverless und Identity & Access Management mit Keycloak sind dabei seine Steckenpferde. Er veröffentlicht regelmäßig Youtube-Videos zu diesen Themen.
+  Daneben ist er Sprecher auf internationalen Konferenzen und Autor des Buchs <a href="http://serverlessbuch.de">Serverless Computing in der AWS Cloud</a> (entwickler.press Verlag).'
   email: niko@n-k.de
   website: https://www.n-k.de
   twitter: dasniko
+  video: https://www.youtube.com/c/NikoKöbler?sub_confirmation=1
 - name: Sebastian Rose
   image: /images/sro.jpg
   bio: Sebastian Rose ist Software-Entwickler bei der AOE GmbH. Er interessiert sich für Themen rund um Integration in Unternehmensanwendungen und Handelsplattformen. Dabei ist ein Schwerpunkt die Nutzung von Keycloak als SSO-Komponente. Außerdem interessiert er sich für Scala und aktorbasierte Systeme.
