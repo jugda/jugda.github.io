@@ -5,6 +5,7 @@ speaker: Alexander Schwartz
 speakerpic: alexanderschwartz-2021.jpg
 twitter: ahus1de
 date: 2021-08-26 18:30
+youtube: HAGtbyglAVs
 ---
 
 ### Zusammenfassung
