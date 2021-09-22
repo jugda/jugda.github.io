@@ -1,7 +1,7 @@
 ---
 title: Wie Googles Site Reliability Engineers (SRE) und Entwickler zusammenarbeiten
 speaker: Dr. Christof Leng
-speakerpic: christofleng.png
+speakerpic: christofleng.jpg
 twitter: Moroquen
 date: 2021-11-24 18:00 - 19:15
 externalEvent: true
