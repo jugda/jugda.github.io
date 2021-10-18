@@ -5,6 +5,8 @@ speaker: Sandra Gerberding
 speakerpic: sandragerberding.jpg
 twitter: stgerberding
 date: 2021-10-21 18:30
+draft: true
+
 ---
 
 ### Zusammenfassung
