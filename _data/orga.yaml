@@ -32,7 +32,7 @@
   video: https://www.youtube.com/c/NikoKöbler?sub_confirmation=1
 - name: Sebastian Rose
   image: /images/sro.jpg
-  bio: 'Sebastian ist als Identity and Access-Management Consultant bei der codecentric AG. Dabei ist ein Schwerpunkt die Nutzung von <a href=https://keycloak.org>Keycloak</a> als SSO-Komponente und deren Integration in die Unternehmensabläufe. Er hat langjährige Erfahrung als Software-Entwickler in nach Agilität strebenden Teams unter Einsatz von Open Source Software auf der JVM.'
+  bio: 'Sebastian ist Identity and Access-Management Consultant bei der codecentric AG. Dabei ist ein Schwerpunkt die Nutzung von <a href="https://keycloak.org">Keycloak</a> als SSO-Komponente und deren Integration in die Unternehmensabläufe. Er hat langjährige Erfahrung als Software-Entwickler in nach Agilität strebenden Teams unter Einsatz von Open Source Software auf der JVM.'
   email: basti@hbnh.org
   twitter: srose204
 - name: Falk Sippach
