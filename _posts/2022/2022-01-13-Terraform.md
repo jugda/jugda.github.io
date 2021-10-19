@@ -4,9 +4,7 @@ title: "YATT: Yet another Terraform Talk – Grundlagen und ein bisschen mehr"
 speaker: Sandra Gerberding
 speakerpic: sandragerberding.jpg
 twitter: stgerberding
-date: 2021-10-21 18:30
-draft: true
-
+date: 2022-01-13 18:30
 ---
 
 ### Zusammenfassung
