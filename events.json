@@ -7,6 +7,7 @@ layout: null
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
 "summary": "{{ post.title | smartify }}{% if post.speaker %} ({% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}){% endif %}",
 "title": "{{ post.title | smartify }}",
+"description": "{{ post.content | strip_html | normalize_whitespace | truncatewords: 100 }}",
 {% if post.speaker %}"speaker": "{% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}",{% endif %}
 {% if post.twitter or post.speaker.first.twitter %}"twitter": "{{ post.twitter | default: post.speaker.first.twitter }}",{% endif %}
 "location": "{{ post.location }}",
