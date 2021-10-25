@@ -5,6 +5,7 @@ speaker: Benjamin Schmid
 speakerpic: benjaminschmid.jpg
 twitter: bentolor
 date: 2021-10-21 18:30
+youtube: 0-fiOc49DCM
 ---
 
 ### Zusammenfassung
@@ -47,4 +48,3 @@ Suche nach innovativen, soliden und nachhaltigen Lösungen gehören auch
 sichere Sprachen wie Kotlin und automatisierte Codeprüfungen zu seinen
 Steckenpferden. Seine praxisnahen Erfahrungen und Aha-Momente gibt er
 auch immer wieder gerne als Redner und Autor weiter.
-
