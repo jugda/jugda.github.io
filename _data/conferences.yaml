@@ -1,9 +1,9 @@
-#"JAX":
-#  img: jax-hybrid.jpg
-#  href: https://jax.de/mainz/
-"WJAX":
-  img: wjax.png
-  href: https://jax.de/muenchen/
+"JAX":
+  img: jax-hybrid.jpg
+  href: https://jax.de/mainz/
+#"WJAX":
+#  img: wjax.png
+#  href: https://jax.de/muenchen/
 "IT-Tage":
   img: ittage.png
   href: https://www.ittage.informatik-aktuell.de/
