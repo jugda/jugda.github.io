@@ -1,5 +1,6 @@
 ---
-title: "jMolecules"
+shortTitle: "jMolecules"
+title: "Architekturexplizite Java-Applikationen mit jMolecules"
 speaker:
   - name: Oliver Drotbohm
     pic: oliverdrotbohm.jpg
@@ -12,7 +13,8 @@ date: 2021-12-09 18:30
 
 ### Zusammenfassung
 
-kommt in Kürze
+Java-Applikationen basieren gewöhnlicherweise auf einem Framework oder einer Entwicklungsplattform. Einige davon erlauben es, einige architektonische Konzepte auszudrücken. Diese jedoch direkte in Code abzubilden, bleibt jedoch eine Herausforderung, ebenso wie die Trennung von fachlichem Code und Applikationsframework. jMolecules ist eine Framework-unabhängige Bibliothek die es erlaubt, verbreitete, architektonische Konzepte direkt in Code abzubilden, zu überprüfen, ob Regeln bezüglich der Implementierung dieser eingehalten werden und die nötige technische Integration als auch entsprechende Dokumentation daraus abzuleiten. Der Vortrag gibt einen Überblick über den grundsätzlich Ansatz und zeigt, wie Entwickler:innen die bereitgestellten Abstraktionen nutzen.
+
 
 ### Sprecher
 
