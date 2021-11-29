@@ -1,6 +1,6 @@
 ---
 shortTitle: "jMolecules"
-title: "Architekturexplizite Java-Applikationen mit jMolecules"
+title: "Lebendige Architekturdokumentation mit den jMolecules"
 speaker:
   - name: Oliver Drotbohm
     pic: oliverdrotbohm.jpg
@@ -13,8 +13,13 @@ date: 2021-12-09 18:30
 
 ### Zusammenfassung
 
-Java-Applikationen basieren gewöhnlicherweise auf einem Framework oder einer Entwicklungsplattform. Einige davon erlauben es, einige architektonische Konzepte auszudrücken. Diese jedoch direkte in Code abzubilden, bleibt jedoch eine Herausforderung, ebenso wie die Trennung von fachlichem Code und Applikationsframework. jMolecules ist eine Framework-unabhängige Bibliothek die es erlaubt, verbreitete, architektonische Konzepte direkt in Code abzubilden, zu überprüfen, ob Regeln bezüglich der Implementierung dieser eingehalten werden und die nötige technische Integration als auch entsprechende Dokumentation daraus abzuleiten. Der Vortrag gibt einen Überblick über den grundsätzlich Ansatz und zeigt, wie Entwickler:innen die bereitgestellten Abstraktionen nutzen.
+Gute Architektur enthält Muster. Aber welchem Muster folgt eine gegebene Klasse? Das explizit auszudrücken ist die Aufgabe der jMolecules. jMolecules ist eine Framework-unabhängige Bibliothek die folgendes erlaubt:
 
+- Darstellen verbreiteter architektonischer Konzepte (wie Schichten oder DDD-Building-Blocks) direkt in Code. So wird es für den menschlichen Leser leichter zu verstehen, welchem Muster ein Stück Code folgt. 
+- Überprüfen, ob Regeln bezüglich der Implementierung dieser eingehalten werden, z. B. mit JQAssistant und ArchUnit.
+- die nötige technische Integration, sowie entsprechende Dokumentation abzuleiten. Damit können Code-Generatoren die Infos nutzen um Boilerplate-Code zu reduzieren.
+
+Nicht nur für Java, sondern auch für .net und PHP wird die Möglichkeit gegeben, Code entsprechend zu annotieren. In diesem Talk wird die brandneue Bibliothek von zweien ihrer Macher präsentiert.
 
 ### Sprecher
 
