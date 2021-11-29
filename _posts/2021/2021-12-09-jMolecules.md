@@ -1,5 +1,4 @@
 ---
-shortTitle: "jMolecules"
 title: "Lebendige Architekturdokumentation mit den jMolecules"
 speaker:
   - name: Oliver Drotbohm
