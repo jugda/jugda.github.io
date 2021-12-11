@@ -4,9 +4,9 @@
 #"WJAX":
 #  img: wjax.png
 #  href: https://jax.de/muenchen/
-"IT-Tage":
-  img: ittage.png
-  href: https://www.ittage.informatik-aktuell.de/
+# "IT-Tage":
+#   img: ittage.png
+#   href: https://www.ittage.informatik-aktuell.de/
 "JavaLand":
   img: javaland.png
   href: https://www.javaland.eu
