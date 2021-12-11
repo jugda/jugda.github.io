@@ -8,13 +8,14 @@ speaker:
     pic: henning-schwentner.jpg
     twitter: hschwentner
 date: 2021-12-09 18:30
+youtube: QdbqQ9ypZD4
 ---
 
 ### Zusammenfassung
 
 Gute Architektur enthält Muster. Aber welchem Muster folgt eine gegebene Klasse? Das explizit auszudrücken ist die Aufgabe der jMolecules. jMolecules ist eine Framework-unabhängige Bibliothek die folgendes erlaubt:
 
-- Darstellen verbreiteter architektonischer Konzepte (wie Schichten oder DDD-Building-Blocks) direkt in Code. So wird es für den menschlichen Leser leichter zu verstehen, welchem Muster ein Stück Code folgt. 
+- Darstellen verbreiteter architektonischer Konzepte (wie Schichten oder DDD-Building-Blocks) direkt in Code. So wird es für den menschlichen Leser leichter zu verstehen, welchem Muster ein Stück Code folgt.
 - Überprüfen, ob Regeln bezüglich der Implementierung dieser eingehalten werden, z. B. mit JQAssistant und ArchUnit.
 - die nötige technische Integration, sowie entsprechende Dokumentation abzuleiten. Damit können Code-Generatoren die Infos nutzen um Boilerplate-Code zu reduzieren.
 
