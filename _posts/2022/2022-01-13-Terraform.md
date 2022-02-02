@@ -5,6 +5,7 @@ speaker: Sandra Gerberding
 speakerpic: sandragerberding.jpg
 twitter: stgerberding
 date: 2022-01-13 18:30
+youtube: vsx0et2zELQ
 ---
 
 ### Zusammenfassung
