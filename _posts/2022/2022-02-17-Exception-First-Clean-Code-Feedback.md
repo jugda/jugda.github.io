@@ -9,6 +9,9 @@ speaker:
     pic: danielkraemer.jpg
     twitter: strange_n3rd
 date: 2022-02-17 18:30
+attachments:
+  Folien von Sergej: /files/2022-02-17-exception-first-java-de.pdf
+  Folien von Daniel: /files/Clean Code - Dein Code ist schlecht!.pdf
 ---
 
 ### “Exception first” - Stabilisiere deinen Code mit mehr Exceptions
