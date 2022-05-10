@@ -1,5 +1,5 @@
 ---
-title: LAutomated Migrations With Spring Boot Migrator
+title: Automated Migrations With Spring Boot Migrator
 shortTitle: Spring Boot Migrator
 speaker: Fabian Krüger
 speakerpic: fabiankrueger.jpg
