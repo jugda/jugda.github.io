@@ -13,7 +13,7 @@ important: Es ist wieder so weit, nach über 3 Jahren kann endlich unser beliebt
 
 Gemeinsam mit dem [IT Stammtisch Darmstadt](http://www.it-stammtisch-darmstadt.de/) laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern.
 
-<img src="/images/sponsors/innoq_interes.png" class="speakerpic"/>
+<img src="/images/sponsors/innoq.png" class="speakerpic"/>
 __Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit__, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor [innoQ](http://www.innoq.de). Vielen Dank dafür. Zwecks der besseren Planung bitten wir um [Anmeldung](#anmeldung).
 
 <img src="/images/grillplatz.jpg" />
