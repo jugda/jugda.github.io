@@ -5,6 +5,7 @@ date: 2022-07-27 18:30
 duration: 4
 location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
 seatLimit: 40
+opensBeforeInMonths: 3
 direction: https://goo.gl/maps/NjohkMrUaT42		 
 raffle: false
 hidePub: true
@@ -16,4 +17,4 @@ Gemeinsam mit dem [IT Stammtisch Darmstadt](http://www.it-stammtisch-darmstadt.d
 <img src="/images/sponsors/innoq.svg" class="speakerpic"/>
 __Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit__, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor [INNOQ](http://www.innoq.de). Vielen Dank dafür. Zwecks der besseren Planung bitten wir um [Anmeldung](#anmeldung).
 
-<img src="/images/grillplatz.jpg" />
+<img src="/images/grillplatz2.jpg" />
