@@ -1,6 +1,6 @@
 {% if page.date > site.time %}
 
-{% capture queryString %}?eventId={{ page.date | date: "%Y-%m-%d" %}}&limit={{ page.seatLimit }}{% if page.registrationDeadline %}&deadline={{ page.registrationDeadline }}{% endif %}{% if page.showPub == true %}&showPub=true{% endif %}{% if page.opensBeforeInMonths %}&opensBeforeInMonths={{page.opensBeforeInMonths}}{% endif %}{% endcapture %}
+{% capture queryString %}?eventId={{ page.date | date: "%Y-%m-%d" %}}&limit={{ page.seatLimit }}{% if page.registrationDeadline %}&deadline={{ page.registrationDeadline }}{% endif %}{% if page.showPub == true %}&showPub=true{% endif %}{% if page.opensBeforeInMonths %}&opensBeforeInMonths={{page.opensBeforeInMonths}}{% endif %}{% if page.hideVideoRecording %}&hideVideoRecording={{page.hideVideoRecording}}{% endif %}{% endcapture %}
 
 {% if page.location == "Online" and page.registrationUrl == "https://registration.jug-da.de/registration" %}
 <h3 id="registrierung">Registrierung</h3>

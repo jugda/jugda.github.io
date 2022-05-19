@@ -6,6 +6,7 @@ duration: 4
 location: Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
 seatLimit: 40
 opensBeforeInMonths: 3
+hideVideoRecording: true
 direction: https://goo.gl/maps/NjohkMrUaT42		 
 raffle: false
 hidePub: true
