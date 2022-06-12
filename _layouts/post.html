@@ -34,6 +34,11 @@ layout: default
       <i class="fa fa-location-arrow"></i>&nbsp;
       {{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
     </div>
+    {% if page.hybrid %}
+    <div>
+      <i class="fa fa-globe"></i> Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
+    </div>
+    {% endif %}
 	{% endif %}
   {% endif %}
 

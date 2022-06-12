@@ -59,6 +59,7 @@ defaults:
       duration: 2
       # location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
       location: Online
+      hybrid: false
       direction: "/anfahrt/"
       hideRegistration: false
       registrationUrl: https://registration.jug-da.de/registration
