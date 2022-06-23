@@ -9,7 +9,10 @@ speaker:
     pic: nicolaiparlog.jpg
     twitter: nipafx
 date: 2022-09-22 18:30
-important: Wir planen eine Präsenzveranstaltung in Darmstadt und ggf. auch einen Livestream. Infos folgen.
+seatLimit: 30
+location: Accso – Accelerated Solutions GmbH, Hilpertstraße 12, 64295 Darmstadt
+direction: https://goo.gl/maps/VzGsyRHXxyHe43qr5
+important: Wir planen eine Präsenzveranstaltung in Darmstadt und mit der Möglichkeit der Remote-Teilnahme.
 ---
 
 ### JDK Tools und wo sie zu finden sind (Christian Stein)
@@ -36,3 +39,21 @@ Nach diese Vortrag wisst ihr was in den nächsten Jahren von Java zu erwarten is
 {% include speakerpic-name.html speaker=speaker2 %} is a thirty-year-old boy, as the narrator would put it (if he’s generous), who has found his passion in software development (mostly Java) and who codes for a living as well as for fun. He also blogs, writes, newsletters, speaks, chats, records, streams, trains, and consults about it, and organizes a conference - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, hire him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at codefx.org.
 
 [About Nicolai](http://blog.codefx.org/about-nicolai-parlog)
+
+## Voraussetzungen für Eure Teilnahme und Hygiene-Regeln
+
+Wir wollen alle Besucher unseres Vortrags bestmöglich schützen. Daher gelten vorerst die folgenden Regeln und Wünsche. Wir behalten uns vor, die Einhaltung zu kontrollieren.
+
+* 2G-Status (Pflicht): genesen oder geimpft (notwendige Anzahl Impfungen inklusive Booster)
+* Wunsch nach (freiwilliger) Durchführung eines Schnelltests (nicht älter als 24 h)
+* Maskenpflicht in den Fluren, darf am Platz beim Vortrag und beim Essen abgesetzt werden
+
+## Live-Stream
+
+Wir freuen uns natürlich sehr über jeden, der vor Ort dabei sein kann. In der Pandemie sind aber auch einige Zuschauer außerhalb des Rhein-Main-Gebiets dazugekommen. Wir wollen allen, die nicht extra anreisen können oder wollen, die Möglichkeit einer Remote-Teilnahme ermöglichen. Es wird einen Live-Stream geben, weitere Informationen erhaltet ihr wie immer einige Stunden vor dem Vortrag per E-Mail, sofern ihr euch registriert habt.
+
+## Sponsoren
+
+[Accso](https://accso.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/accso.png)](https://accso.de/) 
