@@ -23,10 +23,17 @@ layout: default
         <i class="fa fa-clock-o"></i>&nbsp;
         {{ dateWithStartTime | date: "%H:%M" }} bis {{ dateWithEndTime | date: "%H:%M" }} Uhr
       </h3>
-      <div>
-        <a href="#" onclick="ical('{{ page.title | replace: "'", "\\'" }}{% if page.speaker %} ({% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}){% endif %}', '{{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}', '{{ page.location }}', '{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}', '{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}', '{{ site.url }}{{ page.url }}', '{{ page.date | date: "%Y%m%d" }}')" title="iCal/ics Datei für diese Veranstaltung runterladen">
-          <img src="/images/ical.png" style="height: 32px;"/>
-        </a>
+      <div class="flexContainerSpaceBetween" style="width: 80px;">
+        <div>
+          <a href="#" onclick="ical('{{ page.title | replace: "'", "\\'" }}{% if page.speaker %} ({% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}){% endif %}', '{{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}', '{{ page.location }}', '{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}', '{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}', '{{ site.url }}{{ page.url }}', '{{ page.date | date: "%Y%m%d" }}')" title="iCal/ics Datei für diese Veranstaltung runterladen">
+            <img src="/images/ical.png" style="height: 32px;"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://calendar.google.com/calendar/r/eventedit?text={{ page.title | replace: "'", "\\'" }}{% if page.speaker %} ({% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}){% endif %}&dates={{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}/{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}&details={{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}%20{{ site.url }}{{ page.url }}&location={{ page.location }}" target="_blank" rel="nofollow noreferrer" title="Google Calendar Eintrag erzeugen">
+            <img src="/images/googlecalendar.png" style="height: 32px;">
+          </a>
+        </div>
       </div>
     </div>
 	{% if page.location != "Online" %}
