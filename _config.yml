@@ -67,7 +67,7 @@ defaults:
       showPub: false
       raffle: true
       externalEvent: false
-      important: "Defaultmässig führen wir momentan unsere Veranstaltungen als Remote-Events durch (weitere Infos unten bei der Registrierung). Wir planen aber bereits wieder erste Präsenzveranstaltungen."
+      important: "Standardmäßig führen wir momentan unsere Veranstaltungen als Remote-Events durch (weitere Infos unten bei der Registrierung). Wir planen aber bereits wieder erste Präsenzveranstaltungen."
       # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
 #
 # !! You don't need to change any of the configuration flags below !!
