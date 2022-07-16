@@ -4,7 +4,7 @@ speaker: Vadym Kazulkin
 speakerpic: vadymkazulkin.jpg
 twitter: VKazulkin
 date: 2022-05-19 18:30
-important: Der ursprünglich geplante Vortrag zu GraphQL wurde auf Juli verschoben.
+youtube: guKIIbFpbhc
 ---
 
 ### Zusammenfassung
