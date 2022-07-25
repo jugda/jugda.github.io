@@ -5,6 +5,8 @@ speaker: Fabian Krüger
 speakerpic: fabiankrueger.jpg
 twitter: hiiamfabian
 date: 2022-06-23 18:30
+attachments:
+  Folien: /files/Spring Boot Migrator (JUG Darmstadt 220623).pdf
 important: Der Vortrag wird nun doch nur Remote stattfinden, kommt bitte nicht zu cosee. Den Zugangslink gibt es wie immer kurz vorher an alle Angemeldeten. Der nächste Vor-Ort-Vortrag wird voraussichtlich im September sein.
 ---
 

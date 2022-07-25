@@ -60,10 +60,10 @@ layout: default
   <p>
   {% if page.attachments.first %}
 	{% for attachment in page.attachments %}
-			<div><i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ attachment[1] }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den {{ attachment[0] }}</a></div>
+			<div><i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ attachment[1] }}" rel="noreferrer nofollow" target="_blank">{{ attachment[0] }}</a></div>
 	{% endfor %}
   {% else %}
-    <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Hier geht's zu den Folien</a>
+    <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Folien</a>
   {% endif %}
   </p>
   {% endif %}
