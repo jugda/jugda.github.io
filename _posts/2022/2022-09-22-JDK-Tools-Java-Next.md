@@ -12,6 +12,7 @@ date: 2022-09-22 18:30
 seatLimit: 30
 location: Accso – Accelerated Solutions GmbH, Hilpertstraße 12, 64295 Darmstadt
 direction: https://goo.gl/maps/VzGsyRHXxyHe43qr5
+hybrid: true
 important: Wir planen eine Präsenzveranstaltung in Darmstadt und mit der Möglichkeit der Remote-Teilnahme.
 ---
 
