@@ -5,6 +5,7 @@ speaker: Birgit Kratz
 speakerpic: birgitkratz.jpg
 twitter: bikratz
 date: 2022-08-31 18:30
+youtube: oSnlwKKaET0
 ---
 
 ### Zusammenfassung
