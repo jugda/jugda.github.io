@@ -46,7 +46,9 @@ layout: default
       <i class="fa fa-globe"></i> Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
     </div>
     {% endif %}
-	{% endif %}
+  {% else %}
+  <i class="fa fa-location-arrow"></i>&nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
+  {% endif %}
   {% endif %}
 
   <div class="entry">
