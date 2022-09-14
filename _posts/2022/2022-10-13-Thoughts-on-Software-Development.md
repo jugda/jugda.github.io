@@ -4,6 +4,8 @@ shortTitle: Thoughts on Software Development
 speaker: Alexander Thurow
 speakerpic: alexthurow.jpg
 twitter: alexthurow
+hideVideoRecording: true
+important: Der Vortrag findet Remote statt und wird diesmal NICHT aufgezeichnet!!!
 date: 2022-10-13 18:30
 ---
 
@@ -16,4 +18,18 @@ Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruc
 
 ### Sprecher
 
-{% include speakerpic-name.html %} arbeit als Softwareentwickler bei der Actico GmbH.
+{% include speakerpic-name.html %} arbeitet als Softwareentwickler bei der ACTICO GmbH.
+
+* Ex-Hamburger, gebaut 1975
+* Dipl.-Wirtsch.-Inform. (FH), an der Leuphana Lüneburg 2005
+* https://www.twitter.com/alexthurow
+* Verschieden(st)e Positionen
+  * Software-Entwickler
+  * Berater
+  * Technischer Trainer
+  * Teamleiter
+* Hauptinteressengebiete
+  * Clean Code, Refactoring, Technische Schulden
+  * Mentoring
+  * Technologische Disruption
+  * (aktuelles) Zeitgeschehen
