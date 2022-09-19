@@ -4,6 +4,7 @@ speaker: Thomas Much
 speakerpic: thomasmuch.jpg
 twitter: thmuch
 date: 2023-01-12 18:30
+draft: true
 ---
 
 ### Zusammenfassung
