@@ -4,6 +4,7 @@ title: 3. Kunterbunter Abend mit 3 Vorträgen
 speaker: noch offen
 location: wird noch bekannt gegeben
 hideVideoRecording: true
+seatLimit: 20
 important: Der Vortrag findet vor Ort statt und wird diesmal NICHT gestreamed!!! Es wird im Nachgang aber Aufzeichnungen geben.
 ---
 
