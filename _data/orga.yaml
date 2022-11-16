@@ -34,7 +34,6 @@
   image: /images/sro.jpg
   bio: 'Sebastian ist Identity and Access-Management Consultant bei der codecentric AG. Dabei ist ein Schwerpunkt die Nutzung von <a href="https://keycloak.org">Keycloak</a> als SSO-Komponente und deren Integration in die Unternehmensabläufe. Er hat langjährige Erfahrung als Software-Entwickler in nach Agilität strebenden Teams unter Einsatz von Open Source Software auf der JVM.'
   email: basti@hbnh.org
-  twitter: srose204
 - name: Falk Sippach
   image: /images/fsi.jpg
   bio: Falk arbeitet bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktives Mitglied der JUG Community teilt er zudem sein Wissen in Artikeln sowie bei Vorträgen und unterstützt bei der Organisation diverser Fachveranstaltungen.
