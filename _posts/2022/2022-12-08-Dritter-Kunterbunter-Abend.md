@@ -26,16 +26,6 @@ Auch wenn eine Authentifizierung mit OpenID Connect (kurz: OIDC) schon über 10 
 Aus meiner Erfahrung und der Beratung unzähliger Kunden zeige ich Euch die 3 häufigsten Fehler, die mir bei der Anwendung von OIDC in der freien Wildbahn (sprich: im realen Leben) immer wieder unter kommen. Und natürlich sage ich Euch, wie es richtig geht.
 
 
-
-### Sprecher
-
-#### Niko Köbler
-
-{% include speakerpic-name.html %} ist Freelancer und seit über 8 Jahren als Keycloak-Experte für verschiedene Kunden europaweit tätig.
-Auf YouTube betreibt er seit Anfang 2021 einen [erfolgreichen Keycloak-Channel](https://www.youtube.com/@dasniko) und unterstützt die Community in verschiedenen Foren.
-Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreibt als Autor Artikel für verschiedene Fachzeitschriften.
-
-
 _Sebastian Rose:_
 
 ### Showdown Autorisierung: OpenFGA vs. Open Policy Agent
@@ -48,7 +38,14 @@ Daneben hat das Googles Zanzibar für Aufsehen gesorgt, welches auf Relation Bas
 
 Der Vortrag stellt die Ansätze anhand von Beispielen gegenüber.
 
+
 ### Sprecher
+
+#### Niko Köbler
+
+{% include speakerpic-name.html %} ist Freelancer und seit über 8 Jahren als Keycloak-Experte für verschiedene Kunden europaweit tätig.
+Auf YouTube betreibt er seit Anfang 2021 einen [erfolgreichen Keycloak-Channel](https://www.youtube.com/@dasniko) und unterstützt die Community in verschiedenen Foren.
+Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreibt als Autor Artikel für verschiedene Fachzeitschriften.
 
 #### Sebastian Rose
 
