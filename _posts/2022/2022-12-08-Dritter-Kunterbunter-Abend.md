@@ -52,7 +52,8 @@ Der Vortrag stellt die Ansätze anhand von Beispielen gegenüber.
 
 #### Sebastian Rose
 
-Sebastian Rose ist Identity und Access Management Consultant bei der codecentric AG.
+{% assign speaker2 = page.speaker[1] %}
+{% include speakerpic-name.html speaker=speaker2 %} ist Identity und Access Management Consultant bei der codecentric AG.
 Eines seiner Schwerpunktthemen ist der Einsatz von Keycloak als SSO-Komponente und deren Integration in Unternehmensabläufe.
 
 _Weitere folgen in Kürze._
