@@ -38,7 +38,7 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 
 _Sebastian Rose:_
 
-#Showdown Autorisierung: OpenFGA vs. Open Policy Agent
+###Showdown Autorisierung: OpenFGA vs. Open Policy Agent
 
 Sobald in einem System nicht mehr jeder Nutzer alles machen darf, gilt es das Problem von Authentifizierung und Autorisierung zu lösen. Für Authentifizierung wird meist Standardsoftware auf Basis von OIDC, SAML oder Kerberos verwendet. Für Autorisierung gibt es einige Modelle wie RBAC oder ABAC, die dazu verfügbaren Frameworks sind allerdings weniger verbreitet und beliebt. Eigenentwicklung führt häufig zu unterschiedlichen Implementierungen in verschiedenen Teilen eines Systems oder einer Systemlandschaft.
 
