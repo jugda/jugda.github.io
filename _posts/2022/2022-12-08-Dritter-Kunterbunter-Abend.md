@@ -7,7 +7,8 @@ speaker:
     twitter: dasniko
   - name: Sebastian Rose
     pic: sebastian_rose.jpg
-location: wird noch bekannt gegeben
+location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
+direction: http://www.nterra.com/kontakt/
 hideVideoRecording: true
 seatLimit: 20
 important: Der Vortrag findet vor Ort statt und wird diesmal NICHT gestreamed!!! Es wird im Nachgang aber Aufzeichnungen geben.
@@ -15,7 +16,7 @@ important: Der Vortrag findet vor Ort statt und wird diesmal NICHT gestreamed!!!
 
 Wir wollen das Jahr 2022 mit einem gemütlichen Vorweihnachtsabend ausklingen lassen. Dazu gibt es mehrere Kurzvorträge.
 
-Schon vor der Corona-Pandemie war es Tradition, dass einige von uns (selbstgebackene) Plätzchen mitgebracht haben und wir auch eine kleine Weihnachtstombola veranstaltet haben. Daran werden wir wieder anknüpfen. Die Plätze sind begrenzt, also seid schnell bei der Anmeldung und gebt den Platz auch gern wieder frei, wenn ihr doch nicht kommen könnt.
+Schon vor der Corona-Pandemie war es Tradition, dass einige von uns (selbstgebackene) Plätzchen mitgebracht und wir eine kleine Weihnachtstombola veranstaltet haben. Daran werden wir wieder anknüpfen. Die Plätze sind begrenzt, also seid schnell bei der Anmeldung und gebt den Platz auch gern wieder frei, wenn ihr doch nicht kommen könnt.
 
 
 _Niko Köbler:_
@@ -38,7 +39,6 @@ Daneben hat das Googles Zanzibar für Aufsehen gesorgt, welches auf Relation Bas
 
 Der Vortrag stellt die Ansätze anhand von Beispielen gegenüber.
 
-
 ### Sprecher
 
 #### Niko Köbler
@@ -53,4 +53,9 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 {% include speakerpic-name.html speaker=speaker2 %} ist Identity und Access Management Consultant bei der codecentric AG.
 Eines seiner Schwerpunktthemen ist der Einsatz von Keycloak als SSO-Komponente und deren Integration in Unternehmensabläufe.
 
-_Weitere folgen in Kürze._
+
+## Sponsoren
+
+Die Firma [nterra](https://www.nterra.com/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![nterra Logo](/images/sponsors/nterra.png)](http://www.nterra.de)
