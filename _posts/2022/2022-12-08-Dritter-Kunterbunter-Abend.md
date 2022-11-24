@@ -7,6 +7,9 @@ speaker:
     twitter: dasniko
   - name: Sebastian Rose
     pic: sebastian_rose.jpg
+  - name: Melanie Andrisek
+    pic: melanieandrisek.jpg
+    twitter: aelindara
 location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
 direction: http://www.nterra.com/kontakt/
 hideVideoRecording: true
@@ -39,6 +42,15 @@ Daneben hat das Googles Zanzibar für Aufsehen gesorgt, welches auf Relation Bas
 
 Der Vortrag stellt die Ansätze anhand von Beispielen gegenüber.
 
+
+_Melanie Feldmann:_
+
+### Deutsch für Techies
+
+Es ist egal, ob du eine Mail, eine User Story oder eine Softwaredokumentation schreibst: Es geht darum, sich möglichst präzise und verständlich auszudrücken. Zehn einfache Schreibregeln helfen dir dabei, klare und verständliche Texte zu schreiben, die Architekten, Entwicklerinnen, POs und auch die Kunden verstehen.
+
+In diesem interaktiven Workshop wird es viele Aha-Effekte geben, die dafür sorgen, dass der eine oder andere Text definitiv lesenswerter wird.
+
 ### Sprecher
 
 #### Niko Köbler
@@ -53,6 +65,10 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 {% include speakerpic-name.html speaker=speaker2 %} ist Identity und Access Management Consultant bei der codecentric AG.
 Eines seiner Schwerpunktthemen ist der Einsatz von Keycloak als SSO-Komponente und deren Integration in Unternehmensabläufe.
 
+#### Melanie Andrisek
+
+{% assign speaker3 = page.speaker[2] %}
+{% include speakerpic-name.html speaker=speaker3 %} arbeitet als Lektorin und Konferenzorganisatorin beim dpunkt Verlag. 
 
 ## Sponsoren
 
