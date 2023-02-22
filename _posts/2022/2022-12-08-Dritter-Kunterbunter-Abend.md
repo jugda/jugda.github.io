@@ -15,6 +15,8 @@ direction: http://www.nterra.com/kontakt/
 hideVideoRecording: true
 seatLimit: 20
 important: Der Vortrag findet vor Ort statt und wird diesmal NICHT gestreamed!!! Es wird im Nachgang aber Aufzeichnungen geben.
+attachments:
+  Folien von Melanie: https://speakerdeck.com/aelindara/deutsch-fur-techies
 ---
 
 Wir wollen das Jahr 2022 mit einem gemütlichen Vorweihnachtsabend ausklingen lassen. Dazu gibt es mehrere Kurzvorträge.
@@ -43,13 +45,13 @@ Daneben hat das Googles Zanzibar für Aufsehen gesorgt, welches auf Relation Bas
 Der Vortrag stellt die Ansätze anhand von Beispielen gegenüber.
 
 
-_Melanie Feldmann:_
+_Melanie Andrisek:_
 
 ### Deutsch für Techies
 
-Es ist egal, ob du eine Mail, eine User Story oder eine Softwaredokumentation schreibst: Es geht darum, sich möglichst präzise und verständlich auszudrücken. Zehn einfache Schreibregeln helfen dir dabei, klare und verständliche Texte zu schreiben, die Architekten, Entwicklerinnen, POs und auch die Kunden verstehen.
+Es ist egal, ob du eine Mail, eine User Story oder eine Softwaredokumentation schreibst: Es geht darum, sich möglichst präzise und verständlich auszudrücken. ~~Zehn~~ Fünf einfache Schreibregeln helfen dir dabei, klare und verständliche Texte zu schreiben, die Architekten, Entwicklerinnen, POs und auch die Kunden verstehen.
 
-In diesem interaktiven Workshop wird es viele Aha-Effekte geben, die dafür sorgen, dass der eine oder andere Text definitiv lesenswerter wird.
+In diesem interaktiven Format wird es viele Aha-Effekte geben, die dafür sorgen, dass der eine oder andere Text definitiv lesenswerter wird.
 
 ### Sprecher
 

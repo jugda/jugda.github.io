@@ -31,4 +31,5 @@ Durch den geschickten Einsatz von LocalStack, TestContainers und dem AWS-SDK ist
 {% include speakerpic-name.html %} arbeitet bei der INTEGON GmbH.
 
 {% assign speaker2 = page.speaker[1] %}
-{% include speakerpic-name.html speaker=speaker2 %} arbeitet bei OpenValue.
+{% include speakerpic-name.html speaker=speaker2 %} ist Software Engineer bei OpenValue in Düsseldorf. Er arbeitet gerne in verschiedenen Umgebungen, Architekturen und mit unterschiedlichen Technologien. Die Erkenntnisse die er dadurch gewinnt, versucht er durch Vorträge und Blog Artikel mit anderen zu teilen.
+
