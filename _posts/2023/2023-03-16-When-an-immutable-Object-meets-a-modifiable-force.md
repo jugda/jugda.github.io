@@ -10,7 +10,7 @@ speakerpic: RoelReinier.jpg
 seatLimit: 30
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
-important: "Vortrag findet bei Cosee in der Mina-Rees-Straße 8 statt."
+hideVideoRecording: true
 hidePub: true
 ---
 
