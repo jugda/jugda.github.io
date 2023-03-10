@@ -8,6 +8,9 @@ speaker:
   - name: Jens Knipper
     pic: jensknipper.jpg
 date: 2023-02-23 18:30
+attachments:
+  "Frege-LSP-Server": https://github.com/tricktron/frege-lsp-server
+  "Demo-Projekt zu Testen von AWS-Lambdas": https://github.com/JensKnipper/testing-aws-lambdas
 ---
 
 ### Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen
