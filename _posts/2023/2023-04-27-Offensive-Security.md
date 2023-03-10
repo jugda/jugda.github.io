@@ -13,7 +13,8 @@ important: Die Veranstaltung wird in Darmstadt vor Ort stattfinden.
 
 ## Abstract
 
-Die meisten haben die Schockwellen von log4shell mitbekommen, aber wussten Sie auch, dass die zugrundeliegende Exploitation-Technik bereits seit 2016 wohlbekannt war? Und dass sie auch bei anderen Schwachstellen für Angreifer zentrale Wichtigkeit hat? Wussten Sie, dass XSL-Transformation brandgefährlich sein kann? Können Sie sich vorstellen, wie das Model-Binding in Spring MVC im April 2022 perfide ausgenutzt wurde, um Schadcode auf die Zielmaschine zu bringen?
+Die meisten haben die Schockwellen von log4shell mitbekommen, aber wussten Sie auch, dass die zugrundeliegende Exploitation-Technik bereits seit 2016 wohlbekannt war? Und dass sie auch bei anderen Schwachstellen für Angreifer zentrale Wichtigkeit hat? Wussten Sie, dass XSL-Transformation brandgefährlich sein kann? Können Sie sich vorstellen, wie das Model-Binding in Spring MVC im April 2022 perfide ausgenutzt wurde, um Schadcode auf die Zielmaschine zu bringen?  
+
 Tauchen Sie mit dem Referenten für eine Stunde ein in die Welt der Java-Schwachstellen und ihrer Ausnutzung und erweitern Sie Ihren Horizont um Dinge, die in ihrem nächsten Projekt den Unterschied machen könnten zwischen sicher und unsicher.
 
 ## Sprecher
