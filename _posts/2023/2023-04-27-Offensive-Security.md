@@ -4,11 +4,12 @@ title: Was Java-Entwickler über Offensive Security wissen sollten
 speaker: Kai Ullrich
 speakerpic: kaiullrich.jpg
 twitter: kaidentity
-seatLimit: 30
 hideVideoRecording: true
 hidePub: true
-location: Vor-Ort in Darmstadt, Details werden noch bekannt gegeben.
-important: Die Veranstaltung wird in Darmstadt vor Ort stattfinden.
+seatLimit: 20
+location: BSI Business Systems Integration Deutschland GmbH, Rheinstraße 97 (2. OG), 64295 Darmstadt
+direction: https://maps.google.com/maps?f=q&hl=en&q=Rheinstra%C3%9Fe+97%2C+Darmstadt%2C+de
+important: Die Veranstaltung findet bei BSI in Darmstadt statt.
 ---
 
 ## Abstract
@@ -20,3 +21,9 @@ Tauchen Sie mit dem Referenten für eine Stunde ein in die Welt der Java-Schwach
 ## Sprecher
 
 {% include speakerpic-name.html %} blickt zurück auf beinahe 25 Jahre in der IT-Sicherheit. Die vergangenen sechs Jahre hat er sich mit Penetration Testing und Sicheheitsforschung befasst. In dieser Zeit fand er zahlreiche 0-day-Schwachstellen in namhaften Produkten. Aktuell ist er tätig als freischaffender Berater für Cyber-Sicherheit und unterstützt seine Kunden dabei, organisch das Sicherheitsniveau ihrer Organisation zu erhöhen.
+
+## Sponsoren
+
+[BSI](https://www.bsi-software.com/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/bsi.png)](https://www.bsi-software.com/) 
