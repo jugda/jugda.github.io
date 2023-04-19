@@ -7,6 +7,7 @@ twitter: kaidentity
 hideVideoRecording: true
 hidePub: true
 seatLimit: 20
+hybrid: true
 location: BSI Business Systems Integration Deutschland GmbH, Rheinstraße 97 (2. OG), 64295 Darmstadt
 direction: https://maps.google.com/maps?f=q&hl=en&q=Rheinstra%C3%9Fe+97%2C+Darmstadt%2C+de
 important: Die Veranstaltung findet bei BSI in Darmstadt statt.
