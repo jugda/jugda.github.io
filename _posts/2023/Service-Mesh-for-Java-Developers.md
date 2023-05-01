@@ -10,7 +10,8 @@ seatLimit: 20
 hybrid: true
 location: tba
 direction: tba
-important: Der Veranstaltungsort wird in Kürze bekannt gegeben.
+important: The talk will be in English.
+externalEvent: true
 ---
 
 ## Abstract
