@@ -8,6 +8,9 @@ speaker:
 - name: Hendrik Jungnitsch
   pic: hendrikjungnitsch.jpg
 date: 2023-06-29 18:30
+attachments:
+  Folien: /files/spring-boot-vs-quarkus.pdf
+  Code-Beispiel: https://github.com/GEDOPLAN/springboot-vs-quarkus
 ---
 
 ### Zusammenfassung
