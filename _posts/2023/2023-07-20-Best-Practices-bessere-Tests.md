@@ -10,7 +10,6 @@ seatLimit: 30
 hybrid: true
 location: COWO 21, Holzhofallee 21, 64295 Darmstadt
 direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
-important: Der Veranstaltungsort wird in Kürze bekannt gegeben.
 ---
 
 ## Abstract
