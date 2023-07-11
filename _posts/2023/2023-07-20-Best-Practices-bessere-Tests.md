@@ -8,8 +8,8 @@ twitter: Roland_Krueger
 hidePub: true
 seatLimit: 30
 hybrid: true
-location: tba
-direction: tba
+location: COWO 21, Holzhofallee 21, 64295 Darmstadt
+direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
 important: Der Veranstaltungsort wird in Kürze bekannt gegeben.
 ---
 
@@ -22,3 +22,9 @@ In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel 
 ## Sprecher
 
 {% include speakerpic-name.html %} arbeitet als freiberuflicher Trainer, Berater und Entwickler am Rande des Odenwalds an der südhessischen Bergstraße für seine Kunden. Seit über 15 Jahren unterstützt er seine Kunden bei der Entwicklung und Konzeption von Java-Projekten und sorgt dafür, dass sie höchste Qualität, Wartbarkeit und Sicherheit bieten. Besonders wohl fühlt er sich bei der Modernisierung von Legacy-Projekten und beim Lösen der dabei auftretenden speziellen Herausforderungen. Bei seiner Arbeit liegen ihm besonders die Themen Software Craftsmanship, Clean Code und TDD am Herzen. Leidenschaftlich teilt Roland als Blog-Autor und Speaker auf Konferenzen, sowie in Workshops und Schulungen sein über die Jahre angesammeltes Wissen und seine Erfahrung. Dabei behält er stets den Überblick über neue Technologien, Programmiersprachen und Trends.
+
+## Sponsoren
+
+[COWO 21](https://cowo21.de/) stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür. Nach dem Vortrag können wir noch vor Ort bleiben und uns austauschen. Kaltgetränke können für kleines Geld gekauft werden.
+
+[![logo](/images/sponsors/cowo21.jpg)](https://cowo21.de/) 
