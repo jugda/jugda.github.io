@@ -10,6 +10,9 @@ seatLimit: 30
 hybrid: true
 location: COWO 21, Holzhofallee 21, 64295 Darmstadt
 direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
+attachments:
+  "Folien": https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2023/Krueger-Sippach-Best+Practices+fu%CC%88r+bessere+Tests.pdf
+  "Demo-Projekt": https://github.com/rolandkrueger/unit-test-best-practices
 ---
 
 ## Abstract
