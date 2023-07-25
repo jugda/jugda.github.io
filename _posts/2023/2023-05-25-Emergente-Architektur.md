@@ -4,6 +4,7 @@ shortTitle: Emergente Architektur
 speaker: Thomas Schissler
 speakerpic: thomasschissler.jpg
 date: 2023-05-25 18:30
+youtube: SkavzijpFzM
 ---
 
 ### Zusammenfassung
