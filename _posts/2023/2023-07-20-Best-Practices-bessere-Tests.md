@@ -13,7 +13,7 @@ direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
 attachments:
   "Folien": https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2023/Krueger-Sippach-Best+Practices+fu%CC%88r+bessere+Tests.pdf
   "Demo-Projekt": https://github.com/rolandkrueger/unit-test-best-practices
-youtube: fyJOB-8zbH4
+youtube: qwmhDNL7S-0
 ---
 
 ## Abstract
