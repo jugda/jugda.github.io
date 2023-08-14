@@ -6,11 +6,10 @@ twitter: parttimen3rd
 speakerpic: johannesbechberger.jpg
 hideVideoRecording: true
 hidePub: true
-seatLimit: 30
+seatLimit: 40
+location: Accso – Accelerated Solutions GmbH, Hilpertstraße 12, 64295 Darmstadt, der Eingang ist seitlich am Haus (an der Seite der Hausnummer 12b), die Bushaltestelle heißt Hilperstraße (abends leider kaum noch Verkehr), alternativ etwa 20 min Fußweg vom Hauptbahnhof, Parken und Fahrradständer sind hinterm Haus.
+direction: https://goo.gl/maps/VzGsyRHXxyHe43qr5
 hybrid: true
-location: tbd
-direction: tbd
-important: Den Veranstaltungsort geben wir zeitnah bekannt.
 ---
 
 ## Abstract
@@ -22,3 +21,9 @@ Debuggers are indispensable tools for Java developers, empowering them to conque
 ## Sprecher
 
 {% include speakerpic-name.html %} is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP in 2022 after two years of research studies at the KIT in the field of Java security analyses. His work today is comprised of many open-source contributions and his blog ([https://mostlynerdless.de/](https://mostlynerdless.de/)), where he writes regularly on in-depth profiling and debugging topics, and of working on his JEP Candidate 435 to add a new profiling API to the OpenJDK.
+
+## Sponsoren
+
+[Accso](https://accso.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/accso.png)](https://accso.de/) 
