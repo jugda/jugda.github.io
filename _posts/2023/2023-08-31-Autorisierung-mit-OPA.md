@@ -6,11 +6,10 @@ speakerpic: thomasdarimont.jpg
 twitter: thomasdarimont
 hideVideoRecording: true
 hidePub: true
-seatLimit: 25
 hybrid: true
-location: tba
-direction: tba
-important: Den Veranstaltungsort geben wir zeitnah bekannt.
+seatLimit: 30
+location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
+direction: https://goo.gl/maps/fX1AfbSmFv82
 ---
 
 ## Abstract
@@ -24,3 +23,9 @@ Darüber hinaus zeigen wir Möglichkeiten für den nachhaltigen Einsatz von Open
 ## Sprecher
 
 {% include speakerpic-name.html %} arbeitet seit Anfang 2019 bei der codecentric AG in Münster und hilft Kunden dabei, sichere, zuverlässige und skalierbare Identity- und Access-Management-Infrastrukturen auf Basis von Keycloak aufzubauen und das Produkt optimal zu nutzen. Außerdem engagiert er sich seit jeher für die Tech Community, organisiert Meetups (Gründer der Java User Group Saarland), hält Vorträge und trägt zu Open-Source-Projekten bei.
+
+## Sponsors
+
+[Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
