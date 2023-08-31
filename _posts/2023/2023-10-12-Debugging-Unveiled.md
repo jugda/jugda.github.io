@@ -1,6 +1,7 @@
 ---
 date: 2023-10-12 18:30
 title: "Debugging Unveiled: Exploring Debugger Internals to Make You a Better Developer"
+shortTitle: Exploring Debugger Internals
 speaker: Johannes Bechberger
 twitter: parttimen3rd
 speakerpic: johannesbechberger.jpg
