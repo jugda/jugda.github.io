@@ -1,8 +1,12 @@
 ---
 layout: null
 ---
+{% comment %} Erzeugungsdatum - 7 Tage, um auch noch das letzte Event zu sehen {% endcomment %}
+{% assign fromInSeconds = site.time | date: "%s" | minus : 604800 %}
 [
-{% for post in site.posts reversed %}{% if post.date > site.time %}
+{% for post in site.posts reversed %}
+{% assign postDateInSeconds = post.date | date: "%s" | minus : 0 %}
+{% if postDateInSeconds > fromInSeconds %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
 "summary": "{{ post.title | smartify }}{% if post.speaker %} ({% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}){% endif %}",
