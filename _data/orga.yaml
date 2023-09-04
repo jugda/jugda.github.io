@@ -1,23 +1,23 @@
 - name: Melanie Andrisek
-  image: /images/mfe.jpg
+  image: mfe.jpg
   bio: Melanie Andrisek ist Technikjournalistin. Sie arbeitet als Lektorin für IT-Bücher und Konferenzmanagerin beim dpunkt.verlag. Wenn sie nicht gerade versucht, Techies vernünftiges Deutsch beizubringen oder Newcomer auf die Konferenzbühne zu holen, arbeitet sie daran, ihrem Umfeld agile Methoden näherzubringen.
   email: mel.andrisek@gmail.com
   website: https://www.kompassnadel.net
   twitter: aelindara
 - name: Gerd Aschemann
-  image: /images/gas.jpg
+  image: gas.jpg
   bio: Gerd Aschemann arbeitet als freiberuflicher Software- und Systems-Architekt und -Entwickler im Bereich Enterprise-Java (in den letzten Jahren auch gerne mit Groovy). Für seine Kunden nimmt er am liebsten eine Rolle an der Grenze zwischen Entwicklung und Betrieb wahr. Mit großem Interesse verfolgt er seit einiger Zeit die Entwicklung von Containern und Microservices und hilft Unternehmen auf ihrem Weg in dieses Universum.
   email: gerd@aschemann.net
   website: http://aschemann.net
   twitter: GerdAschemann
 - name: Marcel Bruch
-  image: /images/mbr.jpg
+  image: mbr.jpg
   bio: Marcel Bruch ist Projektleiter des Eclipse Code Recommenders Projekts, Eclipse-Trainier, Geschäftsführer und Gründer Codetrails UG und Wissenschaftler an der TU Darmstadt. Sein Ziel ist es, mithilfe der Big (Software Development) Data neue Wege in der Software-Entwicklung zu beschreiten und IDEs intelligenter zu machen.
   email: marcel.bruch@codetrails.com
   website: http://www.codetrails.com
   twitter: MarcelBruch
 - name: Jörn Hameister
-  image: /images/jha.jpg
+  image: jha.jpg
   bio: Jörn Hameister arbeitet als Software-Entwickler und Projektleiter im Java- und JEE-Umfeld. Privat beschäftigt er sich unter anderem mit Objective-C & Cocoa und hat ein Buch zu dem Thema geschrieben. Außerdem veröffentlicht er regelmäßig Tutorials und Artikel zu verschiedenen Programmierthemen auf seiner Webseite.
   email: joern@hameister.org
   website: http://www.hameister.org
@@ -31,15 +31,15 @@
   twitter: dasniko
   video: https://www.youtube.com/c/NikoKöbler?sub_confirmation=1
 - name: Sebastian Rose
-  image: /images/sro.jpg
+  image: sro.jpg
   bio: 'Sebastian ist Identity and Access-Management Consultant bei der codecentric AG. Dabei ist ein Schwerpunkt die Nutzung von <a href="https://keycloak.org">Keycloak</a> als SSO-Komponente und deren Integration in die Unternehmensabläufe. Er hat langjährige Erfahrung als Software-Entwickler in nach Agilität strebenden Teams unter Einsatz von Open Source Software auf der JVM.'
   email: basti@hbnh.org
 - name: Falk Sippach
-  image: /images/fsi.jpg
+  image: fsi.jpg
   bio: Falk arbeitet bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktives Mitglied der JUG Community teilt er zudem sein Wissen in Artikeln sowie bei Vorträgen und unterstützt bei der Organisation diverser Fachveranstaltungen.
   email: falk@jug-da.de
   twitter: sippsack
 - name: Jan Westerkamp
-  image: /images/jwe.jpg
+  image: jwe.jpg
   bio: Jan ist Geschäftsführer der Sensor Aktor GmbH. Er tauscht sich gern mit Gleichgesinnten bei User Group Treffen aus.
   email: jan@jug-da.de

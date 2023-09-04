@@ -19,7 +19,9 @@ _(in alphabetischer Reihenfolge)_
 #### {{ orga.name }}
 
 <p class="orgaperson">
-<img src="{{ orga.image }}" class="orgapic"/>
+{% assign externImage = orga.image | slice: 0, 4 %}
+{{ externImage }}
+<img src="{% if externImage != 'http' %}/images/orga/{% endif %}{{ orga.image }}" class="orgapic"/>
 {{ orga.bio }}
 </p>
 
