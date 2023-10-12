@@ -8,9 +8,10 @@ speakerpic: andreasmonschau.jpg
 hideVideoRecording: true
 hidePub: true
 seatLimit: 30
-location: 
+location: Darmstadt
 direction: 
 hybrid: true
+important: Der Ort steht noch nicht fest.
 ---
 
 ## Abstract
