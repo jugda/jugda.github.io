@@ -11,6 +11,8 @@ seatLimit: 40
 location: Accso – Accelerated Solutions GmbH, Hilpertstraße 12, 64295 Darmstadt, der Eingang ist seitlich am Haus (an der Seite der Hausnummer 12b), die Bushaltestelle heißt Hilperstraße (abends leider kaum noch Verkehr), alternativ etwa 20 min Fußweg vom Hauptbahnhof, Parken und Fahrradständer sind hinterm Haus.
 direction: https://goo.gl/maps/VzGsyRHXxyHe43qr5
 hybrid: true
+attachments:
+  "Folien und Links": https://mostlynerdless.de/java-debugging-talk/
 ---
 
 ## Abstract
