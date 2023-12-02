@@ -24,14 +24,19 @@ _Niko Köbler:_
 
 ### Passkeys statt Passwörter
 
-Abstract folgt in Kürze
+Passwörter waren gestern, ab jetzt sind Passkeys _"the new black"_.
+Passkeys sind angetreten, um die Authentifizierung im Internet sicherer, stärker, aber auch gleichzeitig einfacher zu machen.  
+Ich gebe Euch in dem Kurzvortrag einen schnellen Überblick über das, was hinter dem Kunstwort _Passkeys_ steckt, wie es funktioniert und wo wir es bereits einsetzen können (oder sollen).
 
+---
 
 _Marcel Feix:_
 
 ### Java in Containern früher und heute! Ressource Management - Was hat sich verbessert und aber wo sind noch Herausforderungen
 
 Abstract folgt in Kürze
+
+---
 
 _Falk Sippach:_
 
