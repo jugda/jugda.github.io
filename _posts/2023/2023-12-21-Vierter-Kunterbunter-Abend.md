@@ -32,9 +32,9 @@ Ich gebe Euch in dem Kurzvortrag einen schnellen Überblick über das, was hinte
 
 _Marcel Feix:_
 
-### Java in Containern früher und heute! Ressource Management - Was hat sich verbessert und aber wo sind noch Herausforderungen
+### Java in Containern früher und heute! Ressourcemanagement - Herausforderungen und Verbesserungen
 
-Abstract folgt in Kürze
+Die Bereitstellung von Java-Anwendungen in Containern hat sich in den letzten Jahren verändert. Der Vortrag beleuchtet die Herangehensweise an das Ressourcenmanagement und wie Java-Anwendungen im Kontext von Kubernetes in Containern konfiguriert werden. Wir betrachten den aktuellen Stand, was bereits besser geworden ist und welche Herausforderungen weiterhin bewältigt werden müssen.
 
 ---
 
@@ -42,7 +42,9 @@ _Falk Sippach:_
 
 ### Qualitätsszenarien - die Hidden Champions in der Architekturarbeit
 
-Abstract folgt in Kürze
+Grundlegende Architekturarbeit ist nicht schwierig, wird aber häufig vernachlässigt. Wenn die Architekturziele nicht klar sind, werden die getroffenen Entscheidungen aber nicht unbedingt zu den vorgegebenen Rahmenbedingungen und notwendigen Qualitätsanforderungen passen und im schlimmsten Fall das Projekt sogar zum Scheitern bringen. Der Fachbereich bzw. die Rolle des Product Owner haben in erster Linie die fachlichen Anforderungen im Blick, dementsprechend gibt es zunächst auch keine konkreten Architekturaufgaben im Product Backlog. 
+
+Qualitätsszenarien helfen uns, Architekturarbeit sichtbar zu machen und somit in die iterativ, inkrementelle Arbeitsweise einzuplanen. Außerdem können wir mit Hilfe von Szenarien unsere Softwarearchitektur qualitativ bewerten. In diesem Vortrag schauen wir, welche Arten von Szenarien es gibt, wie ihr sie erstellt bzw. aktuell haltet und wie ihr dann in Eurer täglichen Arbeit davon profitiert.
 
 ### Sprecher
 
@@ -54,7 +56,7 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 
 #### Marcel Feix
 
-folgt in Kürze
+Marcel arbeitet als Software-Entwickler bei der eXXcellent in Darmstadt.
 
 #### Falk Sippach
 
