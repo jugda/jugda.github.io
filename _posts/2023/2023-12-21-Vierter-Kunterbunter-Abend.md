@@ -7,7 +7,7 @@ speaker:
     pic: nikokoebler.png
     twitter: dasniko
   - name: Marcel Feix
-    pic: marcel_feix.jpg
+    pic: marcelfeix.png
   - name: Falk Sippach
     pic: falksippach.jpg
     twitter: sippsack
@@ -56,7 +56,8 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 
 #### Marcel Feix
 
-Marcel arbeitet als Software-Entwickler bei der eXXcellent in Darmstadt.
+{% assign speaker2 = page.speaker[1] %}
+{% include speakerpic-name.html speaker=speaker2 %} ist Senior Software Engineer bei eXXcellent solutions am Standort Darmstadt. Seine Schwerpunkte liegen in den Bereichen Kubernetes, Cloud Provider sowie Cloud Architekturen. Als Enabler für CI-CD und Cloud-native kümmert er sich um projektübergreifende Technologien und ermöglicht eXXcellent solutions dadurch eine schnelle und effiziente Entwicklung von Cloud-native Lösungen.
 
 #### Falk Sippach
 
