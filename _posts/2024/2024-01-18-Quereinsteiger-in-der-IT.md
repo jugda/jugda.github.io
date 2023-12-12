@@ -8,10 +8,10 @@ speakerpic: andreasmonschau.jpg
 hideVideoRecording: true
 hidePub: true
 seatLimit: 30
-location: Darmstadt
-direction: 
+location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
+direction: https://maps.app.goo.gl/29BLsXxHjqCtmWX59
 hybrid: true
-important: Der Ort steht noch nicht fest.
+important: Wir sind zu Gast bei QAware im Coworking Space SleevesUp.
 ---
 
 ## Abstract
@@ -21,3 +21,9 @@ Projekte, an denen wir mitwirken oder die wir auch verantworten, brauchen fähig
 ## Sprecher
 
 {% include speakerpic-name.html %} ist seit über 10 Jahren als Senior IT-Consultant mit den Schwerpunkten Softwarearchitektur- und entwicklung sowie Teamleitung bei Haeger Consulting in Bonn tätig und aktuell als Solution Designer im Kundenprojekt unterwegs. Neben seiner Projekttätigkeit leitet er das umfangreiche Traineeprogramm des Unternehmens und beschäftigt sich mit Mitarbeiterentwicklung.
+
+## Sponsoren
+
+Die Firma [QAware](https://www.qaware.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![QAware Logo](/images/sponsors/qaware.png)](https://www.qaware.de/)

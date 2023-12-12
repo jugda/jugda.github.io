@@ -63,6 +63,7 @@ Außerdem ist er Co-Lead der JUG Darmstadt, Sprecher auf Konferenzen und schreib
 
 {% assign speaker3 = page.speaker[2] %}
 {% include speakerpic-name.html speaker=speaker3 %} ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit 20 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt und Mitglied der Java Champions) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.
+
 ## Sponsoren
 
 Die Firma [eXXcellent solutions](https://www.exxcellent.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
