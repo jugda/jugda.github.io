@@ -13,6 +13,8 @@ speaker:
     twitter: sippsack
 location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
 direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
+attachments:
+  "Folien Qualitätsszenarien": https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2023/Falk-Sippach-Qualitaetsszenarien.pdf
 ---
 
 Wir wollen das Jahr 2023 mit einem gemütlichen Vorweihnachtsabend ausklingen lassen. Dazu gibt es mehrere Kurzvorträge.

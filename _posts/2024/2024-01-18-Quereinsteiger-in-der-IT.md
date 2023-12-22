@@ -9,7 +9,7 @@ hideVideoRecording: true
 hidePub: true
 seatLimit: 30
 location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
-direction: https://maps.app.goo.gl/29BLsXxHjqCtmWX59
+direction: https://maps.app.goo.gl/CZqAZLKYVT813ezg9
 hybrid: true
 important: Wir sind zu Gast bei QAware im Coworking Space SleevesUp.
 ---
