@@ -9,11 +9,10 @@ speaker:
 date: 2024-03-21 18:30
 hideVideoRecording: true
 hidePub: true
-seatLimit: 30
-location: Darmstadt
-direction: 
+seatLimit: 40
 hybrid: true
-important: Der Ort steht noch nicht fest.
+location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
+direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---
 
 ### Endlich mit Struktur - Services mit Spring Modulith designen

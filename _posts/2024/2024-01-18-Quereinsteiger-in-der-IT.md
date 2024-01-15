@@ -18,6 +18,12 @@ important: Wir sind zu Gast bei QAware im Coworking Space SleevesUp.
 
 Projekte, an denen wir mitwirken oder die wir auch verantworten, brauchen fähige Leute, um am Ende ein Ergebnis zu erzielen, das unsere Kunden zufriedenstellt. Gut, wenn wir auf Menschen auf Mid- oder Seniorlevel zugreifen können. Schlecht ist jedoch, dass wir in einer Zeit leben, die viel zu wenig gut ausgebildete und erfahrene Entwickler für unsere Projekte bietet. Gleichzeitig gibt es eine Menge Quereinsteiger, potenziell fähige Menschen, die nur darauf warten, sich zu beweisen – aber wir nehmen sie nicht in Projekte rein, weil sie ja „nichts von dem können, was wir brauchen“. Um das Gegenteil zu beweisen, stelle ich euch meine Erfahrungen vor, die ich in den letzten Jahren gesammelt habe. Wie identifiziere ich gute Quereinsteiger? Wie unterscheide ich die Leute mit Potential von denen, die es nicht haben? Und wie entfessle ich ihr Potenzial? Wie mache ich sie fit für ihr erstes IT-Projekt? Und welche Risiken liegen auf diesem Weg? Am Ende des Vortrags habt ihr einen groben Plan, wie auch ihr Menschen entwickeln und das Beste aus ihnen herausholen könnt. Und wer weiß – vielleicht stafft ihr euer Projekt auch bald mit jemandem, „der ja eigentlich (noch) nichts von dem kann, was wir brauchen“.
 
+### Kurzvortrag im Anschluss
+
+Ein Erfahrungsbericht von einem Mathematiker über seinen Einstieg als Software Engineer beim Projekthaus QAware: Wir sprechen über Ausbildungsmethoden, die den Einstieg erleichtern, wie z.B. Mentoring, agiles Lernen und Lernen im Projekt. Außerdem werden Einblicke gegeben in persönliche Herausforderungen und Erfolge.
+
+Über Alexander Dalinger: Bis vor 4 Jahren war Alexander noch Mathematiker. Im Studium lernte er etwas Java durch das Nebenfach Informatik und in der Promotion etwas Python, um mathematische Modelle zu simulieren. Nach der Promotion wechselte er zum Projekthaus QAware. Dort arbeitet und lernt er seitdem als Software Engineer.
+
 ## Sprecher
 
 {% include speakerpic-name.html %} ist seit über 10 Jahren als Senior IT-Consultant mit den Schwerpunkten Softwarearchitektur- und entwicklung sowie Teamleitung bei Haeger Consulting in Bonn tätig und aktuell als Solution Designer im Kundenprojekt unterwegs. Neben seiner Projekttätigkeit leitet er das umfangreiche Traineeprogramm des Unternehmens und beschäftigt sich mit Mitarbeiterentwicklung.
