@@ -7,8 +7,8 @@ twitter: nilshartmann
 date: 2024-05-23 18:30
 hidePub: true
 seatLimit: 40
-location: folgt in Kürze
-direction: /
+location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
+direction: https://maps.app.goo.gl/QhYfSQkdAw4SaYVq5
 hybrid: true
 ---
 
