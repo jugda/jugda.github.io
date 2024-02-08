@@ -26,6 +26,7 @@ _(in alphabetischer Reihenfolge)_
 </p>
 
 Kontakt: [{{ orga.email }}](mailto:{{ orga.email }})<br/>
-{% if orga.website %}Website: [{{ orga.website }}]({{ orga.website }})<br/>{% endif %}{% if orga.twitter %}Twitter: [@{{ orga.twitter }}](https://twitter.com/{{ orga.twitter }})<br/>{% endif %}{% if orga.video %}Video-Channel: [{{ orga.video }}]({{ orga.video }}){% endif %}
+{% if orga.website %}Website: [{{ orga.website }}]({{ orga.website }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.mastodon %}Mastodon: [{{ orga.mastodon }}](https://{{ orga.mastodon }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.twitter %}Twitter: [@{{ orga.twitter }}](https://twitter.com/{{ orga.twitter }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}
+{% if orga.video %}Video-Channel: [{{ orga.video }}]({{ orga.video }}){:target="_blank"}{:rel="noopener noreferrer external"}{% endif %}
 
 {% endfor %}
