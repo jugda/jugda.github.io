@@ -1,10 +1,10 @@
 "TU Darmstadt": 
   img: tud.png 
-  href: http://www.tu-darmstadt.de/
+  href: https://www.tu-darmstadt.de/
   startPage: true
 "Accso Accelerated Solutions": 
   img: accso.png 
-  href: http://accso.de/
+  href:   
 "IT FOR WORK e.V.": 
   img: it-for-work.png 
   href: https://www.it-for-work.de/
@@ -13,15 +13,15 @@
   href: https://www.cosee.biz/
 "entwickler.press": 
   img: epress.png 
-  href: http://entwickler-press.de
+  href: https://entwickler.de/
   startPage: true
 "dpunkt": 
   img: dpunkt.png 
-  href: http://www.dpunkt.de
+  href: https://www.dpunkt.de
   startPage: true
 "Hanser": 
   img: hanser.png 
-  href: http://www.hanser-fachbuch.de/computer/
+  href: https://www.hanser-fachbuch.de/computer/
   startPage: true
 "Rheinwerk": 
   img: rheinwerk.png 
@@ -29,30 +29,30 @@
   startPage: true
 "O'Reilly": 
   img: oreilly.png 
-  href: http://www.oreilly.de/
+  href: https://oreilly.de/
   startPage: true
 "mitp": 
   img: mitp.png 
-  href: http://www.it-fachportal.de/
+  href: https://www.it-fachportal.de/
   startPage: true
 "JetBrains": 
   img: idea.png 
-  href: http://www.jetbrains.com/idea/
+  href: https://www.jetbrains.com/idea/
   startPage: true
 "QAware":
   img: qaware.png
-  href: http://www.qaware.de/
+  href: https://www.qaware.de/
 "Fraunhofer IGD":
   img: igd.png
   href: https://www.igd.fraunhofer.de/
 "SIGS DATACOM": 
   img: sigs.png 
-  href: http://www.sigs-datacom.de/
+  href: https://www.sigs-datacom.de/
 "Software & Support": 
   img: sus.png 
-  href: http://sandsmedia.com/de
+  href: https://sandsmedia.com/de/
   startPage: true
 "JAX": 
   img: jax.png 
-  href: http://jax.de
+  href: https://jax.de
   startPage: true
