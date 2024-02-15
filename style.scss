@@ -259,14 +259,9 @@ nav.legal {
 
 footer {
   padding: 20px 0;
-  text-align: center;
-  width: 50%;
-  margin: auto;
   display: flex;
   justify-content: space-around;
-  @include mobile {
-    width: 100%;
-  }
+  font-size: 3rem;
 }
 
 

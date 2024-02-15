@@ -20,13 +20,12 @@ _(in alphabetischer Reihenfolge)_
 
 <p class="orgaperson">
 {% assign externImage = orga.image | slice: 0, 4 %}
-{{ externImage }}
 <img src="{% if externImage != 'http' %}/images/orga/{% endif %}{{ orga.image }}" class="orgapic"/>
 {{ orga.bio }}
 </p>
 
-Kontakt: [{{ orga.email }}](mailto:{{ orga.email }})<br/>
-{% if orga.website %}Website: [{{ orga.website }}]({{ orga.website }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.linkedin %}LinkedIn: [in/{{ orga.linkedin }}](https://www.linkedin.com/in/{{ orga.linkedin }}/){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.mastodon %}Mastodon: [{{ orga.mastodon }}](https://{{ orga.mastodon }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.twitter %}Twitter: [@{{ orga.twitter }}](https://twitter.com/{{ orga.twitter }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}
-{% if orga.video %}Video-Channel: [{{ orga.video }}]({{ orga.video }}){:target="_blank"}{:rel="noopener noreferrer external"}{% endif %}
+<i class="bi bi-envelope"></i>: [{{ orga.email }}](mailto:{{ orga.email }})<br/>
+{% if orga.website %}<i class="bi bi-globe2"></i>: [{{ orga.website }}]({{ orga.website }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.linkedin %}<i class="bi bi-linkedin"></i>: [in/{{ orga.linkedin }}](https://www.linkedin.com/in/{{ orga.linkedin }}/){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.mastodon %}<i class="bi bi-mastodon"></i>: [{{ orga.mastodon }}](https://{{ orga.mastodon }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}{% if orga.twitter %}<i class="bi bi-twitter-x"></i>: [@{{ orga.twitter }}](https://twitter.com/{{ orga.twitter }}){:target="_blank"}{:rel="noopener noreferrer external"}<br/>{% endif %}
+{% if orga.video %}<i class="bi bi-youtube"></i>: [{{ orga.video }}]({{ orga.video }}){:target="_blank"}{:rel="noopener noreferrer external"}{% endif %}
 
 {% endfor %}

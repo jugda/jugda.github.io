@@ -17,20 +17,12 @@ avatar: /images/jugda_logo_rund.png
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: info@jug-da.de
-  facebook:
-  flickr:
-  github:
-  instagram:
   linkedin: company/jug-da
-  pinterest:
-  rss:
-  twitter:
-  stackoverflow:
+  mastodon: https://darmstadt.social/@JUG_DA
+  twitter: JUG_DA
   youtube: "@jugda"
-  googleplus:
-
+  
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 

@@ -4,13 +4,13 @@ layout: default
 
 <article class="post">
   <h2>
-    <i class="fa fa-calendar"></i>&nbsp;
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
     {{ page.date | date: "%d.%m.%Y" }}
   </h2>
   <h1>{{ page.title }}</h1>
-  {% if page.externalEvent == true %} <h2 class="externalEvent"><i class="fa fa-external-link" aria-hidden="true"></i> Externe Veranstaltung</h2>{% endif %}
+  {% if page.externalEvent == true %} <h2 class="externalEvent"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Externe Veranstaltung</h2>{% endif %}
   {% if page.speaker %}
-    <h2><em><i class="fa fa-user"></i> {% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}</em></h2>
+    <h2><em><i class="bi bi-{% if page.speaker[1] %}people{% else %}person{% endif %}-fill" title="Speaker"></i> {% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}</em></h2>
   {% endif %}
 
   {% if page.date > site.time %}
@@ -20,7 +20,7 @@ layout: default
     <div class="flexContainerSpaceBetween">
       {% include getDateWithStartAndEndTimeFromEvent.html event=page %}
       <h3>
-        <i class="fa fa-clock-o"></i>&nbsp;
+        <i class="bi bi-clock" title="Uhrzeit"></i>&nbsp;
         {{ dateWithStartTime | date: "%H:%M" }} bis {{ dateWithEndTime | date: "%H:%M" }} Uhr
       </h3>
       <div class="flexContainerSpaceBetween" style="width: 80px;">
@@ -38,16 +38,16 @@ layout: default
     </div>
 	{% if page.location != "Online" %}
     <div>
-      <i class="fa fa-location-arrow"></i>&nbsp;
+      <i class="bi bi-geo-alt-fill" title="Location"></i>&nbsp;
       {{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
     </div>
     {% if page.hybrid %}
     <div>
-      <i class="fa fa-globe"></i> Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
+      <i class="bi bi-globe2" title="Online"></i>&nbsp;Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
     </div>
     {% endif %}
   {% else %}
-  <i class="fa fa-location-arrow"></i>&nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
+  <i class="bi bi-geo-alt-fill" title="Location"></i>&nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
   {% endif %}
   {% endif %}
 
@@ -62,10 +62,10 @@ layout: default
   <p>
   {% if page.attachments.first %}
 	{% for attachment in page.attachments %}
-			<div><i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ attachment[1] }}" rel="noreferrer nofollow" target="_blank">{{ attachment[0] }}</a></div>
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="{{ attachment[1] }}" rel="noreferrer nofollow" target="_blank">{{ attachment[0] }}</a></div>
 	{% endfor %}
   {% else %}
-    <i class="fa fa-hand-o-right"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Folien</a>
+    <i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="{{ page.attachments }}" rel="noreferrer nofollow" target="_blank">Folien</a>
   {% endif %}
   </p>
   {% endif %}
