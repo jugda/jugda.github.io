@@ -2,9 +2,10 @@
 date: 2024-01-18 18:30
 title: Einstieg in die Projektwelt – Wie befähige ich Quereinsteiger?
 shortTitle: "Wie befähige ich Quereinsteiger"
-speaker: Andreas Monschau
-twitter: AndreasMonschau
-speakerpic: andreasmonschau.jpg
+speaker:
+  - name: Andreas Monschau
+    pic: andreasmonschau.jpg
+    twitter: AndreasMonschau
 hideVideoRecording: true
 hidePub: true
 seatLimit: 30
@@ -26,7 +27,7 @@ Ein Erfahrungsbericht von einem Mathematiker über seinen Einstieg als Software 
 
 ## Sprecher
 
-{% include speakerpic-name.html %} ist seit über 10 Jahren als Senior IT-Consultant mit den Schwerpunkten Softwarearchitektur- und entwicklung sowie Teamleitung bei Haeger Consulting in Bonn tätig und aktuell als Solution Designer im Kundenprojekt unterwegs. Neben seiner Projekttätigkeit leitet er das umfangreiche Traineeprogramm des Unternehmens und beschäftigt sich mit Mitarbeiterentwicklung.
+{% include speakerinfo.html %} ist seit über 10 Jahren als Senior IT-Consultant mit den Schwerpunkten Softwarearchitektur- und entwicklung sowie Teamleitung bei Haeger Consulting in Bonn tätig und aktuell als Solution Designer im Kundenprojekt unterwegs. Neben seiner Projekttätigkeit leitet er das umfangreiche Traineeprogramm des Unternehmens und beschäftigt sich mit Mitarbeiterentwicklung.
 
 ## Sponsoren
 

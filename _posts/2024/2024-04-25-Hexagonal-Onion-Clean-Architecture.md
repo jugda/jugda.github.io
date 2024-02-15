@@ -34,10 +34,9 @@ In diesem Talk geben wir zunächst einen kurzen Überblick über DDD allgemein u
 
 ## Sprecher
 
-{% include speakerpic-name.html %} ist Junior Software Engineer bei Accso. Während ihres Studiums entdeckte sie ihre Leidenschaft für den Bereich Softwarearchitektur und Domain-Driven Design. Dies zeigt sich nicht nur in ihrer täglichen Arbeit, sondern auch in ihrem Streben nach kontinuierlicher Weiterbildung und persönlicher Entwicklung.
+{% include speakerinfo.html index=0 %} ist Junior Software Engineer bei Accso. Während ihres Studiums entdeckte sie ihre Leidenschaft für den Bereich Softwarearchitektur und Domain-Driven Design. Dies zeigt sich nicht nur in ihrer täglichen Arbeit, sondern auch in ihrem Streben nach kontinuierlicher Weiterbildung und persönlicher Entwicklung.
 
-{% assign speaker2 = page.speaker[1] %}
-{% include speakerpic-name.html speaker=speaker2 %} ist Managing Consultant bei der Accso - Accelerated Solutions GmbH. Er arbeitet seit mehr als 10 Jahren in der Softwareentwicklung und ist Domain-driven-Design-Enthusiast.
+{% include speakerinfo.html index=1 %} ist Managing Consultant bei der Accso - Accelerated Solutions GmbH. Er arbeitet seit mehr als 10 Jahren in der Softwareentwicklung und ist Domain-driven-Design-Enthusiast.
 
 ## Sponsoren
 

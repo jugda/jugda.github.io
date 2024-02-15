@@ -1,9 +1,10 @@
 ---
 title: "Die Qual der Wahl: die passende Technologie fürs Frontend"
 shortTitle: Passende Frontend-Technologien
-speaker: Nils Hartmann
-speakerpic: nilshartmann.jpg
-twitter: nilshartmann
+speaker:
+  - name: Nils Hartmann
+    pic: nilshartmann.jpg
+    twitter: nilshartmann
 date: 2024-05-23 18:30
 hidePub: true
 seatLimit: 40
@@ -22,4 +23,4 @@ In dieser Session stelle ich verschiedene Frontend-Architekturen und -Technologi
 
 ### Sprecher
 
-{% include speakerpic-name.html %} ist freiberuflicher Softwareentwickler und -architekt, Trainer und Coach aus Hamburg. Er unterstützt Teams bei der Entwicklung von Backend- und Frontend-Anwendungen  (Java, Spring, GraphQL, React/TypeScript) und gibt Workshops und Schulungen zu diesen Themen.
+{% include speakerinfo.html index=0 %} ist freiberuflicher Softwareentwickler und -architekt, Trainer und Coach aus Hamburg. Er unterstützt Teams bei der Entwicklung von Backend- und Frontend-Anwendungen  (Java, Spring, GraphQL, React/TypeScript) und gibt Workshops und Schulungen zu diesen Themen.

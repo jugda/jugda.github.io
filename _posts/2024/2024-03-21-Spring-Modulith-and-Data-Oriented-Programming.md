@@ -30,7 +30,6 @@ Anhand praktischer Code-Beispiele diskutieren wir die wichtigsten Prinzipien die
 
 ## Sprecher
 
-{% include speakerpic-name.html %} arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs.
+{% include speakerinfo.html index=0 %} arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs.
 
-{% assign speaker2 = page.speaker[1] %}
-{% include speakerpic-name.html speaker=speaker2 %} arbeitet als Entwickler bei Exxeta. 
+{% include speakerinfo.html index=1 %} arbeitet als Entwickler bei Exxeta. 

@@ -1,0 +1,22 @@
+<div style="clear: both;"></div>
+{% assign speaker = page.speaker[include.index] %}
+{% assign speakerpic = speaker.pic %}
+{% include speakerpic.html speakerpic=speakerpic alt=speaker.name %}
+
+{% assign social = "" | split: ',' %}
+
+{% if speaker.mastodon %}
+{% capture m %}<a href="https://{{speaker.mastodon}}" target="_blank"><i class="bi bi-mastodon"></i> {{speaker.mastodon}}</a>{% endcapture %}
+{% assign social = social | push: m %}
+{% endif %}
+{% if speaker.twitter %}
+{% capture t %}<a href="https://www.twitter.com/{{speaker.twitter}}" target="_blank"><i class="bi bi-twitter-x"></i> @{{speaker.twitter}}</a>{% endcapture %}
+{% assign social = social | push: t %}
+{% endif %}
+{% if speaker.linkedin %}
+{% capture l %}<a href="https://www.linkedin.com/in/{{speaker.linkedin}}" target="_blank"><i class="bi bi-linkedin"></i> in/{{speaker.linkedin}}</a>{% endcapture %}
+{% assign social = social | push: l %}
+{% endif %}
+
+__{{speaker.name}}__
+{% if social.size > 0 %}({{ social | join " / " }}){% endif %}

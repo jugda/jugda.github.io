@@ -58,13 +58,12 @@ In der Session geht Nils auf diese Fragen ein, erläutert häufige Fehler und gi
 
 ## Sprecher
 
-{% include speakerpic-name.html %} ist Java-Entwickler der ersten Stunde. Er arbeitet als unabhängiger Entwickler, Coach und Kursleiter mit Schwerpunkt auf skalierbaren Unternehmensanwendungen, Optimierung von Algorithmen, Clean Code und Clean Architecture. Er teilt sein Wissen über Java, Architektur, Algorithmen und Datenstrukturen in Videos, seinem Newsletter und seinem Blog [happycoders.eu](https://www.happycoders.eu/).
+{% include speakerinfo.html index=0 %} ist Java-Entwickler der ersten Stunde. Er arbeitet als unabhängiger Entwickler, Coach und Kursleiter mit Schwerpunkt auf skalierbaren Unternehmensanwendungen, Optimierung von Algorithmen, Clean Code und Clean Architecture. Er teilt sein Wissen über Java, Architektur, Algorithmen und Datenstrukturen in Videos, seinem Newsletter und seinem Blog [happycoders.eu](https://www.happycoders.eu/){:target="_blank"}.
 
-{% assign speaker2 = page.speaker[1] %}
-{% include speakerpic-name.html speaker=speaker2 %} arbeitet als Fullstack-Engineer bei der cosee GmbH in Darmstadt und ist seit 14 Jahren in der Webentwicklung tätig. Er beschäftigt sich seit 2017 mit TypeScript und will nie wieder Web-Frontends in reinem JavaScript schreiben.
+{% include speakerinfo.html index=1 %} arbeitet als Fullstack-Engineer bei der cosee GmbH in Darmstadt und ist seit 14 Jahren in der Webentwicklung tätig. Er beschäftigt sich seit 2017 mit TypeScript und will nie wieder Web-Frontends in reinem JavaScript schreiben.
 
 ## Sponsors
 
-[Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+[Cosee](http://www.cosee.biz){:target="_blank"} stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) 
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) {:target="_blank"}
