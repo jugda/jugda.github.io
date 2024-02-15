@@ -25,7 +25,7 @@
   website: https://www.hameister.org
   twitter: hameiste
 - name: Niko Köbler
-  image: "https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433?s=100"
+  image: "https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433?s=150"
   bio: Niko ist Freelancer, seit 2015 Jahren als "Mr. KEYCLOAK" bekannt und als IAM-Experte für Kunden aus unterschiedlichen Branchen europaweit tätig.
     Auf YouTube betreibt er seit Anfang 2021 einen erfolgreichen KEYCLOAK-Channel und unterstützt die Community in verschiedenen Foren.
     Außerdem ist er ein bekannter und gefragter Sprecher auf IT-Konferenzen und schreibt als Autor Artikel für verschiedene Fachzeitschriften und Magazine
@@ -34,7 +34,7 @@
   twitter: dasniko
   mastodon: mastodon.cloud/@dasniko
   linkedin: dasniko
-  video: https://www.youtube.com/c/NikoKöbler?sub_confirmation=1
+  youtube: '@dasniko'
 - name: Sebastian Rose
   image: sro.jpg
   bio: 'Sebastian ist Identity and Access-Management Consultant bei der codecentric AG. Dabei ist ein Schwerpunkt die Nutzung von <a href="https://keycloak.org" target="_blank">Keycloak</a> als SSO-Komponente und deren Integration in die Unternehmensabläufe. Er hat langjährige Erfahrung als Software-Entwickler in nach Agilität strebenden Teams unter Einsatz von Open Source Software auf der JVM.'

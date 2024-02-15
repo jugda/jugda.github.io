@@ -38,16 +38,18 @@ layout: default
     </div>
 	{% if page.location != "Online" %}
     <div>
-      <i class="bi bi-geo-alt-fill" title="Location"></i>&nbsp;
-      {{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
+      <i class="bi bi-geo-alt-fill" title="Location"></i>
+      &nbsp;{{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
     </div>
     {% if page.hybrid %}
     <div>
-      <i class="bi bi-globe2" title="Online"></i>&nbsp;Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
+      <i class="bi bi-globe2" title="Online"></i>
+      &nbsp;Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
     </div>
     {% endif %}
   {% else %}
-  <i class="bi bi-geo-alt-fill" title="Location"></i>&nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
+  <i class="bi bi-geo-alt-fill" title="Location"></i>
+  &nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
   {% endif %}
   {% endif %}
 

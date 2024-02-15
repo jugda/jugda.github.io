@@ -119,18 +119,6 @@ code {
   font-family: monospace;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
@@ -334,12 +322,11 @@ footer {
 
 .orgapic {
   float: right;
-  width: 100px;
-  margin-left: 1em;
-}
-
-.orgaperson {
-  float: left;
+  width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 @mixin important {
