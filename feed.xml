@@ -13,7 +13,7 @@ layout: null
         <title>
           {{ post.date | date: "%d.%m.%Y" }}: {{ post.title | xml_escape }}
           {% if post.speaker %}
-            ({% include speaker-names-social.html speaker=post.speaker mastodon=post.mastodon twitter=post.twitter speaker2=post.speaker2 twitter2=post.twitter2 mastodon2=post.mastodon2 speaker3=post.speaker3 twitter3=post.twitter3 mastodon3=post.mastodon3 %})
+            ({{ post.speaker | map: "name" | join: ", " | xml_escape }})
           {% endif %}
         </title>
         <description>{{ post.content | xml_escape }}</description>

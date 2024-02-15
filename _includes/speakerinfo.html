@@ -19,4 +19,4 @@
 {% endif %}
 
 __{{speaker.name}}__
-{% if social.size > 0 %}({{ social | join " / " }}){% endif %}
+{% if social.size > 0 %}({{ social | join: " | " }}){% endif %}

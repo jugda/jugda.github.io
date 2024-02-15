@@ -9,11 +9,10 @@ layout: null
 {% if postDateInSeconds > fromInSeconds %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
-"summary": "{{ post.title | smartify }}{% if post.speaker %} ({% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}){% endif %}",
+"summary": "{{ post.title | smartify }}{% if post.speaker %} ({{ post.speaker | map: "name" | join: ", " }}){% endif %}",
 "title": "{{ post.title | smartify }}",
 "description": "{{ post.content | strip_html | normalize_whitespace | truncatewords: 100 }}",
-{% if post.speaker %}"speaker": "{% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}",{% endif %}
-{% if post.twitter or post.speaker.first.twitter %}"twitter": "{{ post.twitter | default: post.speaker.first.twitter }}",{% endif %}
+{% if post.speaker %}"speaker": "{{ post.speaker | map: "name" | join: ", " }}",{% endif %}
 "location": "{{ post.location }}",
 "url": "{{ site.url }}{{ post.url }}",
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}
