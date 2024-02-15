@@ -7,10 +7,15 @@
     <a href="{{ post.url | prepend: site.baseurl }}">{% if post.shortTitle %}{{ post.shortTitle }}{% else %}{{ post.title }}{% endif %}</a>
     {% if post.externalEvent == true %}<span class="externalEvent">(Externe Veranstaltung!)</span>{% endif %}
     {% if post.speaker %}
-      <div class="speaker">
-        <i class="bi bi-{% if post.speaker[1] %}people{% else %}person{% endif %}-fill" title="Speaker"></i>
-        &nbsp;{% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}
-      </div>
+    <div class="speaker">
+    {% if post.speaker[0] %}
+      <i class="bi bi-{% if post.speaker.size > 1 %}people{% else %}person{% endif %}-fill" title="Speaker"></i>
+      {{ post.speaker | map: "name" | join: ", " }}
+    {% else %}
+      <i class="bi bi-person-fill" title="Speaker"></i>
+      {% include speaker-names.html speaker=post.speaker speaker2=post.speaker2 speaker3=post.speaker3 %}
+    {% endif %}
+    </div>
     {% endif %}
     {% if post.location contains 'C110' %}
     {% else %}

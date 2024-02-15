@@ -28,7 +28,7 @@
 <span class="next-event-time"><script>document.write(daysTillTalk());</script></span>
 <span class="next-event-title">
   {%if upcomingTalk.speaker %}
-    {% include speaker-names.html speaker=upcomingTalk.speaker speaker2=upcomingTalk.speaker2 speaker3=upcomingTalk.speaker3 %}:
+    {{ upcomingTalk.speaker | map: "name" | join: ", " }}:
   {% endif %}
   <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
 </span>
