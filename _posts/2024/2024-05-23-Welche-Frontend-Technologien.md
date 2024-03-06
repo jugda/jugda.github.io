@@ -24,3 +24,9 @@ In dieser Session stelle ich verschiedene Frontend-Architekturen und -Technologi
 ### Sprecher
 
 {% include speakerinfo.html index=0 %} ist freiberuflicher Softwareentwickler und -architekt, Trainer und Coach aus Hamburg. Er unterstützt Teams bei der Entwicklung von Backend- und Frontend-Anwendungen  (Java, Spring, GraphQL, React/TypeScript) und gibt Workshops und Schulungen zu diesen Themen.
+
+## Sponsors
+
+[nterra](https://www.nterra.com/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/nterra.png)](https://www.nterra.com/) 

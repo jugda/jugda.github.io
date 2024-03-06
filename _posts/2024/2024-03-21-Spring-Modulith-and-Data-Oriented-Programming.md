@@ -5,7 +5,7 @@ speaker:
   - name: Sebastian Lammering
     pic: sebastianlammering.png
   - name: Mechti Özdogan
-    pic: fallback.png
+    pic: mechtioezdogan.jpg
 date: 2024-03-21 18:30
 hideVideoRecording: true
 hidePub: true
@@ -32,4 +32,10 @@ Anhand praktischer Code-Beispiele diskutieren wir die wichtigsten Prinzipien die
 
 {% include speakerinfo.html index=0 %} arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs.
 
-{% include speakerinfo.html index=1 %} arbeitet als Entwickler bei Exxeta. 
+{% include speakerinfo.html index=1 %} arbeitet als Entwickler bei Exxeta. Seit 2016 ist er in Java Projekten tätig. Er bildet nicht nur sich selbst gern weiter, sondern möchte sein Wissen über die Grenzen seines Arbeitgebers hinaus weitergeben. Seine Vorlieben sind neue Paradigmen, um dadurch neue Ansichtsweisen und Lösungswege zu finden.
+
+## Sponsors
+
+[Andrena](https://www.andrena.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/andrena.png)](https://www.andrena.de/) 
