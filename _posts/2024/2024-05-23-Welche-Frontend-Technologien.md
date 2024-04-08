@@ -1,5 +1,5 @@
 ---
-title: Frontend for Backend: Single-Page-Anwendung oder HTMX?
+title: "Frontend for Backend: Single-Page-Anwendung oder HTMX?"
 speaker:
   - name: Nils Hartmann
     pic: nilshartmann.jpg
@@ -25,7 +25,7 @@ Anhand praktischer Beispiele möchte ich in diesem Vortrag Single-Page-Anwendung
 
 ### Sprecher
 
-{% include speakerinfo.html index=0 %} Nils Hartmann ist freiberuflicher Software-Entwickler und -Architekt aus Hamburg. Seine Schwerpunkte sind die Entwicklung von Backends mit Java und Spring sowie Frontends mit React und TypeScript. Er gibt Schulungen und Workshops zu diesen Themen und hat ein Buch über React geschrieben. Kontakt: [https://nilshartmann.net](https://nilshartmann.net){:target="_blank"}{:rel="noopener noreferrer external"}.
+{% include speakerinfo.html index=0 %} ist freiberuflicher Software-Entwickler und -Architekt aus Hamburg. Seine Schwerpunkte sind die Entwicklung von Backends mit Java und Spring sowie Frontends mit React und TypeScript. Er gibt Schulungen und Workshops zu diesen Themen und hat ein Buch über React geschrieben. Kontakt: [https://nilshartmann.net](https://nilshartmann.net){:target="_blank"}{:rel="noopener noreferrer external"}.
 
 ## Sponsors
 
