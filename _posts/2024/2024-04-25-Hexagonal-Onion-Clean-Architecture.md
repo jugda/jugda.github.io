@@ -42,4 +42,4 @@ In diesem Talk geben wir zunächst einen kurzen Überblick über DDD allgemein u
 
 [Accso](https://accso.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![logo](/images/sponsors/accso.png)](https://accso.de/) 
+[![logo](/images/sponsors/accso.jpg)](https://accso.de/) 
