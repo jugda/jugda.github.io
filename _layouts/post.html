@@ -18,6 +18,9 @@ layout: default
     <h2><em><i class="bi bi-person-fill" title="Speaker"></i> {% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}</em></h2>
   {% endif %}
 
+  {% if page.canceled %}
+    <h2 class="important">Die Veranstaltung wurde abgesagt!</h2>
+  {% else %}
   {% if page.date > site.time %}
     {% if page.important %}
       <h2 class="important">{{ page.important }}</h2>
@@ -41,7 +44,7 @@ layout: default
         </div>
       </div>
     </div>
-	{% if page.location != "Online" %}
+  {% if page.location != "Online" %}
     <div>
       <i class="bi bi-geo-alt-fill" title="Location"></i>
       &nbsp;{{ page.location }} (<a href="{{ page.direction }}" target="_blank">Anfahrtsbeschreibung</a>)
@@ -55,6 +58,7 @@ layout: default
   {% else %}
   <i class="bi bi-geo-alt-fill" title="Location"></i>
   &nbsp;{{ page.location }} (den Link erhaltet ihr nach Anmeldung kurz vor dem Vortrag per E-Mail)
+  {% endif %}
   {% endif %}
   {% endif %}
 
@@ -92,7 +96,7 @@ layout: default
   {% endif %}
 
 
-  {% if page.hideRegistration == false %}
+  {% if page.hideRegistration == false and page.canceled == false %}
   {% include registration.html %}
   {% endif %}
 

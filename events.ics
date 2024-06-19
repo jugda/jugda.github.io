@@ -26,7 +26,7 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
-{% for post in site.posts reversed %}{% if post.date > site.time %}BEGIN:VEVENT
+{% for post in site.posts reversed %}{% if post.date > site.time %}{% if post.canceled == false %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: {{ post.title }}{% if post.speaker %} ({{ post.speaker | map: "name" | join: ", " | xml_escape }}){% endif %}
@@ -38,4 +38,4 @@ DTSTAMP:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 URL:{{ site.url }}{{ post.url }}
 CLASS:PUBLIC
 END:VEVENT
-{% endif %}{% endfor %}END:VCALENDAR
+{% endif %}{% endif %}{% endfor %}END:VCALENDAR

@@ -32,7 +32,11 @@
   {% endif %}
   <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
 </span>
+{% if upcomingTalk.canceled %}
+  <div class="important">Hinsweis:n Die Veranstaltung wurde abgesagt!</div>
+{% else %}
 {%if upcomingTalk.important %}
   <div class="important">Hinweis: {{ upcomingTalk.important }}</div>
+{% endif %}
 {% endif %}
 </div>
