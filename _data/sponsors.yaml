@@ -1,42 +1,42 @@
-"TU Darmstadt": 
-  img: tud.png 
+"TU Darmstadt":
+  img: tud.png
   href: https://www.tu-darmstadt.de/
   startPage: true
-"Accso Accelerated Solutions": 
-  img: accso.png 
-  href:   
-"IT FOR WORK e.V.": 
-  img: it-for-work.png 
+"Accso Accelerated Solutions":
+  img: accso.png
+  href:
+"IT FOR WORK e.V.":
+  img: it-for-work.png
   href: https://www.it-for-work.de/
-"cosee GmbH": 
-  img:  cosee.png 
+"cosee GmbH":
+  img:  cosee.png
   href: https://www.cosee.biz/
-"entwickler.press": 
-  img: epress.png 
+"entwickler.press":
+  img: epress.png
   href: https://entwickler.de/
   startPage: true
-"dpunkt": 
-  img: dpunkt.png 
+"dpunkt":
+  img: dpunkt.png
   href: https://www.dpunkt.de
   startPage: true
-"Hanser": 
-  img: hanser.png 
+"Hanser":
+  img: hanser.png
   href: https://www.hanser-fachbuch.de/computer/
   startPage: true
-"Rheinwerk": 
-  img: rheinwerk.png 
+"Rheinwerk":
+  img: rheinwerk.png
   href: https://www.rheinwerk-verlag.de/
   startPage: true
-"O'Reilly": 
-  img: oreilly.png 
+"O'Reilly":
+  img: oreilly.png
   href: https://oreilly.de/
   startPage: true
-"mitp": 
-  img: mitp.png 
+"mitp":
+  img: mitp.png
   href: https://www.it-fachportal.de/
   startPage: true
-"JetBrains": 
-  img: idea.png 
+"JetBrains":
+  img: idea.png
   href: https://www.jetbrains.com/idea/
   startPage: true
 "QAware":
@@ -45,14 +45,10 @@
 "Fraunhofer IGD":
   img: igd.png
   href: https://www.igd.fraunhofer.de/
-"SIGS DATACOM": 
-  img: sigs.png 
+"SIGS DATACOM":
+  img: sigs.png
   href: https://www.sigs-datacom.de/
-"Software & Support": 
-  img: sus.png 
+"Software & Support":
+  img: sus.png
   href: https://sandsmedia.com/de/
-  startPage: true
-"JAX": 
-  img: jax.png 
-  href: https://jax.de
   startPage: true
