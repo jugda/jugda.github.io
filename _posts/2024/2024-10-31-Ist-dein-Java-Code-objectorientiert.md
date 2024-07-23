@@ -9,8 +9,8 @@ date: 2024-10-31 18:30
 hidePub: true
 seatLimit: 40
 hybrid: true
-location: t.b.d.
-direction: '#'
+location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
+direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---
 
 ### Zusammenfassung
@@ -24,3 +24,8 @@ In diesem Vortrag sensibilisiere ich für typische Antipattern wie Primitive Obs
 
 {% include speakerinfo.html index=0 %} ist selbständiger Softwareentwickler und Berater und seit 2009 im Java-Ökosystem unterwegs. Er unterstützt Entwicklungsteams dabei, ihre Legacy-Java-Systeme in die Zukunft zu bringen und insbesondere die Struktur und die Testautomatisierung zu verbessern. Seine Erfahrungen teilt er in Workshops, Artikeln und Vorträgen im In- und Ausland.
 
+## Sponsoren
+
+[Andrena](https://www.andrena.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/andrena.png)](https://www.andrena.de/) 

@@ -7,8 +7,8 @@ speaker:
 date: 2024-09-19 18:30
 hidePub: true
 seatLimit: 40
-location: t.b.d.
-direction: '#'
+location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
+direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
 ---
 
 ### Zusammenfassung
@@ -23,3 +23,9 @@ Lernziele:
 ### Sprecher
 
 {% include speakerinfo.html index=0 %} ist vor 15 Jahren ein Programmierbuch in den Schoß gefallen und seitdem kann er die Hände nicht mehr von der Tastatur lassen. Heute hilft er Kunden dabei, ihren Arbeitsalltag zu optimieren und Produkte dadurch schneller auf Produktion zu bringen. Er beschränkt sich dabei nicht nur auf die Anwendungsentwicklung mit der JVM, sondern lebt den DevOps-Gedanken.
+
+## Sponsoren
+
+Die Firma [eXXcellent solutions](https://www.exxcellent.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![eXXcellent Logo](/images/sponsors/exxcellent.png)](https://www.exxcellent.de/)
