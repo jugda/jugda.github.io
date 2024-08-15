@@ -4,14 +4,16 @@ speaker:
   - name: Daniel Hartung
     pic: danielhartung.png
     linkedin: d-hartung
-date: 2024-09-19 18:30
+date: 2024-09-17 18:30
 hidePub: true
 seatLimit: 40
 location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
 direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
+important: Achtung, der Vortrag findet diesmal ausnahmsweise an einem Dienstag statt!
 ---
 
 ### Zusammenfassung
+
 Montag, 20 Uhr. Das Opfer: Der Kubernetes Pod. Der Täter: Die JVM. Die Todesursache? Unbekannt.
 In diesem Krimi nehme ich euch mit auf die Suche nach dem Motiv und der Todesursache. Wir begeben uns auf eine Reise zu Memory Leaks und Performance Problemen bei Hochlastszenarien.
 Während unserer Suche stolpern wir über Eigenheiten der JVM und untersuchen die Konfiguration unserer Kubernetes Pods. Wir analysieren nicht nur den Tatort, sondern sorgen auch dafür, dass wir - und unsere OPs Kollegen - nachts wieder ruhig schlafen können. Dazu gehen wir kurz auf Quickwins zur Performance- und Resilienz-Verbesserung unseres Codes ein.
