@@ -14,7 +14,7 @@ layout: default
       <i class="bi bi-{% if page.speaker.size > 1 %}people{% else %}person{% endif %}-fill" title="Speaker"></i>
       {{ page.speaker | map: "name" | join: ", " }}
     </em></h2>
-  {% else %}
+  {% else if page.speaker %}
     <h2><em><i class="bi bi-person-fill" title="Speaker"></i> {% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}</em></h2>
   {% endif %}
 
