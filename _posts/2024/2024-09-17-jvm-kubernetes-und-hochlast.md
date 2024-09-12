@@ -6,7 +6,7 @@ speaker:
     linkedin: d-hartung
 date: 2024-09-17 18:30
 hidePub: true
-seatLimit: 40
+seatLimit: 20
 location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
 direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
 important: Achtung, der Vortrag findet diesmal ausnahmsweise an einem Dienstag statt!

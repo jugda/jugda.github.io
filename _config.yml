@@ -22,7 +22,7 @@ footer-links:
   mastodon: https://darmstadt.social/@JUG_DA
   twitter: JUG_DA
   youtube: "@jugda"
-  
+
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
@@ -55,6 +55,7 @@ defaults:
       direction: "/anfahrt/"
       hideRegistration: false
       registrationUrl: https://registration.jug-da.de/registration
+      opensBeforeInMonths: 1
       seatLimit: 100
       showPub: false
       raffle: true
