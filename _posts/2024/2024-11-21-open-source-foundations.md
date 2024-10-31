@@ -9,8 +9,8 @@ speaker:
 date: 2024-11-21 18:30
 hidePub: true
 seatLimit: 40
-location: t.b.d.
-direction: '#'
+location: COWO 21, Holzhofallee 21, 64295 Darmstadt
+direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
 ---
 
 ### Zusammenfassung
@@ -22,3 +22,9 @@ In unserem Vortrag werden wir untersuchen, wie diese Foundationen funktionieren 
 
 {% include speakerinfo.html index=0 %} ist ein [Java Champion](https://javachampions.org/), ein Mitglied von [JSR Expertengruppen](https://www.jcp.org/en/home/index) und ein JavaOne-Rockstar. Erreicht hat er das alles durch sein Vertrauen in Open Source und Communities. Hendrik ist der Gründer und Leiter der [Java User Group Dortmund](https://www.meetup.com/jug-dortmund/) und hält weltweit Vorträge und Präsentationen auf Konferenzen und in ausgewählten User Groups. Hendrik ist Mitglied in der [JakartaEE Working Group](https://jakarta.ee/) (WG) und der [Adoptium](https://adoptium.net/) WG. Darüber hinaus ist Hendrik Ebbers Mitglied des [Board of Directors (Aufsichtsrat)](https://www.eclipse.org/org/foundation/directors.php) der Eclipse Foundation.
 Neben den Eclipse-bezogenen Projekten trägt Hendrik auch zu anderen Open Source Software (OSS) bei. Zum Beispiel ist er ein Core Committer des [Hedera](https://hedera.com/) Hashgraph, dem einzigen in Java geschriebenen Open Source Public Ledger. Er unterstützt Hedera und [Swirlds Labs](https://swirldslabs.com/) bei der Entwicklung sicherer, schneller und zuverlässiger Komponenten unter Verwendung von Open-Source-Standards und bekannten Workflows.
+
+## Sponsoren
+
+[COWO 21](https://cowo21.de/) stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür. Nach dem Vortrag können wir noch vor Ort bleiben und uns austauschen. Kaltgetränke können für kleines Geld gekauft werden.
+
+[![logo](/images/sponsors/cowo21.jpg)](https://cowo21.de/) 
