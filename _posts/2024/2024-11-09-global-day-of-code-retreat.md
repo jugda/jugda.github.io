@@ -6,6 +6,8 @@ hidePub: true
 raffle: false
 opensBeforeInMonths: 2
 seatLimit: 30
+hybrid: false
+hideVideoRecording: true
 location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
 direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---

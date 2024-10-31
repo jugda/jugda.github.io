@@ -8,6 +8,7 @@ speaker:
     twitter: simas_ch
 date: 2024-12-11 18:30
 hidePub: true
+hybrid: true
 seatLimit: 40
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
@@ -34,4 +35,4 @@ Seine Leidenschaft fürs Lehren spiegelt sich in seiner Tätigkeit als Dozent an
 
 [Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
 
-[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz) {:target="_blank"}
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz)

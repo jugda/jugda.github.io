@@ -8,6 +8,7 @@ speaker:
     twitter: HendrikEbbers
 date: 2024-11-21 18:30
 hidePub: true
+hybrid: true
 seatLimit: 20
 location: COWO 21, Holzhofallee 21, 64295 Darmstadt
 direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8

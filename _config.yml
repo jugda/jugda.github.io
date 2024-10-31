@@ -51,7 +51,6 @@ defaults:
       duration: 2
       # location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
       location: Online
-      hybrid: false
       direction: "/anfahrt/"
       hideRegistration: false
       registrationUrl: https://registration.jug-da.de/registration
@@ -59,6 +58,8 @@ defaults:
       seatLimit: 100
       showPub: false
       raffle: true
+      hideVideoRecording: false
+      hybrid: false
       externalEvent: false
       canceled: false
       # important: "Standardmäßig führen wir momentan unsere Veranstaltungen als Remote-Events durch (weitere Infos unten bei der Registrierung). Wir planen aber bereits wieder erste Präsenzveranstaltungen."
