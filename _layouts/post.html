@@ -9,6 +9,7 @@ layout: default
   </h2>
   <h1>{{ page.title }}</h1>
   {% if page.externalEvent == true %} <h2 class="externalEvent"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Externe Veranstaltung</h2>{% endif %}
+  {% if post.speaker %}
   {% if page.speaker[0] %}
     <h2><em>
       <i class="bi bi-{% if page.speaker.size > 1 %}people{% else %}person{% endif %}-fill" title="Speaker"></i>
@@ -16,6 +17,7 @@ layout: default
     </em></h2>
   {% else if page.speaker %}
     <h2><em><i class="bi bi-person-fill" title="Speaker"></i> {% include speaker-names.html speaker=page.speaker speaker2=page.speaker2 speaker3=page.speaker3 %}</em></h2>
+  {% endif %}
   {% endif %}
 
   {% if page.canceled %}
