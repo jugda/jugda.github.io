@@ -5,11 +5,12 @@ speaker:
 - name: Reinier Zwitserloot
 - name: Roel Spilker
 speakerpic: RoelReinier.jpg
-seatLimit: 30
-location: noch offen
-direction: noch-offen
-hideVideoRecording: true
 hidePub: true
+seatLimit: 25
+location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
+direction: https://maps.app.goo.gl/CZqAZLKYVT813ezg9
+hybrid: false
+important: Wir sind zu Gast bei QAware im Coworking Space SleevesUp.
 ---
 
 ## Abstract
@@ -39,3 +40,8 @@ Roel has been a fan of compile-time checking.
 Together with Reinier Zwitserloot he is the inventor of Project Lombok, 
 a compiler/IDE plugin to bring the java programming language into the next decennial.
 
+## Sponsor
+
+Die Firma [QAware](https://www.qaware.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![QAware Logo](/images/sponsors/qaware.png)](https://www.qaware.de/)
