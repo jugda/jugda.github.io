@@ -3,7 +3,6 @@ title: Sixpacks werden in der Küche gemacht! – Gesunde Ernährung im (stressi
 shortTitle: Sixpacks werden in der Küche gemacht!
 speaker: Niko Köbler
 speakerpic: nikokoebler.png
-twitter: dasniko
 date: 2019-04-11 18:30
 seatLimit: 40
 location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt

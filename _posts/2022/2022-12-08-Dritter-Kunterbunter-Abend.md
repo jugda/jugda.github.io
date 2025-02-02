@@ -4,7 +4,6 @@ title: 3. Kunterbunter Abend mit 3 Vorträgen
 speaker:
   - name: Niko Köbler
     pic: nikokoebler.png
-    twitter: dasniko
   - name: Sebastian Rose
     pic: sebastian_rose.jpg
   - name: Melanie Andrisek

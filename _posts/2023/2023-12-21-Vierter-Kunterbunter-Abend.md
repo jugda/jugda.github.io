@@ -5,7 +5,6 @@ seatLimit: 25
 speaker:
   - name: Niko Köbler
     pic: nikokoebler.png
-    twitter: dasniko
   - name: Marcel Feix
     pic: marcelfeix.png
   - name: Falk Sippach
