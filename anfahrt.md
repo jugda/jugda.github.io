@@ -2,6 +2,7 @@
 layout: page
 title: Anfahrt
 permalink: /anfahrt/
+published: false
 ---
 
 Die Vorträge finden in den Räumlichkeiten der TU-Darmstadt statt, die Adresse lautet:

@@ -3,26 +3,22 @@
   bio: Melanie Andrisek ist Technikjournalistin. Sie arbeitet als Lektorin für IT-Bücher und Konferenzmanagerin beim dpunkt.verlag. Wenn sie nicht gerade versucht, Techies vernünftiges Deutsch beizubringen oder Newcomer auf die Konferenzbühne zu holen, arbeitet sie daran, ihrem Umfeld agile Methoden näherzubringen.
   email: mel.andrisek@gmail.com
   website: https://www.kompassnadel.net
-  twitter: aelindara
   mastodon: social.heise.de/@Aelindara
 - name: Gerd Aschemann
   image: gas.jpg
   bio: Gerd Aschemann arbeitet als freiberuflicher Software- und Systems-Architekt und -Entwickler im Bereich Enterprise-Java (in den letzten Jahren auch gerne mit Groovy). Für seine Kunden nimmt er am liebsten eine Rolle an der Grenze zwischen Entwicklung und Betrieb wahr. Mit großem Interesse verfolgt er seit einiger Zeit die Entwicklung von Containern und Microservices und hilft Unternehmen auf ihrem Weg in dieses Universum.
   email: gerd@aschemann.net
   website: https://aschemann.net
-  twitter: GerdAschemann
   mastodon: mastodon.social/@ascheman
 - name: Marcel Bruch
   retired: true
   image: mbr.jpg
   bio: Marcel Bruch war Projektleiter des Eclipse Code Recommenders Projekts, Eclipse-Trainier, Geschäftsführer und Gründer Codetrails UG und Wissenschaftler an der TU Darmstadt. Sein Ziel war es, mithilfe der Big (Software Development) Data neue Wege in der Software-Entwicklung zu beschreiten und IDEs intelligenter zu machen.
-  twitter: MarcelBruch
 - name: Jörn Hameister
   passedAway: true
   image: jha.jpg
   bio: Jörn Hameister arbeitete als Software-Entwickler und Projektleiter im Java- und JEE-Umfeld. Privat beschäftigte er sich unter anderem mit Objective-C & Cocoa und hat ein Buch zu dem Thema geschrieben. Außerdem veröffentlichte er regelmäßig Tutorials und Artikel zu verschiedenen Programmierthemen auf seiner Webseite. Jörn ist am 02.09.2024 [verstorben](/nachruf-joern).
   website: https://www.hameister.org
-  twitter: hameiste
 - name: Niko Köbler
   image: "https://secure.gravatar.com/avatar/395d9a1bac6f64d04bbd713d5b6bc433?s=150"
   bio: Niko ist Freelancer, seit 2015 Jahren als "Mr. KEYCLOAK" bekannt und als IAM-Experte für Kunden aus unterschiedlichen Branchen europaweit tätig.
@@ -41,7 +37,6 @@
   image: fsi.jpg
   bio: Falk arbeitet bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer. Bereits seit über 20 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktives Mitglied der JUG Community teilt er zudem sein Wissen in Artikeln sowie bei Vorträgen und unterstützt bei der Organisation diverser Fachveranstaltungen.
   email: falk@jug-da.de
-  twitter: sippsack
   mastodon: ijug.social/@sippsack
 - name: Jan Westerkamp
   image: jwe.jpg

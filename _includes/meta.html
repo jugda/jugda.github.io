@@ -14,10 +14,8 @@
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
-    <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
     {% else %}
     <meta property="og:title" content="{{ site.name }} {{ site.description }}" />
-    <meta property="twitter:title" content="{{ site.name }} {{ site.description }}" />
     {% endif %}
 
     {% if page.thumbnail %}

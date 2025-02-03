@@ -12,7 +12,7 @@ Die Teilnahme ist **kostenlos**.
 </p>
 
 Neue Vorträge geben wir hier auf der Website und auf unserer Mailingliste bekannt.
-Du kannst aber auch den [RSS-Feed abonnieren](/feed.xml) oder [JUG_DA bei Twitter](https://twitter.com/JUG_DA) folgen.
+Du kannst aber auch den [RSS-Feed abonnieren](/feed.xml) oder [JUG_DA bei Mastodon](https://darmstadt.social/@JUG_DA) folgen.
 
 
 ## Ein Thema Präsentieren

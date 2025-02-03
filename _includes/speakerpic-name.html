@@ -2,6 +2,5 @@
 {% assign speaker = include.speaker | default: page.speaker[0] | default: page.speaker %}
 {% assign speakerpic = speaker.pic | default: include.speakerpic %}
 {% assign mastodon = speaker.mastodon | default: include.mastodon | default: page.mastodon %}
-{% assign twitter = speaker.twitter | default: include.twitter | default: page.twitter %}
 {% include speakerpic.html speakerpic=speakerpic %}
-{% if speaker %}__{% if speaker.name %}{{speaker.name}}{% else %}{{speaker}}{% endif %}__{% include speaker-social.html type='mastodon' handle=mastodon %}{% include speaker-social.html type='twitter' handle=twitter %}{% endif %}{% if include.bio %}{{include.bio}}{% endif %}
+{% if speaker %}__{% if speaker.name %}{{speaker.name}}{% else %}{{speaker}}{% endif %}__{% include speaker-social.html type='mastodon' handle=mastodon %}{% endif %}{% if include.bio %}{{include.bio}}{% endif %}
