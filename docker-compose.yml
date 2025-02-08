@@ -1,4 +1,3 @@
-version: "3.8"
 volumes:
   jugda_jekyll_data:
     name: jugda_jekyll_data
