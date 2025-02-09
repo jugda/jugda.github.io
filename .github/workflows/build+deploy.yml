@@ -11,19 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository
       - name: Check out the code
         uses: actions/checkout@v4
 
-      # Step 2: Build the Jekyll site with Docker
+      - name: Set UID and GID
+        run: |
+          echo "UID=$(id -u)" >> $GITHUB_ENV
+          echo "GID=$(id -g)" >> $GITHUB_ENV
+
       - name: Build website with Jekyll (Docker)
+        env:
+          UID: ${{ env.UID }}
+          GID: ${{ env.GID }}
         run: |
           docker compose run --rm \
             -v $(pwd):/srv/jekyll \
             jekyll \
             jekyll build
 
-      # Step 3: Save `_site` directory as an artifact
       - name: Upload _site directory as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -36,17 +41,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository (for publish configuration)
       - name: Check out the code
         uses: actions/checkout@v4
 
-      # Step 2: Retrieve the `_site` directory from the build job artifact
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: jekyll-site
 
-      # Step 3: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
