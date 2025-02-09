@@ -40,7 +40,7 @@ function ical(summary, description, location, start, end, url, uid) {
   "DTEND;TZID={{ site.timezone }}:" + end + nl +
   "SUMMARY:JUG DA: " + summary + nl +
   "LOCATION:" + location.replace(/\,/g, '\\,') + nl +
-  "DESCRIPTION:{{ site.name }}\\n\\n" + summary + "\\n\\n" + description + nl +
+  "DESCRIPTION:{{ site.title }}\\n\\n" + summary + "\\n\\n" + description + nl +
   "URL:" + url + nl +
   "STATUS:CONFIRMED" + nl +
   "CLASS:PUBLIC" + nl +
