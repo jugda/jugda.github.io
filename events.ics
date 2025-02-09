@@ -5,8 +5,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//JUG DA//Veranstaltungskalender//DE
 METHOD:PUBLISH
-X-WR-CALNAME:{{ site.name }}
-X-WR-CALDESC:Veranstaltungen der {{ site.name }}
+X-WR-CALNAME:{{ site.title }}
+X-WR-CALDESC:Veranstaltungen der {{ site.title }}
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin

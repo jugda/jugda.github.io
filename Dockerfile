@@ -1,5 +1,5 @@
-# Base image: Jekyll 3.8
-FROM jekyll/jekyll:3.8
+# Base image: Jekyll 4
+FROM jekyll/jekyll:4
 
 # Copy Gemfile and Gemfile.lock into the container
 COPY Gemfile Gemfile.lock ./

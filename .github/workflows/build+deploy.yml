@@ -18,9 +18,9 @@ jobs:
       # Step 2: Build the Jekyll site with Docker
       - name: Build website with Jekyll (Docker)
         run: |
-          docker run --rm \
+          docker compose run --rm \
             -v $(pwd):/srv/jekyll \
-            jekyll/jekyll:3.8 \
+            jekyll \
             jekyll build
 
       # Step 3: Save `_site` directory as an artifact

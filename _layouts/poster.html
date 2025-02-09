@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-print.css" media="print" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   </head>
 
@@ -25,7 +25,7 @@
       {{ content }}
     </div>
     <div class="poster-footer">
-      <div class="poster-sponsors">Mit freundlicher Unterstützung von: 
+      <div class="poster-sponsors">Mit freundlicher Unterstützung von:
 		{% for sponsor in site.data.sponsors %}
 		<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
 		{% endfor %}

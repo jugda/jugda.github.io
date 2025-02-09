@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Java User Group Darmstadt
+title: Java User Group Darmstadt
 
 # Short bio or description (displayed in the header)
 description: Community der Java Anwender in und um Darmstadt
@@ -79,7 +79,7 @@ sass:
 #  style: expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jemoji
 
