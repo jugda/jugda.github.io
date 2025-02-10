@@ -1,5 +1,6 @@
 ---
 date: 2025-03-25 18:30
+lastModified: 2025-02-10 21:00
 title: "XZ: The day the Internet (almost) died"
 speaker:
 - name: Reinier Zwitserloot

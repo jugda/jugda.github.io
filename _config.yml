@@ -61,6 +61,7 @@ defaults:
       hybrid: false
       externalEvent: false
       canceled: false
+      lastModified: now
       # important: "Standardmäßig führen wir momentan unsere Veranstaltungen als Remote-Events durch (weitere Infos unten bei der Registrierung). Wir planen aber bereits wieder erste Präsenzveranstaltungen."
       # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
 #
@@ -74,8 +75,8 @@ future: true
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed
-#  style: :expanded # You might prefer to minify using :compressed
+  style: compressed
+#  style: expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:

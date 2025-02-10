@@ -9,6 +9,7 @@ layout: null
 {% if postDateInSeconds > fromInSeconds %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
+"lastModified": "{% assign offset = post.lastModified | date: "%:::z" | times: 3600 %}{{ post.lastModified | date: "%s" | minus: offset | date: "%Y%m%dT%H%M00Z" }}",
 "summary": "{{ post.title | smartify }}{% if post.speaker %} ({{ post.speaker | map: "name" | join: ", " }}){% endif %}",
 "title": "{{ post.title | smartify }}",
 "description": "{{ post.content | strip_html | normalize_whitespace | truncatewords: 100 }}",

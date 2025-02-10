@@ -1,6 +1,7 @@
 ---
 title: 3. SpeaKonf
 date: 2025-03-21 9:00
+lastModified: 2025-02-10 21:00
 duration: 8
 externalEvent: true
 registrationUrl: https://www.speakonf.de/#anmeldung
