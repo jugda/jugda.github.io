@@ -1,12 +1,10 @@
-volumes:
-  jugda_jekyll_data:
-    name: jugda_jekyll_data
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
-    command: jekyll serve --watch
+    build: .
+    image: jugda/jekyll
+    command: jekyll serve --watch --incremental --host=0.0.0.0
+    user: "${UID:-1000}:${GID:-1000}"
     ports:
       - 4000:4000
     volumes:
       - .:/srv/jekyll:cached
-      - jugda_jekyll_data:/usr/local/bundle

@@ -5,7 +5,6 @@ _site
 .jekyll-metadata
 .bundle
 .sass-cache
-Gemfile.lock
 *.iml
 _rebuild-page*
 _start_server*

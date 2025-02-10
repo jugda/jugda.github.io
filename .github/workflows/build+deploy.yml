@@ -1,0 +1,56 @@
+name: Build and Deploy Jekyll Site with Docker
+
+on:
+  push:
+    branches:
+      - '*' # Build on every branch
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Set UID and GID
+        run: |
+          echo "UID=$(id -u)" >> $GITHUB_ENV
+          echo "GID=$(id -g)" >> $GITHUB_ENV
+
+      - name: Build website with Jekyll (Docker)
+        env:
+          UID: ${{ env.UID }}
+          GID: ${{ env.GID }}
+        run: |
+          docker compose run --rm \
+            -v $(pwd):/srv/jekyll \
+            jekyll \
+            jekyll build
+
+      - name: Upload _site directory as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: ./_site
+
+  deploy:
+    if: github.ref == 'refs/heads/master' # Only run deployment on master branch
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: jekyll-site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

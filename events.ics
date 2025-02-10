@@ -5,8 +5,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//JUG DA//Veranstaltungskalender//DE
 METHOD:PUBLISH
-X-WR-CALNAME:{{ site.name }}
-X-WR-CALDESC:Veranstaltungen der {{ site.name }}
+X-WR-CALNAME:{{ site.title }}
+X-WR-CALDESC:Veranstaltungen der {{ site.title }}
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -34,7 +34,7 @@ DESCRIPTION:Java User Group Darmstadt\n\n{{ post.title }}{% if post.speaker %} (
 LOCATION:{{ post.location | replace: ",", "\," }}
 {% include getDateWithStartAndEndTimeFromEvent.html event=post %}DTSTART;TZID={{ site.timezone }}:{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}
 DTEND;TZID={{ site.timezone }}:{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}
-DTSTAMP:{% assign offset = post.date | date: "%:::z" | times: 3600 %}{{ dateWithStartTime | date: "%s" | minus: offset | date: "%Y%m%dT%H%M00Z" }}
+DTSTAMP:{% assign offset = post.last_modified_at | date: "%:::z" | times: 3600 %}{{ post.last_modified_at | date: "%s" | minus: offset | date: "%Y%m%dT%H%M00Z" }}
 URL:{{ site.url }}{{ post.url }}
 CLASS:PUBLIC
 END:VEVENT
