@@ -1,5 +1,5 @@
 ---
-title: "Doppelvortrag: Das ist doch behindert! Über Barrieren und Freiheit & Die ethische Nutzung generativer AI"
+title: "Doppelvortrag: Das ist doch behindert! Über Barrieren und Freiheit & To Gen or Not to Gen - Ist eine ethische Nutzung generativer AI möglich?"
 shortTitle: "Doppelvortrag: Barrierefreiheit & Ethik bei GenAI"
 speaker:
   - name: Matthias Bünger
@@ -24,7 +24,7 @@ Webseiten und Webanwendungen in Deutschlands müssen barrierefrei sein. Aber wel
 
 In diesem Talk berichte ich von den Erfahrungen, die mein Team und ich bei der Umsetzung der Barrierefreiheit gesammelt haben. Hierbei werden zunächst einige Grundlagen geschaffen. So werde ich erklären, welche Barrieren es gibt, was Barrierefreiheit ist und welche Rolle die "Barrierefreie-Informationstechnik-Verordnung (BITV) 2.0" spielt. Anschließend gebe ich an Hand von Praxisbeispielen für häufig auftretende Szenarien Empfehlungen, wie man Barriereheitheit erreichen kann. Dabei gehe ich auch auf Standards und Test(-tools) ein. Natürlich zeige ich Stolpersteineauf, weil eben doch nicht alles so einfach ist, wie man denkt.
 
-### Die ethische Nutzung generativer AI
+### To Gen or Not to Gen - Ist eine ethische Nutzung generativer AI möglich?
 
 ChatGPT, Copilot, Dall-E, ... - die Zahl generativer AI Applikationen und Models wächst von Tag zu Tag, genau wie die umwälzenden Eigenschaften, die diesen "künstlichen Intelligenzen" zugeschrieben werden.
 

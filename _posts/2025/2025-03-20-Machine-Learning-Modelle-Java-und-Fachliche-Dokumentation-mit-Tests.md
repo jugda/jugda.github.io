@@ -3,9 +3,9 @@ title: "Doppelvortrag: 'Machine-Learning-Modelle in Java einbetten? Kein Problem
 shortTitle: "Doppelvortrag: Machine-Learning-Modelle in Java und Fachliche Dokumentation mit Tests verbinden"
 speaker:
   - name: Kai Müller
-    pic: fallback.png
+    pic: kaimueller.jpg
   - name: Felix Tensing
-    pic: fallback.png
+    pic: felixtensing.jpg
 date: 2025-03-20 18:30
 lastModified: 2025-02-10 21:00
 hideVideoRecording: true
@@ -49,10 +49,9 @@ Keywords: Shift-Left, Software Qualität, TDD, Documentation as Code
 
 ## Sprecher
 
-{% include speakerinfo.html index=0 %} ist Consultant bei exxeta.
+{% include speakerinfo.html index=0 %} ist Consultant bei der Exxeta AG.  und dort vorrangig im Java Backend mit Spring Boot unterwegs. Nebenbei beschäftigt er sich mit der Anwendung von KI Modellen, vor allem im Bereich der Computer-Vision.
 
-{% include speakerinfo.html index=1 %} arbeitet bei der Nürnberger Versicherung.
-
+{% include speakerinfo.html index=1 %} ist Java Fullstack-Entwickler mit einer Leidenschaft für Testen, Dokumentation, cross-funktionalem Arbeiten. Seit über 20 Jahren bewegt er sich in der IT, vor allem im regulierten Umfeld. Seine Freizeit verbringt er mit seinen Kindern, Angeln und dem 3D-Druck.
 
 ## Sponsors
 
