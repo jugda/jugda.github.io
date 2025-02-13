@@ -7,6 +7,7 @@ speaker:
     mastodon: mastodon.social/@edburns
     linkedin: edburns
     twitter: edburns
+lastModified: 2025-02-11 14:00
 hidePub: true
 seatLimit: 30
 location: tbd

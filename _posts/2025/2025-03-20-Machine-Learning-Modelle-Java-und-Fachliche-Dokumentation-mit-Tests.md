@@ -7,7 +7,7 @@ speaker:
   - name: Felix Tensing
     pic: felixtensing.jpg
 date: 2025-03-20 18:30
-lastModified: 2025-02-10 21:00
+lastModified: 2025-02-11 14:00
 hideVideoRecording: true
 hidePub: true
 seatLimit: 40
