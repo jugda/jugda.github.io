@@ -29,6 +29,11 @@ jobs:
             jekyll \
             jekyll build
 
+      - name: Check generated WebSite with HSC
+        uses: aim42/hsc@v2
+        with:
+          args: -vvvv -r hsc _site
+
       - name: Upload _site directory as artifact
         uses: actions/upload-artifact@v4
         with:

@@ -91,3 +91,4 @@ exclude:
     - README.md
     - CNAME
     - .idea
+    - hsc
