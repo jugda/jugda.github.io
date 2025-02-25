@@ -14,6 +14,9 @@ seatLimit: 40
 location: Accso – Accelerated Solutions GmbH, Hilpertstraße 12, 64295 Darmstadt, der Eingang ist seitlich am Haus (an der Seite der Hausnummer 12b), die Bushaltestelle heißt Hilperstraße (abends leider kaum noch Verkehr), alternativ etwa 20 min Fußweg vom Hauptbahnhof, Parken und Fahrradständer sind hinterm Haus.
 direction: https://goo.gl/maps/VzGsyRHXxyHe43qr5
 hybrid: true
+attachments:
+  "Folien zu Barrierefreiheit": https://speakerdeck.com/runningjava/das-ist-doch-behindert-uber-barrieren-und-freiheiten
+  "Folien zur ethischen Nutzung von GenAI": https://johanneslink.net/downloads/GenAI-Ethics-JUGDA.pdf
 ---
 
 ## Zusammenfassung
@@ -22,7 +25,7 @@ hybrid: true
 
 Webseiten und Webanwendungen in Deutschlands müssen barrierefrei sein. Aber welche Barrieren gibt es überhaupt und wann ist eine Anwendung frei von diesen? Während es relativ viele Informationen gibt, wie auf Barrierefreiheit getestet wird, sind Methoden zur konkreten Implementierung rar.
 
-In diesem Talk berichte ich von den Erfahrungen, die mein Team und ich bei der Umsetzung der Barrierefreiheit gesammelt haben. Hierbei werden zunächst einige Grundlagen geschaffen. So werde ich erklären, welche Barrieren es gibt, was Barrierefreiheit ist und welche Rolle die "Barrierefreie-Informationstechnik-Verordnung (BITV) 2.0" spielt. Anschließend gebe ich an Hand von Praxisbeispielen für häufig auftretende Szenarien Empfehlungen, wie man Barriereheitheit erreichen kann. Dabei gehe ich auch auf Standards und Test(-tools) ein. Natürlich zeige ich Stolpersteineauf, weil eben doch nicht alles so einfach ist, wie man denkt.
+In diesem Talk berichte ich von den Erfahrungen, die mein Team und ich bei der Umsetzung der Barrierefreiheit gesammelt haben. Hierbei werden zunächst einige Grundlagen geschaffen. So werde ich erklären, welche Barrieren es gibt, was Barrierefreiheit ist und welche Rolle die "Barrierefreie-Informationstechnik-Verordnung (BITV) 2.0" spielt. Anschließend gebe ich an Hand von Praxisbeispielen für häufig auftretende Szenarien Empfehlungen, wie man Barriereheitheit erreichen kann. Dabei gehe ich auch auf Standards und Test(-tools) ein. Natürlich zeige ich Stolpersteine auf, weil eben doch nicht alles so einfach ist, wie man denkt.
 
 ### To Gen or Not to Gen - Ist eine ethische Nutzung generativer AI möglich?
 
