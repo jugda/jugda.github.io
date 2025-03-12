@@ -9,9 +9,9 @@ speaker:
     twitter: edburns
 lastModified: 2025-02-11 14:00
 hidePub: true
-seatLimit: 30
-location: tbd
-direction: #
+seatLimit: 25
+location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
+direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
 ---
 
 ## Abstract
@@ -23,3 +23,9 @@ Generative AI burst on to the public scene in November 2022, over ten years afte
 {% include speakerinfo.html index=0 %} is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com/.
 
 Fun Fact: My first professional conference experience was at the Third International WWW conference in Darmstadt, nearly 30 years ago: https://archives.iw3c2.org/www3/ . I coined the term "webcast" with a piece of software I wrote and presented there: https://archives.iw3c2.org/www3/mbone/webcast.html .
+
+## Sponsoren
+
+Die Firma [eXXcellent solutions](https://www.exxcellent.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![eXXcellent Logo](/images/sponsors/exxcellent.png)](https://www.exxcellent.de/)
