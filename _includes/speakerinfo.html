@@ -13,6 +13,10 @@
 {% capture l %}<a href="https://www.linkedin.com/in/{{speaker.linkedin}}" target="_blank"><i class="bi bi-linkedin"></i> in/{{speaker.linkedin}}</a>{% endcapture %}
 {% assign social = social | push: l %}
 {% endif %}
+{% if speaker.web %}
+{% capture l %}<a href="{{speaker.web}}" target="_blank"><i class="bi bi-globe"></i> {{speaker.web}}</a>{% endcapture %}
+{% assign social = social | push: l %}
+{% endif %}
 
 __{{speaker.name}}__
 {% if social.size > 0 %}({{ social | join: " | " }}){% endif %}
