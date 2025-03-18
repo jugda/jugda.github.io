@@ -11,8 +11,8 @@ speaker:
     twitter: alexthurow
 lastModified: 2025-03-18 11:10
 hidePub: true
-hideVideoRecording: false
-hybrid: true
+hideVideoRecording: true
+hybrid: false
 seatLimit: 25
 location: tbd
 direction: #
@@ -20,11 +20,11 @@ direction: #
 
 ## Abstract
 
-> "Wenn jemand eine Reise tut, so kann er was erzählen. Drum nähme ich den Stock und Hut und tät das Reisen wählen." (Matthias Claudius, 1740-1815)
+> " Wenn jemand eine Reise tut, so kann er was erzählen. Drum nähme ich den Stock und Hut und tät das Reisen wählen." (Matthias Claudius, 1740-1815)
 
 Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruch im Hinterkopf konzipiert. Ursprünglich für ein studentisches Publikum erstellt ("Vom Studium zum Job: Anforderungen an moderne Softwareentwickler:innen”), versucht er zu umreißen, was der Vortragende auf seiner Reise durch die Softwareindustrie (aka "freie Wildbahn”) als relevant für ein produktives (Über-)Leben identifiziert hat. Kategorie: "Possibly not so new - but subjectively noteworthy".
 
-📢 Hinweis: Alex war bereits im Oktober 2022 mit diesem Vortrag online bei uns. Aber diesmal wird er vor Ort in Darmstadt sein und der Vortrag hat sich natürlich weiterentwickelt. Wir freuen uns auf einen spannenden Austausch.
+Hinweis: Alex war bereits im Oktober 2022 mit diesem Vortrag online bei uns. Aber diesmal wird er vor Ort in Darmstadt sein und der Vortrag hat sich natürlich weiterentwickelt. Wir freuen uns auf einen spannenden Austausch.
 
 ## Speakers
 
