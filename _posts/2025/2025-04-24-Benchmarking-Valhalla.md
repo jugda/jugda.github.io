@@ -1,31 +1,28 @@
 ---
-date: 2025-04-08 18:30
-title: Java and AI with LangChain4j
+date: 2025-04-24 18:30
+title: Benchmarking Valhalla (Java Value Types)
 speaker:
-  - name: Ed Burns
-    pic: edburns.jpg
-    mastodon: mastodon.social/@edburns
-    linkedin: edburns
-    twitter: edburns
-lastModified: 2025-02-11 14:00
+  - name: Cay Horstmann
+    pic: cayhorstmann.jpg
+    mastodon: foojay.social/@cayhorstmann
+    linkedin: cay-horstmann-659a4b
+    twitter: cayhorstmann
+lastModified: 2025-03-18 11:00
 hidePub: true
 seatLimit: 25
-location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
-direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
+location: tbd
+direction: #
 ---
 
 ## Abstract
 
-Generative AI burst on to the public scene in November 2022, over ten years after Andrew Ng’s Machine Learning premiered on Coursera. Java developers have long felt like second class citizens, compared to the cool Python kids. LangChain4J changes the game. Java is cool with AI now! This lecture from 30-year industry veteran Ed Burns explores why it took so long for Java developers to have access to easy-to-use AI libraries, compared to Python developers. LangChain4J is the most popular of the Java libraries, but others exist. After a brief look at the landscape, we’ll take a deeper look at LangChain4J and how you use it to perform the most popular AI usage pattern: Retrieval Augmented Generation (RAG). RAG is basically a way to bring your own domain specific data to an existing AI model, and benefit from its power.
+Project Valhalla introduces value types into the Java language and virtual machine. Value types can be more efficient since they do not need pointer indirection and heap allocation. Moreover, Valhalla will lead to a more regular object model, unifying primitive types and their boxed types, and to simpler parameterized types. In this presentation, you will learn about the present state of the project so that you can evaluate its impact on your Java workloads. You will also see how to measure performance improvements so you can track them as they happen.
+
+⚠️ Der Vortrag ist auf Deutsch geplant. 
+
+⚠️ The lecture is planned in German. However, it can also be held in English if there is interest.
+
 
 ## Speakers
 
-{% include speakerinfo.html index=0 %} is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com/.
-
-Fun Fact: My first professional conference experience was at the Third International WWW conference in Darmstadt, nearly 30 years ago: https://archives.iw3c2.org/www3/ . I coined the term "webcast" with a piece of software I wrote and presented there: https://archives.iw3c2.org/www3/mbone/webcast.html .
-
-## Sponsoren
-
-Die Firma [eXXcellent solutions](https://www.exxcellent.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
-
-[![eXXcellent Logo](/images/sponsors/exxcellent.png)](https://www.exxcellent.de/)
+{% include speakerinfo.html index=0 %} grew up in the German countryside and studied in the United States (M.S. in computer science from Syracuse University, and a Ph.D. in mathematics from the University of Michigan in Ann Arbor). For four years, he was VP and CTO of an Internet startup that went from 3 people in a tiny office to a public company. He taught computer science at San Jose State University and held visiting appointments at universities in Germany, Switzerland, Vietnam, and Macau. In his copious spare time he write books and articles on programming languages and computer science education.
