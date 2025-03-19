@@ -13,9 +13,9 @@ lastModified: 2025-03-18 11:10
 hidePub: true
 hideVideoRecording: false
 hybrid: true
-seatLimit: 25
-location: tbd
-direction: #
+seatLimit: 30
+location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
+direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---
 
 ## Abstract
@@ -33,3 +33,9 @@ Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruc
 * Dipl.-Wirtsch.-Inform. (FH), 2005 an der Leuphana Lüneburg und University of Sydney
 * Verschieden(st)e Positionen: Software-Entwickler, Berater, Technischer Trainer, Dozent und Speaker
 * Hauptinteressensgebiete: Clean Code, Refactoring, Technische Schulden, Wissensvermittlung und Mentoring im Speziellen, Technologische Disruption, Bücher ("mit und ohne Tellerrand", siehe: [onmoderndev.de/lesen](https://onmoderndev.de/lesen)), (aktuelles) Zeitgeschehen
+
+## Sponsors
+
+[Andrena](https://www.andrena.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. 
+
+[![logo](/images/sponsors/andrena.png)](https://www.andrena.de/) 
