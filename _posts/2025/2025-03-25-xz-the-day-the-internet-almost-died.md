@@ -1,11 +1,13 @@
 ---
 date: 2025-03-25 18:30
-lastModified: 2025-02-10 21:00
-title: "XZ: The day the Internet (almost) died"
+lastModified: 2025-03-23 14:45
+title: "Double feature 'XZ: The day the Internet (almost) died' & 'Java build tooling could be so much better!'"
 speaker:
 - name: Reinier Zwitserloot
 - name: Roel Spilker
+- name: Haoyi Li
 speakerpic: RoelReinier.jpg
+speakerpic2: haoyi-li.jpg
 hidePub: true
 seatLimit: 25
 location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
@@ -15,7 +17,9 @@ hideVideoRecording: true
 important: Wir sind zu Gast bei QAware im Coworking Space SleevesUp.
 ---
 
-## Abstract
+## XZ: The day the Internet (almost) died
+
+### Abstract
 
 A curious blip in a timing test made Andres Freund (a PostgreSQL developer) raise an eyebrow and investigate. Little did he know he would uncover one of the most elaborate hacking attempts known to date using an open source project.
 
@@ -27,7 +31,7 @@ As maintainers of Lombok, we'll also give some advice to those who maintain or r
 
 WARNING: You will leave the room in awe of the games the attackers played. You will be scared witless too; how close we came to disaster and how none of the current safety measures that aim to prevent supply side attacks would have been able to stop this attack.
 
-## Speakers
+### Speakers
 
 {% include speakerpic.html %}
 
@@ -41,6 +45,20 @@ He's been a professional java programmer and teacher since 1999.
 Roel has been a fan of compile-time checking.
 Together with Reinier Zwitserloot he is the inventor of Project Lombok, 
 a compiler/IDE plugin to bring the java programming language into the next decennial.
+
+## Java build tooling could be so much better!
+
+### Abstract
+
+The Java language is known to be fast, safe, and easy, but Java build tools like Maven or Gradle sometimes don't quite live up to that standard. 
+This talk will explore what _could be_: where current Java build tools fall behind modern build tools in other communities, in performance, extensibility, and ease of getting started. 
+We will end with a demonstration of an experimental build tool "Mill" that makes use of these ideas, proving out the idea that Java build tooling has the potential to be much faster, safer, and easier than it is today.
+
+### Speaker
+
+{% include speakerpic.html speakerpic=page.speakerpic2 %}
+
+_Haoyi Li_ graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more.
 
 ## Sponsor
 
