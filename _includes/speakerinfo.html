@@ -9,8 +9,20 @@
 {% capture m %}<a href="https://{{speaker.mastodon}}" target="_blank"><i class="bi bi-mastodon"></i> {{speaker.mastodon}}</a>{% endcapture %}
 {% assign social = social | push: m %}
 {% endif %}
+{% if speaker.bluesky %}
+{% capture m %}<a href="https://bsky.app/profile/{{speaker.bluesky}}" target="_blank">
+  <span class="icon-text">
+    <img src="/images/bluesky.svg" class="icon">
+    {{speaker.bluesky}}
+  </span></a>{% endcapture %}
+{% assign social = social | push: m %}
+{% endif %}
 {% if speaker.linkedin %}
 {% capture l %}<a href="https://www.linkedin.com/in/{{speaker.linkedin}}" target="_blank"><i class="bi bi-linkedin"></i> in/{{speaker.linkedin}}</a>{% endcapture %}
+{% assign social = social | push: l %}
+{% endif %}
+{% if speaker.github %}
+{% capture l %}<a href="https://github.com/{{speaker.github}}" target="_blank"><i class="bi bi-github"></i> {{speaker.github}}</a>{% endcapture %}
 {% assign social = social | push: l %}
 {% endif %}
 {% if speaker.web %}

@@ -536,3 +536,14 @@ body.poster {
 span.externalEvent {
   font-size: smaller;
 }
+
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}

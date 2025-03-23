@@ -3,11 +3,14 @@ date: 2025-03-25 18:30
 lastModified: 2025-03-23 14:45
 title: "Double feature 'XZ: The day the Internet (almost) died' & 'Java build tooling could be so much better!'"
 speaker:
-- name: Reinier Zwitserloot
-- name: Roel Spilker
+- name: Reinier Zwitserloot + Roel Spilker
+  pic: RoelReinier.jpg
 - name: Haoyi Li
-speakerpic: RoelReinier.jpg
-speakerpic2: haoyi-li.jpg
+  pic: haoyi-li.jpg
+  linkedin: haoyi-li-3b3291182
+  bluesky: lihaoyi.com
+  github: lihaoyi
+  web: https://www.lihaoyi.com/
 hidePub: true
 seatLimit: 25
 location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
@@ -33,7 +36,10 @@ WARNING: You will leave the room in awe of the games the attackers played. You w
 
 ### Speakers
 
+{% assign speaker = page.speaker[0] %}
+{% assign speakerpic = speaker.pic %}
 {% include speakerpic.html %}
+{% include speakerpic.html speakerpic=speakerpic alt=speaker.name %}
 
 _Reinier Zwitserloot_ is co-founder and development lead at Zorg op Orde,
 helping general practitioners, bridging the gap between medical researchers and the waiting room. 
@@ -56,9 +62,7 @@ We will end with a demonstration of an experimental build tool "Mill" that makes
 
 ### Speaker
 
-{% include speakerpic.html speakerpic=page.speakerpic2 %}
-
-_Haoyi Li_ graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more.
+{% include speakerinfo.html index=1 %} graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more.
 
 ## Sponsor
 
