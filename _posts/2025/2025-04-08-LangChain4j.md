@@ -12,6 +12,8 @@ hidePub: true
 seatLimit: 25
 location: eXXcellent solutions GmbH, Europaplatz 4, 64293 Darmstadt
 direction: https://maps.app.goo.gl/ADoZoDeBAMExZBqu9
+attachments:
+  Folien: https://www.slideshare.net/slideshow/java-and-ai-with-langchain4j-jakarta-ee-and-ai/277677326
 ---
 
 ## Abstract
