@@ -12,6 +12,8 @@ hidePub: true
 seatLimit: 25
 location: COWO 21, Holzhofallee 21, 64295 Darmstadt
 direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
+attachments:
+  "Folien": https://horstmann.com/presentations/2025/jug-darmstadt
 ---
 
 ## Abstract
