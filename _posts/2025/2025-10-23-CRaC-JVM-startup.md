@@ -10,9 +10,9 @@ speaker:
     twitter: hansolo_
 lastModified: 2025-03-18 11:40
 hidePub: true
-seatLimit: 25
-location: tbd
-direction: #
+seatLimit: 30
+location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
+direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---
 
 ## Abstract
@@ -31,3 +31,8 @@ This session will give you a short overview of the CRaC project and shows some r
 {% include speakerinfo.html index=0 %} is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon).
 Gerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.
 
+## Sponsors
+
+[Andrena](https://www.andrena.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. 
+
+[![logo](/images/sponsors/andrena.png)](https://www.andrena.de/) 
