@@ -10,6 +10,7 @@ speaker:
     twitter: hansolo_
 lastModified: 2025-03-18 11:40
 hidePub: true
+hybrid: true
 seatLimit: 30
 location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
 direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
