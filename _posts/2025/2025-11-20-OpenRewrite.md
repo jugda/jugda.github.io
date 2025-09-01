@@ -6,12 +6,12 @@ speaker:
     web: https://mboegie.dev/
     pic: merlinboegershausen.jpg
     linkedin: merlin-boegershausen
-lastModified: 2025-09-01 11:30
+lastModified: 2025-09-01 12:23
 hidePub: true
 hybrid: true
 seatLimit: 40
-location: tbd
-direction: #
+location: DICOS GmbH Kommunikationssysteme, Alsfelder Straße 11, 64289 Darmstadt
+direction: https://maps.app.goo.gl/kJPUXpvoogYj1MDb7
 ---
 
 ## Abstract
