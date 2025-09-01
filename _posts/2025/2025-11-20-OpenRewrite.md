@@ -4,7 +4,7 @@ title: OpenRewrite
 speaker:
   - name: Merlin Bögershausen
     web: https://mboegie.dev/
-    pic: merlinmerlinboegershausen.jpg
+    pic: merlinboegershausen.jpg
     linkedin: merlin-boegershausen
 lastModified: 2025-09-01 11:30
 hidePub: true
