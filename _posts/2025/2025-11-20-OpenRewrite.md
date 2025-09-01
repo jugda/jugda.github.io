@@ -1,5 +1,5 @@
 ---
-date: 2025-12-11 18:30
+date: 2025-11-20 18:30
 title: OpenRewrite
 speaker:
   - name: Merlin Bögershausen
