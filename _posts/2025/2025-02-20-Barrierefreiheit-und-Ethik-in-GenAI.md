@@ -17,7 +17,9 @@ hybrid: true
 attachments:
   "Folien zu Barrierefreiheit": https://speakerdeck.com/runningjava/das-ist-doch-behindert-uber-barrieren-und-freiheiten
   "Folien zur ethischen Nutzung von GenAI": https://johanneslink.net/downloads/GenAI-Ethics-JUGDA.pdf
-youtube: kxavXsjbqxI
+youtube: 
+  - kxavXsjbqxI
+  - raVnfSMBfW8
 ---
 
 ## Zusammenfassung

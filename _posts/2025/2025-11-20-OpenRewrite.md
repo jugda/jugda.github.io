@@ -1,6 +1,7 @@
 ---
 date: 2025-11-20 18:30
-title: OpenRewrite
+title: Kickstart your migrations - Die Grundlagen des Migration Engineering mit OpenRewrite
+shortTitle: Migration Engineering mit OpenRewrite
 speaker:
   - name: Merlin Bögershausen
     web: https://mboegie.dev/
@@ -16,7 +17,13 @@ direction: https://maps.app.goo.gl/kJPUXpvoogYj1MDb7
 
 ## Abstract
 
-tbd
+In den letzten Jahren hat sich die Entwicklung im Java-Ökosystem beschleunigt. Ob Java SE, Jakarta EE oder Spring Boot – die Releases und End-of-Support-Meldungen jagen sich gegenseitig. Die Anzahl der notwendigen Migrationen explodiert, und der Feature-Druck lässt dabei nicht nach.
+
+Mit dem Open-Source-Tool OpenRewrite lassen sich Migrationen automatisiert und skalierbar auf Projekte anwenden. Die große und wachsende Anzahl an vorgefertigten Migrationen bietet Lösungen für viele Situationen. Zusätzliche Anforderungen lassen sich dank der Konfigurierbarkeit und Kombinierbarkeit bestehender Migrationen schnell umsetzen. Komplexere Anpassungen sind dank der direkten Integration von Refaster-Vorlagen einfach zu realisieren.
+
+In dieser Session werden der Funktionsumfang und die Integration von OpenRewrite in bestehende Projekte behandelt. Auch die Grundlagen der testgetriebenen Entwicklung von Migrationen werden behandelt. Sowie exemplarische Migrationen durchführen. Die Teilnehmer dieser Session lernen die Grundlagen von OpenRewrite kennen und erhalten wertvolle Tipps für den regelmäßigen Einsatz.
+
+
 
 
 ## Speakers
