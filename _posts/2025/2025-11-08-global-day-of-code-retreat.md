@@ -1,5 +1,5 @@
 ---
-title: Global Day of Code Retreat Darmstadt
+title: Global Day of Code Retreat Frankfurt
 date: 2025-11-08 9:00
 duration: 8
 hidePub: true
