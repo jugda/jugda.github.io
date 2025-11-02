@@ -7,7 +7,7 @@ speaker:
     web: https://mboegie.dev/
     pic: merlinboegershausen.jpg
     linkedin: merlin-boegershausen
-lastModified: 2025-09-01 12:23
+lastModified: 2025-11-02 21:32
 hidePub: true
 hybrid: true
 seatLimit: 40
@@ -23,9 +23,12 @@ Mit dem Open-Source-Tool OpenRewrite lassen sich Migrationen automatisiert und s
 
 In dieser Session werden der Funktionsumfang und die Integration von OpenRewrite in bestehende Projekte behandelt. Auch die Grundlagen der testgetriebenen Entwicklung von Migrationen werden behandelt. Sowie exemplarische Migrationen durchführen. Die Teilnehmer dieser Session lernen die Grundlagen von OpenRewrite kennen und erhalten wertvolle Tipps für den regelmäßigen Einsatz.
 
-
-
-
 ## Speakers
 
 {% include speakerinfo.html index=0 %} ist Softwareingenieur, Architekt und Oracle ACE mit über 10 Jahren Erfahrung in verschiedenen Bereichen und Sprachen. Als Migration Engineer hilft er Teams und Einzelpersonen bei der Nutzung neuer Funktionen und unterstützt sie bei der Migration. Neben der Entwicklung, dem Halten von Vorträgen auf Konferenzen und seiner Rolle als Vater bringt er Interessierten, das Landen von Segelflugzeugen beizubringen (ja, ich bin Fluglehrer!) und spielt Volleyball.
+
+## Sponsors
+
+[Dicos](https://www.dicos.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.
+
+[![logo](/images/sponsors/dicos.svg){:width="200"}](https://www.dicos.de/)
