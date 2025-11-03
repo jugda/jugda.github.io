@@ -9,7 +9,7 @@ speaker:
     linkedin: merlin-boegershausen
 lastModified: 2025-11-02 21:32
 hidePub: true
-hybrid: true
+hybrid: false
 seatLimit: 40
 location: DICOS GmbH Kommunikationssysteme, Alsfelder Straße 11, 64289 Darmstadt
 direction: https://maps.app.goo.gl/kJPUXpvoogYj1MDb7
