@@ -5,6 +5,7 @@ speaker:
   - name: Richard Gross
     pic: richardgross.jpg
     linkedin: richargh
+    bluesky: richargh.de
 lastModified: 2025-11-02 21:32
 hidePub: true
 hybrid: true
