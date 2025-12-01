@@ -25,12 +25,12 @@
       {{ content }}
     </div>
     <div class="poster-footer">
-      <div class="poster-sponsors">Mit freundlicher Unterstützung von: 
+      <div class="poster-sponsors">Mit freundlicher Unterstützung von:
 		{% for sponsor in site.data.sponsors %}
 		<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
 		{% endfor %}
 	  </div>
-      Die Vorträge finden, sofern nicht anders angegeben, um 18:30 Uhr an der TU Darmstadt in der Hochschulstraße 10, Piloty-Gebäude S2|02, Raum C110 statt. Es kann aber kurzfristig zu Abweichungen kommen. Bitte vorher auf {{site.url}} vorbeischauen.
+      Die Orte für die Vorträge sind auf der einzelnen Vortragsseite angegeben, bitte informiert Euch direkt beim jeweiligen Event.
       <div class="lastUpdated">Stand: {{ site.time | date:'%m/%Y'}}, &copy; {{ site.time | date:'%Y'}} Java User Group Darmstadt ({{site.url}}{{page.url}})</div>
     </div>
     {% include analytics.html %}

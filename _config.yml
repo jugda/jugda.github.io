@@ -48,7 +48,6 @@ defaults:
       eventType: talk # talk, barbecue, report, hackathon, conference
       startTime: "18:30"
       duration: 2
-      # location: "TU Darmstadt, S2|02 (Robert-Piloty-Geb.), Raum C110, Hochschulstr. 10, 64289 Darmstadt"
       location: Online
       direction: "/anfahrt/"
       hideRegistration: false
