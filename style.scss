@@ -399,12 +399,25 @@ footer {
 }
 
 .sponsors {
-  margin-top: 20px;
-  padding: 20px 0;
+  padding-bottom: 20px;
   text-align: center;
+}
+.sponsors h4 {
+  margin-bottom: 1rem;
 }
 .sponsors img {
   max-height: 100px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.sponsors .logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote {

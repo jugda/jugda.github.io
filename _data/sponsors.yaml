@@ -1,7 +1,6 @@
 "TU Darmstadt":
   img: tud.png
   href: https://www.tu-darmstadt.de/
-  startPage: true
 "Accso Accelerated Solutions":
   img: accso.png
   href:
@@ -33,7 +32,7 @@
   startPage: true
 "mitp":
   img: mitp.png
-  href: https://www.it-fachportal.de/
+  href: https://www.mitp.de/
   startPage: true
 "JetBrains":
   img: idea.png
