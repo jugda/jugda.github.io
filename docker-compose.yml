@@ -3,7 +3,7 @@ volumes:
     name: jugda_jekyll_data
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
+    image: jekyll/jekyll:4
     command: jekyll serve --watch
     ports:
       - 4000:4000
