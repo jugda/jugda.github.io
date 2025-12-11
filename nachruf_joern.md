@@ -18,6 +18,7 @@ Im stillen Gedenken
 Melanie Andrisek,
 Gerd Aschemann,
 Marcel Bruch,
+Jochen Hiller,
 Niko Köbler,
 Johannes Leebmann,
 Oliver Kuhn,
