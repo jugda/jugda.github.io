@@ -14,8 +14,8 @@ hideVideoRecording: true
 hidePub: true
 seatLimit: 40
 hybrid: true
-location: 
-direction: 
+location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
+direction: https://goo.gl/maps/fX1AfbSmFv82
 ---
 
 ## Zusammenfassung
@@ -61,3 +61,9 @@ Clean Architecture bietet einen strukturierten Ansatz, um diesem Problem entgege
 {% include speakerinfo.html index=1 %} ist Software Engineer bei QAware.
 
 {% include speakerinfo.html index=2 %} arbeitet bei MHP.
+
+## Sponsors
+
+[Cosee](http://www.cosee.biz) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![logo](/images/sponsors/cosee.png)](http://www.cosee.biz)
