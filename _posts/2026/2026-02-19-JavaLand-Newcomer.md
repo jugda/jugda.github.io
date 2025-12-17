@@ -6,6 +6,9 @@ speaker:
     pic: christophgerlach.png
   - name: Alexander Eimer
     pic: alexandereimer.jpg
+    github: https://github.com/aeimer/talk-history
+    web: https://eimer.it
+    linkedin: alexander-eimer
   - name: Fedor Zholud
     pic: fedorzholud.jpg
 date: 2026-02-19 18:30
@@ -58,7 +61,11 @@ Clean Architecture bietet einen strukturierten Ansatz, um diesem Problem entgege
 
 {% include speakerinfo.html index=0 %} arbeitet bei der REWE Digital GmbH.
 
-{% include speakerinfo.html index=1 %} ist Software Engineer bei QAware.
+{% include speakerinfo.html index=1 %} ist Senior Software Engineer bei der QAware GmbH und ein Experte im Bereich von Plattformentwicklung. Er ist leidenschaftlich daran interessiert, Cloud-Plattformen zu bauen, die ein außergewöhnliches Entwicklererlebnis bieten und seinen Kollegen ein Lächeln ins Gesicht zaubern.
+
+Mit Erfolgen im Aufbau sicherer Internal Developer Platforms (IDPs) weiß er, wie man Entwicklern "goldene Pfade" bereitet. Indem er angemessene Dokumentationen für diese IDPs bereitstellt, ermöglicht er den Nutzern, ihre Anwendungen schnell und sicher zu implementieren.
+
+Bei der Entwicklung von Kundensystemen konnte er Erfahrung sammeln wie Dokumentation zu organisieren und strukturieren ist. Der Umgang mit verschiedenen Dokumentationsquellen und dennoch eine gute Struktur beizubehalten, erforderte sowohl ein hervorragendes technisches Fundament als auch Wissen darüber, wie man Dokumentation auf die richtige Weise erstellt.
 
 {% include speakerinfo.html index=2 %} arbeitet bei MHP.
 
