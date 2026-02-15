@@ -67,7 +67,7 @@ Mit Erfolgen im Aufbau sicherer Internal Developer Platforms (IDPs) weiß er, wi
 
 Bei der Entwicklung von Kundensystemen konnte er Erfahrung sammeln wie Dokumentation zu organisieren und strukturieren ist. Der Umgang mit verschiedenen Dokumentationsquellen und dennoch eine gute Struktur beizubehalten, erforderte sowohl ein hervorragendes technisches Fundament als auch Wissen darüber, wie man Dokumentation auf die richtige Weise erstellt.
 
-{% include speakerinfo.html index=2 %} arbeitet bei MHP.
+{% include speakerinfo.html index=2 %} arbeitet bei MHP – A Porsche Company und verfügt über mehrere Jahre Berufserfahrung in der Java/Kotlin Backend Entwicklung sowie im AWS Serverless Umfeld. Er hat Clean Architecture nicht nur in klassischen Microservices, sondern auch in Serverless-Anwendungen erfolgreich umgesetzt. Genau das motiviert ihn, seine Erfahrungen mit anderen Entwicklerinnen und Entwicklern zu teilen und darüber zu sprechen. Besonders begeistert ihn das Erforschen verschiedener Architekturansätze und -muster, das Mentoring von Kolleginnen und Kollegen sowie der Wissensaustausch im Team. Komplexe Probleme einfach und verständlich zu lösen, ist für ihn nicht nur eine Fähigkeit, sondern auch eine Leidenschaft.
 
 ## Sponsors
 
