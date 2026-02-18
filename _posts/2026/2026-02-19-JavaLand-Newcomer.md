@@ -3,7 +3,7 @@ title: "Drei Vorträge: 'Die Katastrophe im Release - wie rette ich das nächste
 shortTitle: "Drei Vorträge: Fuck-Up-Releases + Antora & Vale + Clean Architecture"
 speaker:
   - name: Christoph Gerlach
-    pic: christophgerlach.png
+    pic: christophgerlach.jpg
   - name: Alexander Eimer
     pic: alexandereimer.jpg
     github: https://github.com/aeimer/talk-history
@@ -12,7 +12,7 @@ speaker:
   - name: Fedor Zholud
     pic: fedorzholud.jpg
 date: 2026-02-19 18:30
-lastModified: 2025-12-11 20:00
+lastModified: 2026-02-18 11:45
 hideVideoRecording: true
 hidePub: true
 seatLimit: 40
@@ -59,7 +59,7 @@ Clean Architecture bietet einen strukturierten Ansatz, um diesem Problem entgege
 
 ## Sprecher
 
-{% include speakerinfo.html index=0 %} arbeitet bei der REWE Digital GmbH.
+{% include speakerinfo.html index=0 %} arbeitet seit sechs Jahren als Software Engineer bei der rewe digital GmbH im Bereich der Logisitik. Hier nimmt er vor allem Aufgaben in der Entwicklung und der Software Architektur wahr. Sein Werdegang zeichnet sich weiterhin mit einer engen Verbundenheit mit dem nicht polizeilichen Bevölkerungsschutz aus. So hat er ein abgeschlossenes Studium zum Rettungsingenieur als auch langjährige Erfahrung im Katastrophenschutz. Mit dieser raren Verbindung versucht er alltägliche Probleme mit dem Besten aus beiden Welten zu beheben.
 
 {% include speakerinfo.html index=1 %} ist Senior Software Engineer bei der QAware GmbH und ein Experte im Bereich von Plattformentwicklung. Er ist leidenschaftlich daran interessiert, Cloud-Plattformen zu bauen, die ein außergewöhnliches Entwicklererlebnis bieten und seinen Kollegen ein Lächeln ins Gesicht zaubern.
 
