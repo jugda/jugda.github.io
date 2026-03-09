@@ -19,8 +19,10 @@ direction: #
 We all want to it. When you want to integrate AI into your tools, what do you do? You add langchain4j or spring-ai and run with it. But do you know how these libraries interact with the AI service providers or your local ollama instance? 
 
 These libraries aren’t magic, so let’s peek behind the curtain and write a tiny AI library together. This way you’ll discover the REST APIs that power it all.
+
 <hr />
-Der Vortrag wird auf Deutsch stattfinden.
+
+Der Vortrag wird auf Deutsch stattfinden. => [Weitere Informationen](https://github.com/parttimenerd/tiny-llm-library-demo) 
 
 ## Speakers
 
