@@ -9,9 +9,9 @@ speaker:
 lastModified: 2026-02-18 11:45
 hidePub: true
 hybrid: true
-seatLimit: 30
-location: tbd
-direction: #
+seatLimit: 25
+location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
+direction: https://maps.app.goo.gl/CZqAZLKYVT813ezg9
 ---
 
 ## Abstract
@@ -27,3 +27,9 @@ Der Vortrag wird auf Deutsch stattfinden. => [Weitere Informationen](https://git
 ## Speakers
 
 {% include speakerinfo.html index=0 %} is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP in 2022 after two years of research studies at the KIT in the field of Java security analyses. His work today is comprised of many open-source contributions and his blog ([https://mostlynerdless.de/](https://mostlynerdless.de/)), where he writes regularly on in-depth profiling and debugging topics, and of working on his JEP Candidate 435 to add a new profiling API to the OpenJDK.
+
+## Sponsor
+
+Die Firma [QAware](https://www.qaware.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!
+
+[![QAware Logo](/images/sponsors/qaware.png)](https://www.qaware.de/)
