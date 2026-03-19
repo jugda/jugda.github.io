@@ -1,10 +1,12 @@
-<div class="sponsors">
-<h4>Wir danken unseren Sponsoren:</h4>
-<div class="logos">
-{% for sponsor in site.data.sponsors %}
-{% if sponsor[1].startPage %}
-<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
-{% endif %}
-{% endfor %}
-</div>
+<div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  {% for sponsor in site.data.sponsors %}
+  {% if sponsor[1].startPage %}
+    <a href="{{ sponsor[1].href }}" target="_blank">
+      <img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  {% endif %}
+  {% endfor %}
+  </div>
 </div>

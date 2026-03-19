@@ -23,20 +23,29 @@
   }
 </script>
 
-<div class="next-event-container">
-<span class="next-event-label">Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time></span>
-<span class="next-event-time"><script>document.write(daysTillTalk());</script></span>
-<span class="next-event-title">
-  {%if upcomingTalk.speaker %}
-    {{ upcomingTalk.speaker | map: "name" | join: ", " }}:
-  {% endif %}
-  <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
-</span>
-{% if upcomingTalk.canceled %}
-  <div class="important">Hinsweis:n Die Veranstaltung wurde abgesagt!</div>
-{% else %}
-{%if upcomingTalk.important %}
-  <div class="important">Hinweis: {{ upcomingTalk.important }}</div>
-{% endif %}
-{% endif %}
+<div class="card text-bg-light mb-3 border border-dark-subtle">
+  <div class="card-header text-bg-danger">
+    Nächste Veranstaltung am <time datetime="{{ upcomingTalk.date | date:"%Y-%m-%d" }}">{{ upcomingTalk.date | date:"%d.%m.%Y" }}</time>
+  </div>
+  <div class="card-body d-flex justify-content-between">
+    <div>
+      <h5 class="card-title mt-0">
+        {%if upcomingTalk.speaker %}
+          {{ upcomingTalk.speaker | map: "name" | join: ", " }}:
+        {% endif %}
+        <a href="{{ upcomingTalk.url | prepend: site.baseurl }}">{{ upcomingTalk.title }}</a>
+      </h5>
+      <div class="card-text important">
+        {% if upcomingTalk.canceled %}
+          <span>Hinweis: Die Veranstaltung wurde abgesagt!</span>
+        {% endif %}
+        {%if upcomingTalk.important %}
+          <span>Hinweis: {{ upcomingTalk.important }}</span>
+        {% endif %}
+      </div>
+    </div>
+    <div>
+      <div class="text-bg-danger p-2 rounded"><script>document.write(daysTillTalk());</script></div>
+    </div>
+  </div>
 </div>

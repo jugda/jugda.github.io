@@ -11,19 +11,12 @@ description: Community der Java Anwender in und um Darmstadt
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/jugda_logo_rund.png
 
-#
-# Flags below are optional
-#
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: orga@jug-da.de
   linkedin: company/jug-da
   mastodon: https://darmstadt.social/@JUG_DA
   youtube: "@jugda"
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -63,9 +56,8 @@ defaults:
       lastModified: now
       # important: "Standardmäßig führen wir momentan unsere Veranstaltungen als Remote-Events durch (weitere Infos unten bei der Registrierung). Wir planen aber bereits wieder erste Präsenzveranstaltungen."
       # attachments: "" # single url, single filename as absolute path (/files/...) or a hash with a names (Folien, Demos, ...) as key
-#
+
 # !! You don't need to change any of the configuration flags below !!
-#
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:title/

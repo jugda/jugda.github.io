@@ -27,13 +27,13 @@ layout: default
     {% if page.important %}
       <h2 class="important">{{ page.important }}</h2>
     {% endif %}
-    <div class="flexContainerSpaceBetween">
+    <div class="d-flex justify-content-between align-items-center">
       {% include getDateWithStartAndEndTimeFromEvent.html event=page %}
       <h3>
         <i class="bi bi-clock" title="Uhrzeit"></i>&nbsp;
         {{ dateWithStartTime | date: "%H:%M" }} bis {{ dateWithEndTime | date: "%H:%M" }} Uhr
       </h3>
-      <div class="flexContainerSpaceBetween" style="width: 80px;">
+      <div class="d-flex justify-content-around align-items-center" style="width: 80px;">
         <div>
           <a href="#" onclick="ical('{{ page.title | replace: "'", "\\'" }}{% if page.speaker %} ({{ page.speaker | map: "name" | join: ", " }}){% endif %}', '{{ page.content | strip_html | normalize_whitespace | truncatewords: 50 | escape }}', '{{ page.location }}', '{{ dateWithStartTime | date: "%Y%m%dT%H%M00" }}', '{{ dateWithEndTime | date: "%Y%m%dT%H%M00" }}', '{{ site.url }}{{ page.url }}', '{{ page.date | date: "%Y%m%d" }}')" title="iCal/ics Datei für diese Veranstaltung runterladen">
             <img src="/images/ical.png" style="height: 32px;"/>

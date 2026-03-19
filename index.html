@@ -11,7 +11,7 @@ layout: default
 
 {% include next-events.html %}
 
-<div class="flexContainerSpaceBetween">
+<div class="d-flex justify-content-between align-items-center">
   <span class="hint">Stand vom {{ site.time | date:'%d.%m.%Y'}}</span>
   <a href="{{ site.baseurl }}/veranstaltungen/">Alle Veranstaltungen >></a>
 </div>
@@ -20,7 +20,7 @@ layout: default
 
 <div>
   <h3>Beachtet auch gerne unsere Partner-Events:</h3>
-  <div class="flexContainerSpaceAround" style="flex-wrap: wrap;">
+  <div class="d-flex justify-content-around align-items-center flex-wrap">
     {% include conferences.html %}
   </div>
 </div>

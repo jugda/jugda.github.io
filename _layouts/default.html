@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <!--link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description"><a href="{{ site.baseurl }}/">{{ site.description }}</a></p>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <div class="d-flex align-items-center">
+            <img src="{{ site.avatar }}" alt="{{ site.name }} Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">{{ site.name }}</h1>
+              <p class="fs-6">{{ site.description }}</p>
+            </div>
           </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-          <nav class="legal">
-            <a href="{{ site.baseurl }}/datenschutz/">Datenschutz</a>
-            <a href="{{ site.baseurl }}/impressum/">Impressum</a>
-          </nav>
-          <nav>
-            <a href="{{ site.baseurl }}/veranstaltungen/">Veranstaltungen</a>
-            <a href="{{ site.baseurl }}/mitmachen/">Mitmachen</a>
-            <a href="{{ site.baseurl }}/partner/">Partner JUGs</a>
-            <a href="{{ site.baseurl }}/about/">Über uns</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
+    <main class="container">
       {{ content }}
-    </div>
+    </main>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include fa-icons.html %}
-        </footer>
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        {% include fa-icons.html %}
       </div>
-    </div>
-
+      <div class="pt-3 text-center small">
+        <a href="{{ site.baseurl }}/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="{{ site.baseurl }}/impressum/">Impressum</a>
+      </div>
+    </footer>
     {% include sponsoren.html %}
+
+    <script src="/js/bootstrap.min.js" async defer></script>
     <script src="/js/script.js"></script>
   </body>
 </html>

@@ -4,9 +4,6 @@ JAX:
 "Java Forum Nord":
   img: jfn.png
   href: https://javaforumnord.de/
-"XP-Days":
-  img: xpdays.svg
-  href: https://xp-days.de/
 WJAX:
   img: wjax.png
   href: https://jax.de/muenchen/
@@ -16,9 +13,3 @@ WJAX:
 JavaLand:
   img: javaland.png
   href: https://www.javaland.eu
-"JAX London":
-  img: jaxlondon.svg
-  href: https://jaxlondon.com/
-"JAX New York":
-  img: jaxnewyork.svg
-  href: https://devm.io/jaxnewyork/

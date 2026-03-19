@@ -10,11 +10,7 @@
 {% assign social = social | push: m %}
 {% endif %}
 {% if speaker.bluesky %}
-{% capture b %}<a href="https://bsky.app/profile/{{speaker.bluesky}}" target="_blank">
-  <span class="icon-text">
-    <img src="/images/bluesky.svg" class="icon">
-    {{speaker.bluesky}}
-  </span></a>{% endcapture %}
+{% capture b %}<a href="https://bsky.app/profile/{{speaker.bluesky}}" target="_blank"><i class="bi bi-bluesky"></i> {{speaker.bluesky}}</a>{% endcapture %}
 {% assign social = social | push: b %}
 {% endif %}
 {% if speaker.linkedin %}
