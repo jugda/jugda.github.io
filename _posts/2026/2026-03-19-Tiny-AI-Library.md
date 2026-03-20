@@ -12,7 +12,7 @@ hybrid: true
 seatLimit: 25
 location: QAware @ Coworking Space SleevesUp!, Am Kavalleriesand 5, 64295 Darmstadt
 direction: https://maps.app.goo.gl/CZqAZLKYVT813ezg9
-attachements:
+attachments:
   Folien: https://parttimenerd.github.io/tiny-llm-library-demo/1
   Code: https://github.com/parttimenerd/tiny-llm-library-demo
 ---
