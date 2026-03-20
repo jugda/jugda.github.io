@@ -12,13 +12,16 @@ speaker:
   - name: Fedor Zholud
     pic: fedorzholud.jpg
 date: 2026-02-19 18:30
-lastModified: 2026-02-18 11:45
+lastModified: 2026-03-20 11:45
 hideVideoRecording: true
 hidePub: true
 seatLimit: 40
 hybrid: true
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
+attachments:
+  "Folien von Christoph": /files/Christoph-Gerlach-Die Katastrophe im Release.pdf
+  "Folien von Fedor": /files/Fedor-Zholud-Clean Architecture.pdf 
 ---
 
 ## Zusammenfassung
