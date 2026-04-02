@@ -1,3 +1,4 @@
 AddType 'text/calendar; charset=UTF-8' .ics
 AddCharset UTF-8 .ics
 AddHandler text/calendar .ics
+ErrorDocument 404 /404/

@@ -22,8 +22,8 @@ img {
 blockquote {
   margin: 1rem 0.5rem;
   padding-left: 0.5rem;
-  border-left: 2px solid rgb(var(--bs-secondary-rgb));
-  color: rgb(var(--bs-secondary-rgb));
+  border-left: 2px solid var(--bs-secondary);
+  color: var(--bs-secondary);
   font-style: italic;
 }
 
@@ -80,7 +80,7 @@ blockquote {
 }
 
 .important {
-  color: rgb(var(--bs-danger-rgb));
+  color: var(--bs-danger);
   font-style: italic;
   font-weight: 400;
 }
@@ -196,7 +196,7 @@ body.poster {
 }
 
 .externalEvent {
-  color: rgb(var(--bs-danger-rgb));
+  color: var(--bs-danger);
 }
 
 span.externalEvent {

@@ -3,9 +3,9 @@ _site
 .idea/
 .jekyll
 .jekyll-metadata
+.jekyll-cache
 .bundle
 .sass-cache
-Gemfile.lock
 *.iml
 _rebuild-page*
 _start_server*
