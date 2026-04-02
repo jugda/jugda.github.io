@@ -31,7 +31,7 @@ DESCRIPTION:Java User Group Darmstadt\n\nLesbarer Code beginnt im Kopf: Wahrnehm
 LOCATION:tbd
 DTSTART;TZID=Europe/Berlin:20260521T183000
 DTEND;TZID=Europe/Berlin:20260521T203000
-DTSTAMP:20260402T210500Z
+DTSTAMP:20260320T110100Z
 URL:https://www.jug-da.de/2026/05/Lesbarer-Code/
 CLASS:PUBLIC
 END:VEVENT
@@ -43,7 +43,7 @@ DESCRIPTION:Java User Group Darmstadt\n\n11. Darmstädter Barbecue Stammtisch\n\
 LOCATION:Grillplatz an der Oberförsterwiese\, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
 DTSTART;TZID=Europe/Berlin:20260701T183000
 DTEND;TZID=Europe/Berlin:20260701T223000
-DTSTAMP:20260402T210500Z
+DTSTAMP:20260215T203800Z
 URL:https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/
 CLASS:PUBLIC
 END:VEVENT
