@@ -1,12 +1,12 @@
 ---
 layout: null
 ---
-{% comment %} Erzeugungsdatum - 7 Tage, um auch noch das letzte Event zu sehen {% endcomment %}
-{% assign fromInSeconds = site.time | date: "%s" | minus : 604800 %}
+{%- comment %} Erzeugungsdatum - 7 Tage, um auch noch das letzte Event zu sehen {% endcomment -%}
+{%- assign fromInSeconds = site.time | date: "%s" | minus : 604800 -%}
 [
-{% for post in site.posts reversed %}
-{% assign postDateInSeconds = post.date | date: "%s" | minus : 0 %}
-{% if postDateInSeconds > fromInSeconds %}
+{%- for post in site.posts reversed -%}
+{%- assign postDateInSeconds = post.date | date: "%s" | minus : 0 -%}
+{%- if postDateInSeconds > fromInSeconds %}
 {
 "uid": "{{ post.date | date: "%Y%m%d" }}@jug-da.de",
 "lastModified": "{% assign offset = post.lastModified | date: "%:::z" | times: 3600 %}{{ post.lastModified | date: "%s" | minus: offset | date: "%Y%m%dT%H%M00Z" }}",
@@ -16,13 +16,14 @@ layout: null
 {% if post.speaker %}"speaker": "{{ post.speaker | map: "name" | join: ", " }}",{% endif %}
 "location": "{{ post.location }}",
 "url": "{{ site.url }}{{ post.url }}",
-{% include getDateWithStartAndEndTimeFromEvent.html event=post %}
+{%- include getDateWithStartAndEndTimeFromEvent.html event=post %}
 "start": "{{ dateWithStartTime | date: "%Y-%m-%dT%H:%M:00" }}",
 "end": "{{ dateWithEndTime | date: "%Y-%m-%dT%H:%M:00" }}",
 "timezone": "{{ site.timezone }}",
 "hideRegistration": {{ post.hideRegistration }},
 "canceled": {{ post.canceled }},
 "externalEvent": {{ post.externalEvent }}
-}{% unless forloop.last %},{% endunless %}
-{% endif %}{% endfor %}
+}{%- unless forloop.last %},{%- endunless %}
+{%- endif -%}
+{%- endfor %}
 ]
