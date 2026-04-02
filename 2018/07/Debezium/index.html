@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract Debezium (Substantiv | de·be·zi·um | /dɪ:ˈbɪ:ziːəm/) - Geheimzutat für Change Data Capture Die Aktualisierung von Caches und Volltextindizes, die Synchronisation von Daten zwischen verschiedenen Microservices, die Erstellung von optimierten Lesemodellen in CQRS-Architekturen, Datentransfers vom operativen System zu Analytics-Tools – dies sind nur einige der Use Cases, die durch das Streamen von Änderungen aus Datenbanken heraus ermöglicht werden. Der Vortrag führt in das Konzept von Change Data Capture (CDC) ein und beleuchtet, wie dieses mittels Debezium (http://debezium.io) umgesetzt werden kann, einer auf Apache Kafka basierenden Open-Source-CDC-Lösung. Wir werden betrachten, wie Debezium alle Änderungen aus Datenbanken wie MySQL, PostgreSQL und MongoDB erfasst, wie man auf die entsprechenden Ereignisse in Beinahe-Echtzeit reagieren kann und wie Debezium die Korrektheit und Vollständigkeit der Daten auch dann sicherstellt, falls einmal etwas schief geht, etwa weil eine Zieldatenbank vorübergehend ausfällt. Speaker Gunnar Morling ist als Softwareentwickler für Red Hat tätig, wo er das Debezium-Projekt leitet, ein Open-Source-Tool für Change Data Capturing (CDC). Als Mitglied des Hibernate-Teams arbeitet er an Hibernate Validator, Search und OGM. Gunnar ist Spec Lead für Bean Validation 2.0 (JSR 380). In seiner Freizeit trägt er u.a. zum MapStruct-Projekt bei. Gunnar lebt und arbeitet in Hamburg." />
+<meta property="og:description" content="Abstract Debezium (Substantiv | de·be·zi·um | /dɪ:ˈbɪ:ziːəm/) - Geheimzutat für Change Data Capture Die Aktualisierung von Caches und Volltextindizes, die Synchronisation von Daten zwischen verschiedenen Microservices, die Erstellung von optimierten Lesemodellen in CQRS-Architekturen, Datentransfers vom operativen System zu Analytics-Tools – dies sind nur einige der Use Cases, die durch das Streamen von Änderungen aus Datenbanken heraus ermöglicht werden. Der Vortrag führt in das Konzept von Change Data Capture (CDC) ein und beleuchtet, wie dieses mittels Debezium (http://debezium.io) umgesetzt werden kann, einer auf Apache Kafka basierenden Open-Source-CDC-Lösung. Wir werden betrachten, wie Debezium alle Änderungen aus Datenbanken wie MySQL, PostgreSQL und MongoDB erfasst, wie man auf die entsprechenden Ereignisse in Beinahe-Echtzeit reagieren kann und wie Debezium die Korrektheit und Vollständigkeit der Daten auch dann sicherstellt, falls einmal etwas schief geht, etwa weil eine Zieldatenbank vorübergehend ausfällt. Speaker Gunnar Morling ist als Softwareentwickler für Red Hat tätig, wo er das Debezium-Projekt leitet, ein Open-Source-Tool für Change Data Capturing (CDC). Als Mitglied des Hibernate-Teams arbeitet er an Hibernate Validator, Search und OGM. Gunnar ist Spec Lead für Bean Validation 2.0 (JSR 380). In seiner Freizeit trägt er u.a. zum MapStruct-Projekt bei. Gunnar lebt und arbeitet in Hamburg." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Streaming von Datenbankänderungen mit Debezium | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Streaming von Datenbankänderungen mit Debezium | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    18.07.2018
+  </h2>
+  <h1>Streaming von Datenbankänderungen mit Debezium</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="abstract">Abstract</h3>
+
+<p>Debezium (Substantiv | de·be·zi·um | /dɪ:ˈbɪ:ziːəm/) - Geheimzutat für Change Data Capture</p>
+
+<p>Die Aktualisierung von Caches und Volltextindizes, die Synchronisation von Daten zwischen verschiedenen Microservices, die Erstellung von optimierten Lesemodellen in CQRS-Architekturen, Datentransfers vom operativen System zu Analytics-Tools – dies sind nur einige der Use Cases, die durch das Streamen von Änderungen aus Datenbanken heraus ermöglicht werden.</p>
+
+<p>Der Vortrag führt in das Konzept von Change Data Capture (CDC) ein und beleuchtet, wie dieses mittels Debezium (http://debezium.io) umgesetzt werden kann, einer auf Apache Kafka basierenden Open-Source-CDC-Lösung.</p>
+
+<p>Wir werden betrachten, wie Debezium alle Änderungen aus Datenbanken wie MySQL, PostgreSQL und MongoDB erfasst, wie man auf die entsprechenden Ereignisse in Beinahe-Echtzeit reagieren kann und wie Debezium die Korrektheit und Vollständigkeit der Daten auch dann sicherstellt, falls einmal etwas schief geht, etwa weil eine Zieldatenbank vorübergehend ausfällt.</p>
+
+<h3 id="speaker">Speaker</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/gunnar_morling.jpeg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Gunnar Morling</strong></p>
+
+<p>ist als Softwareentwickler für Red Hat tätig, wo er das Debezium-Projekt leitet, ein Open-Source-Tool für Change Data Capturing (CDC). Als Mitglied des Hibernate-Teams arbeitet er an Hibernate Validator, Search und OGM. Gunnar ist Spec Lead für Bean Validation 2.0 (JSR 380). In seiner Freizeit trägt er u.a. zum MapStruct-Projekt bei. Gunnar lebt und arbeitet in Hamburg.</p>
+
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+  <p>
+  
+    <i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="https://speakerdeck.com/gunnarmorling/streaming-von-datenbankanderungen-mit-debezium-jug-darmstadt" rel="noreferrer nofollow" target="_blank">Folien</a>
+  
+  </p>
+  
+
+  
+  
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/QfjQaTY2jVU" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

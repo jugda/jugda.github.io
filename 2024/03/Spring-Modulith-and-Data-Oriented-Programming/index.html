@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Endlich mit Struktur - Services mit Spring Modulith designen Microservices haben sich als Architekturmuster für die Realisierung von Softwareprojekten etabliert. Bei der Entwicklung kann es dabei leicht zu einer hohen Anzahl von Services kommen, was zu einer erhöhten Komplexität in der Infrastruktur führt. Mit Spring Modulith ist es möglich ein Microservice zu strukturieren und die Anzahl der Services zu reduzieren. Anhand eines Beispiels erkläre ich die Application Modules von Spring Modulith. Im Vortrag zeige ich, wie du Module und Abhängigkeiten im Code definierst und Komponentendiagramme generierst. Du wirst verstehen, wie du deine Services im Code in logische Module aufteilst, um so nach Domänen strukturierte Services zu erstellen. Anschließend schauen wir uns an, wie du diese Module isoliert testen kannst und wie dir Verifizierungen dabei helfen, dass du und dein Team von den definierten Abhängigkeiten profitieren. Immer nur objektorientiert - schon mal datenorientiert ausprobiert? Objektorientierte Programmierung ermutigt uns, komplexe Entitäten und Prozesse mit Hilfe von Objekten, welche Zustand und Verhalten kombinieren, zu modellieren. Die Datenorientierung geht einen anderen Weg, wir modellieren unveränderbare Datentypen und halten die Logik getrennt davon. Gerade bei einfacheren Anwendungsfällen führt dieser Ansatz zu besserer Les- sowie Wartbarkeit. Anhand praktischer Code-Beispiele diskutieren wir die wichtigsten Prinzipien dieses Paradigmas und untersuchen die in den letzten Jahren hinzugekommenen Features wie Records, Sealed Classes, Switch Expressions und das Pattern Matching. Dazu werfen wir auch einen Blick über den Tellerrand, wie datenorientierte Ansätze in anderen Programmiersprachen (Rust, Kotlin, …) umgesetzt sind. Ihr seht, wie modernes Java aussieht und könnt je nach Eurer verwendeten JDK-Version das Vorgestellte auch direkt auf Eure tägliche Arbeit übertragen. Sprecher Sebastian Lammering arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs. Mechti Özdogan arbeitet als Entwickler bei Exxeta. Seit 2016 ist er in Java Projekten tätig. Er bildet nicht nur sich selbst gern weiter, sondern möchte sein Wissen über die Grenzen seines Arbeitgebers hinaus weitergeben. Seine Vorlieben sind neue Paradigmen, um dadurch neue Ansichtsweisen und Lösungswege zu finden. Sponsors Andrena stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="Endlich mit Struktur - Services mit Spring Modulith designen Microservices haben sich als Architekturmuster für die Realisierung von Softwareprojekten etabliert. Bei der Entwicklung kann es dabei leicht zu einer hohen Anzahl von Services kommen, was zu einer erhöhten Komplexität in der Infrastruktur führt. Mit Spring Modulith ist es möglich ein Microservice zu strukturieren und die Anzahl der Services zu reduzieren. Anhand eines Beispiels erkläre ich die Application Modules von Spring Modulith. Im Vortrag zeige ich, wie du Module und Abhängigkeiten im Code definierst und Komponentendiagramme generierst. Du wirst verstehen, wie du deine Services im Code in logische Module aufteilst, um so nach Domänen strukturierte Services zu erstellen. Anschließend schauen wir uns an, wie du diese Module isoliert testen kannst und wie dir Verifizierungen dabei helfen, dass du und dein Team von den definierten Abhängigkeiten profitieren. Immer nur objektorientiert - schon mal datenorientiert ausprobiert? Objektorientierte Programmierung ermutigt uns, komplexe Entitäten und Prozesse mit Hilfe von Objekten, welche Zustand und Verhalten kombinieren, zu modellieren. Die Datenorientierung geht einen anderen Weg, wir modellieren unveränderbare Datentypen und halten die Logik getrennt davon. Gerade bei einfacheren Anwendungsfällen führt dieser Ansatz zu besserer Les- sowie Wartbarkeit. Anhand praktischer Code-Beispiele diskutieren wir die wichtigsten Prinzipien dieses Paradigmas und untersuchen die in den letzten Jahren hinzugekommenen Features wie Records, Sealed Classes, Switch Expressions und das Pattern Matching. Dazu werfen wir auch einen Blick über den Tellerrand, wie datenorientierte Ansätze in anderen Programmiersprachen (Rust, Kotlin, …) umgesetzt sind. Ihr seht, wie modernes Java aussieht und könnt je nach Eurer verwendeten JDK-Version das Vorgestellte auch direkt auf Eure tägliche Arbeit übertragen. Sprecher Sebastian Lammering arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs. Mechti Özdogan arbeitet als Entwickler bei Exxeta. Seit 2016 ist er in Java Projekten tätig. Er bildet nicht nur sich selbst gern weiter, sondern möchte sein Wissen über die Grenzen seines Arbeitgebers hinaus weitergeben. Seine Vorlieben sind neue Paradigmen, um dadurch neue Ansichtsweisen und Lösungswege zu finden. Sponsors Andrena stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Doppelvortrag: 'Endlich mit Struktur - Services mit Spring Modulith designen' und 'Immer nur objektorientiert - schon mal datenorientiert ausprobiert?' | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Doppelvortrag: 'Endlich mit Struktur - Services mit Spring Modulith designen' und 'Immer nur objektorientiert - schon mal datenorientiert ausprobiert?' | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    21.03.2024
+  </h2>
+  <h1>Doppelvortrag: 'Endlich mit Struktur - Services mit Spring Modulith designen' und 'Immer nur objektorientiert - schon mal datenorientiert ausprobiert?'</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="endlich-mit-struktur---services-mit-spring-modulith-designen">Endlich mit Struktur - Services mit Spring Modulith designen</h3>
+
+<p>Microservices haben sich als Architekturmuster für die Realisierung von Softwareprojekten etabliert. Bei der Entwicklung kann es dabei leicht zu einer hohen Anzahl von Services kommen, was zu einer erhöhten Komplexität in der Infrastruktur führt. Mit Spring Modulith ist es möglich ein Microservice zu strukturieren und die Anzahl der Services zu reduzieren.</p>
+
+<p>Anhand eines Beispiels erkläre ich die Application Modules von Spring Modulith. Im Vortrag zeige ich, wie du Module und Abhängigkeiten im Code definierst und Komponentendiagramme generierst.</p>
+
+<p>Du wirst verstehen, wie du deine Services im Code in logische Module aufteilst, um so nach Domänen strukturierte Services zu erstellen. Anschließend schauen wir uns an, wie du diese Module isoliert testen kannst und wie dir Verifizierungen dabei helfen, dass du und dein Team von den definierten Abhängigkeiten profitieren.</p>
+
+<h3 id="immer-nur-objektorientiert---schon-mal-datenorientiert-ausprobiert">Immer nur objektorientiert - schon mal datenorientiert ausprobiert?</h3>
+
+<p>Objektorientierte Programmierung ermutigt uns, komplexe Entitäten und Prozesse mit Hilfe von Objekten, welche Zustand und Verhalten kombinieren, zu modellieren. Die Datenorientierung geht einen anderen Weg, wir modellieren unveränderbare Datentypen und halten die Logik getrennt davon. Gerade bei einfacheren Anwendungsfällen führt dieser Ansatz zu besserer Les- sowie Wartbarkeit.
+Anhand praktischer Code-Beispiele diskutieren wir die wichtigsten Prinzipien dieses Paradigmas und untersuchen die in den letzten Jahren hinzugekommenen Features wie Records, Sealed Classes, Switch Expressions und das Pattern Matching. Dazu werfen wir auch einen Blick über den Tellerrand, wie datenorientierte Ansätze in anderen Programmiersprachen (Rust, Kotlin, …) umgesetzt sind. Ihr seht, wie modernes Java aussieht und könnt je nach Eurer verwendeten JDK-Version das Vorgestellte auch direkt auf Eure tägliche Arbeit übertragen.</p>
+
+<h2 id="sprecher">Sprecher</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/sebastianlammering.png" class="speakerpic" alt="Sebastian Lammering" title="Sebastian Lammering" /></p>
+
+<p><strong>Sebastian Lammering</strong></p>
+
+<p>arbeitet als Software-Architekt und Consultant bei der CDI AG in Dortmund, die Teil der MT GmbH ist. Seit 2008 ist er in Enterprise Java Projekten tätig und immer auf der Suche nach pragmatischen Lösungen. Er hat sich das Ziel gesetzt, sein Wissen nicht nur im Kundeneinsatz, sondern auch in der Community zu teilen. Mit seinem Vortrag auf der JavaLand macht er nun den ersten Schritt und debütiert als Speaker. In seiner Freizeit ist er gerne auf einem seiner Fahrräder unterwegs.</p>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/mechtioezdogan.jpg" class="speakerpic" alt="Mechti Özdogan" title="Mechti Özdogan" /></p>
+
+<p><strong>Mechti Özdogan</strong></p>
+
+<p>arbeitet als Entwickler bei Exxeta. Seit 2016 ist er in Java Projekten tätig. Er bildet nicht nur sich selbst gern weiter, sondern möchte sein Wissen über die Grenzen seines Arbeitgebers hinaus weitergeben. Seine Vorlieben sind neue Paradigmen, um dadurch neue Ansichtsweisen und Lösungswege zu finden.</p>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<p><a href="https://www.andrena.de/">Andrena</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="https://www.andrena.de/"><img src="/images/sponsors/andrena.png" alt="logo" /></a></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

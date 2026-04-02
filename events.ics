@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//JUG DA//Veranstaltungskalender//DE
+METHOD:PUBLISH
+X-WR-CALNAME:Java User Group Darmstadt
+X-WR-CALDESC:Veranstaltungen der Java User Group Darmstadt
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20260521@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)
+DESCRIPTION:Java User Group Darmstadt\n\nLesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)\n\nAbstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20260521T183000
+DTEND;TZID=Europe/Berlin:20260521T203000
+DTSTAMP:20260320T110000Z
+URL:https://www.jug-da.de/2026/05/Lesbarer-Code/
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: 11. Darmstädter Barbecue Stammtisch
+DESCRIPTION:Java User Group Darmstadt\n\n11. Darmstädter Barbecue Stammtisch\n\nGemeinsam mit dem IT Stammtisch Darmstadt laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern. Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit, die Getränke, Brot, Salate usw. erhalten wir über unseren...
+LOCATION:Grillplatz an der Oberförsterwiese\, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!
+DTSTART;TZID=Europe/Berlin:20260701T183000
+DTEND;TZID=Europe/Berlin:20260701T223000
+DTSTAMP:20260402T203000Z
+URL:https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR

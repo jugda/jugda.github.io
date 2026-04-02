@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet. In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen. Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo sie (unbewusst?) angewendet werden. Hinweise Dieser Vortrag hat Experimente, die beim zweiten Mal nicht so viel Sinn ergeben. Daher wird empfohlen, den Vortrag nur einmal (und dann mit voller Aufmerksamkeit) zu hören. Bitte Stift und Papier mitbringen Speakers Thomas Ruhroth ist Principal IT Consultant bei msg systems ag. In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschiedenen Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft." />
+<meta property="og:description" content="Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet. In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen. Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo sie (unbewusst?) angewendet werden. Hinweise Dieser Vortrag hat Experimente, die beim zweiten Mal nicht so viel Sinn ergeben. Daher wird empfohlen, den Vortrag nur einmal (und dann mit voller Aufmerksamkeit) zu hören. Bitte Stift und Papier mitbringen Speakers Thomas Ruhroth ist Principal IT Consultant bei msg systems ag. In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschiedenen Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    21.05.2026
+  </h2>
+  <h1>Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines</h1>
+  
+  
+
+  
+  
+    
+    <div class="d-flex justify-content-between align-items-center">
+      
+      <h3>
+        <i class="bi bi-clock" title="Uhrzeit"></i>&nbsp;
+        18:30 bis 20:30 Uhr
+      </h3>
+      <div class="d-flex justify-content-around align-items-center" style="width: 80px;">
+        <div>
+          <a href="#" onclick="ical('Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)', 'Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird...', 'tbd', '20260521T183000', '20260521T203000', 'https://www.jug-da.de/2026/05/Lesbarer-Code/', '20260521')" title="iCal/ics Datei für diese Veranstaltung runterladen">
+            <img src="/images/ical.png" style="height: 32px;"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://calendar.google.com/calendar/r/eventedit?text=Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)&dates=20260521T183000/20260521T203000&details=Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird...%20https://www.jug-da.de/2026/05/Lesbarer-Code/&location=tbd" target="_blank" rel="nofollow noreferrer" title="Google Calendar Eintrag erzeugen">
+            <img src="/images/googlecalendar.png" style="height: 32px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <i class="bi bi-geo-alt-fill" title="Location"></i>
+      &nbsp;tbd (<a href="tbd" target="_blank">Anfahrtsbeschreibung</a>)
+    </div>
+    
+    <div>
+      <i class="bi bi-globe2" title="Online"></i>
+      &nbsp;Remote-Teilnahme ist auch möglich. Der Link zum Stream kommt per E-Mail.
+    </div>
+    
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="abstract">Abstract</h2>
+
+<p>Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert.
+Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet.
+In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen.
+Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo sie (unbewusst?) angewendet werden.
+Hinweise</p>
+
+<p>Dieser Vortrag hat Experimente, die beim zweiten Mal nicht so viel Sinn ergeben. Daher wird empfohlen, den Vortrag nur einmal (und dann mit voller Aufmerksamkeit) zu hören.
+Bitte Stift und Papier mitbringen</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/thomasruhroth.png" class="speakerpic" alt="Thomas Ruhroth" title="Thomas Ruhroth" /></p>
+
+<p><strong>Thomas Ruhroth</strong></p>
+
+<p>ist Principal IT Consultant bei msg systems ag. In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschiedenen Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft.</p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+
+
+
+
+
+<h3 id="anmeldung">Anmeldung</h3>
+<p>
+Zur besseren Planung bitten wir um eine unverbindliche Anmeldung mit Vor- und Zunamen und E-Mail Adresse.
+Das ermöglicht uns, bei Änderungen kurzfristig mit Euch in Kontakt zu treten. Wir geben Eure Daten nicht weiter!
+</p>
+
+
+<p>
+Wer sich bis <strong>24 Stunden</strong> vor dem Vortrag anmeldet und bei der Veranstaltung anwesend ist, nimmt an unserer <strong>Verlosung</strong> teil. Gewinnen kann man Bücher, Software-Lizenzen, Zeitschriften-Abos und manchmal auch Freikarten zu lokalen Konferenzen. Der Rechtsweg ist hierbei ausgeschlossen.
+</p>
+
+
+<iframe src="https://registration.jug-da.de/registration?eventId=2026-05-21&limit=25&opensBeforeInMonths=1&hybrid=true" frameborder="0" width="100%" height="700" marginheight="0" marginwidth="0"></iframe>
+
+
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Zusammenfassung Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten Wir alle kennen diese Situation: Je älter und größer eine Anwendung wird, desto aufwendiger und teurer wird es, sie zu erweitern und zu warten. Die verbreitete Schichtenarchitektur ist als Lösungsansatz unzureichend: Direkte und indirekte Abhängigkeiten aller Schichten zur Datenbank und anderen Infrastrukturkomponenten führen oft zu einer Aufweichung der Schichtengrenzen und einer Verflechtung von technischem und fachlichem Code. Hexagonale Architektur rückt die Geschäftslogik ins Zentrum, und technische Details werden als Adapter hinter Schnittstellen (Ports) isoliert. Fachlicher und technischer Code kann so unabhängig voneinander entwickelt und getestet werden. Ausgehend von den Zielen einer Softwarearchitektur und einem kritischen Blick auf die Schichtenarchitektur, schauen wir uns die hexagonale Architektur im Detail an. Ihr erfahrt, wie die Dependency Rule sicherstellt, dass es keine Abhängigkeiten von fachlichem zu technischem Code gibt und wie der Anwendungskern trotzdem auf die Infrastruktur zugreifen kann. Erfüllt die hexagonale Architektur die Ziele einer Softwarearchitektur? Welche Herausforderungen bringt sie mit sich? Wie unterscheidet sie sich von Onion und Clean Architecture, und welche Synergien ergeben sich im Zusammenspiel mit Microservices und Domain-Driven Design? Mit neuem Wissen gerüstet, könnt ihr die Qualität und Lebensdauer eurer Softwareprojekte steigern und in Zukunft schneller auf neue Anforderungen reagieren. Lernziele Die Zuschauer erfahren als Einstieg, was überhaupt das Ziel einer Softwarearchitektur ist. Sie lernen, was die hexagonale Architektur ist, und was ihre Vor-/Nachteile gegenüber einer klassischen Schichtenarchitektur sind. Sie erfahren, was primäre/sekundäre Ports/Adapter sind, wie man Entities zwischen den Schichten mappt und wie sich eine hexagonale Anwendung testen lässt. Sie lernen die Unterschiede zur Clean/Onion Architecture kennen und erfahren, wie Microservices und DDD ins Spiel kommen. Vorkenntnisse Es sind keine speziellen Vorkenntnisse erforderlich. Erste Erfahrungen mit mehrschichtigen Anwendungsarchitekturen (Presentation Layer, Business Layer, Data Access Layer) könnten jedoch helfen, die Nachteile der Schichtenarchitektur und die Vorteile der hexagonalen Architektur zu verstehen. Web-Frontends automatisch testen - kann auch Spaß machen! Automatische Tests lassen uns nachts besser schlafen und ermöglichen sorgenfreie Refactorings. In der Backend-Entwicklung ist es völlig normal, Tests zu schreiben. Bei Frontend-Entwicklern wird das Thema oft noch stiefmütterlich behandelt. Es ist viel einfacher, einen Live-Server mit Hot-Reload zu starten und seine Änderungen gleich auszuprobieren, als einen Test zu schreiben, der die gleichen Eingaben simuliert. Das kann unheimlich frustrierend und aufwendig sein – muss es aber nicht! Es gibt Tools und Strategien, um schnelle, stabile und aussagekräftige Tests zu schreiben. Mit dem richtigen Projekt-Setup wird das Schreiben von Tests viel einfacher – und kann sogar Spaß machen. Welche Testing-Frameworks gibt es aktuell? Was sind die Unterschiede und welches Framework nehme ich für welche Art von Test? Worauf muss ich achten, damit meine Frontend-Tests relevante Dinge testen? In der Session geht Nils auf diese Fragen ein, erläutert häufige Fehler und gibt Erfahrungen aus der Praxis weiter. Sprecher Sven Woltmann ( in/sven-woltmann) ist Java-Entwickler der ersten Stunde. Er arbeitet als unabhängiger Entwickler, Coach und Kursleiter mit Schwerpunkt auf skalierbaren Unternehmensanwendungen, Optimierung von Algorithmen, Clean Code und Clean Architecture. Er teilt sein Wissen über Java, Architektur, Algorithmen und Datenstrukturen in Videos, seinem Newsletter und seinem Blog happycoders.eu. Nils Knappmeier ( in/nknapp-1979) arbeitet als Fullstack-Engineer bei der cosee GmbH in Darmstadt und ist seit 14 Jahren in der Webentwicklung tätig. Er beschäftigt sich seit 2017 mit TypeScript und will nie wieder Web-Frontends in reinem JavaScript schreiben. Sponsors Cosee stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort! {:target=”_blank”}" />
+<meta property="og:description" content="Zusammenfassung Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten Wir alle kennen diese Situation: Je älter und größer eine Anwendung wird, desto aufwendiger und teurer wird es, sie zu erweitern und zu warten. Die verbreitete Schichtenarchitektur ist als Lösungsansatz unzureichend: Direkte und indirekte Abhängigkeiten aller Schichten zur Datenbank und anderen Infrastrukturkomponenten führen oft zu einer Aufweichung der Schichtengrenzen und einer Verflechtung von technischem und fachlichem Code. Hexagonale Architektur rückt die Geschäftslogik ins Zentrum, und technische Details werden als Adapter hinter Schnittstellen (Ports) isoliert. Fachlicher und technischer Code kann so unabhängig voneinander entwickelt und getestet werden. Ausgehend von den Zielen einer Softwarearchitektur und einem kritischen Blick auf die Schichtenarchitektur, schauen wir uns die hexagonale Architektur im Detail an. Ihr erfahrt, wie die Dependency Rule sicherstellt, dass es keine Abhängigkeiten von fachlichem zu technischem Code gibt und wie der Anwendungskern trotzdem auf die Infrastruktur zugreifen kann. Erfüllt die hexagonale Architektur die Ziele einer Softwarearchitektur? Welche Herausforderungen bringt sie mit sich? Wie unterscheidet sie sich von Onion und Clean Architecture, und welche Synergien ergeben sich im Zusammenspiel mit Microservices und Domain-Driven Design? Mit neuem Wissen gerüstet, könnt ihr die Qualität und Lebensdauer eurer Softwareprojekte steigern und in Zukunft schneller auf neue Anforderungen reagieren. Lernziele Die Zuschauer erfahren als Einstieg, was überhaupt das Ziel einer Softwarearchitektur ist. Sie lernen, was die hexagonale Architektur ist, und was ihre Vor-/Nachteile gegenüber einer klassischen Schichtenarchitektur sind. Sie erfahren, was primäre/sekundäre Ports/Adapter sind, wie man Entities zwischen den Schichten mappt und wie sich eine hexagonale Anwendung testen lässt. Sie lernen die Unterschiede zur Clean/Onion Architecture kennen und erfahren, wie Microservices und DDD ins Spiel kommen. Vorkenntnisse Es sind keine speziellen Vorkenntnisse erforderlich. Erste Erfahrungen mit mehrschichtigen Anwendungsarchitekturen (Presentation Layer, Business Layer, Data Access Layer) könnten jedoch helfen, die Nachteile der Schichtenarchitektur und die Vorteile der hexagonalen Architektur zu verstehen. Web-Frontends automatisch testen - kann auch Spaß machen! Automatische Tests lassen uns nachts besser schlafen und ermöglichen sorgenfreie Refactorings. In der Backend-Entwicklung ist es völlig normal, Tests zu schreiben. Bei Frontend-Entwicklern wird das Thema oft noch stiefmütterlich behandelt. Es ist viel einfacher, einen Live-Server mit Hot-Reload zu starten und seine Änderungen gleich auszuprobieren, als einen Test zu schreiben, der die gleichen Eingaben simuliert. Das kann unheimlich frustrierend und aufwendig sein – muss es aber nicht! Es gibt Tools und Strategien, um schnelle, stabile und aussagekräftige Tests zu schreiben. Mit dem richtigen Projekt-Setup wird das Schreiben von Tests viel einfacher – und kann sogar Spaß machen. Welche Testing-Frameworks gibt es aktuell? Was sind die Unterschiede und welches Framework nehme ich für welche Art von Test? Worauf muss ich achten, damit meine Frontend-Tests relevante Dinge testen? In der Session geht Nils auf diese Fragen ein, erläutert häufige Fehler und gibt Erfahrungen aus der Praxis weiter. Sprecher Sven Woltmann ( in/sven-woltmann) ist Java-Entwickler der ersten Stunde. Er arbeitet als unabhängiger Entwickler, Coach und Kursleiter mit Schwerpunkt auf skalierbaren Unternehmensanwendungen, Optimierung von Algorithmen, Clean Code und Clean Architecture. Er teilt sein Wissen über Java, Architektur, Algorithmen und Datenstrukturen in Videos, seinem Newsletter und seinem Blog happycoders.eu. Nils Knappmeier ( in/nknapp-1979) arbeitet als Fullstack-Engineer bei der cosee GmbH in Darmstadt und ist seit 14 Jahren in der Webentwicklung tätig. Er beschäftigt sich seit 2017 mit TypeScript und will nie wieder Web-Frontends in reinem JavaScript schreiben. Sponsors Cosee stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort! {:target=”_blank”}" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Doppelvortrag: Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten & Web-Frontends automatisch testen - kann auch Spaß machen! | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Doppelvortrag: Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten & Web-Frontends automatisch testen - kann auch Spaß machen! | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    29.02.2024
+  </h2>
+  <h1>Doppelvortrag: Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten & Web-Frontends automatisch testen - kann auch Spaß machen!</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="zusammenfassung">Zusammenfassung</h2>
+
+<h3 id="hexagonale-architektur---robuste-software-dank-schnittstellen-statt-schichten">Hexagonale Architektur - Robuste Software dank Schnittstellen statt Schichten</h3>
+
+<p>Wir alle kennen diese Situation: Je älter und größer eine Anwendung wird, desto aufwendiger und teurer wird es, sie zu erweitern und zu warten. Die verbreitete Schichtenarchitektur ist als Lösungsansatz unzureichend: Direkte und indirekte Abhängigkeiten aller Schichten zur Datenbank und anderen Infrastrukturkomponenten führen oft zu einer Aufweichung der Schichtengrenzen und einer Verflechtung von technischem und fachlichem Code.</p>
+
+<p>Hexagonale Architektur rückt die Geschäftslogik ins Zentrum, und technische Details werden als Adapter hinter Schnittstellen (Ports) isoliert. Fachlicher und technischer Code kann so unabhängig voneinander entwickelt und getestet werden.</p>
+
+<p>Ausgehend von den Zielen einer Softwarearchitektur und einem kritischen Blick auf die Schichtenarchitektur, schauen wir uns die hexagonale Architektur im Detail an. Ihr erfahrt, wie die Dependency Rule sicherstellt, dass es keine Abhängigkeiten von fachlichem zu technischem Code gibt und wie der Anwendungskern trotzdem auf die Infrastruktur zugreifen kann. Erfüllt die hexagonale Architektur die Ziele einer Softwarearchitektur? Welche Herausforderungen bringt sie mit sich? Wie unterscheidet sie sich von Onion und Clean Architecture, und welche Synergien ergeben sich im Zusammenspiel mit Microservices und Domain-Driven Design?</p>
+
+<p>Mit neuem Wissen gerüstet, könnt ihr die Qualität und Lebensdauer eurer Softwareprojekte steigern und in Zukunft schneller auf neue Anforderungen reagieren.</p>
+
+<p><em>Lernziele</em></p>
+
+<p>Die Zuschauer erfahren als Einstieg, was überhaupt das Ziel einer Softwarearchitektur ist. Sie lernen, was die hexagonale Architektur ist, und was ihre Vor-/Nachteile gegenüber einer klassischen Schichtenarchitektur sind.</p>
+
+<p>Sie erfahren, was primäre/sekundäre Ports/Adapter sind, wie man Entities zwischen den Schichten mappt und wie sich eine hexagonale Anwendung testen lässt.</p>
+
+<p>Sie lernen die Unterschiede zur Clean/Onion Architecture kennen und erfahren, wie Microservices und DDD ins Spiel kommen.</p>
+
+<p><em>Vorkenntnisse</em></p>
+
+<p>Es sind keine speziellen Vorkenntnisse erforderlich. Erste Erfahrungen mit mehrschichtigen Anwendungsarchitekturen (Presentation Layer, Business Layer, Data Access Layer) könnten jedoch helfen, die Nachteile der Schichtenarchitektur und die Vorteile der hexagonalen Architektur zu verstehen.</p>
+
+<h3 id="web-frontends-automatisch-testen---kann-auch-spaß-machen">Web-Frontends automatisch testen - kann auch Spaß machen!</h3>
+
+<p>Automatische Tests lassen uns nachts besser schlafen und ermöglichen sorgenfreie Refactorings. In der Backend-Entwicklung ist es völlig normal, Tests zu schreiben. Bei Frontend-Entwicklern wird das Thema oft noch stiefmütterlich behandelt. Es ist viel einfacher, einen Live-Server mit Hot-Reload zu starten und seine Änderungen gleich auszuprobieren, als einen Test zu schreiben, der die gleichen Eingaben simuliert. Das kann unheimlich frustrierend und aufwendig sein – muss es aber nicht!</p>
+
+<p>Es gibt Tools und Strategien, um schnelle, stabile und aussagekräftige Tests zu schreiben. Mit dem richtigen Projekt-Setup wird das Schreiben von Tests viel einfacher – und kann sogar Spaß machen.</p>
+
+<p>Welche Testing-Frameworks gibt es aktuell?
+Was sind die Unterschiede und welches Framework nehme ich für welche Art von Test?
+Worauf muss ich achten, damit meine Frontend-Tests relevante Dinge testen?</p>
+
+<p>In der Session geht Nils auf diese Fragen ein, erläutert häufige Fehler und gibt Erfahrungen aus der Praxis weiter.</p>
+
+<h2 id="sprecher">Sprecher</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/svenwoltmann.jpg" class="speakerpic" alt="Sven Woltmann" title="Sven Woltmann" /></p>
+
+<p><strong>Sven Woltmann</strong>
+(<a href="https://www.linkedin.com/in/sven-woltmann" target="_blank"><i class="bi bi-linkedin"></i> in/sven-woltmann</a>)
+ ist Java-Entwickler der ersten Stunde. Er arbeitet als unabhängiger Entwickler, Coach und Kursleiter mit Schwerpunkt auf skalierbaren Unternehmensanwendungen, Optimierung von Algorithmen, Clean Code und Clean Architecture. Er teilt sein Wissen über Java, Architektur, Algorithmen und Datenstrukturen in Videos, seinem Newsletter und seinem Blog <a href="https://www.happycoders.eu/" target="_blank">happycoders.eu</a>.</p>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/nilsknappmeier.jpg" class="speakerpic" alt="Nils Knappmeier" title="Nils Knappmeier" /></p>
+
+<p><strong>Nils Knappmeier</strong>
+(<a href="https://www.linkedin.com/in/nknapp-1979" target="_blank"><i class="bi bi-linkedin"></i> in/nknapp-1979</a>)
+ arbeitet als Fullstack-Engineer bei der cosee GmbH in Darmstadt und ist seit 14 Jahren in der Webentwicklung tätig. Er beschäftigt sich seit 2017 mit TypeScript und will nie wieder Web-Frontends in reinem JavaScript schreiben.</p>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<p><a href="http://www.cosee.biz" target="_blank">Cosee</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="http://www.cosee.biz"><img src="/images/sponsors/cosee.png" alt="logo" /></a> {:target=”_blank”}</p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

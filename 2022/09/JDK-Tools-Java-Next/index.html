@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="JDK Tools und wo sie zu finden sind (Christian Stein) Das JDK bringt eine ganze Reihe von Tools mit, mit deren Hilfe wir bzw. die Build-Management-Werkzeuge unsere Java-Projekte bauen. Wir werden uns zunächst einen Überblick über all die nützlichen kleinen Helferlein verschaffen. Mit dem ToolProvider SPI und dem “Launch Single-File Source-Code Programs”-Mechanismus rufen wir dann einige dieser Werkzeuge aus Java heraus auf und fassen sie zudem zu Tool-Ketten zusammen. Dazu führen wir ein ToolFinder SPI ein und somit auch weitere externe Tools einbinden. In dieser sehr interaktiven Session werden wir die genannten Techniken direkt per Live-Coding verproben und diskutieren weitergehende Ansätze und Ideen. Java Next - von Amber zu Loom, von Panama nach Valhalla (Nicolai Parlog) Javas vier große Projekte biegen auf die Zielgerade ein: Amber und Panama haben einige Features bereits inkubiert, previewed und sogar finalisiert und Loom und Valhalla stehen kurz davor. Gute Gelegenheit, sie sich genauer anzuschauen: Project Amber macht die Sprache ausdrucksstärker und bereit, die Probleme von heute und morgen anzugehen Project Panama durchstößt die Landenge, die Java von nativem Code trenn Project Loom ermöglicht einfache, effiziente und strukturierte Concurrency Project Valhalla repariert den Riss in Javas Typsystem und verbessert die Performance Nach diese Vortrag wisst ihr was in den nächsten Jahren von Java zu erwarten ist. Sprecher Christian Stein ist ein Open Source Software Entwickler der seit 1998 mit Java programmiert (#movedbyjava) und nun in der Java Platform Group bei Oracle arbeitet (#movingjava). Sein Interesse an automatisierbaren Tests ließ ihn 2017 dem JUnit 5 Team beitreten, bei Apache Maven mitarbeiten und eine Liste von Java Modulen erstellen, die bei Maven Central veröffentlicht wurden. Nicolai Parlog is a thirty-year-old boy, as the narrator would put it (if he’s generous), who has found his passion in software development (mostly Java) and who codes for a living as well as for fun. He also blogs, writes, newsletters, speaks, chats, records, streams, trains, and consults about it, and organizes a conference - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, hire him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at codefx.org. About Nicolai Voraussetzungen für Eure Teilnahme und Hygiene-Regeln Wir wollen alle Besucher unseres Vortrags bestmöglich schützen. Daher gelten vorerst die folgenden Regeln und Wünsche. Wir behalten uns vor, die Einhaltung zu kontrollieren. 2G-Status (Pflicht): genesen oder geimpft (notwendige Anzahl Impfungen inklusive Booster) Wunsch nach (freiwilliger) Durchführung eines Schnelltests (nicht älter als 24 h) Maskenpflicht in den Fluren, darf am Platz beim Vortrag und beim Essen abgesetzt werden Live-Stream Wir freuen uns natürlich sehr über jeden, der vor Ort dabei sein kann. In der Pandemie sind aber auch einige Zuschauer außerhalb des Rhein-Main-Gebiets dazugekommen. Wir wollen allen, die nicht extra anreisen können oder wollen, die Möglichkeit einer Remote-Teilnahme ermöglichen. Es wird einen Live-Stream geben, weitere Informationen erhaltet ihr wie immer einige Stunden vor dem Vortrag per E-Mail, sofern ihr euch registriert habt. Sponsoren Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="JDK Tools und wo sie zu finden sind (Christian Stein) Das JDK bringt eine ganze Reihe von Tools mit, mit deren Hilfe wir bzw. die Build-Management-Werkzeuge unsere Java-Projekte bauen. Wir werden uns zunächst einen Überblick über all die nützlichen kleinen Helferlein verschaffen. Mit dem ToolProvider SPI und dem “Launch Single-File Source-Code Programs”-Mechanismus rufen wir dann einige dieser Werkzeuge aus Java heraus auf und fassen sie zudem zu Tool-Ketten zusammen. Dazu führen wir ein ToolFinder SPI ein und somit auch weitere externe Tools einbinden. In dieser sehr interaktiven Session werden wir die genannten Techniken direkt per Live-Coding verproben und diskutieren weitergehende Ansätze und Ideen. Java Next - von Amber zu Loom, von Panama nach Valhalla (Nicolai Parlog) Javas vier große Projekte biegen auf die Zielgerade ein: Amber und Panama haben einige Features bereits inkubiert, previewed und sogar finalisiert und Loom und Valhalla stehen kurz davor. Gute Gelegenheit, sie sich genauer anzuschauen: Project Amber macht die Sprache ausdrucksstärker und bereit, die Probleme von heute und morgen anzugehen Project Panama durchstößt die Landenge, die Java von nativem Code trenn Project Loom ermöglicht einfache, effiziente und strukturierte Concurrency Project Valhalla repariert den Riss in Javas Typsystem und verbessert die Performance Nach diese Vortrag wisst ihr was in den nächsten Jahren von Java zu erwarten ist. Sprecher Christian Stein ist ein Open Source Software Entwickler der seit 1998 mit Java programmiert (#movedbyjava) und nun in der Java Platform Group bei Oracle arbeitet (#movingjava). Sein Interesse an automatisierbaren Tests ließ ihn 2017 dem JUnit 5 Team beitreten, bei Apache Maven mitarbeiten und eine Liste von Java Modulen erstellen, die bei Maven Central veröffentlicht wurden. Nicolai Parlog is a thirty-year-old boy, as the narrator would put it (if he’s generous), who has found his passion in software development (mostly Java) and who codes for a living as well as for fun. He also blogs, writes, newsletters, speaks, chats, records, streams, trains, and consults about it, and organizes a conference - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, hire him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at codefx.org. About Nicolai Voraussetzungen für Eure Teilnahme und Hygiene-Regeln Wir wollen alle Besucher unseres Vortrags bestmöglich schützen. Daher gelten vorerst die folgenden Regeln und Wünsche. Wir behalten uns vor, die Einhaltung zu kontrollieren. 2G-Status (Pflicht): genesen oder geimpft (notwendige Anzahl Impfungen inklusive Booster) Wunsch nach (freiwilliger) Durchführung eines Schnelltests (nicht älter als 24 h) Maskenpflicht in den Fluren, darf am Platz beim Vortrag und beim Essen abgesetzt werden Live-Stream Wir freuen uns natürlich sehr über jeden, der vor Ort dabei sein kann. In der Pandemie sind aber auch einige Zuschauer außerhalb des Rhein-Main-Gebiets dazugekommen. Wir wollen allen, die nicht extra anreisen können oder wollen, die Möglichkeit einer Remote-Teilnahme ermöglichen. Es wird einen Live-Stream geben, weitere Informationen erhaltet ihr wie immer einige Stunden vor dem Vortrag per E-Mail, sofern ihr euch registriert habt. Sponsoren Accso stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Doppelvortrag: 'JDK Tools und wo sie zu finden sind' und 'Java Next - von Amber zu Loom, von Panama nach Valhalla' | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Doppelvortrag: 'JDK Tools und wo sie zu finden sind' und 'Java Next - von Amber zu Loom, von Panama nach Valhalla' | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    22.09.2022
+  </h2>
+  <h1>Doppelvortrag: 'JDK Tools und wo sie zu finden sind' und 'Java Next - von Amber zu Loom, von Panama nach Valhalla'</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="jdk-tools-und-wo-sie-zu-finden-sind-christian-stein">JDK Tools und wo sie zu finden sind (Christian Stein)</h3>
+
+<p>Das JDK bringt eine ganze Reihe von Tools mit, mit deren Hilfe wir bzw. die Build-Management-Werkzeuge unsere Java-Projekte bauen. Wir werden uns zunächst einen Überblick über all die nützlichen kleinen Helferlein verschaffen. Mit dem ToolProvider SPI und dem “Launch Single-File Source-Code Programs”-Mechanismus rufen wir dann einige dieser Werkzeuge aus Java heraus auf und fassen sie zudem zu Tool-Ketten zusammen. Dazu führen wir ein ToolFinder SPI ein und somit auch weitere externe Tools einbinden.</p>
+
+<p>In dieser sehr interaktiven Session werden wir die genannten Techniken direkt per Live-Coding verproben und diskutieren weitergehende Ansätze und Ideen.</p>
+
+<h3 id="java-next---von-amber-zu-loom-von-panama-nach-valhalla-nicolai-parlog">Java Next - von Amber zu Loom, von Panama nach Valhalla (Nicolai Parlog)</h3>
+
+<p>Javas vier große Projekte biegen auf die Zielgerade ein: Amber und Panama haben einige Features bereits inkubiert, previewed und sogar finalisiert und Loom und Valhalla stehen kurz davor. Gute Gelegenheit, sie sich genauer anzuschauen:</p>
+
+<p>Project Amber macht die Sprache ausdrucksstärker und bereit, die Probleme von heute und morgen anzugehen
+Project Panama durchstößt die Landenge, die Java von nativem Code trenn
+Project Loom ermöglicht einfache, effiziente und strukturierte Concurrency
+Project Valhalla repariert den Riss in Javas Typsystem und verbessert die Performance
+Nach diese Vortrag wisst ihr was in den nächsten Jahren von Java zu erwarten ist.</p>
+
+<h3 id="sprecher">Sprecher</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/christianstein.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Christian Stein</strong></p>
+
+<p>ist ein Open Source Software Entwickler der seit 1998 mit Java programmiert (#movedbyjava) und nun in der Java Platform Group bei Oracle arbeitet (#movingjava). Sein Interesse an automatisierbaren Tests ließ ihn 2017 dem JUnit 5 Team beitreten, bei Apache Maven mitarbeiten und eine Liste von Java Modulen erstellen, die bei Maven Central veröffentlicht wurden.</p>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/nicolaiparlog.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Nicolai Parlog</strong></p>
+
+<p>is a thirty-year-old boy, as the narrator would put it (if he’s generous), who has found his passion in software development (mostly Java) and who codes for a living as well as for fun. He also blogs, writes, newsletters, speaks, chats, records, streams, trains, and consults about it, and organizes a conference - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, hire him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at codefx.org.</p>
+
+<p><a href="http://blog.codefx.org/about-nicolai-parlog">About Nicolai</a></p>
+
+<h2 id="voraussetzungen-für-eure-teilnahme-und-hygiene-regeln">Voraussetzungen für Eure Teilnahme und Hygiene-Regeln</h2>
+
+<p>Wir wollen alle Besucher unseres Vortrags bestmöglich schützen. Daher gelten vorerst die folgenden Regeln und Wünsche. Wir behalten uns vor, die Einhaltung zu kontrollieren.</p>
+
+<ul>
+  <li>2G-Status (Pflicht): genesen oder geimpft (notwendige Anzahl Impfungen inklusive Booster)</li>
+  <li>Wunsch nach (freiwilliger) Durchführung eines Schnelltests (nicht älter als 24 h)</li>
+  <li>Maskenpflicht in den Fluren, darf am Platz beim Vortrag und beim Essen abgesetzt werden</li>
+</ul>
+
+<h2 id="live-stream">Live-Stream</h2>
+
+<p>Wir freuen uns natürlich sehr über jeden, der vor Ort dabei sein kann. In der Pandemie sind aber auch einige Zuschauer außerhalb des Rhein-Main-Gebiets dazugekommen. Wir wollen allen, die nicht extra anreisen können oder wollen, die Möglichkeit einer Remote-Teilnahme ermöglichen. Es wird einen Live-Stream geben, weitere Informationen erhaltet ihr wie immer einige Stunden vor dem Vortrag per E-Mail, sofern ihr euch registriert habt.</p>
+
+<h2 id="sponsoren">Sponsoren</h2>
+
+<p><a href="https://accso.de/">Accso</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="https://accso.de/"><img src="/images/sponsors/accso.png" alt="logo" /></a></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

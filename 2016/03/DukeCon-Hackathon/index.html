@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Um was geht es? Das DukeCon-Team lädt am 05.03.2016 zu einer ganztägigen Hacking-Session nach Frankfurt ein. Bei DukeCon handelt es sich um eine als Open Source entwickelte Anwendung, die jederzeit Zugriff auf das Programm einer Konferenz geben und zudem Vortrags-Favoriten verwalten kann. Zukünftige Funktionen könnten beispielsweise das Geben von Feedback an die Speaker durch die Teilnehmer oder das Einblenden von Twitter-Kommentaren sein. Nachdem die Idee bei der Javaland 2015 aufgekommen war, haben sich die Java User Groups Darmstadt und Kaiserslautern an die Arbeit gemacht und das Projekt “DukeCon” ins Leben gerufen (http://dukecon.org/, Twitter: @DukeConference). Mit der Unterstützung von iJUG und DOAG ist ein REST-Service für die Konferenzdaten entstanden, auf dem mehrere Clients aufsetzen. Die Clients sind voll benutzbar und man kann sich jetzt schon damit sein Programm für die Javaland 2016 zusammenstellen. Andere JUGs, Organisationen und Einzelpersonen unterstützen das Projekt mittlerweile. Außerdem gibt es Interesse zur Nutzung bei weiteren Konferenzen. Die Plattform nutzt zahlreiche aktuelle Technologien und erkundet den einen oder anderen Trend. Wir spielen beim Buzzword-Bingo in vorderster Linie mit: Spring Boot, Docker, HTML5, Knockout, Flex, Jasmine, Meteor, KeyCloak, Offline-Fähigkeit, Browser-Caching, Local-Storage, Cordova, Android, iOS, Groovy, REST, Lombok, Hystrix, Continuous Integration/Delivery, JGiven, Selenium, ElasticSearch/Logstash/Kibana, JPA, Maven, Jenkins, Nexus, Puppet, Vagrant und vieles andere mehr. Das Ziel der Hacking-Session ist die Implementierung weiterer Funktionen oder gar die Erstellung neuer Clients und Smartphone-Apps. Start und Ziel Auf Basis der aktuellen Code-Basis erstellen unterschiedliche Teams neue Funktionen oder weitere Clients. Dank der bereits bestehenden Tests, Continuous Delivery Pipeline und Infrastruktur (Nexus, Jenkins, Docker, Stage-Systeme) können sich die einzelnen Teams direkt auf ihre Ideen konzentrieren und idealerweise innerhalb des einen Tages zur Serienreife bringen. Wer will, kann sich natürlich auch mit dem Build-Prozess, Testen oder Dokumentation, z.B. mit Arc 42 auf Basis von AsciiDoctor oder anderem beschäftigen. Ort codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main (Parkplätze in der näheren Umgebung vorhanden bzw. Nähe Westbahnhof) Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die Verpflegung (bitte Werbung unten beachten!). Agenda 09:00 Einschalten der Kaffeemaschine, kleines Frühstück für die Frühaufsteher 09:30 Eröffnung/Begrüßung, Vorstellung des gemeinsamen Start-Punktes 09:35 Vorstellungsrunde der Teilnehmer 09:50 Vorstellung von Aspekten/Ideen für Workshops in 2-Minuten Pitches 10:10 Wahl der Top 5 Challenges als konkrete Aspekte für die einzelnen Teams und Verteilung auf die Räume 10:15 Los geht’s 12:30 Mittagspause 13:30 Und weiter (falls man nicht eh’ am Laptop gegessen hat) 15:30 Kaffeepause 17:30 Ergebnisse vorstellen 18:30 Ende Anmeldung Zur Anmeldung mit Eventbrite Sponsor Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der Vordenker für agile Software-Entwicklung und innovative Technologien in Deutschland. Über 300 Mitarbeiter an vierzehn europäischen Standorten entwickeln Software-Lösungen der Zukunft. Dafür kombiniert codecentric das Know-how der besten IT-Architekten und Software-Entwickler mit dem Praxiswissen aus zahlreichen Projekten in den Bereichen Continuous Delivery, Big Data, Performance Solutions, Agile und Enterprise Development. Für optimale Java Performance, Skalierbarkeit und Stabilität haben codecentric-Kunden Zugriff auf umfassende Risiko-Management-, Troubleshooting-, Java-Optimierungs- und Performance-Management-Services nebst Werkzeugen." />
+<meta property="og:description" content="Um was geht es? Das DukeCon-Team lädt am 05.03.2016 zu einer ganztägigen Hacking-Session nach Frankfurt ein. Bei DukeCon handelt es sich um eine als Open Source entwickelte Anwendung, die jederzeit Zugriff auf das Programm einer Konferenz geben und zudem Vortrags-Favoriten verwalten kann. Zukünftige Funktionen könnten beispielsweise das Geben von Feedback an die Speaker durch die Teilnehmer oder das Einblenden von Twitter-Kommentaren sein. Nachdem die Idee bei der Javaland 2015 aufgekommen war, haben sich die Java User Groups Darmstadt und Kaiserslautern an die Arbeit gemacht und das Projekt “DukeCon” ins Leben gerufen (http://dukecon.org/, Twitter: @DukeConference). Mit der Unterstützung von iJUG und DOAG ist ein REST-Service für die Konferenzdaten entstanden, auf dem mehrere Clients aufsetzen. Die Clients sind voll benutzbar und man kann sich jetzt schon damit sein Programm für die Javaland 2016 zusammenstellen. Andere JUGs, Organisationen und Einzelpersonen unterstützen das Projekt mittlerweile. Außerdem gibt es Interesse zur Nutzung bei weiteren Konferenzen. Die Plattform nutzt zahlreiche aktuelle Technologien und erkundet den einen oder anderen Trend. Wir spielen beim Buzzword-Bingo in vorderster Linie mit: Spring Boot, Docker, HTML5, Knockout, Flex, Jasmine, Meteor, KeyCloak, Offline-Fähigkeit, Browser-Caching, Local-Storage, Cordova, Android, iOS, Groovy, REST, Lombok, Hystrix, Continuous Integration/Delivery, JGiven, Selenium, ElasticSearch/Logstash/Kibana, JPA, Maven, Jenkins, Nexus, Puppet, Vagrant und vieles andere mehr. Das Ziel der Hacking-Session ist die Implementierung weiterer Funktionen oder gar die Erstellung neuer Clients und Smartphone-Apps. Start und Ziel Auf Basis der aktuellen Code-Basis erstellen unterschiedliche Teams neue Funktionen oder weitere Clients. Dank der bereits bestehenden Tests, Continuous Delivery Pipeline und Infrastruktur (Nexus, Jenkins, Docker, Stage-Systeme) können sich die einzelnen Teams direkt auf ihre Ideen konzentrieren und idealerweise innerhalb des einen Tages zur Serienreife bringen. Wer will, kann sich natürlich auch mit dem Build-Prozess, Testen oder Dokumentation, z.B. mit Arc 42 auf Basis von AsciiDoctor oder anderem beschäftigen. Ort codecentric AG, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main (Parkplätze in der näheren Umgebung vorhanden bzw. Nähe Westbahnhof) Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die Verpflegung (bitte Werbung unten beachten!). Agenda 09:00 Einschalten der Kaffeemaschine, kleines Frühstück für die Frühaufsteher 09:30 Eröffnung/Begrüßung, Vorstellung des gemeinsamen Start-Punktes 09:35 Vorstellungsrunde der Teilnehmer 09:50 Vorstellung von Aspekten/Ideen für Workshops in 2-Minuten Pitches 10:10 Wahl der Top 5 Challenges als konkrete Aspekte für die einzelnen Teams und Verteilung auf die Räume 10:15 Los geht’s 12:30 Mittagspause 13:30 Und weiter (falls man nicht eh’ am Laptop gegessen hat) 15:30 Kaffeepause 17:30 Ergebnisse vorstellen 18:30 Ende Anmeldung Zur Anmeldung mit Eventbrite Sponsor Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der Vordenker für agile Software-Entwicklung und innovative Technologien in Deutschland. Über 300 Mitarbeiter an vierzehn europäischen Standorten entwickeln Software-Lösungen der Zukunft. Dafür kombiniert codecentric das Know-how der besten IT-Architekten und Software-Entwickler mit dem Praxiswissen aus zahlreichen Projekten in den Bereichen Continuous Delivery, Big Data, Performance Solutions, Agile und Enterprise Development. Für optimale Java Performance, Skalierbarkeit und Stabilität haben codecentric-Kunden Zugriff auf umfassende Risiko-Management-, Troubleshooting-, Java-Optimierungs- und Performance-Management-Services nebst Werkzeugen." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="DukeCon Hackathon | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>DukeCon Hackathon | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    05.03.2016
+  </h2>
+  <h1>DukeCon Hackathon</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="um-was-geht-es">Um was geht es?</h3>
+
+<p>Das DukeCon-Team lädt am 05.03.2016 zu einer ganztägigen Hacking-Session nach Frankfurt ein. Bei DukeCon handelt es sich um eine als Open Source entwickelte Anwendung, die jederzeit Zugriff auf das Programm einer Konferenz geben und zudem Vortrags-Favoriten verwalten kann. Zukünftige Funktionen könnten beispielsweise das Geben von Feedback an die Speaker durch die Teilnehmer oder das Einblenden von Twitter-Kommentaren sein.</p>
+
+<p>Nachdem die Idee bei der Javaland 2015 aufgekommen war, haben sich die Java User Groups Darmstadt und Kaiserslautern an die Arbeit gemacht und das Projekt “DukeCon” ins Leben gerufen (http://dukecon.org/, Twitter: @DukeConference). Mit der Unterstützung von iJUG und DOAG ist ein REST-Service für die Konferenzdaten entstanden, auf dem mehrere Clients aufsetzen. Die Clients sind voll benutzbar und man kann sich jetzt schon damit sein Programm für die Javaland 2016 zusammenstellen. Andere JUGs, Organisationen und Einzelpersonen unterstützen das Projekt mittlerweile. Außerdem gibt es Interesse zur Nutzung bei weiteren Konferenzen.</p>
+
+<p>Die Plattform nutzt zahlreiche aktuelle Technologien und erkundet den einen oder anderen Trend. Wir spielen beim Buzzword-Bingo in vorderster Linie mit: Spring Boot, Docker, HTML5, Knockout, Flex, Jasmine, Meteor, KeyCloak, Offline-Fähigkeit, Browser-Caching, Local-Storage, Cordova, Android, iOS, Groovy, REST, Lombok, Hystrix, Continuous Integration/Delivery, JGiven, Selenium, ElasticSearch/Logstash/Kibana, JPA, Maven, Jenkins, Nexus, Puppet, Vagrant und vieles andere mehr.</p>
+
+<p>Das Ziel der Hacking-Session ist die Implementierung weiterer Funktionen oder gar die Erstellung neuer Clients und Smartphone-Apps.</p>
+
+<h3 id="start-und-ziel">Start und Ziel</h3>
+
+<p>Auf Basis der aktuellen <a href="https://github.com/dukecon">Code-Basis</a> erstellen unterschiedliche Teams neue Funktionen oder weitere Clients. Dank der bereits bestehenden Tests, Continuous Delivery Pipeline und Infrastruktur (Nexus, Jenkins, Docker, Stage-Systeme) können sich die einzelnen Teams direkt auf ihre Ideen konzentrieren und idealerweise innerhalb des einen Tages zur Serienreife bringen. Wer will, kann sich natürlich auch mit dem Build-Prozess, Testen oder Dokumentation, z.B. mit Arc 42 auf Basis von AsciiDoctor oder anderem beschäftigen.</p>
+
+<h3 id="ort">Ort</h3>
+
+<p><a href="https://www.codecentric.de/">codecentric AG</a>, Niederlassung Frankfurt am Main, Kreuznacher Straße 30, 60486 Frankfurt am Main (Parkplätze in der näheren Umgebung vorhanden bzw. Nähe Westbahnhof)</p>
+
+<p>Vielen Dank für die kostenlose Überlassung der Räume inkl. LAN/WLAN und die Verpflegung (bitte Werbung unten beachten!).</p>
+
+<h3 id="agenda">Agenda</h3>
+
+<ul>
+  <li>09:00 Einschalten der Kaffeemaschine, kleines Frühstück für die Frühaufsteher</li>
+  <li>09:30 Eröffnung/Begrüßung, Vorstellung des gemeinsamen Start-Punktes</li>
+  <li>09:35 Vorstellungsrunde der Teilnehmer</li>
+  <li>09:50 Vorstellung von Aspekten/Ideen für Workshops in 2-Minuten Pitches</li>
+  <li>10:10 Wahl der Top 5 Challenges als konkrete Aspekte für die einzelnen Teams und Verteilung auf die Räume</li>
+  <li>10:15 Los geht’s</li>
+  <li>12:30 Mittagspause</li>
+  <li>13:30 Und weiter (falls man nicht eh’ am Laptop gegessen hat)</li>
+  <li>15:30 Kaffeepause</li>
+  <li>17:30 Ergebnisse vorstellen</li>
+  <li>18:30 Ende</li>
+</ul>
+
+<h3 id="anmeldung">Anmeldung</h3>
+
+<p>Zur <a href="https://www.eventbrite.de/e/dukecon-hackathon-2016-tickets-21004334530">Anmeldung mit Eventbrite</a></p>
+
+<h3 id="sponsor">Sponsor</h3>
+
+<p><a href="https://www.codecentric.de/"><img src="/images/sponsors/codecentric.png" class="sponsorpic" /></a><em>Als Experte für individuelle Software-Entwicklungen ist die codecentric AG der Vordenker für agile Software-Entwicklung und innovative Technologien in Deutschland. Über 300 Mitarbeiter an vierzehn europäischen Standorten entwickeln Software-Lösungen der Zukunft. Dafür kombiniert codecentric das Know-how der besten IT-Architekten und Software-Entwickler mit dem Praxiswissen aus zahlreichen Projekten in den Bereichen Continuous Delivery, Big Data, Performance Solutions, Agile und Enterprise Development. Für optimale Java Performance, Skalierbarkeit und Stabilität haben codecentric-Kunden Zugriff auf umfassende Risiko-Management-, Troubleshooting-, Java-Optimierungs- und Performance-Management-Services nebst Werkzeugen.</em></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

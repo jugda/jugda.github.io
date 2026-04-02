@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Zusammenfassung Alexander wird uns Spannendes rund um Elasticsearch erzählen. Elasticsearch - Was gibt’s neues - Edition 7.0 Elasticsearch 7.0 kommt wieder mit jeder Menge neuer Features. Dieser Vortrag soll einen kleinen Überblick über die größten und interessantesten Neuigkeiten in der neuen Major Version bringen, angefangen bei neuen Datentypen, neuen Queries, dem neuen Cluster Coordination Layer, der aktuellen Lucene Version, dem High Level Rest Client und vielem mehr. Elasticsearch - Securing a search engine while maintaining usability Elasticsearch - das Herz des Elastic Stacks - ist als verteilte, skaliarbare Volltextsuchmaschine und für Analytics bekannt. Zehntausende Elasticsearch Instanzen laufen weltweit, so dass trotz aller neuen Features in jedem Release auch über das Thema Sicherheit nachgedacht werden muss - zu jeder Zeit. Dieser Vortrag geht auf unterschiedliche Aspekte von Elasticsearch im Bereich Sicherheit ein, von Features bis hin zu bestimmten - manchmal auch unpopulären - Entscheidungen die getroffen worden sind. Der Vortrag behandelt unter anderem Eine Einführung in den Java Security Managers Die Verwendung des Java Security Managers in Elasticsearch Production vs. Development mode System Call Filtering Painless als sichere Alternative für eine Scripting Sprache Ziel des Talks ist es nicht nur, auf einige Details in Elasticsearch einzugehen, sondern vielmehr den Zuhörer dazu bekommen, diese Themen auch in seinen eigenen Apps zu berücksichtigen. Monitoring mit dem Elastic Stack (Live Demo) Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitoring Daten. Wir starten mit einer Einführung in Elasticsearch und Kibana, erklären generelle Konzepte wie Indices und Shards und arbeiten uns dann sukzessive in Richtung der Anwendung, die Metriken, Logs, Spans und Traces in Elasticsearch indiziert. Anhand dieser Daten können wir uns dann konkrete UIs in Kibana anschauen, mit der es einfacher wird, einen Überblick über die eigene Infrastruktur, APM Daten oder Uptime zu erhalten. Sprecher Alexander Reelsen ist Developer Advocate, Entwickler, Paaaapa, arbeitet seit 2013 bei Elastic, interessiert an Suche, Skalierung, JVM, crystallang, serverless und Basketball. Sponsoren Cosee stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="Zusammenfassung Alexander wird uns Spannendes rund um Elasticsearch erzählen. Elasticsearch - Was gibt’s neues - Edition 7.0 Elasticsearch 7.0 kommt wieder mit jeder Menge neuer Features. Dieser Vortrag soll einen kleinen Überblick über die größten und interessantesten Neuigkeiten in der neuen Major Version bringen, angefangen bei neuen Datentypen, neuen Queries, dem neuen Cluster Coordination Layer, der aktuellen Lucene Version, dem High Level Rest Client und vielem mehr. Elasticsearch - Securing a search engine while maintaining usability Elasticsearch - das Herz des Elastic Stacks - ist als verteilte, skaliarbare Volltextsuchmaschine und für Analytics bekannt. Zehntausende Elasticsearch Instanzen laufen weltweit, so dass trotz aller neuen Features in jedem Release auch über das Thema Sicherheit nachgedacht werden muss - zu jeder Zeit. Dieser Vortrag geht auf unterschiedliche Aspekte von Elasticsearch im Bereich Sicherheit ein, von Features bis hin zu bestimmten - manchmal auch unpopulären - Entscheidungen die getroffen worden sind. Der Vortrag behandelt unter anderem Eine Einführung in den Java Security Managers Die Verwendung des Java Security Managers in Elasticsearch Production vs. Development mode System Call Filtering Painless als sichere Alternative für eine Scripting Sprache Ziel des Talks ist es nicht nur, auf einige Details in Elasticsearch einzugehen, sondern vielmehr den Zuhörer dazu bekommen, diese Themen auch in seinen eigenen Apps zu berücksichtigen. Monitoring mit dem Elastic Stack (Live Demo) Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitoring Daten. Wir starten mit einer Einführung in Elasticsearch und Kibana, erklären generelle Konzepte wie Indices und Shards und arbeiten uns dann sukzessive in Richtung der Anwendung, die Metriken, Logs, Spans und Traces in Elasticsearch indiziert. Anhand dieser Daten können wir uns dann konkrete UIs in Kibana anschauen, mit der es einfacher wird, einen Überblick über die eigene Infrastruktur, APM Daten oder Uptime zu erhalten. Sprecher Alexander Reelsen ist Developer Advocate, Entwickler, Paaaapa, arbeitet seit 2013 bei Elastic, interessiert an Suche, Skalierung, JVM, crystallang, serverless und Basketball. Sponsoren Cosee stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Triple Feature: Neues von Elasticsearch 7.0, Security und Monitoring | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Triple Feature: Neues von Elasticsearch 7.0, Security und Monitoring | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    15.08.2019
+  </h2>
+  <h1>Triple Feature: Neues von Elasticsearch 7.0, Security und Monitoring</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="zusammenfassung">Zusammenfassung</h3>
+
+<p>Alexander wird uns Spannendes rund um Elasticsearch erzählen.</p>
+
+<h4 id="elasticsearch---was-gibts-neues---edition-70">Elasticsearch - Was gibt’s neues - Edition 7.0</h4>
+
+<p>Elasticsearch 7.0 kommt wieder mit jeder Menge neuer Features. Dieser Vortrag soll einen kleinen Überblick über die größten und interessantesten Neuigkeiten in der neuen Major Version bringen, angefangen bei neuen Datentypen, neuen Queries, dem neuen Cluster Coordination Layer, der aktuellen Lucene Version, dem High Level Rest Client und vielem mehr.</p>
+
+<h4 id="elasticsearch---securing-a-search-engine-while-maintaining-usability">Elasticsearch - Securing a search engine while maintaining usability</h4>
+
+<p>Elasticsearch - das Herz des Elastic Stacks - ist als verteilte, skaliarbare Volltextsuchmaschine und für Analytics bekannt.</p>
+
+<p>Zehntausende Elasticsearch Instanzen laufen weltweit, so dass trotz aller neuen Features in jedem Release auch über das Thema Sicherheit nachgedacht werden muss - zu jeder Zeit. Dieser Vortrag geht auf unterschiedliche Aspekte von Elasticsearch im Bereich Sicherheit ein, von Features bis hin zu bestimmten - manchmal auch unpopulären - Entscheidungen die getroffen worden sind. Der Vortrag behandelt unter anderem</p>
+
+<ul>
+  <li>Eine Einführung in den Java Security Managers</li>
+  <li>Die Verwendung des Java Security Managers in Elasticsearch</li>
+  <li>Production vs. Development mode</li>
+  <li>System Call Filtering</li>
+  <li>Painless als sichere Alternative für eine Scripting Sprache</li>
+</ul>
+
+<p>Ziel des Talks ist es nicht nur, auf einige Details in Elasticsearch einzugehen, sondern vielmehr den Zuhörer dazu bekommen, diese Themen auch in seinen eigenen Apps zu berücksichtigen.</p>
+
+<h4 id="monitoring-mit-dem-elastic-stack-live-demo">Monitoring mit dem Elastic Stack (Live Demo)</h4>
+
+<p>Dieser Talk ist slidefreie Einführung in den Elastic Stack anhand von Monitoring Daten. Wir starten mit einer Einführung in Elasticsearch und Kibana, erklären generelle Konzepte wie Indices und Shards und arbeiten uns dann sukzessive in Richtung der Anwendung, die Metriken, Logs, Spans und Traces in Elasticsearch indiziert. Anhand dieser Daten können wir uns dann konkrete UIs in Kibana anschauen, mit der es einfacher wird, einen Überblick über die eigene Infrastruktur, APM Daten oder Uptime zu erhalten.</p>
+
+<h3 id="sprecher">Sprecher</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/alexanderreelsen.png" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Alexander Reelsen</strong></p>
+
+<p>ist Developer Advocate, Entwickler, Paaaapa, arbeitet seit 2013 bei Elastic, interessiert an Suche, Skalierung, JVM, crystallang, serverless und Basketball.</p>
+
+<h2 id="sponsoren">Sponsoren</h2>
+
+<p><a href="http://www.cosee.biz">Cosee</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="http://www.cosee.biz"><img src="/images/sponsors/cosee.png" alt="logo" /></a></p>
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+  <p>
+  
+	
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="https://noti.st/spinscale/PnLBIi/whats-new-in-the-elastic-stack-7-x-edition" rel="noreferrer nofollow" target="_blank">Folien What's new</a></div>
+	
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="https://noti.st/spinscale/zA6AwA/elasticsearch-securing-a-search-engine-while-maintaining-usability" rel="noreferrer nofollow" target="_blank">Folien Securing Elasticsearch</a></div>
+	
+  
+  </p>
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

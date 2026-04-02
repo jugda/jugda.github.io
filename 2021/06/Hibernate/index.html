@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Zusammenfassung (Vortrag wird auf deutsch sein, Abstract liegt bislang nur in English vor) Hibernate is the de-facto standard for persisting data in a relational database. It provides excellent developer productivity and is so easy to use that you can learn it within a few hours. That changes as soon as your application needs to handle a huge amount of data or if you want to guarantee very short response times. Features and concepts that work perfectly fine for smaller applications start to become a burden that slows down your application. But that doesn’t have to be the case for your application. Hibernate is a great fit for complex projects with high-performance requirements. You only need to know which features to use and which you should better avoid. During this talk, I will show you how to get the most out of your Hibernate-based persistence layer. By following these recommendations, you will be able to enjoy Hibernate’s developer productivity and provide a blazingly fast experience to your users. Sprecher Thorben Janssen ist freiberuflicher Trainer und Autor des Buchs “Hibernate Tips – More than 70 solutions to common Hibernate problems”. Er entwickelt seit mehr als fünfzehn Jahren Anwendungen auf Basis von Java EE und ist Mitglied der JSR 365 (Contexts and Dependency Injection for JavaTM 2.0) Expert Group. Auf seinem Blog www.thoughts-on-java.org schreibt er mehrmals wöchentlich über Java EE und Hibernate." />
+<meta property="og:description" content="Zusammenfassung (Vortrag wird auf deutsch sein, Abstract liegt bislang nur in English vor) Hibernate is the de-facto standard for persisting data in a relational database. It provides excellent developer productivity and is so easy to use that you can learn it within a few hours. That changes as soon as your application needs to handle a huge amount of data or if you want to guarantee very short response times. Features and concepts that work perfectly fine for smaller applications start to become a burden that slows down your application. But that doesn’t have to be the case for your application. Hibernate is a great fit for complex projects with high-performance requirements. You only need to know which features to use and which you should better avoid. During this talk, I will show you how to get the most out of your Hibernate-based persistence layer. By following these recommendations, you will be able to enjoy Hibernate’s developer productivity and provide a blazingly fast experience to your users. Sprecher Thorben Janssen ist freiberuflicher Trainer und Autor des Buchs “Hibernate Tips – More than 70 solutions to common Hibernate problems”. Er entwickelt seit mehr als fünfzehn Jahren Anwendungen auf Basis von Java EE und ist Mitglied der JSR 365 (Contexts and Dependency Injection for JavaTM 2.0) Expert Group. Auf seinem Blog www.thoughts-on-java.org schreibt er mehrmals wöchentlich über Java EE und Hibernate." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Hibernate in complex projects – Can we be a little faster? | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Hibernate in complex projects – Can we be a little faster? | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    17.06.2021
+  </h2>
+  <h1>Hibernate in complex projects – Can we be a little faster?</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="zusammenfassung">Zusammenfassung</h3>
+
+<p><em>(Vortrag wird auf deutsch sein, Abstract liegt bislang nur in English vor)</em></p>
+
+<p>Hibernate is the de-facto standard for persisting data in a relational database. It provides excellent developer productivity and is so easy to use that you can learn it within a few hours.</p>
+
+<p>That changes as soon as your application needs to handle a huge amount of data or if you want to guarantee very short response times. Features and concepts that work perfectly fine for smaller applications start to become a burden that slows down your application.</p>
+
+<p>But that doesn’t have to be the case for your application. Hibernate is a great fit for complex projects with high-performance requirements. You only need to know which features to use and which you should better avoid.</p>
+
+<p>During this talk, I will show you how to get the most out of your Hibernate-based persistence layer. By following these recommendations, you will be able to enjoy Hibernate’s developer productivity and provide a blazingly fast experience to your users.</p>
+
+<h3 id="sprecher">Sprecher</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/thorbenjanssen.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Thorben Janssen</strong></p>
+
+<p>ist freiberuflicher Trainer und Autor des Buchs “Hibernate Tips – More than 70 solutions to common Hibernate problems”. Er entwickelt seit mehr als fünfzehn Jahren Anwendungen auf Basis von Java EE und ist Mitglied der JSR 365 (Contexts and Dependency Injection for JavaTM 2.0) Expert Group. Auf seinem Blog <a href="www.thoughts-on-java.org" target="_blank">www.thoughts-on-java.org</a> schreibt er mehrmals wöchentlich über Java EE und Hibernate.</p>
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+
+  
+  
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/tNConWUeuaQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract Der Aufstieg der KI hat unsere Welt revolutioniert und unzählige neue Möglichkeiten eröffnet. Obwohl das Angebot an KI-Lösungen immer noch wächst, können wir jetzt viel schneller Anwendungen mit fortgeschrittenen Sprachfähigkeiten entwickeln. In diesem Talk werden wir uns mit verschiedenen Sprachmodellen (LLMs) beschäftigen und ihre Anwendung in verschiedenen Szenarien wie Chatinteraktion, Bilderzeugung und Audiotranskription untersuchen. Anhand des Spring-AI-Projekts werden wir verschiedene KI-Modelle und ihre Funktionalitäten kennenlernen und ihre praktische Integration im Unternehmensumfeld betrachten. Speakers Patrick Baumgartner ( mastodon.social/@patbaumgartner | in/patbaumgartner | https://42talents.com/) ist Java Champion und arbeitet als passionierter Technical Agile Coach, Software Crafter und Trainer bei 42talents. Seine Berufung ist es, die Arbeitswelt in der IT zu verbessern, da es bekanntlich nicht nur um Code, sondern um Menschen geht. In der Software-Community engagiert er sich zudem in Themen wie agile Softwareentwicklung, Software Craft und Testing, Graphen und NoSQL Datenbanken sowie alles rund um Java und Spring. Sponsoren Die Firma eXXcellent solutions stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="Abstract Der Aufstieg der KI hat unsere Welt revolutioniert und unzählige neue Möglichkeiten eröffnet. Obwohl das Angebot an KI-Lösungen immer noch wächst, können wir jetzt viel schneller Anwendungen mit fortgeschrittenen Sprachfähigkeiten entwickeln. In diesem Talk werden wir uns mit verschiedenen Sprachmodellen (LLMs) beschäftigen und ihre Anwendung in verschiedenen Szenarien wie Chatinteraktion, Bilderzeugung und Audiotranskription untersuchen. Anhand des Spring-AI-Projekts werden wir verschiedene KI-Modelle und ihre Funktionalitäten kennenlernen und ihre praktische Integration im Unternehmensumfeld betrachten. Speakers Patrick Baumgartner ( mastodon.social/@patbaumgartner | in/patbaumgartner | https://42talents.com/) ist Java Champion und arbeitet als passionierter Technical Agile Coach, Software Crafter und Trainer bei 42talents. Seine Berufung ist es, die Arbeitswelt in der IT zu verbessern, da es bekanntlich nicht nur um Code, sondern um Menschen geht. In der Software-Community engagiert er sich zudem in Themen wie agile Softwareentwicklung, Software Craft und Testing, Graphen und NoSQL Datenbanken sowie alles rund um Java und Spring. Sponsoren Die Firma eXXcellent solutions stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Intelligente Anwendungen mit Spring AI | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Intelligente Anwendungen mit Spring AI | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    27.08.2025
+  </h2>
+  <h1>Intelligente Anwendungen mit Spring AI</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="abstract">Abstract</h2>
+
+<p>Der Aufstieg der KI hat unsere Welt revolutioniert und unzählige neue Möglichkeiten eröffnet. Obwohl das Angebot an KI-Lösungen immer noch wächst, können wir jetzt viel schneller Anwendungen mit fortgeschrittenen Sprachfähigkeiten entwickeln. In diesem Talk werden wir uns mit verschiedenen Sprachmodellen (LLMs) beschäftigen und ihre Anwendung in verschiedenen Szenarien wie Chatinteraktion, Bilderzeugung und Audiotranskription untersuchen. Anhand des Spring-AI-Projekts werden wir verschiedene KI-Modelle und ihre Funktionalitäten kennenlernen und ihre praktische Integration im Unternehmensumfeld betrachten.</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/patrickbaumgartner.jpg" class="speakerpic" alt="Patrick Baumgartner" title="Patrick Baumgartner" /></p>
+
+<p><strong>Patrick Baumgartner</strong>
+(<a href="https://mastodon.social/@patbaumgartner" target="_blank"><i class="bi bi-mastodon"></i> mastodon.social/@patbaumgartner</a> | <a href="https://www.linkedin.com/in/patbaumgartner" target="_blank"><i class="bi bi-linkedin"></i> in/patbaumgartner</a> | <a href="https://42talents.com/" target="_blank"><i class="bi bi-globe"></i> https://42talents.com/</a>)
+ ist Java Champion und arbeitet als passionierter Technical Agile Coach, Software Crafter und Trainer bei 42talents. Seine Berufung ist es, die Arbeitswelt in der IT zu verbessern, da es bekanntlich nicht nur um Code, sondern um Menschen geht. In der Software-Community engagiert er sich zudem in Themen wie agile Softwareentwicklung, Software Craft und Testing, Graphen und NoSQL Datenbanken sowie alles rund um Java und Spring.</p>
+
+<h2 id="sponsoren">Sponsoren</h2>
+
+<p>Die Firma <a href="https://www.exxcellent.de/">eXXcellent solutions</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="https://www.exxcellent.de/"><img src="/images/sponsors/exxcellent.png" alt="eXXcellent Logo" /></a></p>
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+
+  
+  
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/2xpl5d3O-pQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

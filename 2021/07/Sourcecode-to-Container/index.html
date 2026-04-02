@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Zusammenfassung Ein typischer Workflow in moderner Software Entwicklung beinhaltet oft folgende Schritte: Den Code in eine git Repo, kompilieren, ein Container Image bauen, das Image in eine Registry und Deployment auf einen Kubernetes Cluster. Jeder Schritt hat seine eigenen Anforderungen und Herausforderungen. Das große gemeinsame Ziel ist es zumeist diese Schritte in eine wiederholbare Pipeline zu bekommen und so den Grad der Automation zu erhöhen. Gerade in dem Bereich der Container Images scheinen Dockerfiles die Option mit der größten Akzeptanz zu sein. Es gibt jedoch mittlerweile einige Alternativen, die ein paat Stolperfallen vermeiden und diesen Teil des Prozesses noch mehr standardisieren können. Dieser Vortrag gibt tiefere Einblicke in diese Optionen und vergleicht (multi-stage) Dockerfiles mit Cloud-Native Buildpacks, Paketo und Google’s JIB anhand der Kriterien Geschwindigkeit, Größe des Image, Standardisierung, Robustheit und Sicherheit. Die Beispiele und live Demo haben einen gewissen Fokus auf Java-basierte Frameworks (Spring Boot, Quarkus, Micronaut), aber auch andere Programmiersprachen werden behandelt. Das gewünschte „take-away“ dieses Vortrags ist ein besserer Übernlick über den Container Build Mechanismus und die verschiedenen Optionen hierbei sowie ein Verständnis der Anforderungen, Vorteile und Nachteile dieser Varianten. Sprecher Matthias Häußler ist Cheftechnologe bei der Novatec Consulting, Cloud Foundry Ambassador, sowie Organisator des Meetups Stuttgart. Er berät Kunden zu deren Cloud Strategie und unterstützt aktiv Architektur, Design, Implementierungen und Migrationen. Davor war er über 15 Jahre bei der IBM Forschung &amp; Entwicklung. Er hat vielseitige Erfahrung im Education Bereich durch verschiedene Vorlesungen an Hochschulen (DHBW, HSE, HfT) und seiner Rolle als Instructor für Docker, Kubernetes und Cloud Foundry Schulungen. Daneben ist er oft Speaker bei sowohl lokalen Usergroups als auch internationalen Konferenzen. (z.B. Spring One Platform, KubeCon, Cloud Foundry Summit, Spring IO, IBM InterConnect, WJAX)." />
+<meta property="og:description" content="Zusammenfassung Ein typischer Workflow in moderner Software Entwicklung beinhaltet oft folgende Schritte: Den Code in eine git Repo, kompilieren, ein Container Image bauen, das Image in eine Registry und Deployment auf einen Kubernetes Cluster. Jeder Schritt hat seine eigenen Anforderungen und Herausforderungen. Das große gemeinsame Ziel ist es zumeist diese Schritte in eine wiederholbare Pipeline zu bekommen und so den Grad der Automation zu erhöhen. Gerade in dem Bereich der Container Images scheinen Dockerfiles die Option mit der größten Akzeptanz zu sein. Es gibt jedoch mittlerweile einige Alternativen, die ein paat Stolperfallen vermeiden und diesen Teil des Prozesses noch mehr standardisieren können. Dieser Vortrag gibt tiefere Einblicke in diese Optionen und vergleicht (multi-stage) Dockerfiles mit Cloud-Native Buildpacks, Paketo und Google’s JIB anhand der Kriterien Geschwindigkeit, Größe des Image, Standardisierung, Robustheit und Sicherheit. Die Beispiele und live Demo haben einen gewissen Fokus auf Java-basierte Frameworks (Spring Boot, Quarkus, Micronaut), aber auch andere Programmiersprachen werden behandelt. Das gewünschte „take-away“ dieses Vortrags ist ein besserer Übernlick über den Container Build Mechanismus und die verschiedenen Optionen hierbei sowie ein Verständnis der Anforderungen, Vorteile und Nachteile dieser Varianten. Sprecher Matthias Häußler ist Cheftechnologe bei der Novatec Consulting, Cloud Foundry Ambassador, sowie Organisator des Meetups Stuttgart. Er berät Kunden zu deren Cloud Strategie und unterstützt aktiv Architektur, Design, Implementierungen und Migrationen. Davor war er über 15 Jahre bei der IBM Forschung &amp; Entwicklung. Er hat vielseitige Erfahrung im Education Bereich durch verschiedene Vorlesungen an Hochschulen (DHBW, HSE, HfT) und seiner Rolle als Instructor für Docker, Kubernetes und Cloud Foundry Schulungen. Daneben ist er oft Speaker bei sowohl lokalen Usergroups als auch internationalen Konferenzen. (z.B. Spring One Platform, KubeCon, Cloud Foundry Summit, Spring IO, IBM InterConnect, WJAX)." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Viele Wege führen vom Source Code bis zur Containerlaufzeit | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Viele Wege führen vom Source Code bis zur Containerlaufzeit | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    15.07.2021
+  </h2>
+  <h1>Viele Wege führen vom Source Code bis zur Containerlaufzeit</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="zusammenfassung">Zusammenfassung</h3>
+
+<p>Ein typischer Workflow in moderner Software Entwicklung beinhaltet oft folgende Schritte: Den Code in eine git Repo, kompilieren, ein Container Image bauen, das Image in eine Registry und Deployment auf einen Kubernetes Cluster. Jeder Schritt hat seine eigenen Anforderungen und Herausforderungen. Das große gemeinsame Ziel ist es zumeist diese Schritte in eine wiederholbare Pipeline zu bekommen und so den Grad der Automation zu erhöhen. Gerade in dem Bereich der Container Images scheinen Dockerfiles die Option mit der größten Akzeptanz zu sein. Es gibt jedoch mittlerweile einige Alternativen, die ein paat Stolperfallen vermeiden und diesen Teil des Prozesses noch mehr standardisieren können.</p>
+
+<p>Dieser Vortrag gibt tiefere Einblicke in diese Optionen und vergleicht (multi-stage) Dockerfiles mit Cloud-Native Buildpacks, Paketo und Google’s JIB anhand der Kriterien Geschwindigkeit, Größe des Image, Standardisierung, Robustheit und Sicherheit. Die Beispiele und live Demo haben einen gewissen Fokus auf Java-basierte Frameworks (Spring Boot, Quarkus, Micronaut), aber auch andere Programmiersprachen werden behandelt.</p>
+
+<p>Das gewünschte „take-away“ dieses Vortrags ist ein besserer Übernlick über den Container Build Mechanismus und die verschiedenen Optionen hierbei sowie ein Verständnis der Anforderungen, Vorteile und Nachteile dieser Varianten.</p>
+
+<h3 id="sprecher">Sprecher</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/matthiashaeussler.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Matthias Häußler</strong></p>
+
+<p>ist Cheftechnologe bei der Novatec Consulting, Cloud Foundry Ambassador, sowie Organisator des Meetups Stuttgart. Er berät Kunden zu deren Cloud Strategie und unterstützt aktiv Architektur, Design, Implementierungen und Migrationen. Davor war er über 15 Jahre bei der IBM Forschung &amp; Entwicklung. Er hat vielseitige Erfahrung im Education Bereich durch verschiedene Vorlesungen an Hochschulen (DHBW, HSE, HfT) und seiner Rolle als Instructor für Docker, Kubernetes und Cloud Foundry Schulungen. Daneben ist er oft Speaker bei sowohl lokalen Usergroups als auch internationalen Konferenzen. (z.B. Spring One Platform, KubeCon, Cloud Foundry Summit, Spring IO, IBM InterConnect, WJAX).</p>
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+  <p>
+  
+	
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="/files/JUGS_Options_Galore.pdf" rel="noreferrer nofollow" target="_blank">Folien</a></div>
+	
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="https://www.youtube.com/watch?v=ga8iqQ25lUY" rel="noreferrer nofollow" target="_blank">Vortrag beim ETKA (in unserer Aufnahme ist nur die Demo, dafür ausführlicher)</a></div>
+	
+  
+  </p>
+  
+
+  
+  
+  <div class="video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/XNLu__eUBVQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

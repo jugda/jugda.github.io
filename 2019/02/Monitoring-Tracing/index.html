@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Monitoring mit Prometheus und Grafana bei Systemen unter Last Für die frühzeitige Erkennung und Behebung systemkritischer Probleme, insbesondere bei Systemen unter Last, ist ein gutes Monitoring unerlässlich. Prometheus ist als Zeitreihendatenbank ideal geeignet für das Speichern von für das Monitoring relevanten Metrikdaten, wie CPU-Auslastung, JVM Heap Size und Anzahl an Fehlermeldungen. Die gespeicherten Daten lassen sich mit der von Prometheus zur Verfügung gestellten Abfragesprache PromQL auslesen. Dies ermöglicht dem Team, frühzeitig zu erkennen, wann ein für das System kritischer Schwellenwert überschritten worden ist, und proaktiv zu handeln. Besonders komfortabel und zeitsparend ist für Entwickler und Administratoren die Visualisierung der relevanten Daten in Form von Dashboards. Hierzu bietet sich Grafana mit seiner Schnittstelle zu Prometheus an. Um alle Interessierten über das Überschreiten eines definierten Schwellenwertes zu informieren, können mit Hilfe von Grafana Alert Notifications beispielsweise an eine E-Mail-Adresse oder einen Chatraum versendet werden. Dieser Vortrag führt in das Monitoring mit Prometheus und Grafana ein und zeigt konkrete Einsatzszenarien für eure Vorhaben. Die Folien von Antjes Vortrag gibt’s hier. Fährtenlesen für Microservices: Tracing in der Cloud In verteilten Microservices ist es mitunter schwer, einen Überblick zu erhalten. Wie viel Zeit benötigen die einzelnen Teilschritte eines Aufrufs? An welcher Stelle tritt ein Fehler auf? Warum dauern einzelne Aufrufe länger als andere? In unseren Projekten nutzen wir Tracing als Ergänzung zu Logging und Metriken, um diese Fragen zu beantworten. Tracing hilft, die Laufzeit von Teilschritten im Zusammenhang zu ermitteln, wiederholte Aufrufe zu identifizieren und unsinnige Reihenfolgen aufzudecken. Auch asynchrone Verarbeitung kann visualisiert werden. Insbesondere bei komplexen Zusammenhängen zwischen einzelnen Applikationen unterstützt es bei der Fehlersuche und spart damit Zeit. Der Vortrag zeigt, wie mit OpenTracing und Jaeger vorhandene Spring-Boot-Anwendungen um Tracing erweitert werden. Für HTTP/REST, Datenbanken und Queues existieren bereits vorgefertigte Standard-Instrumentierungen. An anderen Stellen können Aufrufe von Hand instrumentiert werden. Der Vortrag gibt zusätzlich einen Überblick, welche Infrastruktur-Komponenten notwendig sind. Die Folien von Björns Vortrag gibt’s hier. Sprecher Antje Landschulz arbeitet als Software-Entwicklerin im Smart Home-Umfeld bei der Deutschen Telekom AG. Zuvor war sie als Java-Entwicklerin für IT-Consultingunternehmen in Deutschland und in der Schweiz in Projekten für die Automobil- und Flugzeugindustrie, die Finanzindustrie sowie den Bereich öffentlicher Verkehr und Transport (Bahnwesen) tätig. Björn Kasteleiner arbeitet bei der msg systems ag als Senior IT Consultant. Beruflich beschäftigen ihn Themen wie der Aufbau von Cloud-Infrastrukturen oder Softwareentwicklung mit Java. Er tüftelt gerne an Problemen und lernt mit Vergnügen neue Technologien kennen." />
+<meta property="og:description" content="Monitoring mit Prometheus und Grafana bei Systemen unter Last Für die frühzeitige Erkennung und Behebung systemkritischer Probleme, insbesondere bei Systemen unter Last, ist ein gutes Monitoring unerlässlich. Prometheus ist als Zeitreihendatenbank ideal geeignet für das Speichern von für das Monitoring relevanten Metrikdaten, wie CPU-Auslastung, JVM Heap Size und Anzahl an Fehlermeldungen. Die gespeicherten Daten lassen sich mit der von Prometheus zur Verfügung gestellten Abfragesprache PromQL auslesen. Dies ermöglicht dem Team, frühzeitig zu erkennen, wann ein für das System kritischer Schwellenwert überschritten worden ist, und proaktiv zu handeln. Besonders komfortabel und zeitsparend ist für Entwickler und Administratoren die Visualisierung der relevanten Daten in Form von Dashboards. Hierzu bietet sich Grafana mit seiner Schnittstelle zu Prometheus an. Um alle Interessierten über das Überschreiten eines definierten Schwellenwertes zu informieren, können mit Hilfe von Grafana Alert Notifications beispielsweise an eine E-Mail-Adresse oder einen Chatraum versendet werden. Dieser Vortrag führt in das Monitoring mit Prometheus und Grafana ein und zeigt konkrete Einsatzszenarien für eure Vorhaben. Die Folien von Antjes Vortrag gibt’s hier. Fährtenlesen für Microservices: Tracing in der Cloud In verteilten Microservices ist es mitunter schwer, einen Überblick zu erhalten. Wie viel Zeit benötigen die einzelnen Teilschritte eines Aufrufs? An welcher Stelle tritt ein Fehler auf? Warum dauern einzelne Aufrufe länger als andere? In unseren Projekten nutzen wir Tracing als Ergänzung zu Logging und Metriken, um diese Fragen zu beantworten. Tracing hilft, die Laufzeit von Teilschritten im Zusammenhang zu ermitteln, wiederholte Aufrufe zu identifizieren und unsinnige Reihenfolgen aufzudecken. Auch asynchrone Verarbeitung kann visualisiert werden. Insbesondere bei komplexen Zusammenhängen zwischen einzelnen Applikationen unterstützt es bei der Fehlersuche und spart damit Zeit. Der Vortrag zeigt, wie mit OpenTracing und Jaeger vorhandene Spring-Boot-Anwendungen um Tracing erweitert werden. Für HTTP/REST, Datenbanken und Queues existieren bereits vorgefertigte Standard-Instrumentierungen. An anderen Stellen können Aufrufe von Hand instrumentiert werden. Der Vortrag gibt zusätzlich einen Überblick, welche Infrastruktur-Komponenten notwendig sind. Die Folien von Björns Vortrag gibt’s hier. Sprecher Antje Landschulz arbeitet als Software-Entwicklerin im Smart Home-Umfeld bei der Deutschen Telekom AG. Zuvor war sie als Java-Entwicklerin für IT-Consultingunternehmen in Deutschland und in der Schweiz in Projekten für die Automobil- und Flugzeugindustrie, die Finanzindustrie sowie den Bereich öffentlicher Verkehr und Transport (Bahnwesen) tätig. Björn Kasteleiner arbeitet bei der msg systems ag als Senior IT Consultant. Beruflich beschäftigen ihn Themen wie der Aufbau von Cloud-Infrastrukturen oder Softwareentwicklung mit Java. Er tüftelt gerne an Problemen und lernt mit Vergnügen neue Technologien kennen." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Doppelvortrag: Monitoring mit Prometheus/Grafana und Tracing in der Cloud | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Doppelvortrag: Monitoring mit Prometheus/Grafana und Tracing in der Cloud | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    14.02.2019
+  </h2>
+  <h1>Doppelvortrag: Monitoring mit Prometheus/Grafana und Tracing in der Cloud</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="monitoring-mit-prometheus-und-grafana-bei-systemen-unter-last">Monitoring mit Prometheus und Grafana bei Systemen unter Last</h3>
+
+<p>Für die frühzeitige Erkennung und Behebung systemkritischer Probleme, insbesondere bei Systemen unter Last, ist ein gutes Monitoring unerlässlich. Prometheus ist als Zeitreihendatenbank ideal geeignet für das Speichern von für das Monitoring relevanten Metrikdaten, wie CPU-Auslastung, JVM Heap Size und Anzahl an Fehlermeldungen. Die gespeicherten Daten lassen sich mit der von Prometheus zur Verfügung gestellten Abfragesprache PromQL auslesen. Dies ermöglicht dem Team, frühzeitig zu erkennen, wann ein für das System kritischer Schwellenwert überschritten worden ist, und proaktiv zu handeln.</p>
+
+<p>Besonders komfortabel und zeitsparend ist für Entwickler und Administratoren die Visualisierung der relevanten Daten in Form von Dashboards. Hierzu bietet sich Grafana mit seiner Schnittstelle zu Prometheus an. Um alle Interessierten über das Überschreiten eines definierten Schwellenwertes zu informieren, können mit Hilfe von Grafana Alert Notifications beispielsweise an eine E-Mail-Adresse oder einen Chatraum versendet werden.</p>
+
+<p>Dieser Vortrag führt in das Monitoring mit Prometheus und Grafana ein und zeigt konkrete Einsatzszenarien für eure Vorhaben.</p>
+
+<p><a href="/files/Monitoring_Prometheus_Grafana.pdf">Die Folien von Antjes Vortrag gibt’s hier.</a></p>
+
+<h3 id="fährtenlesen-für-microservices-tracing-in-der-cloud">Fährtenlesen für Microservices: Tracing in der Cloud</h3>
+
+<p>In verteilten Microservices ist es mitunter schwer, einen Überblick zu erhalten. Wie viel Zeit benötigen die einzelnen Teilschritte eines Aufrufs? An welcher Stelle tritt ein Fehler auf? Warum dauern einzelne Aufrufe länger als andere?</p>
+
+<p>In unseren Projekten nutzen wir Tracing als Ergänzung zu Logging und Metriken, um diese Fragen zu beantworten. Tracing hilft, die Laufzeit von Teilschritten im Zusammenhang zu ermitteln, wiederholte Aufrufe zu identifizieren und unsinnige Reihenfolgen aufzudecken. Auch asynchrone Verarbeitung kann visualisiert werden. Insbesondere bei komplexen Zusammenhängen zwischen einzelnen Applikationen unterstützt es bei der Fehlersuche und spart damit Zeit.</p>
+
+<p>Der Vortrag zeigt, wie mit OpenTracing und Jaeger vorhandene Spring-Boot-Anwendungen um Tracing erweitert werden. Für HTTP/REST, Datenbanken und Queues existieren bereits vorgefertigte Standard-Instrumentierungen. An anderen Stellen können Aufrufe von Hand instrumentiert werden. Der Vortrag gibt zusätzlich einen Überblick, welche Infrastruktur-Komponenten notwendig sind.</p>
+
+<p><a href="https://speakerdeck.com/bjkastel/fahrtenlesen-fur-microservices-tracing-in-der-cloud">Die Folien von Björns Vortrag gibt’s hier.</a></p>
+
+<h3 id="sprecher">Sprecher</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/antjelandschulz.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Antje Landschulz</strong></p>
+
+<p>arbeitet als Software-Entwicklerin im Smart Home-Umfeld bei der Deutschen Telekom AG. Zuvor war sie als Java-Entwicklerin für IT-Consultingunternehmen in Deutschland und in der Schweiz in Projekten für die Automobil- und Flugzeugindustrie, die Finanzindustrie sowie den Bereich öffentlicher Verkehr und Transport (Bahnwesen) tätig.</p>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/bjoernkasteleiner.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Björn Kasteleiner</strong></p>
+
+<p>arbeitet bei der msg systems ag als Senior IT Consultant. Beruflich beschäftigen ihn Themen wie der Aufbau von Cloud-Infrastrukturen oder Softwareentwicklung mit Java. Er tüftelt gerne an Problemen und lernt mit Vergnügen neue Technologien kennen.</p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java User Group Darmstadt</title>
+    <description>Community der Java Anwender in und um Darmstadt</description>
+    <link>https://www.jug-da.de</link>
+    <atom:link href="https://www.jug-da.de/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>
+          01.07.2026: 11. Darmstädter Barbecue Stammtisch
+          
+        </title>
+        <description>&lt;p&gt;Gemeinsam mit dem &lt;a href=&quot;http://www.it-stammtisch-darmstadt.de/&quot;&gt;IT Stammtisch Darmstadt&lt;/a&gt; laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sponsors/innoq.svg&quot; class=&quot;speakerpic&quot; /&gt;
+&lt;strong&gt;Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit&lt;/strong&gt;, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor &lt;a href=&quot;http://www.innoq.de&quot;&gt;INNOQ&lt;/a&gt;. Vielen Dank dafür. Zwecks der besseren Planung bitten wir um &lt;a href=&quot;#anmeldung&quot;&gt;Anmeldung&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/grillplatz2.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/</guid>
+      </item>
+    
+      <item>
+        <title>
+          21.05.2026: Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines
+          
+            (Thomas Ruhroth)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert.
+Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet.
+In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen.
+Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo sie (unbewusst?) angewendet werden.
+Hinweise&lt;/p&gt;
+
+&lt;p&gt;Dieser Vortrag hat Experimente, die beim zweiten Mal nicht so viel Sinn ergeben. Daher wird empfohlen, den Vortrag nur einmal (und dann mit voller Aufmerksamkeit) zu hören.
+Bitte Stift und Papier mitbringen&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/thomasruhroth.png&quot; class=&quot;speakerpic&quot; alt=&quot;Thomas Ruhroth&quot; title=&quot;Thomas Ruhroth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thomas Ruhroth&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ist Principal IT Consultant bei msg systems ag. In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschiedenen Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/05/Lesbarer-Code/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/05/Lesbarer-Code/</guid>
+      </item>
+    
+      <item>
+        <title>
+          19.03.2026: Let’s create a tiny AI library together
+          
+            (Johannes Bechberger)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;We all want to it. When you want to integrate AI into your tools, what do you do? You add langchain4j or spring-ai and run with it. But do you know how these libraries interact with the AI service providers or your local ollama instance?&lt;/p&gt;
+
+&lt;p&gt;These libraries aren’t magic, so let’s peek behind the curtain and write a tiny AI library together. This way you’ll discover the REST APIs that power it all.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Der Vortrag wird auf Deutsch stattfinden. =&amp;gt; &lt;a href=&quot;https://github.com/parttimenerd/tiny-llm-library-demo&quot;&gt;Weitere Informationen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/johannesbechberger.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Johannes Bechberger&quot; title=&quot;Johannes Bechberger&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Johannes Bechberger&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/johannes-bechberger&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/johannes-bechberger&lt;/a&gt;)
+ is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP in 2022 after two years of research studies at the KIT in the field of Java security analyses. His work today is comprised of many open-source contributions and his blog (&lt;a href=&quot;https://mostlynerdless.de/&quot;&gt;https://mostlynerdless.de/&lt;/a&gt;), where he writes regularly on in-depth profiling and debugging topics, and of working on his JEP Candidate 435 to add a new profiling API to the OpenJDK.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsor&quot;&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;Die Firma &lt;a href=&quot;https://www.qaware.de/&quot;&gt;QAware&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.qaware.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/qaware.png&quot; alt=&quot;QAware Logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Mar 2026 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/03/Tiny-AI-Library/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/03/Tiny-AI-Library/</guid>
+      </item>
+    
+      <item>
+        <title>
+          19.02.2026: Drei Vorträge: &apos;Die Katastrophe im Release - wie rette ich das nächste Fuck-Up-Release&apos;, &apos;Antora &amp; Vale: How To Write Better Documentation and Bring Balance to the Force&apos; und &apos;Clean Architecture: Fundament wartbarer Software oder nur ein Hype?&apos;
+          
+            (Christoph Gerlach, Alexander Eimer, Fedor Zholud)
+          
+        </title>
+        <description>&lt;h2 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h2&gt;
+
+&lt;h3 id=&quot;die-katastrophe-im-release---wie-rette-ich-das-nächste-fuck-up-release&quot;&gt;Die Katastrophe im Release - wie rette ich das nächste Fuck-Up-Release&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Christoph Gerlach&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Die neue Version wird aufgespielt und … Die Applikation startet nicht. Prod ist down und die User warten. Was jetzt? Fixen oder Rollback? Was ist jetzt der richtige Weg?&lt;/p&gt;
+
+&lt;p&gt;Auch unerfahrenere Entwickler können mithilfe von verschiedensten Maßnahmen wieder die Oberhand gewinnen. So können Handlungsweisen des Bevölkerungsschutzes helfen den Incident einzudämmen. Sei es mit der Struktur des PDCA-Ansatzes oder in Form von Akronymen die Standardhandlungsabläufe abbilden.&lt;/p&gt;
+
+&lt;p&gt;Zu einem besseren Handling von solchen akuten Situationen sind jedoch nicht nur Taktiken angemessen. Eine gelebte Fehlerkultur unterstützt die Vorbereitung und Post Mortems helfen bei einer strukturierten Nachbereitung von Incidents.&lt;/p&gt;
+
+&lt;p&gt;Der Vortrag soll zeigen, dass nicht nur gute Vorbereitung Fuck-Up-Releases verhindert, sondern, dass auch die richtige Handlungsweise während des Incidents hilft Katastrophen zu vermeiden. Sei es nur Ruhe in Stresssituationen zu bewahren oder sich die Notwendigkeit eines Rollbacks einzugestehen.&lt;/p&gt;
+
+&lt;h3 id=&quot;antora--vale-how-to-write-better-documentation-and-bring-balance-to-the-force&quot;&gt;Antora &amp;amp; Vale: How To Write Better Documentation and Bring Balance to the Force&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Alexander Eimer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Zugängliche Dokumentation macht aus deinen Produktnutzern effiziente Power-User und ist somit der wichtigste Multiplikator für jede Technologie. Doch wie schaffst du es, dass die Dokumentation nicht zur Last, sondern zur wahren Stärke wird?&lt;/p&gt;
+
+&lt;p&gt;In diesem Vortrag erfährst du, wie du eine Dokumentationsarchitektur entwickelst, die mit deinem System mitwächst und von deinen Kunden wirklich genutzt wird. Ich teile meine Erfahrungen aus der Praxis, wo ich eine solche Architektur erfolgreich in einem großen Enterprise-Umfeld etabliert habe.&lt;/p&gt;
+
+&lt;p&gt;Zuerst beleuchten wir, welche Arten von Dokumentation es gibt und wie du sie mithilfe von Frameworks wie Diataxis und Arc42 logisch strukturierst.&lt;/p&gt;
+
+&lt;p&gt;Danach tauchen wir in den praktischen Teil ein: Du lernst, wie du mit Tools wie Antora Dokumentationen aus verschiedenen Repositories zu einer einzigen Seite bündelst, suchbare Inhalte erstellst und mit AsciiDoc und dem Linter Vale für einen einheitlichen Stil sorgst.&lt;/p&gt;
+
+&lt;p&gt;Nach dieser Session hast du konkrete Methoden und Tools an der Hand, um die Dokumentation in deinem Team zu revolutionieren und so die Effizienz der Anwender zu steigern.&lt;/p&gt;
+
+&lt;h3 id=&quot;clean-architecture-fundament-wartbarer-software-oder-nur-ein-hype&quot;&gt;Clean Architecture: Fundament wartbarer Software oder nur ein Hype?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Fedor Zholud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Viele Softwareprojekte starten vielversprechend – neue Features entstehen schnell, das Team ist motiviert, die Architektur wirkt übersichtlich. Doch nach einigen Monaten oder Jahren kippt die Situation: Jede Änderung scheint riskant, kleine Anpassungen ziehen unerwartete Seiteneffekte nach sich, und neue Teammitglieder verlieren schnell den Überblick. Der Grund liegt meist in einer schleichenden architektonischen Erosion. Fachlogik, Frameworks und technische Infrastruktur vermischen sich zunehmend, Verantwortlichkeiten verschwimmen, und Abhängigkeiten wachsen unkontrolliert. Dadurch wird die Software schwer testbar, kaum erweiterbar und immer teurer im Betrieb und in der Weiterentwicklung.&lt;/p&gt;
+
+&lt;p&gt;Clean Architecture bietet einen strukturierten Ansatz, um diesem Problem entgegenzuwirken. Sie stellt die Fachlogik in den Mittelpunkt, kehrt Abhängigkeiten bewusst um und trennt klar zwischen Kern und Infrastruktur. Dadurch bleibt der Kern unabhängig von Frameworks, Datenbanken oder UI-Technologien. In diesem Vortrag zeige ich anhand von praktischen Beispielen, wie Clean Architecture in der Praxis umgesetzt werden kann, wo sie echten Mehrwert bietet und wo sie an ihre Grenzen stößt. So wird deutlich, wann Clean Architecture tatsächlich das Fundament wartbarer Software ist – und wann sie zum Overengineering führt.&lt;/p&gt;
+
+&lt;h2 id=&quot;sprecher&quot;&gt;Sprecher&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/christophgerlach.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Christoph Gerlach&quot; title=&quot;Christoph Gerlach&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Christoph Gerlach&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;arbeitet seit sechs Jahren als Software Engineer bei der rewe digital GmbH im Bereich der Logisitik. Hier nimmt er vor allem Aufgaben in der Entwicklung und der Software Architektur wahr. Sein Werdegang zeichnet sich weiterhin mit einer engen Verbundenheit mit dem nicht polizeilichen Bevölkerungsschutz aus. So hat er ein abgeschlossenes Studium zum Rettungsingenieur als auch langjährige Erfahrung im Katastrophenschutz. Mit dieser raren Verbindung versucht er alltägliche Probleme mit dem Besten aus beiden Welten zu beheben.&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/alexandereimer.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Alexander Eimer&quot; title=&quot;Alexander Eimer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alexander Eimer&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/alexander-eimer&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/alexander-eimer&lt;/a&gt; | &lt;a href=&quot;https://github.com/https://github.com/aeimer/talk-history&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-github&quot;&gt;&lt;/i&gt; https://github.com/aeimer/talk-history&lt;/a&gt; | &lt;a href=&quot;https://eimer.it&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://eimer.it&lt;/a&gt;)
+ ist Senior Software Engineer bei der QAware GmbH und ein Experte im Bereich von Plattformentwicklung. Er ist leidenschaftlich daran interessiert, Cloud-Plattformen zu bauen, die ein außergewöhnliches Entwicklererlebnis bieten und seinen Kollegen ein Lächeln ins Gesicht zaubern.&lt;/p&gt;
+
+&lt;p&gt;Mit Erfolgen im Aufbau sicherer Internal Developer Platforms (IDPs) weiß er, wie man Entwicklern “goldene Pfade” bereitet. Indem er angemessene Dokumentationen für diese IDPs bereitstellt, ermöglicht er den Nutzern, ihre Anwendungen schnell und sicher zu implementieren.&lt;/p&gt;
+
+&lt;p&gt;Bei der Entwicklung von Kundensystemen konnte er Erfahrung sammeln wie Dokumentation zu organisieren und strukturieren ist. Der Umgang mit verschiedenen Dokumentationsquellen und dennoch eine gute Struktur beizubehalten, erforderte sowohl ein hervorragendes technisches Fundament als auch Wissen darüber, wie man Dokumentation auf die richtige Weise erstellt.&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/fedorzholud.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Fedor Zholud&quot; title=&quot;Fedor Zholud&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fedor Zholud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;arbeitet bei MHP – A Porsche Company und verfügt über mehrere Jahre Berufserfahrung in der Java/Kotlin Backend Entwicklung sowie im AWS Serverless Umfeld. Er hat Clean Architecture nicht nur in klassischen Microservices, sondern auch in Serverless-Anwendungen erfolgreich umgesetzt. Genau das motiviert ihn, seine Erfahrungen mit anderen Entwicklerinnen und Entwicklern zu teilen und darüber zu sprechen. Besonders begeistert ihn das Erforschen verschiedener Architekturansätze und -muster, das Mentoring von Kolleginnen und Kollegen sowie der Wissensaustausch im Team. Komplexe Probleme einfach und verständlich zu lösen, ist für ihn nicht nur eine Fähigkeit, sondern auch eine Leidenschaft.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;Cosee&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;&lt;img src=&quot;/images/sponsors/cosee.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Feb 2026 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/02/JavaLand-Newcomer/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/02/JavaLand-Newcomer/</guid>
+      </item>
+    
+      <item>
+        <title>
+          22.01.2026: Domain Rediscovery Patterns für Legacy Code
+          
+            (Richard Gross)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Lange bevor das Programmieren losgeht stehen Legacy-Code-Projekte bereits vor großen Problemen. Es ist oft unklar welche Funktionen implementiert sind, wo sie sich befinden und welchen Reifegrad sie haben. Kurz gesagt, es besteht eine Lücke zwischen der Geschäftsdomäne und dem, was im Code implementiert ist.&lt;/p&gt;
+
+&lt;p&gt;In Projekten auf der grünen Wiese verwenden wir Tools und Patterns des Domain-Driven Design, damit diese Lücke nicht entsteht. Ein zusätzlicher Satz von Patterns wird jedoch benötigt, wenn wir mit Legacy-Code beginnen.&lt;/p&gt;
+
+&lt;p&gt;In diesem Vortrag werden wir die Kernmuster zur Wiederentdeckung der Domäne untersuchen. Diese Patterns gehen über das bloße Entschlüsseln der Funktionalität des Codes hinaus. Sie bieten Strategien, um die zugrunde liegenden Konzepte, Verhaltensweisen und Beziehungen in der Domäne zu verstehen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nach einer Pause wird es noch einen Lightning Talk von Richard geben:&lt;/p&gt;
+
+&lt;h3 id=&quot;destructoring-ist-die-zukunft-von-javas-encapsulation&quot;&gt;Destructoring ist die Zukunft von Javas Encapsulation&lt;/h3&gt;
+
+&lt;p&gt;Dekonstruktion – die Zerlegung eines Objekts in seine Bestandteile – ist der Schlüssel, damit Java Kapselung und Invarianten zuverlässig wahren kann. Dieses scheinbare Paradoxon lösen wir im Vortrag auf, indem wir uns vergangene und kommende Sprach- und Plattformfeatures im JDK ansehen.&lt;/p&gt;
+
+&lt;p&gt;Die klassische Java-Serialisierung bricht Kapselung: Sie greift direkt auf private Felder zu, umgeht damit Konstruktoren und die dort verankerten Prüfungen. Ursache ist, dass Dekonstruktion und Rekonstruktion bislang keine first-class Citizens im JDK waren.&lt;/p&gt;
+
+&lt;p&gt;Genau hier setzt aktuelle Arbeit im Rahmen von JDK Project Amber an – unter dem Arbeitstitel „Derived Record/Class Creation“. Der Ansatz erlaubt es, explizit festzulegen, wie Objekte de- und rekonstruiert werden. Damit lässt sich künftig nicht nur Serialisierung sicherer und robuster gestalten; wir gewinnen auch „Withers“ (zielgerichtete, unveränderliche Kopien mit einzelnen geänderten Komponenten) für Records sowie Pattern Matching, das über reine Record-Patterns hinaus auf normale Klassen erweitert wird.&lt;/p&gt;
+
+&lt;p&gt;Unter diesen Voraussetzungen lohnt sich ein genauer Blick: Was ist schon da, was kommt als Nächstes – und was bedeutet das für unsere tägliche Java-Praxis?&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/richardgross.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Richard Gross&quot; title=&quot;Richard Gross&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Richard Gross&lt;/strong&gt;
+(&lt;a href=&quot;https://bsky.app/profile/richargh.de&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-bluesky&quot;&gt;&lt;/i&gt; richargh.de&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/richargh&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/richargh&lt;/a&gt;)
+ ist IT-Archäologe bei MaibornWolff und verfügt über mehr als zehn Jahre Sanierungserfahrung. Sein Fokus liegt auf hexagonalen Architekturen, Hypermedia-APIs, TestDSLs und der ausdrucksstarken und eindeutigen Modellierung der Domäne als Code. Er beherrscht TDD, BDD, DDD, entkoppeltes Design und sogar Praktiken, die keine zwei D’s beinhalten. Er hat auch das Open-Source-Projekt CodeCharta geformt, das es auch Nicht-Entwicklern ermöglicht, die Qualität ihrer Software zu greifen.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.maibornwolff.de/&quot;&gt;MaibornWolff&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.maibornwolff.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/maibornwolff.svg&quot; alt=&quot;logo&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Jan 2026 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/01/Domain-Rediscovery/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/01/Domain-Rediscovery/</guid>
+      </item>
+    
+      <item>
+        <title>
+          11.12.2025: 2 Vorträge: 30 Years of Java - Lessons Learned + LLMs lieben Java
+          
+            (Adam Bien)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;h3 id=&quot;30-years-of-java---lessons-learned&quot;&gt;30 Years of Java - Lessons Learned&lt;/h3&gt;
+
+&lt;p&gt;Anhand von Anekdoten aus dem wirklichen Leben betrachtet Adam in diesem Rückblick die wichtigsten Meilensteine von Java. Dabei stellt er die Entwicklung von Unternehmensarchitekturen der technologischen Entwicklung von Java gegenüber.&lt;/p&gt;
+
+&lt;p&gt;Von Layering, N-Tier, Multi-Channel, Shared-Nothing über Plug-ins, RCP, Container, Microkernel, OSGi, SOA, ROA, TDD, DDD, Hexagonal-Architekturen, Twelve-Factor-App, Serverless, Serviceful bis hin zu Reactive, Unikernel und Sidecars. Was können wir aus der Vergangenheit lernen und wie sieht die Zukunft aus?&lt;/p&gt;
+
+&lt;p&gt;Fragen der Teilnehmenden sind sehr willkommen.&lt;/p&gt;
+
+&lt;h3 id=&quot;nach-30-jahren-llms-lieben-java&quot;&gt;Nach 30 Jahren: LLMs lieben Java.&lt;/h3&gt;
+
+&lt;p&gt;Drei Jahrzehnte der Standardisierung durch JSRs, JEPs und MicroProfile-APIs haben Java zur produktivsten Sprache für die LLM-gestützte Entwicklung gemacht. In dieser Session wird anhand von Live-Coding mit Claude Code und Kiro gezeigt, warum das so ist.&lt;/p&gt;
+
+&lt;p&gt;Themen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kürzere Prompts durch Java-Namenskonventionen und etablierte Idiome&lt;/li&gt;
+  &lt;li&gt;Generierung idiomatischen, schönen Codes und kontinuierliche Verbesserung der Codequalität
+Strukturelle Konsistenz mit der BCE-Architektur&lt;/li&gt;
+  &lt;li&gt;Spec-Driven Development mit LLMs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fragen sind auch hier nicht nur willkommen, sie sind essenziell wichtig.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/adambien.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Adam Bien&quot; title=&quot;Adam Bien&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adam Bien&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/adam-bien&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/adam-bien&lt;/a&gt; | &lt;a href=&quot;https://adam-bien.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://adam-bien.com/&lt;/a&gt;)
+ ist Entwickler, Consultant, manchmal Konferenzsprecher, Autor und Java / Jakarta (SE/EE) / MicroProfile Enthusiast und arbeitet mit Java seit JDK 1.0, JavaScript seit LiveScript und hat immer noch sehr viel Spass am Programmieren. Adam veranstaltet regelmässig Java EE / WebStandards / JavaScript Workshops am Flughafen München (http://airhacks.com).&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;Die &lt;a href=&quot;https://h-da.de/&quot;&gt;h_da&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://h-da.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/hda.svg&quot; alt=&quot;logo&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Dec 2025 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2025/12/30-Jahre-Java/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/12/30-Jahre-Java/</guid>
+      </item>
+    
+      <item>
+        <title>
+          20.11.2025: Kickstart your migrations - Die Grundlagen des Migration Engineering mit OpenRewrite
+          
+            (Merlin Bögershausen)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;In den letzten Jahren hat sich die Entwicklung im Java-Ökosystem beschleunigt. Ob Java SE, Jakarta EE oder Spring Boot – die Releases und End-of-Support-Meldungen jagen sich gegenseitig. Die Anzahl der notwendigen Migrationen explodiert, und der Feature-Druck lässt dabei nicht nach.&lt;/p&gt;
+
+&lt;p&gt;Mit dem Open-Source-Tool OpenRewrite lassen sich Migrationen automatisiert und skalierbar auf Projekte anwenden. Die große und wachsende Anzahl an vorgefertigten Migrationen bietet Lösungen für viele Situationen. Zusätzliche Anforderungen lassen sich dank der Konfigurierbarkeit und Kombinierbarkeit bestehender Migrationen schnell umsetzen. Komplexere Anpassungen sind dank der direkten Integration von Refaster-Vorlagen einfach zu realisieren.&lt;/p&gt;
+
+&lt;p&gt;In dieser Session werden der Funktionsumfang und die Integration von OpenRewrite in bestehende Projekte behandelt. Auch die Grundlagen der testgetriebenen Entwicklung von Migrationen werden behandelt. Sowie exemplarische Migrationen durchführen. Die Teilnehmer dieser Session lernen die Grundlagen von OpenRewrite kennen und erhalten wertvolle Tipps für den regelmäßigen Einsatz.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/merlinboegershausen.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Merlin Bögershausen&quot; title=&quot;Merlin Bögershausen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Merlin Bögershausen&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/merlin-boegershausen&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/merlin-boegershausen&lt;/a&gt; | &lt;a href=&quot;https://mboegie.dev/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://mboegie.dev/&lt;/a&gt;)
+ ist Softwareingenieur, Architekt und Oracle ACE mit über 10 Jahren Erfahrung in verschiedenen Bereichen und Sprachen. Als Migration Engineer hilft er Teams und Einzelpersonen bei der Nutzung neuer Funktionen und unterstützt sie bei der Migration. Neben der Entwicklung, dem Halten von Vorträgen auf Konferenzen und seiner Rolle als Vater bringt er Interessierten, das Landen von Segelflugzeugen beizubringen (ja, ich bin Fluglehrer!) und spielt Volleyball.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dicos.de/&quot;&gt;Dicos&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dicos.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/dicos.svg&quot; alt=&quot;logo&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Nov 2025 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2025/11/OpenRewrite/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/11/OpenRewrite/</guid>
+      </item>
+    
+      <item>
+        <title>
+          08.11.2025: Global Day of Code Retreat Frankfurt
+          
+        </title>
+        <description>&lt;h3 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h3&gt;
+
+&lt;p&gt;Sei dabei beim &lt;strong&gt;Global Day of Code Retreat 2025&lt;/strong&gt; in Frankfurt und erlebe einen inspirierenden Tag voller Coding und Zusammenarbeit! Der Global Day of Code Retreat ist eine weltweite Veranstaltung für Entwickler:innen aller Erfahrungsstufen, die ihre Programmierfähigkeiten in einem intensiven und lehrreichen Umfeld verfeinern möchten.&lt;/p&gt;
+
+&lt;p&gt;An diesem Tag hast du die Gelegenheit, an mehreren Sessions von je 45 Minuten teilzunehmen. In kleinen Teams (Pair Programming) wirst du in jeder Session das gleiche Problem lösen, jedoch mit unterschiedlichen Ansätzen und Techniken. Der Fokus liegt auf &lt;strong&gt;sauberem Code&lt;/strong&gt;, &lt;strong&gt;Testbarkeit&lt;/strong&gt; und &lt;strong&gt;Teamwork&lt;/strong&gt; – das perfekte Umfeld, um dich weiterzuentwickeln und neue Kontakte in der lokaler Entwickler:innen-Community zu knüpfen.&lt;/p&gt;
+
+&lt;h4 id=&quot;details&quot;&gt;Details:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Datum&lt;/strong&gt;: 8. November 2025&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Uhrzeit&lt;/strong&gt;: 9:00 Uhr bis 17:00 Uhr&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ort&lt;/strong&gt;: ING, 13. Stock, Theodor-Heuss-Allee 2, 60486 Frankfurt am Main&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Teilnehmeranzahl&lt;/strong&gt;: Max. 30&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Voraussetzungen&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bringe deinen eigenen Laptop mit, und stelle sicher, dass du ein Setup zum Entwickeln hast (IDE/Editor, Git, etc.). Wir empfehlen einen Gast-Account anzulegen, damit du ungestört und sicher arbeiten kannst.
+Vorkenntnisse in mindestens einer Programmiersprache sind erforderlich.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Kosten&lt;/strong&gt;: Kostenlos, Snacks und Getränke inklusive!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Verhaltensregeln&lt;/strong&gt;: https://andrena.github.io/gdcr2024-darmstadt/code-of-conduct.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;was-dich-erwartet&quot;&gt;Was dich erwartet:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6 Sessions &lt;strong&gt;Pair Programming&lt;/strong&gt; mit verschiedenen Partnern&lt;/li&gt;
+  &lt;li&gt;Fokus auf der &lt;strong&gt;Verbesserung deiner Programmierfähigkeiten&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Möglichkeit, neue &lt;strong&gt;Konzepte&lt;/strong&gt; und &lt;strong&gt;Programmiersprachen&lt;/strong&gt; auszuprobieren&lt;/li&gt;
+  &lt;li&gt;Networking mit der &lt;strong&gt;lokalen Entwickler:innen-Community&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Egal, ob du bereits viel Erfahrung in der Entwicklung hast oder gerade erst anfängst – beim Global Day of Code Retreat geht es um gemeinsames Lernen und gegenseitige Unterstützung. Die Atmosphäre ist entspannt, aber motivierend, und es geht vor allem darum, Spaß beim Programmieren zu haben.&lt;/p&gt;
+
+&lt;p&gt;Melde dich jetzt an und sichere dir deinen Platz!&lt;/p&gt;
+
+&lt;p&gt;Mehr Informationen unter: &lt;a href=&quot;https://coderetreat.org&quot;&gt;coderetreat.org&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Nov 2025 09:00:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2025/11/global-day-of-code-retreat/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/11/global-day-of-code-retreat/</guid>
+      </item>
+    
+      <item>
+        <title>
+          23.10.2025: What the CRaC - Superfast JVM startup
+          
+            (Gerrit Grunwald)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;In a world where microservices are more and more a standard architecture for Java based applications running in the cloud, the JVM warmup time can become a limitation. Especially when you look at spinning up new instances of an app as response to changes in load, the warmup time can be a problem. Native images are one solution to solve these problems because their statically ahead of time compiled code simply doesn’t have to warmup and so has short startup time. But even with the shorter startup time and smaller footprint it doesn’t come without a drawback. The overall performance might be slower because of the missing JIT optimisations at runtime. There is a new OpenJDK project called CRaC (Coordinated Restore at Checkpoint) which goal it is to address the JVM warmup problem with a different approach. The idea is to take a snapshot of the running JVM, store it in files and restore the JVM at a later point in time (or even on another machine).&lt;/p&gt;
+
+&lt;p&gt;This session will give you a short overview of the CRaC project and shows some results from a proof of concept implementation.&lt;/p&gt;
+
+&lt;p&gt;⚠️ Der Vortrag ist auf Deutsch geplant.&lt;/p&gt;
+
+&lt;p&gt;⚠️ The lecture is planned in German. However, it can also be held in English if there is interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/gerritgrunwald.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Gerrit Grunwald&quot; title=&quot;Gerrit Grunwald&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;
+(&lt;a href=&quot;https://mastodon.social/@hansolo_&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@hansolo_&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/gerritgrunwald&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/gerritgrunwald&lt;/a&gt; | &lt;a href=&quot;http://www.harmonic-code.org&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; http://www.harmonic-code.org&lt;/a&gt;)
+ is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon).
+Gerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.andrena.de/&quot;&gt;Andrena&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.andrena.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/andrena.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2025 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2025/10/CRaC-JVM-startup/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/10/CRaC-JVM-startup/</guid>
+      </item>
+    
+      <item>
+        <title>
+          30.09.2025: 10. Darmstädter Barbecue Stammtisch
+          
+        </title>
+        <description>&lt;p&gt;Gemeinsam mit dem &lt;a href=&quot;http://www.it-stammtisch-darmstadt.de/&quot;&gt;IT Stammtisch Darmstadt&lt;/a&gt; laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sponsors/innoq.svg&quot; class=&quot;speakerpic&quot; /&gt;
+&lt;strong&gt;Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit&lt;/strong&gt;, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor &lt;a href=&quot;http://www.innoq.de&quot;&gt;INNOQ&lt;/a&gt;. Vielen Dank dafür. Zwecks der besseren Planung bitten wir um &lt;a href=&quot;#anmeldung&quot;&gt;Anmeldung&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/grillplatz2.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Sep 2025 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2025/09/Zehnter-Barbecue-Stammtisch/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/09/Zehnter-Barbecue-Stammtisch/</guid>
+      </item>
+    
+      <item>
+        <title>
+          27.08.2025: Intelligente Anwendungen mit Spring AI
+          
+            (Patrick Baumgartner)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Der Aufstieg der KI hat unsere Welt revolutioniert und unzählige neue Möglichkeiten eröffnet. Obwohl das Angebot an KI-Lösungen immer noch wächst, können wir jetzt viel schneller Anwendungen mit fortgeschrittenen Sprachfähigkeiten entwickeln. In diesem Talk werden wir uns mit verschiedenen Sprachmodellen (LLMs) beschäftigen und ihre Anwendung in verschiedenen Szenarien wie Chatinteraktion, Bilderzeugung und Audiotranskription untersuchen. Anhand des Spring-AI-Projekts werden wir verschiedene KI-Modelle und ihre Funktionalitäten kennenlernen und ihre praktische Integration im Unternehmensumfeld betrachten.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/patrickbaumgartner.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Patrick Baumgartner&quot; title=&quot;Patrick Baumgartner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Patrick Baumgartner&lt;/strong&gt;
+(&lt;a href=&quot;https://mastodon.social/@patbaumgartner&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@patbaumgartner&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/patbaumgartner&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/patbaumgartner&lt;/a&gt; | &lt;a href=&quot;https://42talents.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://42talents.com/&lt;/a&gt;)
+ ist Java Champion und arbeitet als passionierter Technical Agile Coach, Software Crafter und Trainer bei 42talents. Seine Berufung ist es, die Arbeitswelt in der IT zu verbessern, da es bekanntlich nicht nur um Code, sondern um Menschen geht. In der Software-Community engagiert er sich zudem in Themen wie agile Softwareentwicklung, Software Craft und Testing, Graphen und NoSQL Datenbanken sowie alles rund um Java und Spring.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsoren&quot;&gt;Sponsoren&lt;/h2&gt;
+
+&lt;p&gt;Die Firma &lt;a href=&quot;https://www.exxcellent.de/&quot;&gt;eXXcellent solutions&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.exxcellent.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/exxcellent.png&quot; alt=&quot;eXXcellent Logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Aug 2025 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2025/08/Spring-AI/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/08/Spring-AI/</guid>
+      </item>
+    
+      <item>
+        <title>
+          24.07.2025: Dev Env Reloaded - Die lokale Entwicklungsumgebung neu gedacht
+          
+            (Sandra Parsick)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Yeah, eine neue Kollegin kommt ins Team. Mäh, das Onboarding wird wieder ewig dauern. Yeah, du bekommst einen neuen Arbeitslaptop. Mäh, das Aufsetzen wird wieder ewig dauern. Yeah, cool, ich darf einen neuen Technologiestack benutzen. Mäh, wie bekomme ich das lokal mit meinem bisherigen Stack verheiratet.&lt;/p&gt;
+
+&lt;p&gt;Situationen, die jede Entwicklerin innerlich zusammen zucken lassen. Oft behilft sich das Team mit Dokumentation, die nicht immer aktuell ist oder für neue Kontexte gar nicht vorhanden ist.&lt;/p&gt;
+
+&lt;p&gt;Dieser Vortrag stellt anhand eines gemischten Technologiestacks (Java und JavaScript) vor, wie das Team, mit bestehendem Tooling aus dem jeweiligen Stack, die Schmerzen verkleinern kann. Ausgehend davon zeigt es, wie neue Werkzeuge wie Devcontainer (basierend auf Container) und Devshell (basierend auf Nix) lokale Entwicklungsumgebungen schmerzfrei pflegbar machen können.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/sandraparsick.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Sandra Parsick&quot; title=&quot;Sandra Parsick&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sandra Parsick&lt;/strong&gt;
+(&lt;a href=&quot;https://mastodon.social/@sparsick&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@sparsick&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/sandra-parsick&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/sandra-parsick&lt;/a&gt; | &lt;a href=&quot;https://www.sandra-parsick.de/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://www.sandra-parsick.de/&lt;/a&gt;)
+ ist Java Champion und ist als freiberufliche Softwareentwicklerin und Consultant im Java-Umfeld tätig. Seit 2008 beschäftigt sie sich mit agiler Softwareentwicklung in verschiedenen Rollen. Ihre Schwerpunkte liegen im Bereich der Java Enterprise Anwendungen, Cloud und in der Automatisierung von Softwareentwicklungsprozessen. Darüber schreibt sie gerne Artikel und spricht gerne auf Konferenzen. In ihrer Freizeit engagiert sie sich in verschiedenen Programmkomitees und Community-Gruppen.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;Cosee&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;&lt;img src=&quot;/images/sponsors/cosee.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Jul 2025 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2025/07/dev-env-reloaded/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2025/07/dev-env-reloaded/</guid>
+      </item>
+    
+  </channel>
+</rss>

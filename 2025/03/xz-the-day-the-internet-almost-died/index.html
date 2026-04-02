@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="XZ: The day the Internet (almost) died Abstract A curious blip in a timing test made Andres Freund (a PostgreSQL developer) raise an eyebrow and investigate. Little did he know he would uncover one of the most elaborate hacking attempts known to date using an open source project. A team of Russian hackers had been working for over a year on infiltrating an open source project called XZ utils (also known as LZMA utils). They came eerily close to having a compromised version shipped as part of the ‘stable’ releases of various linux distributions, including debian. You know: The stuff that 90% of the internet runs on. It would have allowed the hackers to log in as root to virtually all machines running linux and having ssh open, anywhere on the planet. This talk is for the programmers. We’ll show you exactly how the hackers compromised XZ, and which James Bond-like shenanigans they used to mislead the maintainer. Can you spot the error in a pull request that was put there intentionally to disable a security feature? Do you know how one sneaks a binary executable into a project build, when linux maintainers ordinarily demand all can be built from source? As maintainers of Lombok, we’ll also give some advice to those who maintain or rely on open source software. WARNING: You will leave the room in awe of the games the attackers played. You will be scared witless too; how close we came to disaster and how none of the current safety measures that aim to prevent supply side attacks would have been able to stop this attack. Speakers Reinier Zwitserloot is co-founder and development lead at Zorg op Orde, helping general practitioners, bridging the gap between medical researchers and the waiting room. Together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennial. Roel Spilker is a technology evangelist at TOPdesk. He’s been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennial. Java build tooling could be so much better! Abstract The Java language is known to be fast, safe, and easy, but Java build tools like Maven or Gradle sometimes don’t quite live up to that standard. This talk will explore what could be: where current Java build tools fall behind modern build tools in other communities, in performance, extensibility, and ease of getting started. We will end with a demonstration of an experimental build tool “Mill” that makes use of these ideas, proving out the idea that Java build tooling has the potential to be much faster, safer, and easier than it is today. Speaker Haoyi Li ( lihaoyi.com | in/haoyi-li-3b3291182 | lihaoyi | https://www.lihaoyi.com/) graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more. Sponsor Die Firma QAware stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="XZ: The day the Internet (almost) died Abstract A curious blip in a timing test made Andres Freund (a PostgreSQL developer) raise an eyebrow and investigate. Little did he know he would uncover one of the most elaborate hacking attempts known to date using an open source project. A team of Russian hackers had been working for over a year on infiltrating an open source project called XZ utils (also known as LZMA utils). They came eerily close to having a compromised version shipped as part of the ‘stable’ releases of various linux distributions, including debian. You know: The stuff that 90% of the internet runs on. It would have allowed the hackers to log in as root to virtually all machines running linux and having ssh open, anywhere on the planet. This talk is for the programmers. We’ll show you exactly how the hackers compromised XZ, and which James Bond-like shenanigans they used to mislead the maintainer. Can you spot the error in a pull request that was put there intentionally to disable a security feature? Do you know how one sneaks a binary executable into a project build, when linux maintainers ordinarily demand all can be built from source? As maintainers of Lombok, we’ll also give some advice to those who maintain or rely on open source software. WARNING: You will leave the room in awe of the games the attackers played. You will be scared witless too; how close we came to disaster and how none of the current safety measures that aim to prevent supply side attacks would have been able to stop this attack. Speakers Reinier Zwitserloot is co-founder and development lead at Zorg op Orde, helping general practitioners, bridging the gap between medical researchers and the waiting room. Together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennial. Roel Spilker is a technology evangelist at TOPdesk. He’s been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennial. Java build tooling could be so much better! Abstract The Java language is known to be fast, safe, and easy, but Java build tools like Maven or Gradle sometimes don’t quite live up to that standard. This talk will explore what could be: where current Java build tools fall behind modern build tools in other communities, in performance, extensibility, and ease of getting started. We will end with a demonstration of an experimental build tool “Mill” that makes use of these ideas, proving out the idea that Java build tooling has the potential to be much faster, safer, and easier than it is today. Speaker Haoyi Li ( lihaoyi.com | in/haoyi-li-3b3291182 | lihaoyi | https://www.lihaoyi.com/) graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more. Sponsor Die Firma QAware stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Double feature 'XZ: The day the Internet (almost) died' & 'Java build tooling could be so much better!' | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Double feature 'XZ: The day the Internet (almost) died' & 'Java build tooling could be so much better!' | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    25.03.2025
+  </h2>
+  <h1>Double feature 'XZ: The day the Internet (almost) died' & 'Java build tooling could be so much better!'</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="xz-the-day-the-internet-almost-died">XZ: The day the Internet (almost) died</h2>
+
+<h3 id="abstract">Abstract</h3>
+
+<p>A curious blip in a timing test made Andres Freund (a PostgreSQL developer) raise an eyebrow and investigate. Little did he know he would uncover one of the most elaborate hacking attempts known to date using an open source project.</p>
+
+<p>A team of Russian hackers had been working for over a year on infiltrating an open source project called XZ utils (also known as LZMA utils). They came eerily close to having a compromised version shipped as part of the ‘stable’ releases of various linux distributions, including debian. You know: The stuff that 90% of the internet runs on. It would have allowed the hackers to log in as root to virtually all machines running linux and having ssh open, anywhere on the planet.</p>
+
+<p>This talk is for the programmers. We’ll show you exactly how the hackers compromised XZ, and which James Bond-like shenanigans they used to mislead the maintainer. Can you spot the error in a pull request that was put there intentionally to disable a security feature? Do you know how one sneaks a binary executable into a project build, when linux maintainers ordinarily demand all can be built from source?</p>
+
+<p>As maintainers of Lombok, we’ll also give some advice to those who maintain or rely on open source software.</p>
+
+<p>WARNING: You will leave the room in awe of the games the attackers played. You will be scared witless too; how close we came to disaster and how none of the current safety measures that aim to prevent supply side attacks would have been able to stop this attack.</p>
+
+<h3 id="speakers">Speakers</h3>
+
+<p><img src="/images/speaker/RoelReinier.jpg" class="speakerpic" alt="Reinier Zwitserloot + Roel Spilker" title="Reinier Zwitserloot + Roel Spilker" /></p>
+
+<p><em>Reinier Zwitserloot</em> is co-founder and development lead at Zorg op Orde,
+helping general practitioners, bridging the gap between medical researchers and the waiting room. 
+Together with Roel Spilker he is the inventor of Project Lombok, 
+a compiler/IDE plugin to bring the java programming language into the next decennial.</p>
+
+<p><em>Roel Spilker</em> is a technology evangelist at TOPdesk.
+He’s been a professional java programmer and teacher since 1999. 
+Roel has been a fan of compile-time checking.
+Together with Reinier Zwitserloot he is the inventor of Project Lombok, 
+a compiler/IDE plugin to bring the java programming language into the next decennial.</p>
+
+<h2 id="java-build-tooling-could-be-so-much-better">Java build tooling could be so much better!</h2>
+
+<h3 id="abstract-1">Abstract</h3>
+
+<p>The Java language is known to be fast, safe, and easy, but Java build tools like Maven or Gradle sometimes don’t quite live up to that standard. 
+This talk will explore what <em>could be</em>: where current Java build tools fall behind modern build tools in other communities, in performance, extensibility, and ease of getting started. 
+We will end with a demonstration of an experimental build tool “Mill” that makes use of these ideas, proving out the idea that Java build tooling has the potential to be much faster, safer, and easier than it is today.</p>
+
+<h3 id="speaker">Speaker</h3>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/haoyi-li.jpg" class="speakerpic" alt="Haoyi Li" title="Haoyi Li" /></p>
+
+<p><strong>Haoyi Li</strong>
+(<a href="https://bsky.app/profile/lihaoyi.com" target="_blank"><i class="bi bi-bluesky"></i> lihaoyi.com</a> | <a href="https://www.linkedin.com/in/haoyi-li-3b3291182" target="_blank"><i class="bi bi-linkedin"></i> in/haoyi-li-3b3291182</a> | <a href="https://github.com/lihaoyi" target="_blank"><i class="bi bi-github"></i> lihaoyi</a> | <a href="https://www.lihaoyi.com/" target="_blank"><i class="bi bi-globe"></i> https://www.lihaoyi.com/</a>)
+ graduated from MIT, has built infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community with over 10,000 stars on Github. Haoyi has deep experience in the JVM and has used it professionally to build cloud infrastructure, distributed backend systems, programming languages, high-performance web applications, and much more.</p>
+
+<h2 id="sponsor">Sponsor</h2>
+
+<p>Die Firma <a href="https://www.qaware.de/">QAware</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="https://www.qaware.de/"><img src="/images/sponsors/qaware.png" alt="QAware Logo" /></a></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

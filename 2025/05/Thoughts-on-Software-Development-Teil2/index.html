@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract “Wenn jemand eine Reise tut, so kann er was erzählen. Drum nähme ich den Stock und Hut und tät das Reisen wählen.” (Matthias Claudius, 1740-1815) Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruch im Hinterkopf konzipiert. Ursprünglich für ein studentisches Publikum erstellt (“Vom Studium zum Job: Anforderungen an moderne Softwareentwickler:innen”), versucht er zu umreißen, was der Vortragende auf seiner Reise durch die Softwareindustrie (aka “freie Wildbahn”) als relevant für ein produktives (Über-)Leben identifiziert hat. Kategorie: “Possibly not so new - but subjectively noteworthy”. 📢 Hinweis: Alex war bereits im Oktober 2022 mit diesem Vortrag online bei uns. Aber diesmal wird er vor Ort in Darmstadt sein und der Vortrag hat sich natürlich weiterentwickelt. Wir freuen uns auf einen spannenden Austausch. Speakers Alexander Thurow ( mstdn.social/@alexthurow | in/alexthurow | https://onmoderndev.de) arbeitete in den vergangenen zwanzig Jahren als Softwareentwickler bei verschiedenen deutschen Softwareanbietern. Er arbeitet derzeit als freier Softwareentwickler und Speaker. (Ex-)Hamburger, mittlerweile Bodensee-ler, gebaut 1975 Dipl.-Wirtsch.-Inform. (FH), 2005 an der Leuphana Lüneburg und University of Sydney Verschieden(st)e Positionen: Software-Entwickler, Berater, Technischer Trainer, Dozent und Speaker Hauptinteressensgebiete: Clean Code, Refactoring, Technische Schulden, Wissensvermittlung und Mentoring im Speziellen, Technologische Disruption, Bücher (“mit und ohne Tellerrand”, siehe: onmoderndev.de/lesen), (aktuelles) Zeitgeschehen Sponsors Andrena stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür." />
+<meta property="og:description" content="Abstract “Wenn jemand eine Reise tut, so kann er was erzählen. Drum nähme ich den Stock und Hut und tät das Reisen wählen.” (Matthias Claudius, 1740-1815) Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruch im Hinterkopf konzipiert. Ursprünglich für ein studentisches Publikum erstellt (“Vom Studium zum Job: Anforderungen an moderne Softwareentwickler:innen”), versucht er zu umreißen, was der Vortragende auf seiner Reise durch die Softwareindustrie (aka “freie Wildbahn”) als relevant für ein produktives (Über-)Leben identifiziert hat. Kategorie: “Possibly not so new - but subjectively noteworthy”. 📢 Hinweis: Alex war bereits im Oktober 2022 mit diesem Vortrag online bei uns. Aber diesmal wird er vor Ort in Darmstadt sein und der Vortrag hat sich natürlich weiterentwickelt. Wir freuen uns auf einen spannenden Austausch. Speakers Alexander Thurow ( mstdn.social/@alexthurow | in/alexthurow | https://onmoderndev.de) arbeitete in den vergangenen zwanzig Jahren als Softwareentwickler bei verschiedenen deutschen Softwareanbietern. Er arbeitet derzeit als freier Softwareentwickler und Speaker. (Ex-)Hamburger, mittlerweile Bodensee-ler, gebaut 1975 Dipl.-Wirtsch.-Inform. (FH), 2005 an der Leuphana Lüneburg und University of Sydney Verschieden(st)e Positionen: Software-Entwickler, Berater, Technischer Trainer, Dozent und Speaker Hauptinteressensgebiete: Clean Code, Refactoring, Technische Schulden, Wissensvermittlung und Mentoring im Speziellen, Technologische Disruption, Bücher (“mit und ohne Tellerrand”, siehe: onmoderndev.de/lesen), (aktuelles) Zeitgeschehen Sponsors Andrena stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Thoughts On (Modern?) Software Development - Beobachtungen von einer 20-jährigen Reise | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Thoughts On (Modern?) Software Development - Beobachtungen von einer 20-jährigen Reise | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    15.05.2025
+  </h2>
+  <h1>Thoughts On (Modern?) Software Development - Beobachtungen von einer 20-jährigen Reise</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="abstract">Abstract</h2>
+
+<blockquote>
+  <p>“Wenn jemand eine Reise tut, so kann er was erzählen. Drum nähme ich den Stock und Hut und tät das Reisen wählen.” (Matthias Claudius, 1740-1815)</p>
+</blockquote>
+
+<p>Der vorliegende Vortrag wurde mit genau diesem, bereits 1000-mal gehörten Spruch im Hinterkopf konzipiert. Ursprünglich für ein studentisches Publikum erstellt (“Vom Studium zum Job: Anforderungen an moderne Softwareentwickler:innen”), versucht er zu umreißen, was der Vortragende auf seiner Reise durch die Softwareindustrie (aka “freie Wildbahn”) als relevant für ein produktives (Über-)Leben identifiziert hat. Kategorie: “Possibly not so new - but subjectively noteworthy”.</p>
+
+<p>📢 Hinweis: Alex war bereits im Oktober 2022 mit diesem Vortrag online bei uns. Aber diesmal wird er vor Ort in Darmstadt sein und der Vortrag hat sich natürlich weiterentwickelt. Wir freuen uns auf einen spannenden Austausch.</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/alexthurow.jpg" class="speakerpic" alt="Alexander Thurow" title="Alexander Thurow" /></p>
+
+<p><strong>Alexander Thurow</strong>
+(<a href="https://mstdn.social/@alexthurow" target="_blank"><i class="bi bi-mastodon"></i> mstdn.social/@alexthurow</a> | <a href="https://www.linkedin.com/in/alexthurow" target="_blank"><i class="bi bi-linkedin"></i> in/alexthurow</a> | <a href="https://onmoderndev.de" target="_blank"><i class="bi bi-globe"></i> https://onmoderndev.de</a>)
+ arbeitete in den vergangenen zwanzig Jahren als Softwareentwickler bei verschiedenen deutschen Softwareanbietern. Er arbeitet derzeit als freier Softwareentwickler und Speaker.</p>
+<ul>
+  <li>(Ex-)Hamburger, mittlerweile Bodensee-ler, gebaut 1975</li>
+  <li>Dipl.-Wirtsch.-Inform. (FH), 2005 an der Leuphana Lüneburg und University of Sydney</li>
+  <li>Verschieden(st)e Positionen: Software-Entwickler, Berater, Technischer Trainer, Dozent und Speaker</li>
+  <li>Hauptinteressensgebiete: Clean Code, Refactoring, Technische Schulden, Wissensvermittlung und Mentoring im Speziellen, Technologische Disruption, Bücher (“mit und ohne Tellerrand”, siehe: <a href="https://onmoderndev.de/lesen">onmoderndev.de/lesen</a>), (aktuelles) Zeitgeschehen</li>
+</ul>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<p><a href="https://www.andrena.de/">Andrena</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.</p>
+
+<p><a href="https://www.andrena.de/"><img src="/images/sponsors/andrena.png" alt="logo" /></a></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

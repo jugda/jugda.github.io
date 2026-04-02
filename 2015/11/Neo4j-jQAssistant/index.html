@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract NOSQL und Big Data sind zur Zeit in aller Munde - große Datenmengen sind aber nur eine Seite der Medaille. Im gleichen Maße steigt die Komplexität der Daten mit denen wir tagtäglich zu tun haben. Graphendatenbanken wurden dafür entwickelt, Datenmodelle mit großen Mengen an interessanten Verknüpfungen effizient zu speichern, verarbeiten und schnell zu navigieren. Seit 10 Jahren hilft die Graphdatenbank Neo4j Nutzern, ihre vernetzten Daten leichter zu modellieren und die Antworten auf herausfordernde Fragen zu finden. Neo4j ist in Java implementiert, und bietet in der JVM besondere Vorteile, kann aber von jeder Programmiersprache aus genutzt werden. Als einen Teil von Neo4j wurde die deklarative Abfragesprache Cypher entwickelt, die darauf ausgerichtet ist, komplexe Graphenstrukturen leicht verständlich darzustellen. Im ersten Teil des Abends gibt es eine Einführung in Graphen als Datenmodell, die Einordnung von Graphendatenbanken in NoSQL und Infos über Neo4j und wie man mit (Java), Neo4j und Cypher schnell zu ersten Ergebnissen kommt. Im zweiten Teil wird dieses Wissen praktisch angewendet. Das open-source Softwareanalyse Werkzeug jQAssistant nutzt Neo4j um vorher gescannte Informationen über Softwareprojekte (Code, Konfiguration, DBMS-Metainformationen, Build-Dependency, Test- und Analyseergebnisse und vieles mehr) in einem flexiblen Neo4j Datenmodell zu speichern. Für die Deklaration von Konzepten zur Anreicherung des Graphen aber auch für Constraints die bestimmte Softwareentwicklungs- und Architekturregeln verifizieren werden Cypher Statements genutzt. Die Regeln von jQAssistant können in den Buildprozess integriert werden um dann z.b. den Build abzubrechen. Aus den vorhandenen Informationen im Graphen können auch Reports und Visualsierungen für Metriken, Abhängikeiten und Regelverletzungen generiert werden. Speaker Dirk Mahler ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus mit Sitz in Dresden. Der Schwerpunkt seiner mittlerweile mehr als 10-jährigen Tätigkeit liegt im Bereich Architektur für Java-Applikationen im Unternehmensumfeld. Den Fokus setzt er dabei auf Erarbeitung und Umsetzung ausgewogener Lösungen im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit. Vor diesem Hintergrund engagiert er sich für die Themen Softwareanalysen und Qualitätssicherung auf der Basis des Open-Source-Projektes jQAssistant. Kontakt Web: http://jqassistant.org Mail: info@jqassistant.org Twitter: @jqassistant Twitter: @dirkmahler Weitere Informationen Downloads Folien zum Neo4j-Intro Folien zum Teil “Software Analysis Using jQAssistant and Neo4j”" />
+<meta property="og:description" content="Abstract NOSQL und Big Data sind zur Zeit in aller Munde - große Datenmengen sind aber nur eine Seite der Medaille. Im gleichen Maße steigt die Komplexität der Daten mit denen wir tagtäglich zu tun haben. Graphendatenbanken wurden dafür entwickelt, Datenmodelle mit großen Mengen an interessanten Verknüpfungen effizient zu speichern, verarbeiten und schnell zu navigieren. Seit 10 Jahren hilft die Graphdatenbank Neo4j Nutzern, ihre vernetzten Daten leichter zu modellieren und die Antworten auf herausfordernde Fragen zu finden. Neo4j ist in Java implementiert, und bietet in der JVM besondere Vorteile, kann aber von jeder Programmiersprache aus genutzt werden. Als einen Teil von Neo4j wurde die deklarative Abfragesprache Cypher entwickelt, die darauf ausgerichtet ist, komplexe Graphenstrukturen leicht verständlich darzustellen. Im ersten Teil des Abends gibt es eine Einführung in Graphen als Datenmodell, die Einordnung von Graphendatenbanken in NoSQL und Infos über Neo4j und wie man mit (Java), Neo4j und Cypher schnell zu ersten Ergebnissen kommt. Im zweiten Teil wird dieses Wissen praktisch angewendet. Das open-source Softwareanalyse Werkzeug jQAssistant nutzt Neo4j um vorher gescannte Informationen über Softwareprojekte (Code, Konfiguration, DBMS-Metainformationen, Build-Dependency, Test- und Analyseergebnisse und vieles mehr) in einem flexiblen Neo4j Datenmodell zu speichern. Für die Deklaration von Konzepten zur Anreicherung des Graphen aber auch für Constraints die bestimmte Softwareentwicklungs- und Architekturregeln verifizieren werden Cypher Statements genutzt. Die Regeln von jQAssistant können in den Buildprozess integriert werden um dann z.b. den Build abzubrechen. Aus den vorhandenen Informationen im Graphen können auch Reports und Visualsierungen für Metriken, Abhängikeiten und Regelverletzungen generiert werden. Speaker Dirk Mahler ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus mit Sitz in Dresden. Der Schwerpunkt seiner mittlerweile mehr als 10-jährigen Tätigkeit liegt im Bereich Architektur für Java-Applikationen im Unternehmensumfeld. Den Fokus setzt er dabei auf Erarbeitung und Umsetzung ausgewogener Lösungen im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit. Vor diesem Hintergrund engagiert er sich für die Themen Softwareanalysen und Qualitätssicherung auf der Basis des Open-Source-Projektes jQAssistant. Kontakt Web: http://jqassistant.org Mail: info@jqassistant.org Twitter: @jqassistant Twitter: @dirkmahler Weitere Informationen Downloads Folien zum Neo4j-Intro Folien zum Teil “Software Analysis Using jQAssistant and Neo4j”" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Neo4j und jQAssistant | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Neo4j und jQAssistant | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    19.11.2015
+  </h2>
+  <h1>Neo4j und jQAssistant</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h3 id="abstract">Abstract</h3>
+
+<p>NOSQL und Big Data sind zur Zeit in aller Munde - große Datenmengen sind aber nur eine Seite der Medaille. Im gleichen Maße steigt die Komplexität der Daten mit denen wir tagtäglich zu tun haben. Graphendatenbanken wurden dafür entwickelt, Datenmodelle mit großen Mengen an interessanten Verknüpfungen effizient zu speichern, verarbeiten und schnell zu navigieren.</p>
+
+<p>Seit 10 Jahren hilft die Graphdatenbank Neo4j Nutzern, ihre vernetzten Daten leichter zu modellieren und die Antworten auf herausfordernde Fragen zu finden. Neo4j ist in Java implementiert, und bietet in der JVM besondere Vorteile, kann aber von jeder Programmiersprache aus genutzt werden.</p>
+
+<p>Als einen Teil von Neo4j wurde die deklarative Abfragesprache Cypher entwickelt, die darauf ausgerichtet ist, komplexe Graphenstrukturen leicht verständlich darzustellen.</p>
+
+<p>Im ersten Teil des Abends gibt es eine Einführung in Graphen als Datenmodell, die Einordnung von Graphendatenbanken in NoSQL und Infos über Neo4j und wie man mit (Java), Neo4j und Cypher schnell zu ersten Ergebnissen kommt.</p>
+
+<p>Im zweiten Teil wird dieses Wissen praktisch angewendet.
+Das open-source Softwareanalyse Werkzeug jQAssistant nutzt Neo4j um vorher gescannte Informationen über Softwareprojekte (Code, Konfiguration, DBMS-Metainformationen, Build-Dependency, Test- und Analyseergebnisse und vieles mehr) in einem flexiblen Neo4j Datenmodell zu speichern.
+Für die Deklaration von Konzepten zur Anreicherung des Graphen aber auch für Constraints die bestimmte Softwareentwicklungs- und Architekturregeln verifizieren werden Cypher Statements genutzt. Die Regeln von jQAssistant können in den Buildprozess integriert werden um dann z.b. den Build abzubrechen. Aus den vorhandenen Informationen im Graphen können auch Reports und Visualsierungen für Metriken, Abhängikeiten und Regelverletzungen generiert werden.</p>
+
+<h3 id="speaker">Speaker</h3>
+
+<p><img src="/images/speaker/dirk_mahler.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Dirk Mahler</strong> ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus mit Sitz in Dresden. Der Schwerpunkt seiner mittlerweile mehr als 10-jährigen Tätigkeit liegt im Bereich Architektur für Java-Applikationen im Unternehmensumfeld. Den Fokus setzt er dabei auf Erarbeitung und Umsetzung ausgewogener Lösungen im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit. Vor diesem Hintergrund engagiert er sich für die Themen Softwareanalysen und Qualitätssicherung auf der Basis des Open-Source-Projektes jQAssistant.</p>
+
+<h3 id="kontakt">Kontakt</h3>
+
+<ul>
+  <li>Web: <a href="http://jqassistant.org">http://jqassistant.org</a></li>
+  <li>Mail: <a href="mailto:info@jqassistant.org">info@jqassistant.org</a></li>
+  <li>Twitter: <a href="https://twitter.com/jqassistant">@jqassistant</a></li>
+  <li>Twitter: <a href="https://twitter.com/dirkmahler">@dirkmahler</a></li>
+</ul>
+
+<h3 id="weitere-informationen">Weitere Informationen</h3>
+
+<p>Downloads</p>
+
+<ul>
+  <li><a href="/files/Neo4j-Intro.pdf">Folien zum Neo4j-Intro</a></li>
+  <li><a href="/files/Software Analysis Using jQAssistant and Neo4j.pdf">Folien zum Teil “Software Analysis Using jQAssistant and Neo4j”</a></li>
+</ul>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

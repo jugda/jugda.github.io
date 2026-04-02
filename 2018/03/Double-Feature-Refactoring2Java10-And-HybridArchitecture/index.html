@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Both talks are planned for ca. 40 minutes each and we will have a 5 minute break to rearrange the stage. Refactoring To Java 10 A sneak peek at the features that will (likely) be in Java 10. For each feature, we’ll explain what it’s trying to accomplish, what it’ll probably look like (with code examples!), and how you can already prepare your source code so that you’ll be ready once these features are released. For a few of these, we’ll show you how Project Lombok can bring the future to you, today! Introducing a Hybrid Architecture in a Large Java Monolith A case study at TOPdesk: how we went from two releases per year to one release per day for our monolith and multiple releases per day for our microservices. We will touch on the cultural and technical challenges of introducing our hybrid architecture which enables our monolith and microservices to live side-by-side. Speakers Reinier Zwitserloot (@surial) has been interested in programming language evolution ever since he started working with Java professionally 15 years ago. As a result, together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium. Roel Spilker (@rspilker) is a technology evangelist at TOPdesk. He’s been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium. Joep Weijers (@joepweijers) is a Build Master at TOPdesk with a keen interest in delivering quality software continuously. He loves playing around with Jenkins Pipelines, Selenium, Docker and keeps in touch with his inner developer by educating his colleagues on testable Java code." />
+<meta property="og:description" content="Both talks are planned for ca. 40 minutes each and we will have a 5 minute break to rearrange the stage. Refactoring To Java 10 A sneak peek at the features that will (likely) be in Java 10. For each feature, we’ll explain what it’s trying to accomplish, what it’ll probably look like (with code examples!), and how you can already prepare your source code so that you’ll be ready once these features are released. For a few of these, we’ll show you how Project Lombok can bring the future to you, today! Introducing a Hybrid Architecture in a Large Java Monolith A case study at TOPdesk: how we went from two releases per year to one release per day for our monolith and multiple releases per day for our microservices. We will touch on the cultural and technical challenges of introducing our hybrid architecture which enables our monolith and microservices to live side-by-side. Speakers Reinier Zwitserloot (@surial) has been interested in programming language evolution ever since he started working with Java professionally 15 years ago. As a result, together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium. Roel Spilker (@rspilker) is a technology evangelist at TOPdesk. He’s been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium. Joep Weijers (@joepweijers) is a Build Master at TOPdesk with a keen interest in delivering quality software continuously. He loves playing around with Jenkins Pipelines, Selenium, Docker and keeps in touch with his inner developer by educating his colleagues on testable Java code." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Double Feature: Refactoring To Java 10 / Introducing a Hybrid Architecture in a Large Java Monolith | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Double Feature: Refactoring To Java 10 / Introducing a Hybrid Architecture in a Large Java Monolith | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    08.03.2018
+  </h2>
+  <h1>Double Feature: Refactoring To Java 10 / Introducing a Hybrid Architecture in a Large Java Monolith</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <p>Both talks are planned for ca. 40 minutes each and we will have a 5 minute break to rearrange the stage.</p>
+
+<h3 id="refactoring-to-java-10">Refactoring To Java 10</h3>
+
+<p>A sneak peek at the features that will (likely) be in Java 10. For each feature, we’ll explain what it’s trying to accomplish, what it’ll probably look like (with code examples!), and how you can already prepare your source code so that you’ll be ready once these features are released. For a few of these, we’ll show you how Project Lombok can bring the future to you, today!</p>
+
+<h3 id="introducing-a-hybrid-architecture-in-a-large-java-monolith">Introducing a Hybrid Architecture in a Large Java Monolith</h3>
+
+<p>A case study at TOPdesk: how we went from two releases per year to one release per day for our monolith and multiple releases per day for our microservices. We will touch on the cultural and technical challenges of introducing our hybrid architecture which enables our monolith and microservices to live side-by-side.</p>
+
+<h3 id="speakers">Speakers</h3>
+
+<p><img src="/images/speaker/RoelReinier.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Reinier Zwitserloot</strong> (<a href="https://twitter.com/surial">@surial</a>) has been interested in programming language evolution ever since he started working with Java professionally 15 years ago. As a result, together with Roel Spilker he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium.</p>
+
+<div style="clear: both"></div>
+
+<p><strong>Roel Spilker</strong> (<a href="https://twitter.com/rspilker">@rspilker</a>) is a technology evangelist at TOPdesk. He’s been a professional java programmer and teacher since 1999. Roel has been a fan of compile-time checking. Together with Reinier Zwitserloot he is the inventor of Project Lombok, a compiler/IDE plugin to bring the java programming language into the next decennium.</p>
+
+<div style="clear: both"></div>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/joep_weijers.jpg" class="speakerpic" alt="" title="" /></p>
+
+<p><strong>Joep Weijers</strong></p>
+
+<p>(<a href="https://twitter.com/joepweijers">@joepweijers</a>) is a Build Master at TOPdesk with a keen interest in delivering quality software continuously. He loves playing around with Jenkins Pipelines, Selenium, Docker and keeps in touch with his inner developer by educating his colleagues on testable Java code.</p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

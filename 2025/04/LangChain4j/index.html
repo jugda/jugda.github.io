@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract Generative AI burst on to the public scene in November 2022, over ten years after Andrew Ng’s Machine Learning premiered on Coursera. Java developers have long felt like second class citizens, compared to the cool Python kids. LangChain4J changes the game. Java is cool with AI now! This lecture from 30-year industry veteran Ed Burns explores why it took so long for Java developers to have access to easy-to-use AI libraries, compared to Python developers. LangChain4J is the most popular of the Java libraries, but others exist. After a brief look at the landscape, we’ll take a deeper look at LangChain4J and how you use it to perform the most popular AI usage pattern: Retrieval Augmented Generation (RAG). RAG is basically a way to bring your own domain specific data to an existing AI model, and benefit from its power. Speakers Ed Burns ( mastodon.social/@edburns | in/edburns) is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com/. Fun Fact: My first professional conference experience was at the Third International WWW conference in Darmstadt, nearly 30 years ago: https://archives.iw3c2.org/www3/ . I coined the term “webcast” with a piece of software I wrote and presented there: https://archives.iw3c2.org/www3/mbone/webcast.html . Sponsoren Die Firma eXXcellent solutions stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+<meta property="og:description" content="Abstract Generative AI burst on to the public scene in November 2022, over ten years after Andrew Ng’s Machine Learning premiered on Coursera. Java developers have long felt like second class citizens, compared to the cool Python kids. LangChain4J changes the game. Java is cool with AI now! This lecture from 30-year industry veteran Ed Burns explores why it took so long for Java developers to have access to easy-to-use AI libraries, compared to Python developers. LangChain4J is the most popular of the Java libraries, but others exist. After a brief look at the landscape, we’ll take a deeper look at LangChain4J and how you use it to perform the most popular AI usage pattern: Retrieval Augmented Generation (RAG). RAG is basically a way to bring your own domain specific data to an existing AI model, and benefit from its power. Speakers Ed Burns ( mastodon.social/@edburns | in/edburns) is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com/. Fun Fact: My first professional conference experience was at the Third International WWW conference in Darmstadt, nearly 30 years ago: https://archives.iw3c2.org/www3/ . I coined the term “webcast” with a piece of software I wrote and presented there: https://archives.iw3c2.org/www3/mbone/webcast.html . Sponsoren Die Firma eXXcellent solutions stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!" />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Java and AI with LangChain4j | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Java and AI with LangChain4j | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    08.04.2025
+  </h2>
+  <h1>Java and AI with LangChain4j</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="abstract">Abstract</h2>
+
+<p>Generative AI burst on to the public scene in November 2022, over ten years after Andrew Ng’s Machine Learning premiered on Coursera. Java developers have long felt like second class citizens, compared to the cool Python kids. LangChain4J changes the game. Java is cool with AI now! This lecture from 30-year industry veteran Ed Burns explores why it took so long for Java developers to have access to easy-to-use AI libraries, compared to Python developers. LangChain4J is the most popular of the Java libraries, but others exist. After a brief look at the landscape, we’ll take a deeper look at LangChain4J and how you use it to perform the most popular AI usage pattern: Retrieval Augmented Generation (RAG). RAG is basically a way to bring your own domain specific data to an existing AI model, and benefit from its power.</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/edburns.jpg" class="speakerpic" alt="Ed Burns" title="Ed Burns" /></p>
+
+<p><strong>Ed Burns</strong>
+(<a href="https://mastodon.social/@edburns" target="_blank"><i class="bi bi-mastodon"></i> mastodon.social/@edburns</a> | <a href="https://www.linkedin.com/in/edburns" target="_blank"><i class="bi bi-linkedin"></i> in/edburns</a>)
+ is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com/.</p>
+
+<p>Fun Fact: My first professional conference experience was at the Third International WWW conference in Darmstadt, nearly 30 years ago: https://archives.iw3c2.org/www3/ . I coined the term “webcast” with a piece of software I wrote and presented there: https://archives.iw3c2.org/www3/mbone/webcast.html .</p>
+
+<h2 id="sponsoren">Sponsoren</h2>
+
+<p>Die Firma <a href="https://www.exxcellent.de/">eXXcellent solutions</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!</p>
+
+<p><a href="https://www.exxcellent.de/"><img src="/images/sponsors/exxcellent.png" alt="eXXcellent Logo" /></a></p>
+
+  </div>
+
+  
+  <h2>Folien / Video(s)</h2>
+  
+  
+  <p>
+  
+	
+			<div><i class="bi bi-link-45deg" title="Link"></i>&nbsp;<a href="https://www.slideshare.net/slideshow/java-and-ai-with-langchain4j-jakarta-ee-and-ai/277677326" rel="noreferrer nofollow" target="_blank">Folien</a></div>
+	
+  
+  </p>
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

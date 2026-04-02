@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<meta name="description" content="Abstract Lange bevor das Programmieren losgeht stehen Legacy-Code-Projekte bereits vor großen Problemen. Es ist oft unklar welche Funktionen implementiert sind, wo sie sich befinden und welchen Reifegrad sie haben. Kurz gesagt, es besteht eine Lücke zwischen der Geschäftsdomäne und dem, was im Code implementiert ist. In Projekten auf der grünen Wiese verwenden wir Tools und Patterns des Domain-Driven Design, damit diese Lücke nicht entsteht. Ein zusätzlicher Satz von Patterns wird jedoch benötigt, wenn wir mit Legacy-Code beginnen. In diesem Vortrag werden wir die Kernmuster zur Wiederentdeckung der Domäne untersuchen. Diese Patterns gehen über das bloße Entschlüsseln der Funktionalität des Codes hinaus. Sie bieten Strategien, um die zugrunde liegenden Konzepte, Verhaltensweisen und Beziehungen in der Domäne zu verstehen. Nach einer Pause wird es noch einen Lightning Talk von Richard geben: Destructoring ist die Zukunft von Javas Encapsulation Dekonstruktion – die Zerlegung eines Objekts in seine Bestandteile – ist der Schlüssel, damit Java Kapselung und Invarianten zuverlässig wahren kann. Dieses scheinbare Paradoxon lösen wir im Vortrag auf, indem wir uns vergangene und kommende Sprach- und Plattformfeatures im JDK ansehen. Die klassische Java-Serialisierung bricht Kapselung: Sie greift direkt auf private Felder zu, umgeht damit Konstruktoren und die dort verankerten Prüfungen. Ursache ist, dass Dekonstruktion und Rekonstruktion bislang keine first-class Citizens im JDK waren. Genau hier setzt aktuelle Arbeit im Rahmen von JDK Project Amber an – unter dem Arbeitstitel „Derived Record/Class Creation“. Der Ansatz erlaubt es, explizit festzulegen, wie Objekte de- und rekonstruiert werden. Damit lässt sich künftig nicht nur Serialisierung sicherer und robuster gestalten; wir gewinnen auch „Withers“ (zielgerichtete, unveränderliche Kopien mit einzelnen geänderten Komponenten) für Records sowie Pattern Matching, das über reine Record-Patterns hinaus auf normale Klassen erweitert wird. Unter diesen Voraussetzungen lohnt sich ein genauer Blick: Was ist schon da, was kommt als Nächstes – und was bedeutet das für unsere tägliche Java-Praxis? Speakers Richard Gross ( richargh.de | in/richargh) ist IT-Archäologe bei MaibornWolff und verfügt über mehr als zehn Jahre Sanierungserfahrung. Sein Fokus liegt auf hexagonalen Architekturen, Hypermedia-APIs, TestDSLs und der ausdrucksstarken und eindeutigen Modellierung der Domäne als Code. Er beherrscht TDD, BDD, DDD, entkoppeltes Design und sogar Praktiken, die keine zwei D’s beinhalten. Er hat auch das Open-Source-Projekt CodeCharta geformt, das es auch Nicht-Entwicklern ermöglicht, die Qualität ihrer Software zu greifen. Sponsors MaibornWolff stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür." />
+<meta property="og:description" content="Abstract Lange bevor das Programmieren losgeht stehen Legacy-Code-Projekte bereits vor großen Problemen. Es ist oft unklar welche Funktionen implementiert sind, wo sie sich befinden und welchen Reifegrad sie haben. Kurz gesagt, es besteht eine Lücke zwischen der Geschäftsdomäne und dem, was im Code implementiert ist. In Projekten auf der grünen Wiese verwenden wir Tools und Patterns des Domain-Driven Design, damit diese Lücke nicht entsteht. Ein zusätzlicher Satz von Patterns wird jedoch benötigt, wenn wir mit Legacy-Code beginnen. In diesem Vortrag werden wir die Kernmuster zur Wiederentdeckung der Domäne untersuchen. Diese Patterns gehen über das bloße Entschlüsseln der Funktionalität des Codes hinaus. Sie bieten Strategien, um die zugrunde liegenden Konzepte, Verhaltensweisen und Beziehungen in der Domäne zu verstehen. Nach einer Pause wird es noch einen Lightning Talk von Richard geben: Destructoring ist die Zukunft von Javas Encapsulation Dekonstruktion – die Zerlegung eines Objekts in seine Bestandteile – ist der Schlüssel, damit Java Kapselung und Invarianten zuverlässig wahren kann. Dieses scheinbare Paradoxon lösen wir im Vortrag auf, indem wir uns vergangene und kommende Sprach- und Plattformfeatures im JDK ansehen. Die klassische Java-Serialisierung bricht Kapselung: Sie greift direkt auf private Felder zu, umgeht damit Konstruktoren und die dort verankerten Prüfungen. Ursache ist, dass Dekonstruktion und Rekonstruktion bislang keine first-class Citizens im JDK waren. Genau hier setzt aktuelle Arbeit im Rahmen von JDK Project Amber an – unter dem Arbeitstitel „Derived Record/Class Creation“. Der Ansatz erlaubt es, explizit festzulegen, wie Objekte de- und rekonstruiert werden. Damit lässt sich künftig nicht nur Serialisierung sicherer und robuster gestalten; wir gewinnen auch „Withers“ (zielgerichtete, unveränderliche Kopien mit einzelnen geänderten Komponenten) für Records sowie Pattern Matching, das über reine Record-Patterns hinaus auf normale Klassen erweitert wird. Unter diesen Voraussetzungen lohnt sich ein genauer Blick: Was ist schon da, was kommt als Nächstes – und was bedeutet das für unsere tägliche Java-Praxis? Speakers Richard Gross ( richargh.de | in/richargh) ist IT-Archäologe bei MaibornWolff und verfügt über mehr als zehn Jahre Sanierungserfahrung. Sein Fokus liegt auf hexagonalen Architekturen, Hypermedia-APIs, TestDSLs und der ausdrucksstarken und eindeutigen Modellierung der Domäne als Code. Er beherrscht TDD, BDD, DDD, entkoppeltes Design und sogar Praktiken, die keine zwei D’s beinhalten. Er hat auch das Open-Source-Projekt CodeCharta geformt, das es auch Nicht-Entwicklern ermöglicht, die Qualität ihrer Software zu greifen. Sponsors MaibornWolff stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür." />
+
+<meta name="author" content="Java User Group Darmstadt" />
+
+
+<meta property="og:title" content="Domain Rediscovery Patterns für Legacy Code | Java User Group Darmstadt" />
+
+
+
+<meta property="og:image" content="/images/jugda_logo_rund.png">
+
+
+    <title>Domain Rediscovery Patterns für Legacy Code | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
+    <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="container mb-3">
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <a class="navbar-brand" href="/">
+          <div class="d-flex align-items-center">
+            <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
+            <div class="brand-text">
+              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/veranstaltungen/">Veranstaltungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mitmachen/">Mitmachen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partner/">Partner JUGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="post">
+  <h2>
+    <i class="bi bi-calendar-date" title="Datum"></i>&nbsp;
+    22.01.2026
+  </h2>
+  <h1>Domain Rediscovery Patterns für Legacy Code</h1>
+  
+  
+
+  
+  
+  
+
+  <div class="entry">
+    <h2 id="abstract">Abstract</h2>
+
+<p>Lange bevor das Programmieren losgeht stehen Legacy-Code-Projekte bereits vor großen Problemen. Es ist oft unklar welche Funktionen implementiert sind, wo sie sich befinden und welchen Reifegrad sie haben. Kurz gesagt, es besteht eine Lücke zwischen der Geschäftsdomäne und dem, was im Code implementiert ist.</p>
+
+<p>In Projekten auf der grünen Wiese verwenden wir Tools und Patterns des Domain-Driven Design, damit diese Lücke nicht entsteht. Ein zusätzlicher Satz von Patterns wird jedoch benötigt, wenn wir mit Legacy-Code beginnen.</p>
+
+<p>In diesem Vortrag werden wir die Kernmuster zur Wiederentdeckung der Domäne untersuchen. Diese Patterns gehen über das bloße Entschlüsseln der Funktionalität des Codes hinaus. Sie bieten Strategien, um die zugrunde liegenden Konzepte, Verhaltensweisen und Beziehungen in der Domäne zu verstehen.</p>
+
+<hr />
+
+<p>Nach einer Pause wird es noch einen Lightning Talk von Richard geben:</p>
+
+<h3 id="destructoring-ist-die-zukunft-von-javas-encapsulation">Destructoring ist die Zukunft von Javas Encapsulation</h3>
+
+<p>Dekonstruktion – die Zerlegung eines Objekts in seine Bestandteile – ist der Schlüssel, damit Java Kapselung und Invarianten zuverlässig wahren kann. Dieses scheinbare Paradoxon lösen wir im Vortrag auf, indem wir uns vergangene und kommende Sprach- und Plattformfeatures im JDK ansehen.</p>
+
+<p>Die klassische Java-Serialisierung bricht Kapselung: Sie greift direkt auf private Felder zu, umgeht damit Konstruktoren und die dort verankerten Prüfungen. Ursache ist, dass Dekonstruktion und Rekonstruktion bislang keine first-class Citizens im JDK waren.</p>
+
+<p>Genau hier setzt aktuelle Arbeit im Rahmen von JDK Project Amber an – unter dem Arbeitstitel „Derived Record/Class Creation“. Der Ansatz erlaubt es, explizit festzulegen, wie Objekte de- und rekonstruiert werden. Damit lässt sich künftig nicht nur Serialisierung sicherer und robuster gestalten; wir gewinnen auch „Withers“ (zielgerichtete, unveränderliche Kopien mit einzelnen geänderten Komponenten) für Records sowie Pattern Matching, das über reine Record-Patterns hinaus auf normale Klassen erweitert wird.</p>
+
+<p>Unter diesen Voraussetzungen lohnt sich ein genauer Blick: Was ist schon da, was kommt als Nächstes – und was bedeutet das für unsere tägliche Java-Praxis?</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<div style="clear: both;"></div>
+
+<p><img src="/images/speaker/richardgross.jpg" class="speakerpic" alt="Richard Gross" title="Richard Gross" /></p>
+
+<p><strong>Richard Gross</strong>
+(<a href="https://bsky.app/profile/richargh.de" target="_blank"><i class="bi bi-bluesky"></i> richargh.de</a> | <a href="https://www.linkedin.com/in/richargh" target="_blank"><i class="bi bi-linkedin"></i> in/richargh</a>)
+ ist IT-Archäologe bei MaibornWolff und verfügt über mehr als zehn Jahre Sanierungserfahrung. Sein Fokus liegt auf hexagonalen Architekturen, Hypermedia-APIs, TestDSLs und der ausdrucksstarken und eindeutigen Modellierung der Domäne als Code. Er beherrscht TDD, BDD, DDD, entkoppeltes Design und sogar Praktiken, die keine zwei D’s beinhalten. Er hat auch das Open-Source-Projekt CodeCharta geformt, das es auch Nicht-Entwicklern ermöglicht, die Qualität ihrer Software zu greifen.</p>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<p><a href="https://www.maibornwolff.de/">MaibornWolff</a> stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.</p>
+
+<p><a href="https://www.maibornwolff.de/"><img src="/images/sponsors/maibornwolff.svg" alt="logo" width="200" /></a></p>
+
+  </div>
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  <div class="hint">
+  
+    Eine Veranstaltung des iJUG e.V., organisiert durch die JUG Darmstadt.
+  
+  </div>
+</article>
+
+    </main>
+
+    <footer class="border-top border-bottom bg-light mt-5 py-3">
+      <div class="container d-flex justify-content-around" style="font-size: 3rem;">
+        <a href="mailto:orga@jug-da.de" target="_blank" style="color: #333"><i class="bi bi-envelope-fill fa-4x"></i></a>
+<a href="https://darmstadt.social/@JUG_DA" target="_blank" style="color: #00acee"><i class="bi bi-mastodon fa-4x"></i></a>
+<a href="https://www.linkedin.com/company/jug-da" target="_blank" style="color: #0e76a8"><i class="bi bi-linkedin fa-4x"></i></a>
+<a href="https://youtube.com/@jugda" target="_blank" style="color: #c4302b"><i class="bi bi-youtube fa-4x"></i></a>
+
+      </div>
+      <div class="pt-3 text-center small">
+        <a href="/datenschutz/">Datenschutz</a>
+        <span class="mx-2">|</span>
+        <a href="/impressum/">Impressum</a>
+      </div>
+    </footer>
+    <div class="text-center d-flex mb-4 flex-column">
+  <h4 class="text-secondary">Wir danken unseren Sponsoren:</h4>
+  <div class="d-flex flex-wrap justify-content-around align-items-center mx-auto" style="max-width: 1400px;">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://entwickler.de/" target="_blank">
+      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.dpunkt.de" target="_blank">
+      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
+      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.rheinwerk-verlag.de/" target="_blank">
+      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://oreilly.de/" target="_blank">
+      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.mitp.de/" target="_blank">
+      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+    <a href="https://www.jetbrains.com/idea/" target="_blank">
+      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <a href="https://sandsmedia.com/de/" target="_blank">
+      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+    </a>
+  
+  
+  </div>
+</div>
+
+
+    <script src="/js/bootstrap.min.js" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

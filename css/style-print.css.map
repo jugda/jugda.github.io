@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style-print.css",
+	"sources": [
+		"style-print.scss"
+	],
+	"sourcesContent": [
+		"html, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0;\n}\n  \nbody.poster {\n  div.poster-content {\n  \tbackground-image: none;\n    padding: 0 20px 0 50px;\n  }\n}\n\n.poster-footer {\n  position: absolute; \n  bottom: 0;\n}\n\n.poster-list {\n  font-size: 0.9em;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAE,IAAI,AAAC,CACT,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AACE,IADE,AAAA,OAAO,CACT,GAAG,AAAA,eAAe,AAAC,CAClB,gBAAgB,CAAE,IAAI,CACrB,OAAO,CAAE,aAAa,CACvB,AAGH,AAAA,cAAc,AAAC,CACb,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,CAAC,CACV,AAED,AAAA,YAAY,AAAC,CACX,SAAS,CAAE,KAAK,CACjB"
+}
