@@ -13,13 +13,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
-      - name: Restore file timestamps
-        run: |
-          git ls-files | while read f; do
-            ts=$(git log -1 --format="%ct" -- "$f")
-            touch -d "@$ts" "$f"
-          done
+        with:
+          fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
