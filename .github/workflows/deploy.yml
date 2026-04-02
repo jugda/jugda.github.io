@@ -11,9 +11,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      - uses: ruby/setup-ruby@v1
+      - name: Restore file timestamps
+        run: |
+          git ls-files | while read f; do
+            ts=$(git log -1 --format="%ct" -- "$f")
+            touch -d "@$ts" "$f"
+          done
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
           bundler-cache: true
