@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Java EE ist wie für Microservice Architekturen geschaffen. In dieser Session werde ich die Behauptung mit möglichst vielen Code Beispielen begründen. Ich werde Services mit Java EE “from scratch” implementieren, bauen, auf Docker deployen und miteinander kommunizieren lassen. Dabei werden sich einige Muster und Idiome herauskristallisieren. Es ist eine JUG Session: Fragen der Teilnehmer und jegliche Kritik sind hoch willkommen. Speaker Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns – Rethinking Best Practices and Real World Java EE Night Hacks – Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. Adam occasionally organizes Java EE workshops at Munich’s airport (http://airhacks.com). Sponsoren IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma msg systems sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-<meta property="og:description" content="Abstract Java EE ist wie für Microservice Architekturen geschaffen. In dieser Session werde ich die Behauptung mit möglichst vielen Code Beispielen begründen. Ich werde Services mit Java EE “from scratch” implementieren, bauen, auf Docker deployen und miteinander kommunizieren lassen. Dabei werden sich einige Muster und Idiome herauskristallisieren. Es ist eine JUG Session: Fragen der Teilnehmer und jegliche Kritik sind hoch willkommen. Speaker Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns – Rethinking Best Practices and Real World Java EE Night Hacks – Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. Adam occasionally organizes Java EE workshops at Munich’s airport (http://airhacks.com). Sponsoren IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma msg systems sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Emerging Java EE Microservice Patterns | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2016/12/Java-EE-Microservice-Patterns/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Emerging Java EE Microservice Patterns | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2016/12/Java-EE-Microservice-Patterns/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -153,43 +148,43 @@ Ich werde Services mit Java EE “from scratch” implementieren, bauen, auf Doc
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -201,7 +196,7 @@ Ich werde Services mit Java EE “from scratch” implementieren, bauen, auf Doc
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

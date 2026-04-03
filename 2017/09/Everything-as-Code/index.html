@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Als zeitgemäßer Entwickler muss man eine Vielzahl an Sprachen sicher beherrschen. Wir definieren unsere Entwicklungsumgebung mit Gradle, wir bauen unsere Software in Java, Kotlin oder sogar JavaScript. Wir verwenden Groovy und Scala um unsere Software zu testen. Die Build-Pipeline wird per DSL und JSON definiert. Mit YAML und Python beschreiben wir die Infrastruktur und das Deployment unserer Anwendungen. Die Dokumentation unserer Architekturen erledigen wir mit AsciiDoc und JRuby. Willkommen in Babel! Hallo Software-Industrialisierung! Use the right tool for the job! Das ist das Motto dieser Session. Jede Sprache hat Stärken in einer bestimmten Domäne. Diese Stärken gilt es zu nutzen. Aber einfach blind jede gerade angesagte Sprache einzusetzen ist sicher nicht die Lösung. Genau das versuchen wir mit dieser Session zu vermitteln. Stattdessen braucht es eine gut integrierte und abgestimmte Tool-Chain. Wir berichten aus der Praxis. Speaker Mario-Leander Reimer hat in Rosenheim und an der Staffordshire University Informatik studiert und arbeitet als Cheftechnologe bei der QAware GmbH. Er ist Spezialist für den Entwurf und die Umsetzung von Cloud-nativen Anwendungen und System-Architekturen. Als Vollblut-Technologe ist er immer auf der Suche nach Innovationen und Open-Source Technologien die in Kunden-Projekten nutzbringend und erfolgreich eingesetzt werden können. Sponsoren IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-<meta property="og:description" content="Abstract Als zeitgemäßer Entwickler muss man eine Vielzahl an Sprachen sicher beherrschen. Wir definieren unsere Entwicklungsumgebung mit Gradle, wir bauen unsere Software in Java, Kotlin oder sogar JavaScript. Wir verwenden Groovy und Scala um unsere Software zu testen. Die Build-Pipeline wird per DSL und JSON definiert. Mit YAML und Python beschreiben wir die Infrastruktur und das Deployment unserer Anwendungen. Die Dokumentation unserer Architekturen erledigen wir mit AsciiDoc und JRuby. Willkommen in Babel! Hallo Software-Industrialisierung! Use the right tool for the job! Das ist das Motto dieser Session. Jede Sprache hat Stärken in einer bestimmten Domäne. Diese Stärken gilt es zu nutzen. Aber einfach blind jede gerade angesagte Sprache einzusetzen ist sicher nicht die Lösung. Genau das versuchen wir mit dieser Session zu vermitteln. Stattdessen braucht es eine gut integrierte und abgestimmte Tool-Chain. Wir berichten aus der Praxis. Speaker Mario-Leander Reimer hat in Rosenheim und an der Staffordshire University Informatik studiert und arbeitet als Cheftechnologe bei der QAware GmbH. Er ist Spezialist für den Entwurf und die Umsetzung von Cloud-nativen Anwendungen und System-Architekturen. Als Vollblut-Technologe ist er immer auf der Suche nach Innovationen und Open-Source Technologien die in Kunden-Projekten nutzbringend und erfolgreich eingesetzt werden können. Sponsoren IT FOR WORK stellt uns die Räumlichkeiten zur Verfügung und die Firma QAware sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Everything-as-code. Eine vielsprachige Reise. | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2017/09/Everything-as-Code/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Everything-as-code. Eine vielsprachige Reise. | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2017/09/Everything-as-Code/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -152,43 +147,43 @@
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -200,7 +195,7 @@
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

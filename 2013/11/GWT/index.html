@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Wir betrachten die Webentwicklung im Allgemeinem und klären, welche Design- und Architekturentscheidungen bei der Auswahl von Webtechnologien getroffen werden müssen. Im Speziellem schauen wir uns die Motivation für GWT, die Konzepte dahinter und die Umsetzung von Webanwendungen mit dem Google Web Toolkit an. Nach der Orientierungshilfe folgt ein Ausflug in Richtung Anwendungs-Architektur und “Lessons Learned” aus zahlreichen Projekten. In der anschließenden Diskussionsrunde dürfen natürlich jede Menge Fragen zu Skalierbarkeit, Verfügbarkeit, Ausfallsicherheit und Integrationsmöglichkeiten gestellt werden. Speaker Papick G. Taboada ist Software Architekt und Technologie Scout. Seit vielen Jahren setzt er GWT ein: sein Expertenwissen und Erfahrungen hat er wiederholt in namhaften Fachzeitschriften und auf Konferenzen auf die Probe gestellt. Er ist Geschäftsführer der pgt technology scouting GmbH und seit vielen Jahren bei Orientation in Objects GmbH im Bereich Competence Center als Berater, Trainer und Entwickler aktiv. Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-<meta property="og:description" content="Abstract Wir betrachten die Webentwicklung im Allgemeinem und klären, welche Design- und Architekturentscheidungen bei der Auswahl von Webtechnologien getroffen werden müssen. Im Speziellem schauen wir uns die Motivation für GWT, die Konzepte dahinter und die Umsetzung von Webanwendungen mit dem Google Web Toolkit an. Nach der Orientierungshilfe folgt ein Ausflug in Richtung Anwendungs-Architektur und “Lessons Learned” aus zahlreichen Projekten. In der anschließenden Diskussionsrunde dürfen natürlich jede Menge Fragen zu Skalierbarkeit, Verfügbarkeit, Ausfallsicherheit und Integrationsmöglichkeiten gestellt werden. Speaker Papick G. Taboada ist Software Architekt und Technologie Scout. Seit vielen Jahren setzt er GWT ein: sein Expertenwissen und Erfahrungen hat er wiederholt in namhaften Fachzeitschriften und auf Konferenzen auf die Probe gestellt. Er ist Geschäftsführer der pgt technology scouting GmbH und seit vielen Jahren bei Orientation in Objects GmbH im Bereich Competence Center als Berater, Trainer und Entwickler aktiv. Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Willkommen in Neuland, ein rasanter Exkurs in die Webentwicklung mit dem Google Web Toolkit | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2013/11/GWT/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Willkommen in Neuland, ein rasanter Exkurs in die Webentwicklung mit dem Google Web Toolkit | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2013/11/GWT/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -142,43 +137,43 @@ Papick G. Taboada ist Software Architekt und Technologie Scout. Seit vielen Jahr
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -190,7 +185,7 @@ Papick G. Taboada ist Software Architekt und Technologie Scout. Seit vielen Jahr
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

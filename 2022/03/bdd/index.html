@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Zusammenfassung SZENARIO: JUG DA 24.03.2022 ANGENOMMEN DASS du wenig über Behaviour Driven Development weißt WENN du zu diesem Vortrag kommst DANN lernst du das Grundprinzip kennen ANGENOMMEN DASS du BDD bisher als Testmethode nutzt WENN du zu diesem Vortrag kommst DANN siehst du, dass noch viel mehr dahinter steckt Dieses Problem kennen wir alle: In Softwareentwicklungsprojekten führt eine unzureichende Kommunikation häufig dazu, dass das Produkt am Ende nicht so umgesetzt ist, wie die Auftraggebenden es sich am Anfang vorgestellt hatten. Behaviour Driven Development (BDD) setzt von Anfang an darauf, alle Stakeholder an einen Tisch zu holen und früh ein gemeinsames Verständnis über das gewünschte Verhalten der Software herzustellen. Daraus entsteht eine ausführbare Spezifikation, die außer dem richtigen Produkt ganz nebenbei noch automatisierte Tests und eine lebendige Dokumentation liefert. Klingt super? Oder doch nur wieder nach einer dieser agilen Methoden, die am Ende nicht so richtig funktionieren? Der Teil mit den Tests scheint ja ganz gut zu sein, aber von Anfang an das Verhalten der Software ausschließlich mit Beispielen beschreiben und daraus entwickeln? Kann das überhaupt funktionieren? In diesem Talk gehen wir einmal gemeinsam den Weg vom ersten Beispiel zur Beschreibung der Software bis zur getesteten und dokumentierten Umsetzung im Code. Sprecher Katrin Rabow hat viele Jahre als selbständige Beraterin kleine Unternehmen in ihrem kaufmännischen Alltag unterstützt, ehe sie sich 2015 für ein Studium der Wirtschaftsinformatik an der TU Darmstadt entschied. Sie sucht immer wieder nach Wegen, “harte” Themen wie Software Engineering mit “weichen” Themen wie der Unternehmenskultur zu verbinden. Seit ihrem Masterabschluss arbeitet sie als IT-Consultant in Frankfurt." />
-<meta property="og:description" content="Zusammenfassung SZENARIO: JUG DA 24.03.2022 ANGENOMMEN DASS du wenig über Behaviour Driven Development weißt WENN du zu diesem Vortrag kommst DANN lernst du das Grundprinzip kennen ANGENOMMEN DASS du BDD bisher als Testmethode nutzt WENN du zu diesem Vortrag kommst DANN siehst du, dass noch viel mehr dahinter steckt Dieses Problem kennen wir alle: In Softwareentwicklungsprojekten führt eine unzureichende Kommunikation häufig dazu, dass das Produkt am Ende nicht so umgesetzt ist, wie die Auftraggebenden es sich am Anfang vorgestellt hatten. Behaviour Driven Development (BDD) setzt von Anfang an darauf, alle Stakeholder an einen Tisch zu holen und früh ein gemeinsames Verständnis über das gewünschte Verhalten der Software herzustellen. Daraus entsteht eine ausführbare Spezifikation, die außer dem richtigen Produkt ganz nebenbei noch automatisierte Tests und eine lebendige Dokumentation liefert. Klingt super? Oder doch nur wieder nach einer dieser agilen Methoden, die am Ende nicht so richtig funktionieren? Der Teil mit den Tests scheint ja ganz gut zu sein, aber von Anfang an das Verhalten der Software ausschließlich mit Beispielen beschreiben und daraus entwickeln? Kann das überhaupt funktionieren? In diesem Talk gehen wir einmal gemeinsam den Weg vom ersten Beispiel zur Beschreibung der Software bis zur getesteten und dokumentierten Umsetzung im Code. Sprecher Katrin Rabow hat viele Jahre als selbständige Beraterin kleine Unternehmen in ihrem kaufmännischen Alltag unterstützt, ehe sie sich 2015 für ein Studium der Wirtschaftsinformatik an der TU Darmstadt entschied. Sie sucht immer wieder nach Wegen, “harte” Themen wie Software Engineering mit “weichen” Themen wie der Unternehmenskultur zu verbinden. Seit ihrem Masterabschluss arbeitet sie als IT-Consultant in Frankfurt." />
-
+<meta name="description" content="Zusammenfassung" />
+<meta property="og:description" content="Zusammenfassung" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="BDD - Brauchst Du Das? | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2022/03/bdd/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>BDD - Brauchst Du Das? | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2022/03/bdd/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -168,43 +163,43 @@ Seit ihrem Masterabschluss arbeitet sie als IT-Consultant in Frankfurt.</p>
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -216,7 +211,7 @@ Seit ihrem Masterabschluss arbeitet sie als IT-Consultant in Frankfurt.</p>
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

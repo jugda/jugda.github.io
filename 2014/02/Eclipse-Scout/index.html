@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Zukunftssichere Frontendentwicklung für Geschäftsapplikationen Viele Firmen entwickeln auf der Client-Seite Desktop, Web oder Mobile Applikationen für ihre Kunden oder für den internen Gebrauch. Die Wahl des Technologiestacks für solche Anwendungen fällt dabei nicht leicht. Insbesondere, wenn mit ein und derselben Applikation gleichzeitig über unterschiedliche Frontents zugegriffen werden soll. Zum Beispiel als Rich Client auf dem Desktop und Webanwendung über mobile Geräte. Für die meisten Unternehmen kommt eine parallele Entwicklung von separaten Client-Applikationen pro Frontend aus finanziellen Gründen nicht in Frage. Zusätzlich schadet der gleichzeitige Unterhalt von spezifischen Kompetenzen im Desktop, Web und Mobilen Bereich der Effizienz der Entwicklungsorganisation. In diesem Kontext ist Eclipse Scout [www.eclipse.org/scout] die perfekte Wahl für ein Open Source Framework. Der Scope von Scout deckt die klassische Client-Server Architektur mit einem starken Fokus auf die Benutzerschnittstelle ab. Scout basiert direkt auf Java und Eclipse, ist einfach zu erlernen und bietet mit seiner in der Framwork-Architektur verankerten Unabhängigkeit einer spezifischen GUI Technologie eine hohe Zukunftssicherheit. Aktuell unterstützt Scout die GUI Technologien Swing und SWT auf dem Desktop sowie Eclipse RAP für Web und Mobile Applikationen. Wir beginnen mit einer kurzen Einführung in Scout und erklären welche Herausforderungen durch Scout adressiert werden. Anschliessend geht es um konkreten Java Code und laufende Anwendungen. Zuerst zeigen wir hier das mit dem Scout Framework mitgelieferte Tooling – die Scout SDK – anhand einer “Hello World” Applikation. Dann bieten wir einen Einblick in einzelne Runtime Komponenten von Scout. Schliesslich demonstrieren wir die Mächtigkeit von Scout anhand einer grösseren Geschäftsapplikation, dem kommerziellen Produkt BSI CRM. Zum Abschluss erklären wir, wie mit Scout effizient Applikationen entwickelt werden können welche gleichzeitig auf dem Desktop, im Browser und auf mobilen Geräten wie Handys und Tablets laufen. Speaker Matthias Zimmermann ist Co-Lead des Open Source Eclipse Scout Projektes. Bei der BSI ist Matthias für die Leitung der Weiterentwicklung des Scout Frameworks und für das Open Source Engagement verantwortlich. Andreas Hoegger ist Co-Lead und Committer des Open Source Eclipse Scout Projektes. Bei der BSI ist Andreas Scout der Experte für die Scout Tooling-komponente." />
-<meta property="og:description" content="Abstract Zukunftssichere Frontendentwicklung für Geschäftsapplikationen Viele Firmen entwickeln auf der Client-Seite Desktop, Web oder Mobile Applikationen für ihre Kunden oder für den internen Gebrauch. Die Wahl des Technologiestacks für solche Anwendungen fällt dabei nicht leicht. Insbesondere, wenn mit ein und derselben Applikation gleichzeitig über unterschiedliche Frontents zugegriffen werden soll. Zum Beispiel als Rich Client auf dem Desktop und Webanwendung über mobile Geräte. Für die meisten Unternehmen kommt eine parallele Entwicklung von separaten Client-Applikationen pro Frontend aus finanziellen Gründen nicht in Frage. Zusätzlich schadet der gleichzeitige Unterhalt von spezifischen Kompetenzen im Desktop, Web und Mobilen Bereich der Effizienz der Entwicklungsorganisation. In diesem Kontext ist Eclipse Scout [www.eclipse.org/scout] die perfekte Wahl für ein Open Source Framework. Der Scope von Scout deckt die klassische Client-Server Architektur mit einem starken Fokus auf die Benutzerschnittstelle ab. Scout basiert direkt auf Java und Eclipse, ist einfach zu erlernen und bietet mit seiner in der Framwork-Architektur verankerten Unabhängigkeit einer spezifischen GUI Technologie eine hohe Zukunftssicherheit. Aktuell unterstützt Scout die GUI Technologien Swing und SWT auf dem Desktop sowie Eclipse RAP für Web und Mobile Applikationen. Wir beginnen mit einer kurzen Einführung in Scout und erklären welche Herausforderungen durch Scout adressiert werden. Anschliessend geht es um konkreten Java Code und laufende Anwendungen. Zuerst zeigen wir hier das mit dem Scout Framework mitgelieferte Tooling – die Scout SDK – anhand einer “Hello World” Applikation. Dann bieten wir einen Einblick in einzelne Runtime Komponenten von Scout. Schliesslich demonstrieren wir die Mächtigkeit von Scout anhand einer grösseren Geschäftsapplikation, dem kommerziellen Produkt BSI CRM. Zum Abschluss erklären wir, wie mit Scout effizient Applikationen entwickelt werden können welche gleichzeitig auf dem Desktop, im Browser und auf mobilen Geräten wie Handys und Tablets laufen. Speaker Matthias Zimmermann ist Co-Lead des Open Source Eclipse Scout Projektes. Bei der BSI ist Matthias für die Leitung der Weiterentwicklung des Scout Frameworks und für das Open Source Engagement verantwortlich. Andreas Hoegger ist Co-Lead und Committer des Open Source Eclipse Scout Projektes. Bei der BSI ist Andreas Scout der Experte für die Scout Tooling-komponente." />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="A Hitchhiker's Guide to Eclipse Scout | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2014/02/Eclipse-Scout/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>A Hitchhiker's Guide to Eclipse Scout | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2014/02/Eclipse-Scout/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -143,43 +138,43 @@
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -191,7 +186,7 @@
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

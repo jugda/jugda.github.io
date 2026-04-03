@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Zusammenfassung Use a production-like, portable test environment described in code - gone is the need for heavyweight manual setup of test systems and the pain of sharing test infrastructure with multiple developers and teams. Launch a fully functional testing suite not only consisting of unit tests, but also of integration tests, right from source control. And instead of manually writing and maintaining a bunch of brittle bash scripts for instrumenting your containers, attendees will learn to leverage existing knowledge in writing JUnit tests and make use of the powerful TestContainers Java library. Going one step further, the talk will also introduce Groovy and Spock as a substitute for JUnit, allowing to write easily readable and expressive BDD style tests. Sprecher Kevin Wittek Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Founded his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. Nowadays Kevin is working at the cyber security company GDATA and focuses on topics such as software craftsmanship, infrastructure as code and continuous integration pipelines, trying to make the world a better place one container at a time. Sponsoren Die Software AG stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!" />
-<meta property="og:description" content="Zusammenfassung Use a production-like, portable test environment described in code - gone is the need for heavyweight manual setup of test systems and the pain of sharing test infrastructure with multiple developers and teams. Launch a fully functional testing suite not only consisting of unit tests, but also of integration tests, right from source control. And instead of manually writing and maintaining a bunch of brittle bash scripts for instrumenting your containers, attendees will learn to leverage existing knowledge in writing JUnit tests and make use of the powerful TestContainers Java library. Going one step further, the talk will also introduce Groovy and Spock as a substitute for JUnit, allowing to write easily readable and expressive BDD style tests. Sprecher Kevin Wittek Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Founded his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. Nowadays Kevin is working at the cyber security company GDATA and focuses on topics such as software craftsmanship, infrastructure as code and continuous integration pipelines, trying to make the world a better place one container at a time. Sponsoren Die Software AG stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach vor Ort!" />
-
+<meta name="description" content="Zusammenfassung" />
+<meta property="og:description" content="Zusammenfassung" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Groovy integration testing with Docker and TestContainers | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2018/06/Testcontainers/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Groovy integration testing with Docker and TestContainers | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2018/06/Testcontainers/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -155,43 +150,43 @@ Nowadays Kevin is working at the cyber security company GDATA and focuses on top
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -203,7 +198,7 @@ Nowadays Kevin is working at the cyber security company GDATA and focuses on top
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

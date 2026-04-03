@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Zusammenfassung In vielen Software-Projekten wissen häufig nicht nur Anwender sondern auch Entwickler nicht, warum sich ihre Anwendung verhält, wie sie sich eben verhält. Wieso ist meine Anwendung so langsam? An Performance-Tests wurde während der Entwicklung nicht gespart. Was kann also das Problem sein? Abhilfe kann in solchen Fällen ein Application Performance Management Werkzeug schaffen. In dieser Präsentation zeigen wir anhand des Open Source APM-Werkzeugs inspectIT, wie Performance-Probleme schnell und effektiv aufgedeckt und deren Ursachen identifiziert werden können. Dabei sind insbesondere auch die Messungen der End-User-Experience von Bedeutung. Durch das automatisierte Monitoring von Web-basierten Anwendungen können diese kritischen Daten ebenso erfasst und analysiert werden, wie die Daten des Backend-Systems. Hier sollen die Möglichkeiten, welche die aktuellen JavaScript und HTML APIs bieten und wie diese mittels inspectIT genutzt werden können, aufgezeigt werden. Sprecher Dr.-Ing. Christoph Heger engagiert sich seit mehreren Jahren für die Domäne Application Performance Management in Wissenschaft und Wirtschaft. Nach seiner Promotion am Lehrstuhl für Software Design und Qualität (SDQ) am Karlsruher Institut für Technologie (KIT), verwandelt er heute Konzepte aus der Forschung in innovative Lösungen für Kunden. Jonas Kunz studiert aktuell am Karlsruher Institut für Technologie Informatik im Master. Parallel dazu arbeitet er bei der NovaTec Consulting GmbH als Werksstudent im Bereich Application Performance Management, wobei er unter anderem an der Entwicklung des Open Source Monitoring Tools inspectIT tätig ist.​" />
-<meta property="og:description" content="Zusammenfassung In vielen Software-Projekten wissen häufig nicht nur Anwender sondern auch Entwickler nicht, warum sich ihre Anwendung verhält, wie sie sich eben verhält. Wieso ist meine Anwendung so langsam? An Performance-Tests wurde während der Entwicklung nicht gespart. Was kann also das Problem sein? Abhilfe kann in solchen Fällen ein Application Performance Management Werkzeug schaffen. In dieser Präsentation zeigen wir anhand des Open Source APM-Werkzeugs inspectIT, wie Performance-Probleme schnell und effektiv aufgedeckt und deren Ursachen identifiziert werden können. Dabei sind insbesondere auch die Messungen der End-User-Experience von Bedeutung. Durch das automatisierte Monitoring von Web-basierten Anwendungen können diese kritischen Daten ebenso erfasst und analysiert werden, wie die Daten des Backend-Systems. Hier sollen die Möglichkeiten, welche die aktuellen JavaScript und HTML APIs bieten und wie diese mittels inspectIT genutzt werden können, aufgezeigt werden. Sprecher Dr.-Ing. Christoph Heger engagiert sich seit mehreren Jahren für die Domäne Application Performance Management in Wissenschaft und Wirtschaft. Nach seiner Promotion am Lehrstuhl für Software Design und Qualität (SDQ) am Karlsruher Institut für Technologie (KIT), verwandelt er heute Konzepte aus der Forschung in innovative Lösungen für Kunden. Jonas Kunz studiert aktuell am Karlsruher Institut für Technologie Informatik im Master. Parallel dazu arbeitet er bei der NovaTec Consulting GmbH als Werksstudent im Bereich Application Performance Management, wobei er unter anderem an der Entwicklung des Open Source Monitoring Tools inspectIT tätig ist.​" />
-
+<meta name="description" content="Zusammenfassung" />
+<meta property="og:description" content="Zusammenfassung" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="inspectIT - Open Source Application Performance Monitoring | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2018/04/Open-Source-APM-inspectit/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>inspectIT - Open Source Application Performance Monitoring | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2018/04/Open-Source-APM-inspectit/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -164,43 +159,43 @@ studiert aktuell am Karlsruher Institut für Technologie Informatik im Master. P
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -212,7 +207,7 @@ studiert aktuell am Karlsruher Institut für Technologie Informatik im Master. P
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

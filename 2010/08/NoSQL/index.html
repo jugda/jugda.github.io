@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Der Vortrag dient als Einführung in die Welt der nicht-relationalen Datenbanken. Die zu Grunde liegenden Methodiken und Merkmale werden erläutert und anschließend ein Überblick anhand von Beispielen gegeben. Die Teilnehmer können durch Code- Beispiele ein Gefühl für die einzelnen APIs entwickeln. Im Einzelnen werden die NoSQL Datenbanken HBase, neo4j, MongoDB und Voldemort vorgestellt. Ein Überblick über die Features der verschiedenen Java- APIs wird dargestellt. Speaker Erik Vonderheid ist Consultant bei der PROSTEP AG in Darmstadt und hat Johannes Leebmann in der Anfangszeit bei der Organisation der JUG Darmstadt unterstützt. Weitere Informationen Vortragsfolien Quellcode der Demos (Eclipse-Projekte) model HBase Neo4j MongoDB Voldemort" />
-<meta property="og:description" content="Abstract Der Vortrag dient als Einführung in die Welt der nicht-relationalen Datenbanken. Die zu Grunde liegenden Methodiken und Merkmale werden erläutert und anschließend ein Überblick anhand von Beispielen gegeben. Die Teilnehmer können durch Code- Beispiele ein Gefühl für die einzelnen APIs entwickeln. Im Einzelnen werden die NoSQL Datenbanken HBase, neo4j, MongoDB und Voldemort vorgestellt. Ein Überblick über die Features der verschiedenen Java- APIs wird dargestellt. Speaker Erik Vonderheid ist Consultant bei der PROSTEP AG in Darmstadt und hat Johannes Leebmann in der Anfangszeit bei der Organisation der JUG Darmstadt unterstützt. Weitere Informationen Vortragsfolien Quellcode der Demos (Eclipse-Projekte) model HBase Neo4j MongoDB Voldemort" />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="NoSQL – Datenbanken | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2010/08/NoSQL/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>NoSQL – Datenbanken | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2010/08/NoSQL/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -152,43 +147,43 @@
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -200,7 +195,7 @@
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

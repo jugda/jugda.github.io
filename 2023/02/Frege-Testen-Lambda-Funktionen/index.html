@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen Was haben die Programmiersprachen Kotlin, Groovy, Scala, Clojure und selbst schlichtes Java gemeinsam? Alle bieten verschiedene funktionale Sprachfeatures für die Java Plattform an. Trotzdem kann in jeder dieser Sprachen ein unbemerkter Seiteneffekt auftreten. Das kann Euch mit Frege nicht passieren, weil jeder Seiteneffekt (z. B. Filezugriff, API-Request, …) im Typsystem sichtbar ist. Frege bringt dabei nicht nur alle bekannten Features von Haskell (pure Funktionen, starkes Typsystem, Laziness, …) auf die JVM, sondern erlaubt auch die direkte Interaktion mit Java. Einerseits kann Frege direkt Java Code aufrufen und damit von bewährten Bibliotheken profitieren. Anderseits kann auch Java Frege Code ausführen, sodass eine bestehende Java Code Basis leicht erweitert werden kann. In diesem Vortrag lernt Ihr, wie Ihr dank des neuen Toolings leicht den Sprung von Java nach Frege schafft, damit Fehler schneller erkennt und die Integration meistert. Ich stelle Euch dazu eine Language Server Implementierung vor, die auch das Gradle Build-Management unterstützt. In einer Demo präsentiere ich, wie Ihr diese in Eurer Entwicklungsumgebung (IDE) nutzen und somit gleich mit Frege loslegen könnt. Mit verschiedenen Code-Beispielen zeige ich, wie Ihr eine modulare und funktionale Architektur aufbauen könnt. Lokales Testen von AWS Serverless Lambda-Funktionen Das Testen von Microservices wird mittlerweile hinreichend praktiziert. Bei Serverless-Functions wie AWS Lambdas, wird meist nur manuell nach einem Deployment getestet, speziell wenn es um die Logik geht, welche durch AWS bereitgestellt wird. Dabei ist es auch möglich, die Anwendung automatisiert lokal hochzufahren und zu testen. Aber wie geht das in einem (relativ) geschlossenen System wie der AWS-Cloud? Durch den geschickten Einsatz von LocalStack, TestContainers und dem AWS-SDK ist es möglich, Component-Tests automatisiert auszuführen und etwaige Fehler in der Benutzung der Lambda-Funktion aufzudecken. Sprecher Thibault Gagnaux arbeitet bei der INTEGON GmbH. Jens Knipper ist Software Engineer bei OpenValue in Düsseldorf. Er arbeitet gerne in verschiedenen Umgebungen, Architekturen und mit unterschiedlichen Technologien. Die Erkenntnisse die er dadurch gewinnt, versucht er durch Vorträge und Blog Artikel mit anderen zu teilen." />
-<meta property="og:description" content="Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen Was haben die Programmiersprachen Kotlin, Groovy, Scala, Clojure und selbst schlichtes Java gemeinsam? Alle bieten verschiedene funktionale Sprachfeatures für die Java Plattform an. Trotzdem kann in jeder dieser Sprachen ein unbemerkter Seiteneffekt auftreten. Das kann Euch mit Frege nicht passieren, weil jeder Seiteneffekt (z. B. Filezugriff, API-Request, …) im Typsystem sichtbar ist. Frege bringt dabei nicht nur alle bekannten Features von Haskell (pure Funktionen, starkes Typsystem, Laziness, …) auf die JVM, sondern erlaubt auch die direkte Interaktion mit Java. Einerseits kann Frege direkt Java Code aufrufen und damit von bewährten Bibliotheken profitieren. Anderseits kann auch Java Frege Code ausführen, sodass eine bestehende Java Code Basis leicht erweitert werden kann. In diesem Vortrag lernt Ihr, wie Ihr dank des neuen Toolings leicht den Sprung von Java nach Frege schafft, damit Fehler schneller erkennt und die Integration meistert. Ich stelle Euch dazu eine Language Server Implementierung vor, die auch das Gradle Build-Management unterstützt. In einer Demo präsentiere ich, wie Ihr diese in Eurer Entwicklungsumgebung (IDE) nutzen und somit gleich mit Frege loslegen könnt. Mit verschiedenen Code-Beispielen zeige ich, wie Ihr eine modulare und funktionale Architektur aufbauen könnt. Lokales Testen von AWS Serverless Lambda-Funktionen Das Testen von Microservices wird mittlerweile hinreichend praktiziert. Bei Serverless-Functions wie AWS Lambdas, wird meist nur manuell nach einem Deployment getestet, speziell wenn es um die Logik geht, welche durch AWS bereitgestellt wird. Dabei ist es auch möglich, die Anwendung automatisiert lokal hochzufahren und zu testen. Aber wie geht das in einem (relativ) geschlossenen System wie der AWS-Cloud? Durch den geschickten Einsatz von LocalStack, TestContainers und dem AWS-SDK ist es möglich, Component-Tests automatisiert auszuführen und etwaige Fehler in der Benutzung der Lambda-Funktion aufzudecken. Sprecher Thibault Gagnaux arbeitet bei der INTEGON GmbH. Jens Knipper ist Software Engineer bei OpenValue in Düsseldorf. Er arbeitet gerne in verschiedenen Umgebungen, Architekturen und mit unterschiedlichen Technologien. Die Erkenntnisse die er dadurch gewinnt, versucht er durch Vorträge und Blog Artikel mit anderen zu teilen." />
-
+<meta name="description" content="Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen" />
+<meta property="og:description" content="Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Doppelvortrag: 'Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen' und 'Lokales Testen von AWS Serverless Lambda-Funktionen' | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2023/02/Frege-Testen-Lambda-Funktionen/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Doppelvortrag: 'Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen' und 'Lokales Testen von AWS Serverless Lambda-Funktionen' | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2023/02/Frege-Testen-Lambda-Funktionen/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -184,43 +179,43 @@ Durch den geschickten Einsatz von LocalStack, TestContainers und dem AWS-SDK ist
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -232,7 +227,7 @@ Durch den geschickten Einsatz von LocalStack, TestContainers und dem AWS-SDK ist
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

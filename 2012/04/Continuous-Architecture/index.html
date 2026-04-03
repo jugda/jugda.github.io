@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Eine gemeinsame Veranstaltung der JUG Darmstadt und JUG Frankfurt. Abstract Viele Software Projekte leiden darunter, dass die ursprünglich angedachte Architektur nach einigen Iterationen nicht mehr mit der Implementierungswirklichkeit übereinstimmt. Unbemerkt vom Software Architekten ist die Struktur der Software erodiert, sodass die Wartung und Weiterentwicklung zunehmend schwieriger wird. Die Ursachen für Software-Entropie sind vielfältig und das Ausmaß lässt sich nicht nur durch unser Bauchgefühl bestimmen: Besonderen Einfluss auf die Struktur haben Software-Zyklen, die Verständlichkeit, Wiederverwendung, Erweiterbarkeit, Testen und die Organisation von Teams negativ beeinflussen. Diese Zyklen haben die Tendenz wie ein Geschwür zu wachsen und werden als Spaghetti-Code wahrgenommen. Auf Makro-Ebene hilft eine Logische Architektur, diese Komplexität zu bekämpfen, auf Mikro-Ebene die Überwachung von Metriken wie z.B. zyklomatische Komplexität. Zur Erhaltung der Struktur muss die Architektur mit den geeigneten Werkzeugen, durch Organisation und Entwicklungs-Methodik überwacht werden. Ingmar Kellner erklärte in anschaulicher Weise wie größere Software-Projekte mit der Zeit bestimmte typische strukturelle Schwächen entwickeln. Neben Methoden wie derartige Schwächen aufgespürt werden können, wurden aus Lösungswege aufgezeigt, wie man pragmatisch auf der Analyse aufbauend wieder die Komplexität reduzieren kann. Tools, die die Analyse unterstützen werden auch von der Firma hello2morrow entwickelt. Speaker Ingmar Kellner hat Elektrotechnik in Deutschland und England studiert und entwickelt seit 12 Jahren Software. In seinen 8 Jahren bei der Siemens AG, Corporate Technology hat er das Leben als Entwickler, Berater und Architekt in großen und kleinen Projekten kennengelernt. 2011 wechselte er zur hello2morrow GmbH und programmiert nun Werkzeuge zur Unterstützung von SoftwareArchitekten. Weitere Informationen Folien zum Vortrag" />
-<meta property="og:description" content="Eine gemeinsame Veranstaltung der JUG Darmstadt und JUG Frankfurt. Abstract Viele Software Projekte leiden darunter, dass die ursprünglich angedachte Architektur nach einigen Iterationen nicht mehr mit der Implementierungswirklichkeit übereinstimmt. Unbemerkt vom Software Architekten ist die Struktur der Software erodiert, sodass die Wartung und Weiterentwicklung zunehmend schwieriger wird. Die Ursachen für Software-Entropie sind vielfältig und das Ausmaß lässt sich nicht nur durch unser Bauchgefühl bestimmen: Besonderen Einfluss auf die Struktur haben Software-Zyklen, die Verständlichkeit, Wiederverwendung, Erweiterbarkeit, Testen und die Organisation von Teams negativ beeinflussen. Diese Zyklen haben die Tendenz wie ein Geschwür zu wachsen und werden als Spaghetti-Code wahrgenommen. Auf Makro-Ebene hilft eine Logische Architektur, diese Komplexität zu bekämpfen, auf Mikro-Ebene die Überwachung von Metriken wie z.B. zyklomatische Komplexität. Zur Erhaltung der Struktur muss die Architektur mit den geeigneten Werkzeugen, durch Organisation und Entwicklungs-Methodik überwacht werden. Ingmar Kellner erklärte in anschaulicher Weise wie größere Software-Projekte mit der Zeit bestimmte typische strukturelle Schwächen entwickeln. Neben Methoden wie derartige Schwächen aufgespürt werden können, wurden aus Lösungswege aufgezeigt, wie man pragmatisch auf der Analyse aufbauend wieder die Komplexität reduzieren kann. Tools, die die Analyse unterstützen werden auch von der Firma hello2morrow entwickelt. Speaker Ingmar Kellner hat Elektrotechnik in Deutschland und England studiert und entwickelt seit 12 Jahren Software. In seinen 8 Jahren bei der Siemens AG, Corporate Technology hat er das Leben als Entwickler, Berater und Architekt in großen und kleinen Projekten kennengelernt. 2011 wechselte er zur hello2morrow GmbH und programmiert nun Werkzeuge zur Unterstützung von SoftwareArchitekten. Weitere Informationen Folien zum Vortrag" />
-
+<meta name="description" content="Eine gemeinsame Veranstaltung der JUG Darmstadt und JUG Frankfurt." />
+<meta property="og:description" content="Eine gemeinsame Veranstaltung der JUG Darmstadt und JUG Frankfurt." />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Continuous Architecture Management - Erkennen und Verhindern von struktureller Erosion | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2012/04/Continuous-Architecture/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Continuous Architecture Management - Erkennen und Verhindern von struktureller Erosion | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2012/04/Continuous-Architecture/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -143,43 +138,43 @@ Auf Makro-Ebene hilft eine Logische Architektur, diese Komplexität zu bekämpfe
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -191,7 +186,7 @@ Auf Makro-Ebene hilft eine Logische Architektur, diese Komplexität zu bekämpfe
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

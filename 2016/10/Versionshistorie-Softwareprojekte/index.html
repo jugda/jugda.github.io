@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Was kann man aus der Versionshistorie eines Softwareprojekts lernen? Abstract Im letzten Jahrzehnt war die Analyse von Versionshistorien zentrales Thema in der Forschung. Welche Rückschlüsse können jedoch in der Praxis aus der Historie eines Softwareprojekts gezogen werden, insbesondere im Hinblick auf Software-Qualität? Wir haben viele der Techniken selbst ausprobiert – sowohl auf bekannten Open-Source-Systemen als auch im industriellen Umfeld – mit überraschenden Resultaten. Dieser Vortrag stellt die interessantesten Ergebnisse dar und verdeutlicht, welche der Analysen und Ergebnisse in der Praxis hilfreich sind. Sie lernen: Relevante Ergebnisse des Forschungsgebiets der letzten 10 Jahre Anekdoten aus der Praxis Möglichkeiten und Grenzen der Analysen für den Einsatz im eigenen Projekt Erweiterte Beschreibung: Wir blicken selbst auf viele Jahre eigener Forschung im Bereich Repository Mining zurück, und haben dort einige bekannte Papiere veröffentlicht. Im industriellen Umfeld haben wir aber gelernt, dass die entsprechenden Forschungsmethoden und -ergebnisse weitgehend unbekannt sind, und ihr Bezug zur professionellen “Realität” vielen gar nicht klar ist. Auf der anderen Seite setzen wir bei der CQSE GmbH entsprechende Analysen in Projekten mit Industriekunden täglich ein, da sie uns - neben den Entwicklern selbst - nützliche Auskunft darüber geben, wie ein Projekt gewachsen ist. Dies erlaubt es uns beispielsweise, Rückschlüsse auf die Teamstruktur zu ziehen, zu verstehen, ob Teile des Codes nur bestimmten Personen bekannt sind, und wie sich Entwicklungsaktivitäten in Fehlerbehebungen und Neuentwicklung aufteilen. Dieser Vortrag ist jedoch alles andere als forschungslastig, sondern illustriert vielmehr anhand vieler Beispiele, welche Perlen sich in Versionskontrollsystemen verstecken können. Dazu greifen wir auf bekannte Open-Source-Repositories (inklusive .NET), aber auch auf industrielle Projekte als Beispiele zurück. Speaker Dr. Dennis Pagano hat in Software Engineering promoviert, und begleitet als Berater für Software-Qualität bei der CQSE GmbH viele Firmen beim Verbessern ihrer Qualitätssicherungs- und Testprozesse. Er ist außerdem aktiv an der Entwicklung der dort eingesetzten Code-Analyse-Werkzeuge beteiligt. Er spricht regelmäßig auf Konferenzen, wie ICSE und MSR, und hat einen Distinguished Paper Award auf der MSR bekommen. Sponsor ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-<meta property="og:description" content="Was kann man aus der Versionshistorie eines Softwareprojekts lernen? Abstract Im letzten Jahrzehnt war die Analyse von Versionshistorien zentrales Thema in der Forschung. Welche Rückschlüsse können jedoch in der Praxis aus der Historie eines Softwareprojekts gezogen werden, insbesondere im Hinblick auf Software-Qualität? Wir haben viele der Techniken selbst ausprobiert – sowohl auf bekannten Open-Source-Systemen als auch im industriellen Umfeld – mit überraschenden Resultaten. Dieser Vortrag stellt die interessantesten Ergebnisse dar und verdeutlicht, welche der Analysen und Ergebnisse in der Praxis hilfreich sind. Sie lernen: Relevante Ergebnisse des Forschungsgebiets der letzten 10 Jahre Anekdoten aus der Praxis Möglichkeiten und Grenzen der Analysen für den Einsatz im eigenen Projekt Erweiterte Beschreibung: Wir blicken selbst auf viele Jahre eigener Forschung im Bereich Repository Mining zurück, und haben dort einige bekannte Papiere veröffentlicht. Im industriellen Umfeld haben wir aber gelernt, dass die entsprechenden Forschungsmethoden und -ergebnisse weitgehend unbekannt sind, und ihr Bezug zur professionellen “Realität” vielen gar nicht klar ist. Auf der anderen Seite setzen wir bei der CQSE GmbH entsprechende Analysen in Projekten mit Industriekunden täglich ein, da sie uns - neben den Entwicklern selbst - nützliche Auskunft darüber geben, wie ein Projekt gewachsen ist. Dies erlaubt es uns beispielsweise, Rückschlüsse auf die Teamstruktur zu ziehen, zu verstehen, ob Teile des Codes nur bestimmten Personen bekannt sind, und wie sich Entwicklungsaktivitäten in Fehlerbehebungen und Neuentwicklung aufteilen. Dieser Vortrag ist jedoch alles andere als forschungslastig, sondern illustriert vielmehr anhand vieler Beispiele, welche Perlen sich in Versionskontrollsystemen verstecken können. Dazu greifen wir auf bekannte Open-Source-Repositories (inklusive .NET), aber auch auf industrielle Projekte als Beispiele zurück. Speaker Dr. Dennis Pagano hat in Software Engineering promoviert, und begleitet als Berater für Software-Qualität bei der CQSE GmbH viele Firmen beim Verbessern ihrer Qualitätssicherungs- und Testprozesse. Er ist außerdem aktiv an der Entwicklung der dort eingesetzten Code-Analyse-Werkzeuge beteiligt. Er spricht regelmäßig auf Konferenzen, wie ICSE und MSR, und hat einen Distinguished Paper Award auf der MSR bekommen. Sponsor ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisch) zur Verfügung! Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit – wir bleiben einfach bei ACCSO! Weitere Informationen Blog-Beitrag von Jörn Hameister" />
-
+<meta name="description" content="Was kann man aus der Versionshistorie eines Softwareprojekts lernen?" />
+<meta property="og:description" content="Was kann man aus der Versionshistorie eines Softwareprojekts lernen?" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Versionshistorie von Softwareprojekten | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2016/10/Versionshistorie-Softwareprojekte/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Versionshistorie von Softwareprojekten | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2016/10/Versionshistorie-Softwareprojekte/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -169,43 +164,43 @@ ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisc
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -217,7 +212,7 @@ ACCSO lädt uns zu sich ein und stellt Essen und Getränke (und einen Kickertisc
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   

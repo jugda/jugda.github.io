@@ -4,26 +4,21 @@
     <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
-<meta name="description" content="Abstract Falls Sie in der nächsten Zeit eine JEE6 Webapplikation aufbauen, gibt Martin Kompf’s Beitrag einen guten Überblick, was Sie dabei im Bezug auf das Testen beachten müssen. Die Liste möglicher Strategien und Tools dafür ist lang: Black-, White- und Grey-Box Testing, Code-Reviews, JUnit, Mockobjekte, Embeddable EE containers (Arquillian und ShrinkWrap) … In den Präsentationsfolien finden Sie hierzu jeweils Vor- und Nachteile zu Black- oder White-Box-Tests aufgeführt. Neben diesen grundlegenden Erfahrungen aus der Praxis gibt Martin Kompf einen Überblick über die Tools, die dabei je nach Projektphase am besten eingesetzt werden. Neben allgemein verwendbaren Tools für zum Beispiel statische Reviews wie Cobertura (Coverage), Fitness oder Sonar, spielen aber bei der Entwicklung von JEE6 Web-Anwendungen weitere Werkzeuge eine wichtige Rolle. Der erste Teil der praktischen Beispiele zeigt Methoden des White-Box-Testens. Die verlinkten zip-Files enthalten die Eclipse-Projekte mit den Beispielen zum Praxisteil. Zwei Demo Projekte zeigen, wie Arquillian (embedded und weld) eingesetzt wird (Alpha Stadium) und automatisch Mock-Objekte mit Mockito erstellt werden. Der zweite Teil der praktischen Beispiele fokussiert sich auf das Black-Box-Testing einer komplexen Webanwendung mittels Selenium. Thema sind hierbei insbesondere die Herausforderungen, die durch die Verwendung diverser JSF und Ajax Frameworks auftreten, wie dynamische IDs und versteckte Hyperlinks. Zum Test von Webanwendungen wurde Selenium eingesetzt. Zum Nachspielen der Demo benötigen Sie die unten angegebene Software. Selenium Plugin installieren: Firefox-&gt;Add-Ons-&gt;Add-Ons-Suchen: Selenium Selenium IDE installieren (http://seleniumhq.org/download/); auch zum Export der aufgezeichneten Testfälle in verschiedene Sprachen (zum Beispiel JUnit-Tests). Weitere Infos zu Fallstricken, die beim Test mit Selenium auftreten können, werden in der Präsentation (siehe oben) erläutert. Die Plugins Firebug (für Firefox) und Firepath (für Firebug) finden Sie auch über: Firefox-&gt;Add-Ons-&gt;Add-Ons-Suchen Speaker Martin Kompf arbeitet als Autor, Consultant und Softwareentwickler. Seine Schwerpunkte sind Verteilte Systeme, Java und C++. Kontakt http://www.kompf.de Weitere Informationen Downloads PDF der Präsentation Eclipse Projekt zu arquillian-weld-testing Eclipse Projekt zu arquillian-embedded-openejb-testing Eclipse Projekt zu mockito-testing" />
-<meta property="og:description" content="Abstract Falls Sie in der nächsten Zeit eine JEE6 Webapplikation aufbauen, gibt Martin Kompf’s Beitrag einen guten Überblick, was Sie dabei im Bezug auf das Testen beachten müssen. Die Liste möglicher Strategien und Tools dafür ist lang: Black-, White- und Grey-Box Testing, Code-Reviews, JUnit, Mockobjekte, Embeddable EE containers (Arquillian und ShrinkWrap) … In den Präsentationsfolien finden Sie hierzu jeweils Vor- und Nachteile zu Black- oder White-Box-Tests aufgeführt. Neben diesen grundlegenden Erfahrungen aus der Praxis gibt Martin Kompf einen Überblick über die Tools, die dabei je nach Projektphase am besten eingesetzt werden. Neben allgemein verwendbaren Tools für zum Beispiel statische Reviews wie Cobertura (Coverage), Fitness oder Sonar, spielen aber bei der Entwicklung von JEE6 Web-Anwendungen weitere Werkzeuge eine wichtige Rolle. Der erste Teil der praktischen Beispiele zeigt Methoden des White-Box-Testens. Die verlinkten zip-Files enthalten die Eclipse-Projekte mit den Beispielen zum Praxisteil. Zwei Demo Projekte zeigen, wie Arquillian (embedded und weld) eingesetzt wird (Alpha Stadium) und automatisch Mock-Objekte mit Mockito erstellt werden. Der zweite Teil der praktischen Beispiele fokussiert sich auf das Black-Box-Testing einer komplexen Webanwendung mittels Selenium. Thema sind hierbei insbesondere die Herausforderungen, die durch die Verwendung diverser JSF und Ajax Frameworks auftreten, wie dynamische IDs und versteckte Hyperlinks. Zum Test von Webanwendungen wurde Selenium eingesetzt. Zum Nachspielen der Demo benötigen Sie die unten angegebene Software. Selenium Plugin installieren: Firefox-&gt;Add-Ons-&gt;Add-Ons-Suchen: Selenium Selenium IDE installieren (http://seleniumhq.org/download/); auch zum Export der aufgezeichneten Testfälle in verschiedene Sprachen (zum Beispiel JUnit-Tests). Weitere Infos zu Fallstricken, die beim Test mit Selenium auftreten können, werden in der Präsentation (siehe oben) erläutert. Die Plugins Firebug (für Firefox) und Firepath (für Firebug) finden Sie auch über: Firefox-&gt;Add-Ons-&gt;Add-Ons-Suchen Speaker Martin Kompf arbeitet als Autor, Consultant und Softwareentwickler. Seine Schwerpunkte sind Verteilte Systeme, Java und C++. Kontakt http://www.kompf.de Weitere Informationen Downloads PDF der Präsentation Eclipse Projekt zu arquillian-weld-testing Eclipse Projekt zu arquillian-embedded-openejb-testing Eclipse Projekt zu mockito-testing" />
-
+<meta name="description" content="Abstract" />
+<meta property="og:description" content="Abstract" />
 <meta name="author" content="Java User Group Darmstadt" />
-
-
 <meta property="og:title" content="Testest Du schon? Verfahren und Tools zum Testen von Software. | Java User Group Darmstadt" />
-
-
-
-<meta property="og:image" content="/images/jugda_logo_rund.png">
-
+<meta property="og:image" content="https://www.jug-da.de/images/jugda_logo_rund.png">
+<meta property="og:url" content="https://www.jug-da.de/2010/12/Testen-Verfahren-Tools/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Java User Group Darmstadt" />
 
     <title>Testest Du schon? Verfahren und Tools zum Testen von Software. | Java User Group Darmstadt – Community der Java Anwender in und um Darmstadt</title>
     <!--link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Java User Group Darmstadt - Community der Java Anwender in und um Darmstadt" href="/feed.xml" />
+    <link rel="canonical" href="https://www.jug-da.de/2010/12/Testen-Verfahren-Tools/" />
   </head>
 
   <body>
@@ -33,7 +28,7 @@
           <div class="d-flex align-items-center">
             <img src="/images/jugda_logo_rund.png" alt="Java User Group Darmstadt Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">Java User Group Darmstadt</h1>
+              <div class="h1 text-primary mb-0">Java User Group Darmstadt</div>
               <p class="fs-6">Community der Java Anwender in und um Darmstadt</p>
             </div>
           </div>
@@ -173,43 +168,43 @@ Der zweite Teil der praktischen Beispiele fokussiert sich auf das Black-Box-Test
   
   
     <a href="https://entwickler.de/" target="_blank">
-      <img src="/images/sponsors/epress.png" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/epress.png" alt="entwickler.press Logo" title="entwickler.press" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.dpunkt.de" target="_blank">
-      <img src="/images/sponsors/dpunkt.png" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/dpunkt.png" alt="dpunkt Logo" title="dpunkt" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.hanser-fachbuch.de/computer/" target="_blank">
-      <img src="/images/sponsors/hanser.png" title="Hanser" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/hanser.png" alt="Hanser Logo" title="Hanser" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.rheinwerk-verlag.de/" target="_blank">
-      <img src="/images/sponsors/rheinwerk.png" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/rheinwerk.png" alt="Rheinwerk Logo" title="Rheinwerk" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://oreilly.de/" target="_blank">
-      <img src="/images/sponsors/oreilly.png" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/oreilly.png" alt="O'Reilly Logo" title="O'Reilly" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.mitp.de/" target="_blank">
-      <img src="/images/sponsors/mitp.png" title="mitp" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/mitp.png" alt="mitp Logo" title="mitp" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
   
     <a href="https://www.jetbrains.com/idea/" target="_blank">
-      <img src="/images/sponsors/idea.png" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/idea.png" alt="JetBrains Logo" title="JetBrains" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
@@ -221,7 +216,7 @@ Der zweite Teil der praktischen Beispiele fokussiert sich auf das Black-Box-Test
   
   
     <a href="https://sandsmedia.com/de/" target="_blank">
-      <img src="/images/sponsors/sus.png" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/sus.png" alt="Software & Support Logo" title="Software & Support" class="mx-2" style="max-height: 100px;"/>
     </a>
   
   
