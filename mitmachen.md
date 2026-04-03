@@ -2,6 +2,7 @@
 layout: page
 title: Mitmachen
 permalink: /mitmachen/
+excerpt: Mitmachen bei der JUG Darmstadt
 ---
 
 Wenn Du "Mitglied" der JUG Darmstadt werden möchtest, trägst Du Dich einfach in die Mailingliste ein.

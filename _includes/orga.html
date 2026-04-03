@@ -3,7 +3,7 @@
   <h4 class="text-secondary">{% if orga.passedAway %}† {% endif %}{{ orga.name }}</h4>
   <p>
       {% assign externImage = orga.image | slice: 0, 4 %}
-      <img src="{% if externImage != 'http' %}/images/orga/{% endif %}{{ orga.image }}" class="orgapic"/>
+      <img src="{% if externImage != 'http' %}/images/orga/{% endif %}{{ orga.image }}" alt="{{ orga.name }} Bild" class="orgapic"/>
       {{ orga.bio | markdownify }}
   </p>
   <p>

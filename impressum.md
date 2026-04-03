@@ -2,6 +2,7 @@
 layout: page
 title: Impressum
 permalink: /impressum/
+excerpt: Impressum der JUG DA
 ---
 
 ### Angaben gemäß § 5 TMG

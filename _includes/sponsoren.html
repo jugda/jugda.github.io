@@ -4,7 +4,7 @@
   {% for sponsor in site.data.sponsors %}
   {% if sponsor[1].startPage %}
     <a href="{{ sponsor[1].href }}" target="_blank">
-      <img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}" class="mx-2" style="max-height: 100px;"/>
+      <img src="/images/sponsors/{{ sponsor[1].img }}" alt="{{ sponsor[0] }} Logo" title="{{ sponsor[0] }}" class="mx-2" style="max-height: 100px;"/>
     </a>
   {% endif %}
   {% endfor %}

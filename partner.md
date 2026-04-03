@@ -2,6 +2,7 @@
 layout: page
 title: Partner JUGs
 permalink: /partner/
+excerpt: Unsere Partner JUGs
 ---
 
 ### Java User Group Frankfurt (JUGF)

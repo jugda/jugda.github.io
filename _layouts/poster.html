@@ -10,7 +10,7 @@
   </head>
   <body class="poster" onload="if(window.confirm('Bitte ausdrucken (Kopf- und Fußzeilen im nachfolgenden Druck-Dialog ausblenden) und aufhängen!')){window.print()};">
     <div class="poster-header" style="text-align:right;">
-      <img src="/images/poster_logo.svg" />
+      <img src="/images/poster_logo.svg" alt="JUG DA Logo"/>
       <hr class="poster-line" />
     </div>
     <div class="poster-content">
@@ -19,7 +19,7 @@
     <div class="poster-footer">
       <div class="poster-sponsors">Mit freundlicher Unterstützung von:
 		{% for sponsor in site.data.sponsors %}
-		<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}"/></a>
+		<a href="{{ sponsor[1].href }}" target="_blank"><img src="/images/sponsors/{{ sponsor[1].img }}" title="{{ sponsor[0] }}" alt="{{ sponsor[0] }}"/></a>
 		{% endfor %}
 	  </div>
       Die Orte für die Vorträge sind auf der einzelnen Vortragsseite angegeben, bitte informiert Euch direkt beim jeweiligen Event.

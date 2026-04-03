@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
   </head>
 
   <body>
@@ -16,7 +17,7 @@
           <div class="d-flex align-items-center">
             <img src="{{ site.avatar }}" alt="{{ site.name }} Logo"/>
             <div class="brand-text">
-              <h1 class="text-primary mb-0">{{ site.name }}</h1>
+              <div class="h1 text-primary mb-0">{{ site.name }}</div>
               <p class="fs-6">{{ site.description }}</p>
             </div>
           </div>
