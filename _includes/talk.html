@@ -1,6 +1,6 @@
 <li>
   {% if showUrlAndQrCode %}
-    <img src="https://chart.apis.google.com/chart?chs=80x80&cht=qr&chld=|0&chl={{site.url}}{{post.url}}" alt="{{ post.title }} QR Code"/>
+    <img src="http://api.qrserver.com/v1/create-qr-code/?size=80x80&data={{ post.url | prepend: site.url }}" alt="{{ post.title }} QR Code"/>
   {% endif %}
   <div>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m.%Y" }}</time> &raquo;
