@@ -28,10 +28,10 @@ UID:20260521@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)
 DESCRIPTION:Java User Group Darmstadt\n\nLesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)\n\nAbstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird...
-LOCATION:tbd
+LOCATION:andrena objects\, Corporate Coworking Space\, Europapl. 2\, 64293 Darmstadt
 DTSTART;TZID=Europe/Berlin:20260521T183000
 DTEND;TZID=Europe/Berlin:20260521T203000
-DTSTAMP:20260320T110100Z
+DTSTAMP:20260508T061700Z
 URL:https://www.jug-da.de/2026/05/Lesbarer-Code/
 CLASS:PUBLIC
 END:VEVENT
