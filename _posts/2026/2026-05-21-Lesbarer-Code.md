@@ -7,9 +7,9 @@ speaker:
 lastModified: 2026-03-20 12:00
 hidePub: true
 hybrid: true
-seatLimit: 25
-location: tbd
-direction: tbd
+seatLimit: 30
+location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
+direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
 ---
 
 ## Abstract
@@ -26,3 +26,9 @@ Bitte Stift und Papier mitbringen
 ## Speakers
 
 {% include speakerinfo.html index=0 %} ist Principal IT Consultant bei msg systems ag. In seiner industriellen Arbeitserfahrung arbeitete er als Entwickler, Software-Architekt und Business-Analyst in verschiedenen Bereichen wie Geographische Informationssysteme und Logistik. In der Forschung liegt sein Fachgebiet in der Softwarespezifikation und in der Entwicklung langlebiger Informationssysteme. Der Wissenstransfer aus der Kombination von Forschungsarbeiten mit industrieller Anwendung ist in vielen seiner Projekte eine treibende Kraft.
+
+## Sponsors
+
+[Andrena](https://www.andrena.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. 
+
+[![logo](/images/sponsors/andrena.png)](https://www.andrena.de/) 
