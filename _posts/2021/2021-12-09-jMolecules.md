@@ -8,7 +8,6 @@ speaker:
     pic: henning-schwentner.jpg
     twitter: hschwentner
 date: 2021-12-09 18:30
-youtube: QdbqQ9ypZD4
 ---
 
 ### Zusammenfassung

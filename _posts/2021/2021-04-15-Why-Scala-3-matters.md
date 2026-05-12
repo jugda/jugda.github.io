@@ -4,7 +4,6 @@ speaker: Daniel Westheide
 speakerpic: daniel_westheide.jpeg
 twitter: kaffeecoder
 date: 2021-04-15 18:30
-youtube: 9AeW8vVHJhU
 ---
 
 ### Zusammenfassung

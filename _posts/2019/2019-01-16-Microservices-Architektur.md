@@ -4,7 +4,6 @@ speaker: Ansgar Brauner
 speakerpic: ansgarbrauner.jpg
 twitter: a_brauner
 date: 2019-01-16 18:30
-youtube: VUw5y6zuryI
 ---
 
 ### Zusammenfassung

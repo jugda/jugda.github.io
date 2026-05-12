@@ -4,7 +4,6 @@ speaker: Thorben Janssen
 speakerpic: thorbenjanssen.jpg
 twitter: thjanssen123
 date: 2021-06-17 18:30
-youtube: tNConWUeuaQ
 ---
 
 ### Zusammenfassung

@@ -8,7 +8,6 @@ date: 2018-08-16 18:30
 location: InteRES GmbH, Rheinstrasse 44-46, 64283 Darmstadt
 direction: http://www.interes.com/de/#kontakt
 attachments: https://www.slideshare.net/secret/g5zc7YqPzMMkzo
-youtube: SIl5rTOZUOg
 ---
 
 ### Zusammenfassung

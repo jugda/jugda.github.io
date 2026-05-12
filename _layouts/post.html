@@ -68,8 +68,8 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.attachments or page.youtube %}
-  <h2>Folien / Video(s)</h2>
+  {% if page.attachments %}
+  <h2>Folien</h2>
   {% endif %}
   {% if page.attachments %}
   <p>
@@ -82,21 +82,6 @@ layout: default
   {% endif %}
   </p>
   {% endif %}
-
-  {% if page.youtube %}
-  {% if page.youtube.first %}
-	{% for video in page.youtube %}
-  <div class="video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ video }}" frameborder="0" allowfullscreen></iframe>
-  </div>
-	{% endfor %}
-  {% else %}
-  <div class="video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
-  </div>
-  {% endif %}
-  {% endif %}
-
 
   {% if page.hideRegistration == false and page.canceled == false %}
   {% include registration.html %}

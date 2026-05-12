@@ -10,7 +10,6 @@ hybrid: true
 seatLimit: 30
 location: cosee GmbH, Mina-Rees-Straße 8, 64293 Darmstadt
 direction: https://goo.gl/maps/fX1AfbSmFv82
-youtube: FbRtNYvNghQ
 ---
 
 ## Abstract

@@ -2,7 +2,6 @@
 date: 2017-12-07 18:30
 title: 2. Kunterbunter Abend mit 3 Vorträgen
 speaker: Niko Köbler, Ralf D. Müller, Alexander Schwartz, Falk Sippach
-youtube: kIU9Y2lhFoM
 ---
 
 _Niko Köbler:_

@@ -4,7 +4,6 @@ speaker: Susanne Braun
 speakerpic: susanne_braun.jpg
 twitter: susannebraun
 date: 2021-11-18 18:30
-youtube: VO7Fip5VuSc
 ---
 
 ### Zusammenfassung

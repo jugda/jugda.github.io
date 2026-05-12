@@ -11,9 +11,6 @@ date: 2023-02-23 18:30
 attachments:
   "Frege-LSP-Server": https://github.com/tricktron/frege-lsp-server
   "Demo-Projekt zu Testen von AWS-Lambdas": https://github.com/JensKnipper/testing-aws-lambdas
-youtube:
-  - nIlffZeRzJc
-  - 7ZYCd8_n6hs
 ---
 
 ### Java ohne Seiteneffekte: Mit Frege ist Haskell toolmässig auf der JVM angekommen

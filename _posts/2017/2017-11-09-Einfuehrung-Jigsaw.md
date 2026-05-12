@@ -8,7 +8,6 @@ speaker2: Dr. Kristine Schaal
 speakerpic2: kristineschaal.jpg
 twitter2: krschaal
 date: 2017-11-09 18:30
-youtube: zl4vng7h2PI
 ---
 
 ### Zusammenfassung

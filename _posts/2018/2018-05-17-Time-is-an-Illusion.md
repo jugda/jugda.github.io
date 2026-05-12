@@ -6,8 +6,7 @@ twitter: heiglandreas
 date: 2018-05-17 18:30
 attachments: 
   "Folien zu Time is an Illusion": https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20180517-javaugda/index_online.html
-  " Folien zu How to handle 💩": https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180517-javaugda/index_online.html
-youtube: Scg85t3qLmw
+  "Folien zu How to handle 💩": https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180517-javaugda/index_online.html
 ---
 
 ### Abstracts

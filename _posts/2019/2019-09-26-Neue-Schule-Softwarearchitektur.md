@@ -4,7 +4,6 @@ speaker: Stefan Toth
 speakerpic: stefantoth.png
 twitter: st_toth
 date: 2019-09-26 18:30
-youtube: gz60QEL6BS4
 ---
 
 ### Zusammenfassung

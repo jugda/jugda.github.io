@@ -5,7 +5,6 @@ speaker: Benjamin Schmid
 speakerpic: benjaminschmid.jpg
 twitter: bentolor
 date: 2021-10-21 18:30
-youtube: 0-fiOc49DCM
 ---
 
 ### Zusammenfassung

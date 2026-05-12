@@ -8,7 +8,6 @@ location: Software AG, Uhlandstraße 12, Customer Briefing Center, 64297 Darmsta
 direction: https://www.softwareag.com/de/company/global/howtofind/default.html
 hidePub: true
 important: "Der Vortrag findet bei der Software AG in der Uhlandstraße 12 statt."
-youtube: 78TMzM07nYY
 ---
 
 ### Zusammenfassung

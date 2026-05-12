@@ -4,7 +4,6 @@ speaker: Oliver Milke
 speakerpic: olivermilke.jpg
 twitter: olivermilke
 date: 2020-11-12 18:30
-youtube: JssfKCzLAww
 attachments:
   Folien: https://speakerdeck.com/omilke/crypto-101 
 ---

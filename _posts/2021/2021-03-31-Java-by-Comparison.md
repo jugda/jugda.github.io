@@ -7,7 +7,6 @@ speakerpic2: LinusDietz.jpg
 twitter: simonharrer
 twitter2: Lynyus
 date: 2021-03-31 18:30
-youtube: vVEi73N7iTU
 ---
 
 ### Zusammenfassung

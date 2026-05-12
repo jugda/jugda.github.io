@@ -8,9 +8,6 @@ twitter: NicolasByl
 attachments:
   Folien: https://speakerdeck.com/nbyl/its-the-developers-stupid
   Demos: https://github.com/nbyl/kubernetes-dx-demos
-youtube: 
-  - UDWSVzu0cao
-  - zhNgwvFM-Q0
 ---
 
 ### Abstract

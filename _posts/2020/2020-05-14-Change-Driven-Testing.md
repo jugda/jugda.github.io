@@ -9,7 +9,6 @@ hidePub: true
 location: Online
 raffle: false
 hideRegistration: false
-youtube: 6ki4IFarSso
 ---
 
 ### Zusammenfassung

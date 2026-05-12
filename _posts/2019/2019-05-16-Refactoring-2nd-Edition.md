@@ -8,7 +8,6 @@ location: IT FOR WORK, c/o IHK Darmstadt (Raum S16, Auditiorium), Rheinstrasse 8
 seatLimit: 80
 hidePub: true
 important: Unser 100. Vortrag!!!
-youtube: kkvTmbGo2Ws
 ---
 
 ### Zusammenfassung

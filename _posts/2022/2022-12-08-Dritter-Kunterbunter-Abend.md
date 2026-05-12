@@ -13,10 +13,6 @@ location: nterra integration GmbH, Im Leuschnerpark 3, 64347 Griesheim
 direction: http://www.nterra.com/kontakt/
 attachments:
   Folien von Melanie: https://speakerdeck.com/aelindara/deutsch-fur-techies
-youtube:
-  - xaHseh6RI70
-  - t9bMHapdFeA
-  - No6TXvGM-Co
 ---
 
 Wir wollen das Jahr 2022 mit einem gemütlichen Vorweihnachtsabend ausklingen lassen. Dazu gibt es mehrere Kurzvorträge.

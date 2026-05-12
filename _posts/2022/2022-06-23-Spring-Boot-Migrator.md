@@ -7,7 +7,6 @@ twitter: hiiamfabian
 date: 2022-06-23 18:30
 attachments:
   Folien: /files/Spring Boot Migrator (JUG Darmstadt 220623).pdf
-youtube: AVL_hUb9Rv4
 ---
 
 ### Zusammenfassung

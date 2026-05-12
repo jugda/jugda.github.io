@@ -4,7 +4,6 @@ speaker: Oliver Zeigermann
 speakerpic: oliverzeigermann.jpg
 twitter: DJCordhose
 date: 2020-12-10 18:30
-youtube: hJ9OzP34ziU
 ---
 
 ### Zusammenfassung

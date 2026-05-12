@@ -4,7 +4,6 @@ speaker: Michael Simons
 twitter: rotnroll666
 speakerpic: michaelsimons.jpg
 date: 2017-10-19 18:30
-youtube: z8LEgR7WyLs
 ---
 
 ### Abstract

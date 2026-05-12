@@ -5,7 +5,6 @@ speaker: Hendrik Ebbers
 speakerpic: hendrikebbers.png
 twitter: hendrikebbers
 date: 2020-10-22 18:30
-youtube: Y9chepoB7QM
 ---
 
 ### Zusammenfassung

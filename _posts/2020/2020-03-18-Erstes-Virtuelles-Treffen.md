@@ -25,8 +25,6 @@ hidePub: true
 location: Remote
 raffle: false
 registration: false
-youtube: 
-  - ymajYypCVvw
 attachments:
   Folien zu Knowledge Graphs: http://files.jetztgrad.net/presentations/2020-JavaLand-KnowledgeGraph.pdf
 ---

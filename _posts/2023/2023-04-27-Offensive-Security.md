@@ -4,7 +4,6 @@ title: Was Java-Entwickler über Offensive Security wissen sollten
 speaker: Kai Ullrich
 speakerpic: kaiullrich.jpg
 twitter: kaidentity
-youtube: 9at2wdTqBx8
 ---
 
 ## Abstract

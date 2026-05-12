@@ -4,7 +4,6 @@ speaker: Vadym Kazulkin
 speakerpic: vadymkazulkin.jpg
 twitter: VKazulkin
 date: 2022-05-19 18:30
-youtube: guKIIbFpbhc
 attachments:
   Folien: /files/Adopting_Java_For_The_Serverless_World_JUG_Darmstadt_2022.pdf
 important: Der ursprünglich geplante Vortrag zu GraphQL wurde auf Juli verschoben.

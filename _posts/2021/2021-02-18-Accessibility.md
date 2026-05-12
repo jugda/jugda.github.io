@@ -9,9 +9,6 @@ speaker:
     pic: thorbenkuck.jpg
     twitter: thorbenku
 date: 2021-02-18 18:30
-youtube:
-  - r2kfwctrdiw
-  - Ph1GS9VEc84
 attachments:
   Folien von Anna: /files/BuildingTrulyAccessibleSoftware.pdf
 ---
