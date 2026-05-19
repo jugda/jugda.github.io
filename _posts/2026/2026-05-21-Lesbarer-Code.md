@@ -6,7 +6,7 @@ speaker:
     pic: thomasruhroth.png
 lastModified: 2026-03-20 12:00
 hidePub: true
-hybrid: true
+hybrid: false
 seatLimit: 30
 location: andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt
 direction: https://goo.gl/maps/H5fx6Q7qAWj8EYKYA
