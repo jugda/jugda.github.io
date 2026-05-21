@@ -25,6 +25,78 @@
     
       <item>
         <title>
+          18.06.2026: Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken
+          
+            (Julius Mischok)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in den täglichen Routinen.
+In diesem Vortrag zeige ich, wie technische Führungskräfte (Tech Leads, Engineering Manager, Architects) Qualitäts- und Delivery-Praktiken so verankern, dass sie nicht von Motivation, Heldentum oder „best effort“ abhängen. Wir verbinden kulturelle Absicht mit technischer Umsetzung: Was soll sich ändern – und wie wird das im System aus Code, CI/CD und Arbeitsweise nachhaltig verlässlich?&lt;/p&gt;
+
+&lt;p&gt;Wir gehen durch ein praxiserprobtes Set an „Leadership-by-Code“-Mechaniken:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TDD pragmatisch einführen: wo es schützt, wo es bremst, und wie man es skaliert&lt;/li&gt;
+  &lt;li&gt;Reviews, die den Flow erhöhen: Review-Pipelines, Code Ownership, klare Review-Regeln und kleine PRs&lt;/li&gt;
+  &lt;li&gt;Refactoring als Routine: sichere Umbauten, Refactoring-Budgets, technische Schulden reduzieren ohne Schuldige zu suchen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Du bekommst konkrete Muster, typische Anti-Patterns aus realen DevOps-Setups, inklusive Trade-offs: Welche Maßnahmen passen zu welchem Team, Produktdruck und Reifegrad?&lt;/p&gt;
+
+&lt;p&gt;Takeaways&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ein umsetzbarer Bauplan, wie du Exzellenz in Code und Delivery-Routinen verankerst&lt;/li&gt;
+  &lt;li&gt;Praktiken, die Teamzusammenhalt stärken (statt Mikromanagement zu erzeugen)&lt;/li&gt;
+  &lt;li&gt;Eine pragmatische Priorisierung: Was bringt bei euch jetzt den größten Hebel?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Für wen? Tech Leads, Senior Devs, Engineering Manager – und alle, die Qualität und Lieferfähigkeit verantworten oder priorisieren.&lt;/p&gt;
+
+&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/juliusmischok.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Julius Mischok&quot; title=&quot;Julius Mischok&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Julius Mischok&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ist Gründer und Geschäftsführer der Mischok GmbH in Augsburg und verantwortet unter anderem den Bereiche Entwicklung und Systeme. Der Dienstleistungsbetrieb setzt Softwareprojekte um, die mittelständische Partner fit für die Zukunft machen. Seine Erfahrung aus mehr als 20 Jahren Softwareentwicklung gibt er als Speaker auf den einschlägigen Konferenzen, in Fachartikeln sowie als Dozent in der Mischok ACADEMY weiter.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jun 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/</guid>
+      </item>
+    
+      <item>
+        <title>
+          10.06.2026: Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing
+          
+        </title>
+        <description>&lt;h3 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h3&gt;
+
+&lt;p&gt;In diesem zweistündigen Coding Dojo im Code-Retreat-Style bearbeiten die Teilnehmenden eine gemeinsame Aufgabenstellung in zwei Sessions: zunächst mit Test Driven Development und anschließend mit Property Based Testing.&lt;/p&gt;
+
+&lt;p&gt;Beide Perspektiven dienen dazu, ein Gefühl dafür zu entwickeln, wie ein Agentic AI Tool beim Finden von Tests und Eigenschaften unterstützen kann und wie sich die Zusammenarbeit zwischen Mensch und Modell gestaltet.&lt;/p&gt;
+
+&lt;p&gt;Im Mittelpunkt steht die Selbsterfahrung im Umgang mit LLMs: Wie verändert sich das eigene Denken über Spezifikation, Testdesign und Umsetzung, wenn ein Agent in den Prozess eingebunden wird? Welche Art von Unterstützung entsteht tatsächlich, wo bleiben klare Grenzen spürbar, und wie lässt sich der verfügbare Kontext so einsetzen, dass das Modell nachvollziehbar und möglichst stabil arbeitet?&lt;/p&gt;
+
+&lt;h3 id=&quot;was-mitbringen&quot;&gt;Was mitbringen&lt;/h3&gt;
+
+&lt;p&gt;Eigenen Laptop und Lust auf aktives Mitmachen&lt;/p&gt;
+
+&lt;h3 id=&quot;referenten&quot;&gt;Referenten&lt;/h3&gt;
+
+&lt;p&gt;Sebastian Rose
+Gregor Trefs&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/06/softwerkskammer/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/06/softwerkskammer/</guid>
+      </item>
+    
+      <item>
+        <title>
           21.05.2026: Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines
           
             (Thomas Ruhroth)
@@ -425,74 +497,6 @@ Gerrit blogs regularly at http://harmonic-code.org, he is an active member of th
         <pubDate>Tue, 30 Sep 2025 18:30:00 +0200</pubDate>
         <link>https://www.jug-da.de/2025/09/Zehnter-Barbecue-Stammtisch/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2025/09/Zehnter-Barbecue-Stammtisch/</guid>
-      </item>
-    
-      <item>
-        <title>
-          27.08.2025: Intelligente Anwendungen mit Spring AI
-          
-            (Patrick Baumgartner)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Der Aufstieg der KI hat unsere Welt revolutioniert und unzählige neue Möglichkeiten eröffnet. Obwohl das Angebot an KI-Lösungen immer noch wächst, können wir jetzt viel schneller Anwendungen mit fortgeschrittenen Sprachfähigkeiten entwickeln. In diesem Talk werden wir uns mit verschiedenen Sprachmodellen (LLMs) beschäftigen und ihre Anwendung in verschiedenen Szenarien wie Chatinteraktion, Bilderzeugung und Audiotranskription untersuchen. Anhand des Spring-AI-Projekts werden wir verschiedene KI-Modelle und ihre Funktionalitäten kennenlernen und ihre praktische Integration im Unternehmensumfeld betrachten.&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/patrickbaumgartner.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Patrick Baumgartner&quot; title=&quot;Patrick Baumgartner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Patrick Baumgartner&lt;/strong&gt;
-(&lt;a href=&quot;https://mastodon.social/@patbaumgartner&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@patbaumgartner&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/patbaumgartner&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/patbaumgartner&lt;/a&gt; | &lt;a href=&quot;https://42talents.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://42talents.com/&lt;/a&gt;)
- ist Java Champion und arbeitet als passionierter Technical Agile Coach, Software Crafter und Trainer bei 42talents. Seine Berufung ist es, die Arbeitswelt in der IT zu verbessern, da es bekanntlich nicht nur um Code, sondern um Menschen geht. In der Software-Community engagiert er sich zudem in Themen wie agile Softwareentwicklung, Software Craft und Testing, Graphen und NoSQL Datenbanken sowie alles rund um Java und Spring.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsoren&quot;&gt;Sponsoren&lt;/h2&gt;
-
-&lt;p&gt;Die Firma &lt;a href=&quot;https://www.exxcellent.de/&quot;&gt;eXXcellent solutions&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.exxcellent.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/exxcellent.png&quot; alt=&quot;eXXcellent Logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Aug 2025 18:30:00 +0200</pubDate>
-        <link>https://www.jug-da.de/2025/08/Spring-AI/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2025/08/Spring-AI/</guid>
-      </item>
-    
-      <item>
-        <title>
-          24.07.2025: Dev Env Reloaded - Die lokale Entwicklungsumgebung neu gedacht
-          
-            (Sandra Parsick)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Yeah, eine neue Kollegin kommt ins Team. Mäh, das Onboarding wird wieder ewig dauern. Yeah, du bekommst einen neuen Arbeitslaptop. Mäh, das Aufsetzen wird wieder ewig dauern. Yeah, cool, ich darf einen neuen Technologiestack benutzen. Mäh, wie bekomme ich das lokal mit meinem bisherigen Stack verheiratet.&lt;/p&gt;
-
-&lt;p&gt;Situationen, die jede Entwicklerin innerlich zusammen zucken lassen. Oft behilft sich das Team mit Dokumentation, die nicht immer aktuell ist oder für neue Kontexte gar nicht vorhanden ist.&lt;/p&gt;
-
-&lt;p&gt;Dieser Vortrag stellt anhand eines gemischten Technologiestacks (Java und JavaScript) vor, wie das Team, mit bestehendem Tooling aus dem jeweiligen Stack, die Schmerzen verkleinern kann. Ausgehend davon zeigt es, wie neue Werkzeuge wie Devcontainer (basierend auf Container) und Devshell (basierend auf Nix) lokale Entwicklungsumgebungen schmerzfrei pflegbar machen können.&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/sandraparsick.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Sandra Parsick&quot; title=&quot;Sandra Parsick&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sandra Parsick&lt;/strong&gt;
-(&lt;a href=&quot;https://mastodon.social/@sparsick&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@sparsick&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/sandra-parsick&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/sandra-parsick&lt;/a&gt; | &lt;a href=&quot;https://www.sandra-parsick.de/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://www.sandra-parsick.de/&lt;/a&gt;)
- ist Java Champion und ist als freiberufliche Softwareentwicklerin und Consultant im Java-Umfeld tätig. Seit 2008 beschäftigt sie sich mit agiler Softwareentwicklung in verschiedenen Rollen. Ihre Schwerpunkte liegen im Bereich der Java Enterprise Anwendungen, Cloud und in der Automatisierung von Softwareentwicklungsprozessen. Darüber schreibt sie gerne Artikel und spricht gerne auf Konferenzen. In ihrer Freizeit engagiert sie sich in verschiedenen Programmkomitees und Community-Gruppen.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;Cosee&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;&lt;img src=&quot;/images/sponsors/cosee.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Jul 2025 18:30:00 +0200</pubDate>
-        <link>https://www.jug-da.de/2025/07/dev-env-reloaded/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2025/07/dev-env-reloaded/</guid>
       </item>
     
   </channel>

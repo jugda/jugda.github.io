@@ -24,15 +24,27 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20260521@jug-da.de
+UID:20260610@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
-SUMMARY:JUG DA: Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)
-DESCRIPTION:Java User Group Darmstadt\n\nLesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)\n\nAbstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird...
-LOCATION:andrena objects\, Corporate Coworking Space\, Europapl. 2\, 64293 Darmstadt
-DTSTART;TZID=Europe/Berlin:20260521T183000
-DTEND;TZID=Europe/Berlin:20260521T203000
-DTSTAMP:20260521T154300Z
-URL:https://www.jug-da.de/2026/05/Lesbarer-Code/
+SUMMARY:JUG DA: Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing
+DESCRIPTION:Java User Group Darmstadt\n\nCoding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing\n\nZusammenfassung In diesem zweistündigen Coding Dojo im Code-Retreat-Style bearbeiten die Teilnehmenden eine gemeinsame Aufgabenstellung in zwei Sessions: zunächst mit Test Driven Development und anschließend mit Property Based Testing. Beide Perspektiven dienen dazu, ein Gefühl dafür zu entwickeln, wie ein Agentic AI Tool beim Finden von Tests und Eigenschaften unterstützen kann...
+LOCATION:codecentric AG\, Lise-Meitner-Straße 4\, 60486 Frankfurt am Main
+DTSTART;TZID=Europe/Berlin:20260610T183000
+DTEND;TZID=Europe/Berlin:20260611T193000
+DTSTAMP:20260521T160400Z
+URL:https://www.jug-da.de/2026/06/softwerkskammer/
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20260618@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)
+DESCRIPTION:Java User Group Darmstadt\n\nVon Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)\n\nAbstract Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20260618T183000
+DTEND;TZID=Europe/Berlin:20260618T203000
+DTSTAMP:20260521T160400Z
+URL:https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
