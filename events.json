@@ -1,7 +1,7 @@
 [
 {
 "uid": "20260521@jug-da.de",
-"lastModified": "20260519T125300Z",
+"lastModified": "20260521T154300Z",
 "summary": "Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)",
 "title": "Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines",
 "description": "Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet. In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen. Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo...",
