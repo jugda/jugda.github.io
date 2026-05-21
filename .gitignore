@@ -10,3 +10,4 @@ _site
 _rebuild-page*
 _start_server*
 ~/
+*.lock
