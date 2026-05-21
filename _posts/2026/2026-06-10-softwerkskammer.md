@@ -29,5 +29,5 @@ Eigenen Laptop und Lust auf aktives Mitmachen
 
 ### Referenten
 
-Sebastian Rose
+Sebastian Rose  
 Gregor Trefs
