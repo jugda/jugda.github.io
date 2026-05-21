@@ -4,7 +4,7 @@ title: "Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines"
 speaker:
   - name: Thomas Ruhroth
     pic: thomasruhroth.jpg
-lastModified: 2026-03-20 12:00
+lastModified: 2026-05-21 18:00
 hidePub: true
 hybrid: false
 seatLimit: 30
