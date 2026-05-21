@@ -17,7 +17,7 @@
 },
 {
 "uid": "20260610@jug-da.de",
-"lastModified": "20260521T160400Z",
+"lastModified": "20260521T163700Z",
 "summary": "Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing",
 "title": "Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing",
 "description": "Zusammenfassung In diesem zweistündigen Coding Dojo im Code-Retreat-Style bearbeiten die Teilnehmenden eine gemeinsame Aufgabenstellung in zwei Sessions: zunächst mit Test Driven Development und anschließend mit Property Based Testing. Beide Perspektiven dienen dazu, ein Gefühl dafür zu entwickeln, wie ein Agentic AI Tool beim Finden von Tests und Eigenschaften unterstützen kann und wie sich die Zusammenarbeit zwischen Mensch und Modell gestaltet. Im Mittelpunkt steht die Selbsterfahrung im Umgang mit LLMs: Wie verändert sich das eigene Denken über Spezifikation, Testdesign und Umsetzung, wenn ein Agent in den Prozess eingebunden wird? Welche Art von Unterstützung entsteht tatsächlich, wo bleiben klare Grenzen spürbar, und...",
