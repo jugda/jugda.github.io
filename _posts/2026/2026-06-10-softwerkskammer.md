@@ -2,8 +2,7 @@
 title: "Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing"
 shortTitle: "Coding Dojo: Agentic AI"
 date: 2026-06-10 18:30
-duration: 2,5
-lastModified: 2026-05-21 18:00
+duration: 3
 hidePub: true
 raffle: false
 seatLimit: 30
