@@ -30,8 +30,8 @@ SUMMARY:JUG DA: Coding Dojo: Agentic AI - Test Driven Design vs. Property Based 
 DESCRIPTION:Java User Group Darmstadt\n\nCoding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing\n\nZusammenfassung In diesem zweistündigen Coding Dojo im Code-Retreat-Style bearbeiten die Teilnehmenden eine gemeinsame Aufgabenstellung in zwei Sessions: zunächst mit Test Driven Development und anschließend mit Property Based Testing. Beide Perspektiven dienen dazu, ein Gefühl dafür zu entwickeln, wie ein Agentic AI Tool beim Finden von Tests und Eigenschaften unterstützen kann...
 LOCATION:codecentric AG\, Lise-Meitner-Straße 4\, 60486 Frankfurt am Main
 DTSTART;TZID=Europe/Berlin:20260610T183000
-DTEND;TZID=Europe/Berlin:20260611T193000
-DTSTAMP:20260521T163700Z
+DTEND;TZID=Europe/Berlin:1781118000.0
+DTSTAMP:20260522T082300Z
 URL:https://www.jug-da.de/2026/06/softwerkskammer/
 CLASS:PUBLIC
 END:VEVENT
