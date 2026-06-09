@@ -4,12 +4,12 @@ title: "Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken"
 speaker:
   - name: Julius Mischok
     pic: juliusmischok.jpg
-lastModified: 2026-05-21 18:00
+lastModified: 2026-06-09 17:00
 hidePub: true
 hybrid: false
-seatLimit: 30
-location: tbd
-direction: #
+seatLimit: 25
+location: COWO 21, Holzhofallee 21, 64295 Darmstadt
+direction: https://goo.gl/maps/N6N9B3qgZfTBbPmS8
 ---
 
 ## Abstract
@@ -34,3 +34,9 @@ Für wen? Tech Leads, Senior Devs, Engineering Manager – und alle, die Qualit�
 ## Speakers
 
 {% include speakerinfo.html index=0 %} ist Gründer und Geschäftsführer der Mischok GmbH in Augsburg und verantwortet unter anderem den Bereiche Entwicklung und Systeme. Der Dienstleistungsbetrieb setzt Softwareprojekte um, die mittelständische Partner fit für die Zukunft machen. Seine Erfahrung aus mehr als 20 Jahren Softwareentwicklung gibt er als Speaker auf den einschlägigen Konferenzen, in Fachartikeln sowie als Dozent in der Mischok ACADEMY weiter.
+
+## Sponsoren
+
+[COWO 21](https://cowo21.de/) stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür. Nach dem Vortrag können wir noch vor Ort bleiben und uns austauschen. Kaltgetränke können für kleines Geld gekauft werden.
+
+[![logo](/images/sponsors/cowo21.jpg)](https://cowo21.de/) 
