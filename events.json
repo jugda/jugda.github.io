@@ -1,21 +1,5 @@
 [
 {
-"uid": "20260521@jug-da.de",
-"lastModified": "20260521T160400Z",
-"summary": "Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines (Thomas Ruhroth)",
-"title": "Lesbarer Code beginnt im Kopf: Wahrnehmung, Erwartungen, Guidelines",
-"description": "Abstract Code einfach und verständlich zu halten, ist ein Anliegen vieler Entwickler. So werden Code- Guidelines genutzt, um den Code übersichtlich und den Erwartungen gemäß zu formatieren. Die Informationen werden übersichtlich dargestellt und kommuniziert. Die Effekte, die sich dabei nutzbar gemacht werden, gehören in den Bereich der Wahrnehmungspsychologie. Dabei wird die Funktionsweise und Vereinfachungen bzw. Fallen in der Wahrnehmung betrachtet. In diesem Vortrag werden die Zuschauer Experimente mit Stift und Papier ausführen, um diese Effekte selbst zu erleben und ihre eigenen Grenzen kennenzulernen. Anschließend wird gezeigt, wie sich diese Erkenntnisse auf verschiedene Techniken in der Softwareentwicklung anwenden lassen bzw. wo...",
-"speaker": "Thomas Ruhroth",
-"location": "andrena objects, Corporate Coworking Space, Europapl. 2, 64293 Darmstadt",
-"url": "https://www.jug-da.de/2026/05/Lesbarer-Code/",
-"start": "2026-05-21T18:30:00",
-"end": "2026-05-21T20:30:00",
-"timezone": "Europe/Berlin",
-"hideRegistration": false,
-"canceled": false,
-"externalEvent": false
-},
-{
 "uid": "20260610@jug-da.de",
 "lastModified": "20260522T082800Z",
 "summary": "Coding Dojo: Agentic AI - Test Driven Design vs. Property Based Testing",
@@ -33,12 +17,12 @@
 },
 {
 "uid": "20260618@jug-da.de",
-"lastModified": "20260521T160400Z",
+"lastModified": "20260609T145800Z",
 "summary": "Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)",
 "title": "Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken",
 "description": "Abstract Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in den täglichen Routinen. In diesem Vortrag zeige ich, wie technische Führungskräfte (Tech Leads, Engineering Manager, Architects) Qualitäts- und Delivery-Praktiken so verankern, dass sie nicht von Motivation, Heldentum oder „best effort“ abhängen. Wir verbinden kulturelle Absicht mit technischer Umsetzung: Was soll sich ändern – und wie wird das im System aus...",
 "speaker": "Julius Mischok",
-"location": "tbd",
+"location": "COWO 21, Holzhofallee 21, 64295 Darmstadt",
 "url": "https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/",
 "start": "2026-06-18T18:30:00",
 "end": "2026-06-18T20:30:00",

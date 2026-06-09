@@ -40,10 +40,10 @@ UID:20260618@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)
 DESCRIPTION:Java User Group Darmstadt\n\nVon Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)\n\nAbstract Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in...
-LOCATION:tbd
+LOCATION:COWO 21\, Holzhofallee 21\, 64295 Darmstadt
 DTSTART;TZID=Europe/Berlin:20260618T183000
 DTEND;TZID=Europe/Berlin:20260618T203000
-DTSTAMP:20260521T160400Z
+DTSTAMP:20260609T145800Z
 URL:https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/
 CLASS:PUBLIC
 END:VEVENT
