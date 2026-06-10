@@ -2,7 +2,7 @@
 
 {% capture queryString %}?eventId={{ page.date | date: "%Y-%m-%d" %}}&limit={{ page.seatLimit }}{% if page.registrationDeadline %}&deadline={{ page.registrationDeadline }}{% endif %}{% if page.showPub == true %}&showPub=true{% endif %}{% if page.opensBeforeInMonths %}&opensBeforeInMonths={{page.opensBeforeInMonths}}{% endif %}{% if page.hideVideoRecording %}&hideVideoRecording={{page.hideVideoRecording}}{% endif %}{% if page.hybrid %}&hybrid={{page.hybrid}}{% endif %}{% endcapture %}
 
-{% if page.location == "Online" and page.registrationUrl == "https://registration.jug-da.de/registration" %}
+{% if page.location == "Online" and (page.registrationUrl == "https://registration.jug-da.de/registration" or page.registrationUrl == "https://registration.ijug.eu/registration/jugda") %}
 <h3 id="registrierung">Registrierung</h3>
 <p>
 Den Link zum Webinar über Zoom schicken wir an alle angemeldeten Personen per E-Mail kurz vor der Veranstaltung (schaut auch in Eure Spam-Ordner!).
@@ -10,7 +10,7 @@ Wer sehr kurzfristig dazukommen möchte, muss uns unter orga@jug-da.de kontaktie
 </p>
 {% endif %}
 
-{% if page.registrationUrl == "https://registration.jug-da.de/registration" %}
+{% if page.registrationUrl == "https://registration.jug-da.de/registration" or page.registrationUrl == "https://registration.ijug.eu/registration/jugda" %}
 <h3 id="anmeldung">Anmeldung</h3>
 <p>
 Zur besseren Planung bitten wir um eine unverbindliche Anmeldung mit Vor- und Zunamen und E-Mail Adresse.
