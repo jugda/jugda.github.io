@@ -24,18 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20260618@jug-da.de
-ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
-SUMMARY:JUG DA: Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)
-DESCRIPTION:Java User Group Darmstadt\n\nVon Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)\n\nAbstract Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in...
-LOCATION:COWO 21\, Holzhofallee 21\, 64295 Darmstadt
-DTSTART;TZID=Europe/Berlin:20260618T183000
-DTEND;TZID=Europe/Berlin:20260618T203000
-DTSTAMP:20260609T145800Z
-URL:https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
 UID:20260701@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: 11. Darmstädter Barbecue Stammtisch
@@ -45,6 +33,18 @@ DTSTART;TZID=Europe/Berlin:20260701T183000
 DTEND;TZID=Europe/Berlin:20260701T223000
 DTSTAMP:20260215T203800Z
 URL:https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Doppelvortrag: 'Lean Pathfinding' + '4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow' (Ralf Klemmer)
+DESCRIPTION:Java User Group Darmstadt\n\nDoppelvortrag: 'Lean Pathfinding' + '4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow' (Ralf Klemmer)\n\nAbstracts Lean Pathfinding Teaser zu dieser entwicklernahen Slicing-Methode: https://www.youtube.com/watch?v=HVD3fODhI44 4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders aus: Alles ist Prio 1, Kontextwechsel sind Dauerzustand, Schätzungen reines Glücksspiel – und trotzdem heißt es, ihr seid...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20260716T183000
+DTEND;TZID=Europe/Berlin:20260716T203000
+DTSTAMP:20260618T171900Z
+URL:https://www.jug-da.de/2026/07/Lean-Pathfinding+4-Agile-Kostbarkeiten/
 CLASS:PUBLIC
 END:VEVENT
 END:VCALENDAR
