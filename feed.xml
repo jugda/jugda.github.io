@@ -8,6 +8,36 @@
     
       <item>
         <title>
+          20.08.2026: Modularisierung pragmatisch - ein Deep Dive in Spring Modulith
+          
+            (Nils Hartmann)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Für den langfristigen Erfolg einer Anwendung ist unter anderem entscheidend, ob eine klare Architektur eingehalten wird. Damit wird sichergestellt, dass unser Code jederzeit wartbar bleibt und wir so zügig neue Features entwickeln können, ohne dabei Abstriche an der Qualität machen zu müssen. Um dieses Ziel zu erreichen, werden Anwendung oft in fachlich getrennte Module zerlegt, die möglichst stark entkoppelt sind. Dabei kann uns das Project Spring Modulith unterstützen.&lt;/p&gt;
+
+&lt;p&gt;Spring Modulith ermöglicht es uns, innerhalb unser Spring Boot-Anwendung Module und Architekturregeln zu definieren und deren Einhaltung zu kontrollieren. Die Verwendung von Events zur Kommunikation zwischen den Modulen führt zu einer weiteren Entkopplung. Das Ergebnis ist ein “modularisierter Monolith” (oder kurz: “Modulith”), dessen Module sich dank der Entkopplung auch gut isoliert testen lassen.&lt;/p&gt;
+
+&lt;p&gt;In diesem Live-Coding-Vortrag wird Nils anhand praxisnaher Beispiele eine Einführung in Spring Modulith geben und mit euch diskutieren, welche Konsequenzen sich für unsere Anwendungen daraus ergeben und für welche Szenarien dieser Ansatz besonders geeignet ist.&lt;/p&gt;
+
+&lt;h2 id=&quot;speaker&quot;&gt;Speaker&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/nilshartmann.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Nils Hartmann&quot; title=&quot;Nils Hartmann&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nils Hartmann&lt;/strong&gt;
+(&lt;a href=&quot;https://https://norden.social/@nilshartmann&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; https://norden.social/@nilshartmann&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/nils-hartmann-2a5738252&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/nils-hartmann-2a5738252&lt;/a&gt; | &lt;a href=&quot;https://github.com/https://github.com/nilshartmann&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-github&quot;&gt;&lt;/i&gt; https://github.com/nilshartmann&lt;/a&gt; | &lt;a href=&quot;https://nilshartmann.net/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://nilshartmann.net/&lt;/a&gt;)
+ ist freiberuflicher Softwareentwickler und -architekt, Coach und Trainer. Seine Schwerpunkte sind die Entwicklung von Backends mit Java und Spring sowie Frontends mit React. Er gibt Schulungen und Workshops zu diesen Themen und hat ein Buch über React geschrieben.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/08/Spring-Modulith/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/08/Spring-Modulith/</guid>
+      </item>
+    
+      <item>
+        <title>
           16.07.2026: Doppelvortrag: &apos;Lean Pathfinding&apos; + &apos;4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow&apos;
           
             (Ralf Klemmer)
@@ -23,7 +53,7 @@
 
 &lt;p&gt;Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders aus: Alles ist Prio 1, Kontextwechsel sind Dauerzustand, Schätzungen reines Glücksspiel – und trotzdem heißt es, ihr seid zu langsam. Dein Arbeitstag? Voll mit Dingen, die dich und dein Team vom eigentlichen Machen abhalten. Dieser Talk ist eine Anleitung zur mathematisch begründeten, notwendigen Rebellion. Denn wir stecken in Strukturen fest, die Kontrolle über Fluss stellen – und wundern uns, warum wir nicht vom Fleck kommen. Ralf Klemmer zeigt, wie jeder Einzelne gezielt helfen kann, selbst die eingefahrensten Dynamiken zu verändern.&lt;/p&gt;
 
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+&lt;h2 id=&quot;speaker&quot;&gt;Speaker&lt;/h2&gt;
 
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 
@@ -483,45 +513,6 @@ Vorkenntnisse in mindestens einer Programmiersprache sind erforderlich.&lt;/p&gt
         <pubDate>Sat, 08 Nov 2025 09:00:00 +0100</pubDate>
         <link>https://www.jug-da.de/2025/11/global-day-of-code-retreat/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2025/11/global-day-of-code-retreat/</guid>
-      </item>
-    
-      <item>
-        <title>
-          23.10.2025: What the CRaC - Superfast JVM startup
-          
-            (Gerrit Grunwald)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;In a world where microservices are more and more a standard architecture for Java based applications running in the cloud, the JVM warmup time can become a limitation. Especially when you look at spinning up new instances of an app as response to changes in load, the warmup time can be a problem. Native images are one solution to solve these problems because their statically ahead of time compiled code simply doesn’t have to warmup and so has short startup time. But even with the shorter startup time and smaller footprint it doesn’t come without a drawback. The overall performance might be slower because of the missing JIT optimisations at runtime. There is a new OpenJDK project called CRaC (Coordinated Restore at Checkpoint) which goal it is to address the JVM warmup problem with a different approach. The idea is to take a snapshot of the running JVM, store it in files and restore the JVM at a later point in time (or even on another machine).&lt;/p&gt;
-
-&lt;p&gt;This session will give you a short overview of the CRaC project and shows some results from a proof of concept implementation.&lt;/p&gt;
-
-&lt;p&gt;⚠️ Der Vortrag ist auf Deutsch geplant.&lt;/p&gt;
-
-&lt;p&gt;⚠️ The lecture is planned in German. However, it can also be held in English if there is interest.&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/gerritgrunwald.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Gerrit Grunwald&quot; title=&quot;Gerrit Grunwald&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;
-(&lt;a href=&quot;https://mastodon.social/@hansolo_&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-mastodon&quot;&gt;&lt;/i&gt; mastodon.social/@hansolo_&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/gerritgrunwald&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/gerritgrunwald&lt;/a&gt; | &lt;a href=&quot;http://www.harmonic-code.org&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; http://www.harmonic-code.org&lt;/a&gt;)
- is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon).
-Gerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.andrena.de/&quot;&gt;Andrena&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.andrena.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/andrena.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 Oct 2025 18:30:00 +0200</pubDate>
-        <link>https://www.jug-da.de/2025/10/CRaC-JVM-startup/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2025/10/CRaC-JVM-startup/</guid>
       </item>
     
   </channel>

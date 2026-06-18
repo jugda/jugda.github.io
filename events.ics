@@ -43,8 +43,20 @@ DESCRIPTION:Java User Group Darmstadt\n\nDoppelvortrag: 'Lean Pathfinding' + '4 
 LOCATION:tbd
 DTSTART;TZID=Europe/Berlin:20260716T183000
 DTEND;TZID=Europe/Berlin:20260716T203000
-DTSTAMP:20260618T171900Z
+DTSTAMP:20260618T172600Z
 URL:https://www.jug-da.de/2026/07/Lean-Pathfinding+4-Agile-Kostbarkeiten/
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20260820@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Modularisierung pragmatisch - ein Deep Dive in Spring Modulith (Nils Hartmann)
+DESCRIPTION:Java User Group Darmstadt\n\nModularisierung pragmatisch - ein Deep Dive in Spring Modulith (Nils Hartmann)\n\nAbstract Für den langfristigen Erfolg einer Anwendung ist unter anderem entscheidend, ob eine klare Architektur eingehalten wird. Damit wird sichergestellt, dass unser Code jederzeit wartbar bleibt und wir so zügig neue Features entwickeln können, ohne dabei Abstriche an der Qualität machen zu müssen. Um dieses Ziel zu erreichen, werden Anwendung...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20260820T183000
+DTEND;TZID=Europe/Berlin:20260820T203000
+DTSTAMP:20260618T172600Z
+URL:https://www.jug-da.de/2026/08/Spring-Modulith/
 CLASS:PUBLIC
 END:VEVENT
 END:VCALENDAR
