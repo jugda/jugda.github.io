@@ -24,7 +24,7 @@ Teaser zu dieser entwicklernahen Slicing-Methode: https://www.youtube.com/watch?
 
 Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders aus: Alles ist Prio 1, Kontextwechsel sind Dauerzustand, Schätzungen reines Glücksspiel – und trotzdem heißt es, ihr seid zu langsam. Dein Arbeitstag? Voll mit Dingen, die dich und dein Team vom eigentlichen Machen abhalten. Dieser Talk ist eine Anleitung zur mathematisch begründeten, notwendigen Rebellion. Denn wir stecken in Strukturen fest, die Kontrolle über Fluss stellen – und wundern uns, warum wir nicht vom Fleck kommen. Ralf Klemmer zeigt, wie jeder Einzelne gezielt helfen kann, selbst die eingefahrensten Dynamiken zu verändern.
 
-## Speakers
+## Speaker
 
 {% include speakerinfo.html index=0 %} ist Technical Agile Coach mit 20 Jahren Erfahrung als Entwickler, Architekt und Teamleiter. Er hat mehr als 50 IT-Teams gecoacht und über 300 Entwickler und Product Owner trainiert – bei Unternehmen wie Daimler, BMW, 1&1, ProSiebenSat.1 und T-Systems.
 
