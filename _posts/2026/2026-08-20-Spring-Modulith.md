@@ -10,9 +10,9 @@ speaker:
     github: https://github.com/nilshartmann
 hidePub: true
 hybrid: false
-seatLimit: 25
-location: tbd
-direction: #
+seatLimit: 40
+location: DICOS GmbH Kommunikationssysteme, Alsfelder Straße 11, 64289 Darmstadt
+direction: https://maps.app.goo.gl/kJPUXpvoogYj1MDb7
 ---
 
 ## Abstract
@@ -26,3 +26,9 @@ In diesem Live-Coding-Vortrag wird Nils anhand praxisnaher Beispiele eine Einfü
 ## Speaker
 
 {% include speakerinfo.html index=0 %} ist freiberuflicher Softwareentwickler und -architekt, Coach und Trainer. Seine Schwerpunkte sind die Entwicklung von Backends mit Java und Spring sowie Frontends mit React. Er gibt Schulungen und Workshops zu diesen Themen und hat ein Buch über React geschrieben.
+
+## Sponsor
+
+[Dicos](https://www.dicos.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.
+
+[![logo](/images/sponsors/dicos.svg){:width="200"}](https://www.dicos.de/)
