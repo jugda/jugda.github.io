@@ -10,7 +10,6 @@ speaker:
 hidePub: true
 hybrid: false
 seatLimit: 25
-registrationUrl: https://registration.ijug.eu/registration/jugda
 location: tbd
 direction: #
 ---
