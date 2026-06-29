@@ -40,10 +40,10 @@ UID:20260716@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: Doppelvortrag: 'Lean Pathfinding' + '4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow' (Ralf Klemmer)
 DESCRIPTION:Java User Group Darmstadt\n\nDoppelvortrag: 'Lean Pathfinding' + '4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow' (Ralf Klemmer)\n\nAbstracts Lean Pathfinding Teaser zu dieser entwicklernahen Slicing-Methode: https://www.youtube.com/watch?v=HVD3fODhI44 4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders aus: Alles ist Prio 1, Kontextwechsel sind Dauerzustand, Schätzungen reines Glücksspiel – und trotzdem heißt es, ihr seid...
-LOCATION:tbd
+LOCATION:etalytics GmbH\, Leydhecker Straße 10\, 64293 Darmstadt
 DTSTART;TZID=Europe/Berlin:20260716T183000
 DTEND;TZID=Europe/Berlin:20260716T203000
-DTSTAMP:20260623T084200Z
+DTSTAMP:20260629T101800Z
 URL:https://www.jug-da.de/2026/07/Lean-Pathfinding+4-Agile-Kostbarkeiten/
 CLASS:PUBLIC
 END:VEVENT

@@ -1,21 +1,5 @@
 [
 {
-"uid": "20260618@jug-da.de",
-"lastModified": "20260609T145800Z",
-"summary": "Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken (Julius Mischok)",
-"title": "Von Werten zu Wirksamkeit: Agile Führung über Code-Praktiken",
-"description": "Abstract Viele Teams reden über Qualität, Ownership und „Agilität“ – und scheitern trotzdem zuverlässig in der Projektarbeit. Nicht weil Menschen unfähig sind, sondern weil Führung oft im Backlog stecken bleibt: als Tickets, Appelle und Meetings. Exzellenz entsteht dort, wo Entscheidungen wirksam werden – im Code, in der Pipeline und in den täglichen Routinen. In diesem Vortrag zeige ich, wie technische Führungskräfte (Tech Leads, Engineering Manager, Architects) Qualitäts- und Delivery-Praktiken so verankern, dass sie nicht von Motivation, Heldentum oder „best effort“ abhängen. Wir verbinden kulturelle Absicht mit technischer Umsetzung: Was soll sich ändern – und wie wird das im System aus...",
-"speaker": "Julius Mischok",
-"location": "COWO 21, Holzhofallee 21, 64295 Darmstadt",
-"url": "https://www.jug-da.de/2026/06/Agile-Fuehrung-ueber-Code-Praktiken/",
-"start": "2026-06-18T18:30:00",
-"end": "2026-06-18T20:30:00",
-"timezone": "Europe/Berlin",
-"hideRegistration": false,
-"canceled": false,
-"externalEvent": false
-},
-{
 "uid": "20260701@jug-da.de",
 "lastModified": "20260215T203800Z",
 "summary": "11. Darmstädter Barbecue Stammtisch",
@@ -33,12 +17,12 @@
 },
 {
 "uid": "20260716@jug-da.de",
-"lastModified": "20260623T084200Z",
+"lastModified": "20260629T101800Z",
 "summary": "Doppelvortrag: ‘Lean Pathfinding’ + ‘4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow’ (Ralf Klemmer)",
 "title": "Doppelvortrag: ‘Lean Pathfinding’ + ‘4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow’",
 "description": "Abstracts Lean Pathfinding Teaser zu dieser entwicklernahen Slicing-Methode: https://www.youtube.com/watch?v=HVD3fODhI44 4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders aus: Alles ist Prio 1, Kontextwechsel sind Dauerzustand, Schätzungen reines Glücksspiel – und trotzdem heißt es, ihr seid zu langsam. Dein Arbeitstag? Voll mit Dingen, die dich und dein Team vom eigentlichen Machen abhalten. Dieser Talk ist eine Anleitung zur mathematisch begründeten, notwendigen Rebellion. Denn wir stecken in Strukturen fest, die Kontrolle über Fluss stellen – und wundern uns, warum wir nicht vom Fleck kommen. Ralf Klemmer zeigt,...",
 "speaker": "Ralf Klemmer",
-"location": "tbd",
+"location": "etalytics GmbH, Leydhecker Straße 10, 64293 Darmstadt",
 "url": "https://www.jug-da.de/2026/07/Lean-Pathfinding+4-Agile-Kostbarkeiten/",
 "start": "2026-07-16T18:30:00",
 "end": "2026-07-16T20:30:00",
