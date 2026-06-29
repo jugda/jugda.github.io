@@ -10,8 +10,8 @@ speaker:
 hidePub: true
 hybrid: false
 seatLimit: 25
-location: tbd
-direction: #
+location: etalytics GmbH, Leydhecker Straße 10, 64293 Darmstadt
+direction: https://maps.app.goo.gl/cbDEXaUrmpijR57FA
 ---
 
 ## Abstracts
@@ -31,3 +31,9 @@ Du willst Probleme lösen und Werte schaffen. Doch die Realität sieht anders au
 Sein Fokus: Teams aus dem Dauerzustand zwischen "läuft irgendwie" und "könnte besser sein" herausholen. Nicht mit noch mehr Methoden oder Tools, sondern durch das Verstehen der Systemmechanismen, die Flow verhindern.
 
 Als "Teamflowencer" teilt er auf YouTube wöchentlich Impulse für IT-Teamleads, die produktive Gewohnheiten etablieren und echte Team-Flow-Momente schaffen wollen. Er ist Dozent an der DHBW Karlsruhe für Software-Architektur und ausgebildeter Coach.
+
+## Sponsor
+
+[etalytics](http://www.etalytics.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.
+
+[![logo](/images/sponsors/etalytics.svg){:width="200"}](http://www.etalytics.de/)
