@@ -47,4 +47,16 @@ DTSTAMP:20260619T102800Z
 URL:https://www.jug-da.de/2026/08/Spring-Modulith/
 CLASS:PUBLIC
 END:VEVENT
+BEGIN:VEVENT
+UID:20260917@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)
+DESCRIPTION:Java User Group Darmstadt\n\nSupercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)\n\nAbstract Artificial Intelligence is no longer just for Python developers. As Java developers, we now have the tools to build, deploy, and scale intelligent applications without leaving our ecosystem. In this session, we will dive into frida-carclaims-backend-ai, a real-world project built to showcase how Quarkus and its LangChain4j extension make...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20260917T183000
+DTEND;TZID=Europe/Berlin:20260917T203000
+DTSTAMP:20260709T104000Z
+URL:https://www.jug-da.de/2026/09/Quarkus-LLMs/
+CLASS:PUBLIC
+END:VEVENT
 END:VCALENDAR

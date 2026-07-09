@@ -1,21 +1,5 @@
 [
 {
-"uid": "20260701@jug-da.de",
-"lastModified": "20260215T203800Z",
-"summary": "11. Darmstädter Barbecue Stammtisch",
-"title": "11. Darmstädter Barbecue Stammtisch",
-"description": "Gemeinsam mit dem IT Stammtisch Darmstadt laden wir Euch wieder herzlich zu unserem alljährlichen JUG Darmstadt Grillabend ein. In ungezwungener Atmosphäre wollen wir bei einem kühlen Getränk über diverse IT-Themen plaudern. Fleisch, Wurst etc. bringt bitte jeder für sich selbst mit, die Getränke, Brot, Salate usw. erhalten wir über unseren Sponsor INNOQ. Vielen Dank dafür. Zwecks der besseren Planung bitten wir um Anmeldung.",
-
-"location": "Grillplatz an der Oberförsterwiese, kann auch bequem mit der Straßenbahn (Böllenfalltor) erreicht werden!",
-"url": "https://www.jug-da.de/2026/07/Elfter-Barbecue-Stammtisch/",
-"start": "2026-07-01T18:30:00",
-"end": "2026-07-01T22:30:00",
-"timezone": "Europe/Berlin",
-"hideRegistration": false,
-"canceled": false,
-"externalEvent": false
-},
-{
 "uid": "20260716@jug-da.de",
 "lastModified": "20260629T101800Z",
 "summary": "Doppelvortrag: ‘Lean Pathfinding’ + ‘4 Agile Kostbarkeiten – weg von Mittelmäßigkeit, hin zu Team Flow’ (Ralf Klemmer)",
@@ -42,6 +26,22 @@
 "url": "https://www.jug-da.de/2026/08/Spring-Modulith/",
 "start": "2026-08-20T18:30:00",
 "end": "2026-08-20T20:30:00",
+"timezone": "Europe/Berlin",
+"hideRegistration": false,
+"canceled": false,
+"externalEvent": false
+},
+{
+"uid": "20260917@jug-da.de",
+"lastModified": "20260709T104000Z",
+"summary": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)",
+"title": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j",
+"description": "Abstract Artificial Intelligence is no longer just for Python developers. As Java developers, we now have the tools to build, deploy, and scale intelligent applications without leaving our ecosystem. In this session, we will dive into frida-carclaims-backend-ai, a real-world project built to showcase how Quarkus and its LangChain4j extension make integrating Large Language Models (LLMs) seamless and efficient. We will explore how Quarkus leverages its signature developer joy—including live coding, dev services, and supersonic, subatomic performance—to streamline AI development. Key takeaways from this talk: The Quarkus AI Ecosystem: An introduction to Quarkus LangChain4j and how it simplifies LLM integration. AI...",
+"speaker": "Marco Klaassen",
+"location": "tbd",
+"url": "https://www.jug-da.de/2026/09/Quarkus-LLMs/",
+"start": "2026-09-17T18:30:00",
+"end": "2026-09-17T20:30:00",
 "timezone": "Europe/Berlin",
 "hideRegistration": false,
 "canceled": false,

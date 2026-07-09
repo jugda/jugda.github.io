@@ -8,6 +8,46 @@
     
       <item>
         <title>
+          17.09.2026: Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j
+          
+            (Marco Klaassen)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Artificial Intelligence is no longer just for Python developers. As Java developers, we now have the tools to build, deploy, and scale intelligent applications without leaving our ecosystem.&lt;/p&gt;
+
+&lt;p&gt;In this session, we will dive into frida-carclaims-backend-ai, a real-world project built to showcase how Quarkus and its LangChain4j extension make integrating Large Language Models (LLMs) seamless and efficient. We will explore how Quarkus leverages its signature developer joy—including live coding, dev services, and supersonic, subatomic performance—to streamline AI development.&lt;/p&gt;
+
+&lt;p&gt;Key takeaways from this talk:&lt;/p&gt;
+
+&lt;p&gt;The Quarkus AI Ecosystem: An introduction to Quarkus LangChain4j and how it simplifies LLM integration.&lt;/p&gt;
+
+&lt;p&gt;AI in Action: How to use AI for structured data extraction, automated processing (like handling car insurance claims), and intelligent decision-making.&lt;/p&gt;
+
+&lt;p&gt;Developer Experience: Utilizing Quarkus Dev Services to spin up local AI testing environments effortlessly.&lt;/p&gt;
+
+&lt;p&gt;Whether you are an AI novice or a seasoned Java architect, you will walk away seeing how Quarkus makes building the next generation of intelligent Java applications incredibly accessible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Der Vortrag wird standardmäßig auf Deutsch stattfinden. Bei Bedarf kann er aber auch Englisch gehalten werden.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;speaker&quot;&gt;Speaker&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/marcoklaassen.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Marco Klaassen&quot; title=&quot;Marco Klaassen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marco Klaassen&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/marco-klaassen&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/marco-klaassen&lt;/a&gt;)
+ is Solution Architect @ Red Hat. His passion is the development of complex software architectures, to enable companies and their developers to build scalable and high-performance software.  New technologies make it possible to solve complex problems in the simplest way. They inspire him.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/09/Quarkus-LLMs/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/09/Quarkus-LLMs/</guid>
+      </item>
+    
+      <item>
+        <title>
           20.08.2026: Modularisierung pragmatisch - ein Deep Dive in Spring Modulith
           
             (Nils Hartmann)
@@ -477,54 +517,6 @@ Strukturelle Konsistenz mit der BCE-Architektur&lt;/li&gt;
         <pubDate>Thu, 20 Nov 2025 18:30:00 +0100</pubDate>
         <link>https://www.jug-da.de/2025/11/OpenRewrite/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2025/11/OpenRewrite/</guid>
-      </item>
-    
-      <item>
-        <title>
-          08.11.2025: Global Day of Code Retreat Frankfurt
-          
-        </title>
-        <description>&lt;h3 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h3&gt;
-
-&lt;p&gt;Sei dabei beim &lt;strong&gt;Global Day of Code Retreat 2025&lt;/strong&gt; in Frankfurt und erlebe einen inspirierenden Tag voller Coding und Zusammenarbeit! Der Global Day of Code Retreat ist eine weltweite Veranstaltung für Entwickler:innen aller Erfahrungsstufen, die ihre Programmierfähigkeiten in einem intensiven und lehrreichen Umfeld verfeinern möchten.&lt;/p&gt;
-
-&lt;p&gt;An diesem Tag hast du die Gelegenheit, an mehreren Sessions von je 45 Minuten teilzunehmen. In kleinen Teams (Pair Programming) wirst du in jeder Session das gleiche Problem lösen, jedoch mit unterschiedlichen Ansätzen und Techniken. Der Fokus liegt auf &lt;strong&gt;sauberem Code&lt;/strong&gt;, &lt;strong&gt;Testbarkeit&lt;/strong&gt; und &lt;strong&gt;Teamwork&lt;/strong&gt; – das perfekte Umfeld, um dich weiterzuentwickeln und neue Kontakte in der lokaler Entwickler:innen-Community zu knüpfen.&lt;/p&gt;
-
-&lt;h4 id=&quot;details&quot;&gt;Details:&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Datum&lt;/strong&gt;: 8. November 2025&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Uhrzeit&lt;/strong&gt;: 9:00 Uhr bis 17:00 Uhr&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ort&lt;/strong&gt;: ING, 13. Stock, Theodor-Heuss-Allee 2, 60486 Frankfurt am Main&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Teilnehmeranzahl&lt;/strong&gt;: Max. 30&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Voraussetzungen&lt;/strong&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bringe deinen eigenen Laptop mit, und stelle sicher, dass du ein Setup zum Entwickeln hast (IDE/Editor, Git, etc.). Wir empfehlen einen Gast-Account anzulegen, damit du ungestört und sicher arbeiten kannst.
-Vorkenntnisse in mindestens einer Programmiersprache sind erforderlich.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Kosten&lt;/strong&gt;: Kostenlos, Snacks und Getränke inklusive!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Verhaltensregeln&lt;/strong&gt;: https://andrena.github.io/gdcr2024-darmstadt/code-of-conduct.html&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;was-dich-erwartet&quot;&gt;Was dich erwartet:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6 Sessions &lt;strong&gt;Pair Programming&lt;/strong&gt; mit verschiedenen Partnern&lt;/li&gt;
-  &lt;li&gt;Fokus auf der &lt;strong&gt;Verbesserung deiner Programmierfähigkeiten&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Möglichkeit, neue &lt;strong&gt;Konzepte&lt;/strong&gt; und &lt;strong&gt;Programmiersprachen&lt;/strong&gt; auszuprobieren&lt;/li&gt;
-  &lt;li&gt;Networking mit der &lt;strong&gt;lokalen Entwickler:innen-Community&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Egal, ob du bereits viel Erfahrung in der Entwicklung hast oder gerade erst anfängst – beim Global Day of Code Retreat geht es um gemeinsames Lernen und gegenseitige Unterstützung. Die Atmosphäre ist entspannt, aber motivierend, und es geht vor allem darum, Spaß beim Programmieren zu haben.&lt;/p&gt;
-
-&lt;p&gt;Melde dich jetzt an und sichere dir deinen Platz!&lt;/p&gt;
-
-&lt;p&gt;Mehr Informationen unter: &lt;a href=&quot;https://coderetreat.org&quot;&gt;coderetreat.org&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Nov 2025 09:00:00 +0100</pubDate>
-        <link>https://www.jug-da.de/2025/11/global-day-of-code-retreat/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2025/11/global-day-of-code-retreat/</guid>
       </item>
     
   </channel>
