@@ -8,9 +8,9 @@ speaker:
     linkedin: marco-klaassen
 hidePub: true
 hybrid: false
-seatLimit: 25
-location: tbd
-direction: #
+seatLimit: 30
+location: MaibornWolff GmbH, Mornewegstraße 32, 64293 Darmstadt
+direction: https://maps.app.goo.gl/CaChAuG9TLJSRRXH9
 ---
 
 ## Abstract
@@ -34,3 +34,9 @@ Whether you are an AI novice or a seasoned Java architect, you will walk away se
 ## Speaker
 
 {% include speakerinfo.html index=0 %} is Solution Architect @ Red Hat. His passion is the development of complex software architectures, to enable companies and their developers to build scalable and high-performance software.  New technologies make it possible to solve complex problems in the simplest way. They inspire him.
+
+## Sponsors
+
+[MaibornWolff](https://www.maibornwolff.de/) stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.
+
+[![logo](/images/sponsors/maibornwolff.svg){:width="200"}](https://www.maibornwolff.de/)
