@@ -36,6 +36,18 @@ URL:https://www.jug-da.de/2026/08/Spring-Modulith/
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
+UID:20260827@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Interaktive Coding-Kata: Elephant Carpaccio
+DESCRIPTION:Java User Group Darmstadt\n\nInteraktive Coding-Kata: Elephant Carpaccio\n\nZusammenfassung Elephant Carpaccio ist eine interaktive Coding Kata, bei der es darum geht, große Anforderungen und komplexe Probleme in kleine, wertstiftende Schritte zu zerlegen. In kurzen Iterationen entwickelt ihr in 2er-Teams Stück für Stück eine lauffähige Anwendung – mit echtem Feedback nach jeder Runde. So wird unmittelbar erlebbar, wie aus...
+LOCATION:Accso - Accelerated Solutions GmbH\, Rahmhofstraße 2\, Frankfurt am Main
+DTSTART;TZID=Europe/Berlin:20260827T170000
+DTEND;TZID=Europe/Berlin:20260827T200000
+DTSTAMP:20260817T232000Z
+URL:https://www.jug-da.de/2026/08/softwerkskammer/
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
 UID:20260917@jug-da.de
 ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
 SUMMARY:JUG DA: Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)

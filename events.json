@@ -16,6 +16,22 @@
 "externalEvent": false
 },
 {
+"uid": "20260827@jug-da.de",
+"lastModified": "20260817T232000Z",
+"summary": "Interaktive Coding-Kata: Elephant Carpaccio",
+"title": "Interaktive Coding-Kata: Elephant Carpaccio",
+"description": "Zusammenfassung Elephant Carpaccio ist eine interaktive Coding Kata, bei der es darum geht, große Anforderungen und komplexe Probleme in kleine, wertstiftende Schritte zu zerlegen. In kurzen Iterationen entwickelt ihr in 2er-Teams Stück für Stück eine lauffähige Anwendung – mit echtem Feedback nach jeder Runde. So wird unmittelbar erlebbar, wie aus einem großen Problem kleine, nutzbare Inkremente entstehen. Im Mittelpunkt stehen zentrale Fragen moderner Softwareentwicklung: Wie klein ist klein genug? Was liefert echten Mehrwert? Und wie schafft man es, schneller zu lernen und besser zu liefern? Ein hands-on Meetup für alle, die inkrementelles Arbeiten nicht nur verstehen, sondern erleben wollen. Agenda:...",
+
+"location": "Accso - Accelerated Solutions GmbH, Rahmhofstraße 2, Frankfurt am Main",
+"url": "https://www.jug-da.de/2026/08/softwerkskammer/",
+"start": "2026-08-27T17:00:00",
+"end": "2026-08-27T20:00:00",
+"timezone": "Europe/Berlin",
+"hideRegistration": false,
+"canceled": false,
+"externalEvent": true
+},
+{
 "uid": "20260917@jug-da.de",
 "lastModified": "20260814T075100Z",
 "summary": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)",
