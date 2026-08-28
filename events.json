@@ -1,21 +1,5 @@
 [
 {
-"uid": "20260820@jug-da.de",
-"lastModified": "20260619T102800Z",
-"summary": "Modularisierung pragmatisch - ein Deep Dive in Spring Modulith (Nils Hartmann)",
-"title": "Modularisierung pragmatisch - ein Deep Dive in Spring Modulith",
-"description": "Abstract Für den langfristigen Erfolg einer Anwendung ist unter anderem entscheidend, ob eine klare Architektur eingehalten wird. Damit wird sichergestellt, dass unser Code jederzeit wartbar bleibt und wir so zügig neue Features entwickeln können, ohne dabei Abstriche an der Qualität machen zu müssen. Um dieses Ziel zu erreichen, werden Anwendung oft in fachlich getrennte Module zerlegt, die möglichst stark entkoppelt sind. Dabei kann uns das Project Spring Modulith unterstützen. Spring Modulith ermöglicht es uns, innerhalb unser Spring Boot-Anwendung Module und Architekturregeln zu definieren und deren Einhaltung zu kontrollieren. Die Verwendung von Events zur Kommunikation zwischen den Modulen führt zu einer...",
-"speaker": "Nils Hartmann",
-"location": "DICOS GmbH Kommunikationssysteme, Alsfelder Straße 11, 64289 Darmstadt",
-"url": "https://www.jug-da.de/2026/08/Spring-Modulith/",
-"start": "2026-08-20T18:30:00",
-"end": "2026-08-20T20:30:00",
-"timezone": "Europe/Berlin",
-"hideRegistration": false,
-"canceled": false,
-"externalEvent": false
-},
-{
 "uid": "20260827@jug-da.de",
 "lastModified": "20260817T232000Z",
 "summary": "Interaktive Coding-Kata: Elephant Carpaccio",
@@ -33,7 +17,7 @@
 },
 {
 "uid": "20260917@jug-da.de",
-"lastModified": "20260814T075100Z",
+"lastModified": "20260828T145200Z",
 "summary": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)",
 "title": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j",
 "description": "Abstract Artificial Intelligence is no longer just for Python developers. As Java developers, we now have the tools to build, deploy, and scale intelligent applications without leaving our ecosystem. In this session, we will dive into frida-carclaims-backend-ai, a real-world project built to showcase how Quarkus and its LangChain4j extension make integrating Large Language Models (LLMs) seamless and efficient. We will explore how Quarkus leverages its signature developer joy—including live coding, dev services, and supersonic, subatomic performance—to streamline AI development. Key takeaways from this talk: The Quarkus AI Ecosystem: An introduction to Quarkus LangChain4j and how it simplifies LLM integration. AI...",
