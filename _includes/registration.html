@@ -23,7 +23,22 @@ Wer sich bis <strong>24 Stunden</strong> vor dem Vortrag anmeldet und bei der Ve
 </p>
 {% endif %}
 
-<iframe src="{{ page.registrationUrl }}{{ queryString }}" frameborder="0" width="100%" height="700" marginheight="0" marginwidth="0"></iframe>
+<iframe
+  id="regframe"
+  src="{{ page.registrationUrl }}{{ queryString }}"
+  title="Anmeldung zur Veranstaltung"
+  width="100%"
+  height="700"
+  style="border: 0;"
+  loading="lazy">
+</iframe>
+<script>
+  window.addEventListener('message', function (event) {
+    if (event.origin !== 'https://registration.ijug.eu') return;
+    if (!event.data || event.data.type !== 'ijug-registration:height') return;
+    document.getElementById('regframe').style.height = event.data.height + 'px';
+  });
+</script>
 {% else %}
 <h3 id="anmeldung">Anmeldung und weitere Infos:</h3>
 <p>

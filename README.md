@@ -27,10 +27,8 @@ Wenn Jekyll läuft, sind die generierten Seiten unter http://localhost:4000 find
 
 - Die `eventId` errechnet sich automatisch aus dem Event-Datum im Format `yyyy-mm-dd` (`ISO_DATE`)
 
-Weitere Details, siehe 👉 https://github.com/jugda/registration
+Weitere Details, siehe 👉 https://github.com/ijug-ev/registration
 
 ### Übersicht der Anmeldungen
 
-URL: https://registration.jug-da.de/list?eventId= + `eventId`
-
-JSON-Output: https://registration.jug-da.de/list?type=json&eventId= + `eventId`
+👉 https://registration.ijug.eu/admin/jugda

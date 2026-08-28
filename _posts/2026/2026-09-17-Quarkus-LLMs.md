@@ -6,11 +6,10 @@ speaker:
   - name: Marco Klaassen
     pic: marcoklaassen.jpg
     linkedin: marco-klaassen
-hidePub: true
-hybrid: false
 seatLimit: 30
 location: MaibornWolff GmbH, Mornewegstraße 32, 64293 Darmstadt
 direction: https://maps.app.goo.gl/CaChAuG9TLJSRRXH9
+registrationUrl: https://registration.jug-da.de/registration
 ---
 
 ## Abstract
