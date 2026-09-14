@@ -9,7 +9,7 @@ speaker:
   - name: Zoran Sevarac
     pic: zoransevarac.jpg
     linkedin: zoran-sevarac-phd-49a9a411
-duration: 2
+duration: 3
 hidePub: true
 raffle: false
 seatLimit: 50
