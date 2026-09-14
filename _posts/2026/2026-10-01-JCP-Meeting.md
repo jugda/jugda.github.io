@@ -34,7 +34,7 @@ Join us for an introduction to the JCP Executive Committee and its role in shapi
 
 Access from 18:00, the meet-up starts at 19:00.
 
-#### Opening by Heather VanCura (Senior Director of the Java Community Process)
+#### Opening by Heather VanCura (Vice President, Oracle and Director & Chairperson, Java Community)
 
 #### Valhalla, Now! (Nicolai Parlog)
 
