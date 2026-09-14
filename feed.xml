@@ -8,7 +8,7 @@
     
       <item>
         <title>
-          01.10.2026: Double Feature: Value Objects and Project Valhalla + Evolution of Java for AI/ML
+          01.10.2026: Double Feature: Value Objects and Project Valhalla + Java for AI
           
             (Nicolai Parlog, Zoran Sevarac)
           
@@ -17,9 +17,9 @@
 
 &lt;p&gt;English version/details below&lt;/p&gt;
 
-&lt;p&gt;Das Executive Committee (EC) des Java Community Process (JCP) ist das zentrale Entscheidungsgremium für die Standardisierung und Weiterentwicklung der Java-Plattform. Seine Mitglieder repräsentieren Unternehmen, Organisationen, Java User Groups und Einzelpersonen aus der internationalen Java-Community. Am 02. Oktober gibt es ein Treffen bei SAP in Walldorf. Am Vorabend (01.10.) gibt es ein Gettogether mit zwei Vorträgen und der Möglichkeit des Austauschs mit Mitgliedern des Executive Committees.&lt;/p&gt;
+&lt;p&gt;Das Executive Committee (EC) des Java Community Process (JCP) ist das zentrale Entscheidungsgremium für die Standardisierung und Weiterentwicklung der Java-Plattform. Seine Mitglieder repräsentieren Unternehmen, Organisationen, Java User Groups und Einzelpersonen aus der internationalen Java-Community. Am 02. Oktober gibt es ein Treffen bei SAP in Walldorf. Am Vorabend (01.10.) gibt es ein Get-together mit zwei Vorträgen und der Möglichkeit des Austauschs mit Mitgliedern des Executive Committees.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Achtung:&lt;/strong&gt; Die Veranstaltung findet bei SAP in Walldorf statt. Parkplätze (siehe unten) sind vorhanden und man kommt von Darmstadt auch direkt mit der Regionalbahn nach Walldorf.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Achtung:&lt;/strong&gt; Die Veranstaltung findet bei SAP in Walldorf statt. Parkplätze (kostenlos auf P7) sind vorhanden und man kommt von Frankfurt/Darmstadt auch direkt mit der Regionalbahn nach Walldorf.&lt;/p&gt;
 
 &lt;p&gt;Official invitation:&lt;/p&gt;
 
@@ -42,11 +42,12 @@
 
 &lt;p&gt;After this talk, you’ll know what value types can do in JDK 28 - and what they can’t. And the latter is just as important because the trek to Valhalla is still long and value types are neither intended nor capable to fulfill all expectations we may have for the project at large.&lt;/p&gt;
 
-&lt;h4 id=&quot;deep-netts-prof-zoran-sevarac&quot;&gt;Deep Netts (Prof. Zoran Sevarac)&lt;/h4&gt;
+&lt;h4 id=&quot;java-for-ai-prof-zoran-sevarac&quot;&gt;Java for AI (Prof. Zoran Sevarac)&lt;/h4&gt;
 
-&lt;p&gt;abstract will follow soon&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.deepnetts.com/&quot;&gt;Deep Netts&lt;/a&gt; is the native AI execution layer for the JVM. Run AI workloads with exceptional performance using Java, Vector API and GPU acceleration.&lt;/p&gt;
+&lt;p&gt;Discover how the latest and upcoming Java platform innovations are removing traditional performance barriers for AI and machine learning workloads on the JVM.
+Recent advances in the Foreign Function and Memory (FFM) API and Vector API, together with the upcoming Project Valhalla features, are enabling Java applications to work with efficient memory layouts and hardware-accelerated operations required for demanding numerical and AI/ML workloads. Project Babylon is further exploring Java-native approaches to GPU programming and heterogeneous computing.
+Learn how these technologies work, what they mean for the future of Java-based AI, and how to apply them to real-world applications. By leveraging modern JVM capabilities and hardware acceleration, Java applications can achieve substantial performance improvements—potentially by an order of magnitude for suitable workloads.
+The session will also introduce the activities of the JCP Executive Committee and the Java and AI Working Group, including opportunities for the Java community to participate in shaping the emerging Java AI ecosystem.&lt;/p&gt;
 
 &lt;h3 id=&quot;referenten&quot;&gt;Referenten&lt;/h3&gt;
 
