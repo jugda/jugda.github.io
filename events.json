@@ -1,21 +1,5 @@
 [
 {
-"uid": "20260827@jug-da.de",
-"lastModified": "20260817T232000Z",
-"summary": "Interaktive Coding-Kata: Elephant Carpaccio",
-"title": "Interaktive Coding-Kata: Elephant Carpaccio",
-"description": "Zusammenfassung Elephant Carpaccio ist eine interaktive Coding Kata, bei der es darum geht, große Anforderungen und komplexe Probleme in kleine, wertstiftende Schritte zu zerlegen. In kurzen Iterationen entwickelt ihr in 2er-Teams Stück für Stück eine lauffähige Anwendung – mit echtem Feedback nach jeder Runde. So wird unmittelbar erlebbar, wie aus einem großen Problem kleine, nutzbare Inkremente entstehen. Im Mittelpunkt stehen zentrale Fragen moderner Softwareentwicklung: Wie klein ist klein genug? Was liefert echten Mehrwert? Und wie schafft man es, schneller zu lernen und besser zu liefern? Ein hands-on Meetup für alle, die inkrementelles Arbeiten nicht nur verstehen, sondern erleben wollen. Agenda:...",
-
-"location": "Accso - Accelerated Solutions GmbH, Rahmhofstraße 2, Frankfurt am Main",
-"url": "https://www.jug-da.de/2026/08/softwerkskammer/",
-"start": "2026-08-27T17:00:00",
-"end": "2026-08-27T20:00:00",
-"timezone": "Europe/Berlin",
-"hideRegistration": false,
-"canceled": false,
-"externalEvent": true
-},
-{
 "uid": "20260917@jug-da.de",
 "lastModified": "20260828T145200Z",
 "summary": "Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j (Marco Klaassen)",
@@ -30,5 +14,21 @@
 "hideRegistration": false,
 "canceled": false,
 "externalEvent": false
+},
+{
+"uid": "20261001@jug-da.de",
+"lastModified": "20260914T185900Z",
+"summary": "Double Feature: Value Objects and Project Valhalla + Evolution of Java for AI/ML (Nicolai Parlog, Zoran Sevarac)",
+"title": "Double Feature: Value Objects and Project Valhalla + Evolution of Java for AI/ML",
+"description": "Zusammenfassung English version/details below Das Executive Committee (EC) des Java Community Process (JCP) ist das zentrale Entscheidungsgremium für die Standardisierung und Weiterentwicklung der Java-Plattform. Seine Mitglieder repräsentieren Unternehmen, Organisationen, Java User Groups und Einzelpersonen aus der internationalen Java-Community. Am 02. Oktober gibt es ein Treffen bei SAP in Walldorf. Am Vorabend (01.10.) gibt es ein Gettogether mit zwei Vorträgen und der Möglichkeit des Austauschs mit Mitgliedern des Executive Committees. Achtung: Die Veranstaltung findet bei SAP in Walldorf statt. Parkplätze (siehe unten) sind vorhanden und man kommt von Darmstadt auch direkt mit der Regionalbahn nach Walldorf. Official invitation: Join us for...",
+"speaker": "Nicolai Parlog, Zoran Sevarac",
+"location": "Room S3, SAP SE, Building WDF05, Dietmar-Hopp-Allee 20, 69190 Walldorf",
+"url": "https://www.jug-da.de/2026/10/JCP-Meeting/",
+"start": "2026-10-01T18:30:00",
+"end": "2026-10-01T20:30:00",
+"timezone": "Europe/Berlin",
+"hideRegistration": false,
+"canceled": false,
+"externalEvent": true
 }
 ]

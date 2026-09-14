@@ -8,6 +8,77 @@
     
       <item>
         <title>
+          01.10.2026: Double Feature: Value Objects and Project Valhalla + Evolution of Java for AI/ML
+          
+            (Nicolai Parlog, Zoran Sevarac)
+          
+        </title>
+        <description>&lt;h3 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h3&gt;
+
+&lt;p&gt;English version/details below&lt;/p&gt;
+
+&lt;p&gt;Das Executive Committee (EC) des Java Community Process (JCP) ist das zentrale Entscheidungsgremium für die Standardisierung und Weiterentwicklung der Java-Plattform. Seine Mitglieder repräsentieren Unternehmen, Organisationen, Java User Groups und Einzelpersonen aus der internationalen Java-Community. Am 02. Oktober gibt es ein Treffen bei SAP in Walldorf. Am Vorabend (01.10.) gibt es ein Gettogether mit zwei Vorträgen und der Möglichkeit des Austauschs mit Mitgliedern des Executive Committees.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Achtung:&lt;/strong&gt; Die Veranstaltung findet bei SAP in Walldorf statt. Parkplätze (siehe unten) sind vorhanden und man kommt von Darmstadt auch direkt mit der Regionalbahn nach Walldorf.&lt;/p&gt;
+
+&lt;p&gt;Official invitation:&lt;/p&gt;
+
+&lt;p&gt;Join us for an introduction to the JCP Executive Committee and its role in shaping the future of Java. The session will explore how developers, architects, Java user groups and the wider community can contribute to the evolution of the platform. We will discuss current developments, including Value Objects and Project Valhalla, as well as the evolution of Java platform and ecosystem for AI/ML. The meet-up will also provide an opportunity to connect with JCP EC members, Java Champions and representatives from international JUGs and companies.&lt;/p&gt;
+
+&lt;p&gt;Access from 18:00, the meet-up starts at 19:00.&lt;/p&gt;
+
+&lt;h4 id=&quot;opening-by-heather-vancura-senior-director-of-the-java-community-process&quot;&gt;Opening by Heather VanCura (Senior Director of the Java Community Process)&lt;/h4&gt;
+
+&lt;h4 id=&quot;valhalla-now-nicolai-parlog&quot;&gt;Valhalla, Now! (Nicolai Parlog)&lt;/h4&gt;
+
+&lt;p&gt;No OpenJDK project has excited Java developers as much as Valhalla. And no other has strung us along for that long. But now the wait is over! Value types are the first step to mending the rift in Java’s type system and allow us to create identity-less, more primitive-like classes. They will (likely) preview for the first time in JDK 28, so it’s time to take a close look at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;syntax and semantics of value types&lt;/li&gt;
+  &lt;li&gt;limitations and capabilities&lt;/li&gt;
+  &lt;li&gt;performance characteristics&lt;/li&gt;
+  &lt;li&gt;the next steps Valhalla is planning to take&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this talk, you’ll know what value types can do in JDK 28 - and what they can’t. And the latter is just as important because the trek to Valhalla is still long and value types are neither intended nor capable to fulfill all expectations we may have for the project at large.&lt;/p&gt;
+
+&lt;h4 id=&quot;deep-netts-prof-zoran-sevarac&quot;&gt;Deep Netts (Prof. Zoran Sevarac)&lt;/h4&gt;
+
+&lt;p&gt;abstract will follow soon&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.deepnetts.com/&quot;&gt;Deep Netts&lt;/a&gt; is the native AI execution layer for the JVM. Run AI workloads with exceptional performance using Java, Vector API and GPU acceleration.&lt;/p&gt;
+
+&lt;h3 id=&quot;referenten&quot;&gt;Referenten&lt;/h3&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/nicolaiparlog.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Nicolai Parlog&quot; title=&quot;Nicolai Parlog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nicolai Parlog&lt;/strong&gt;
+(&lt;a href=&quot;https://nipafx.de/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://nipafx.de/&lt;/a&gt;)
+ is a thirty-year-old boy, as the narrator would put it (if he’s generous), who has found his passion in software development (mostly Java) and who codes for a living as well as for fun. He also blogs, writes, newsletters, speaks, chats, records, streams, trains, and consults about it, and organizes a conference - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, hire him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at codefx.org.&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/zoransevarac.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Zoran Sevarac&quot; title=&quot;Zoran Sevarac&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zoran Sevarac&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/zoran-sevarac-phd-49a9a411&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/zoran-sevarac-phd-49a9a411&lt;/a&gt;)
+ is an AI and Machine Learning expert, Java Champion, and CEO of Deep Netts Inc., building AI the Java way — fast, scalable, and efficient. With more than two decades of experience in software engineering, AI research, and open-source innovation, my passion has always been to make advanced AI accessible, reliable, and production-ready for Java developers and enterprises.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sap.com/germany/index.html&quot;&gt;SAP&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sap.com/germany/index.html&quot;&gt;&lt;img src=&quot;/images/sponsors/sap.svg&quot; alt=&quot;logo&quot; class=&quot;speakerpic&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2026 18:30:00 +0200</pubDate>
+        <link>https://www.jug-da.de/2026/10/JCP-Meeting/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/10/JCP-Meeting/</guid>
+      </item>
+    
+      <item>
+        <title>
           17.09.2026: Supercharging Java with Quarkus: Building Intelligent Backends with Quarkus LangChain4j
           
             (Marco Klaassen)
@@ -465,59 +536,6 @@ Bitte Stift und Papier mitbringen&lt;/p&gt;
         <pubDate>Thu, 22 Jan 2026 18:30:00 +0100</pubDate>
         <link>https://www.jug-da.de/2026/01/Domain-Rediscovery/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2026/01/Domain-Rediscovery/</guid>
-      </item>
-    
-      <item>
-        <title>
-          11.12.2025: 2 Vorträge: 30 Years of Java - Lessons Learned + LLMs lieben Java
-          
-            (Adam Bien)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;h3 id=&quot;30-years-of-java---lessons-learned&quot;&gt;30 Years of Java - Lessons Learned&lt;/h3&gt;
-
-&lt;p&gt;Anhand von Anekdoten aus dem wirklichen Leben betrachtet Adam in diesem Rückblick die wichtigsten Meilensteine von Java. Dabei stellt er die Entwicklung von Unternehmensarchitekturen der technologischen Entwicklung von Java gegenüber.&lt;/p&gt;
-
-&lt;p&gt;Von Layering, N-Tier, Multi-Channel, Shared-Nothing über Plug-ins, RCP, Container, Microkernel, OSGi, SOA, ROA, TDD, DDD, Hexagonal-Architekturen, Twelve-Factor-App, Serverless, Serviceful bis hin zu Reactive, Unikernel und Sidecars. Was können wir aus der Vergangenheit lernen und wie sieht die Zukunft aus?&lt;/p&gt;
-
-&lt;p&gt;Fragen der Teilnehmenden sind sehr willkommen.&lt;/p&gt;
-
-&lt;h3 id=&quot;nach-30-jahren-llms-lieben-java&quot;&gt;Nach 30 Jahren: LLMs lieben Java.&lt;/h3&gt;
-
-&lt;p&gt;Drei Jahrzehnte der Standardisierung durch JSRs, JEPs und MicroProfile-APIs haben Java zur produktivsten Sprache für die LLM-gestützte Entwicklung gemacht. In dieser Session wird anhand von Live-Coding mit Claude Code und Kiro gezeigt, warum das so ist.&lt;/p&gt;
-
-&lt;p&gt;Themen:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Kürzere Prompts durch Java-Namenskonventionen und etablierte Idiome&lt;/li&gt;
-  &lt;li&gt;Generierung idiomatischen, schönen Codes und kontinuierliche Verbesserung der Codequalität
-Strukturelle Konsistenz mit der BCE-Architektur&lt;/li&gt;
-  &lt;li&gt;Spec-Driven Development mit LLMs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Fragen sind auch hier nicht nur willkommen, sie sind essenziell wichtig.&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/adambien.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Adam Bien&quot; title=&quot;Adam Bien&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adam Bien&lt;/strong&gt;
-(&lt;a href=&quot;https://www.linkedin.com/in/adam-bien&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/adam-bien&lt;/a&gt; | &lt;a href=&quot;https://adam-bien.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://adam-bien.com/&lt;/a&gt;)
- ist Entwickler, Consultant, manchmal Konferenzsprecher, Autor und Java / Jakarta (SE/EE) / MicroProfile Enthusiast und arbeitet mit Java seit JDK 1.0, JavaScript seit LiveScript und hat immer noch sehr viel Spass am Programmieren. Adam veranstaltet regelmässig Java EE / WebStandards / JavaScript Workshops am Flughafen München (http://airhacks.com).&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;Die &lt;a href=&quot;https://h-da.de/&quot;&gt;h_da&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://h-da.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/hda.svg&quot; alt=&quot;logo&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 11 Dec 2025 18:30:00 +0100</pubDate>
-        <link>https://www.jug-da.de/2025/12/30-Jahre-Java/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2025/12/30-Jahre-Java/</guid>
       </item>
     
   </channel>
