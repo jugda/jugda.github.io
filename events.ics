@@ -35,4 +35,16 @@ DTSTAMP:20260914T231200Z
 URL:https://www.jug-da.de/2026/10/JCP-Meeting/
 CLASS:PUBLIC
 END:VEVENT
+BEGIN:VEVENT
+UID:20261119@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: ADHS in der IT: Vom Chaos zum Code (Joshua Töpfer)
+DESCRIPTION:Java User Group Darmstadt\n\nADHS in der IT: Vom Chaos zum Code (Joshua Töpfer)\n\nAbstract ADHS ist mehr als nur das Bild des zappeligen Kindes — gerade in der IT-Branche sind viele Erwachsene betroffen, oft ohne es zu wissen. Doch ADHS kann sowohl Fluch als auch Segen sein: Die kreativen Höhenflüge und der tiefe Hyperfokus sind oft genauso präsent wie das chaotische Durcheinander und...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20261119T183000
+DTEND;TZID=Europe/Berlin:20261119T203000
+DTSTAMP:20260921T125300Z
+URL:https://www.jug-da.de/2026/11/ADHS/
+CLASS:PUBLIC
+END:VEVENT
 END:VCALENDAR

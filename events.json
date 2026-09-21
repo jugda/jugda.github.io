@@ -30,5 +30,21 @@
 "hideRegistration": false,
 "canceled": false,
 "externalEvent": true
+},
+{
+"uid": "20261119@jug-da.de",
+"lastModified": "20260921T125300Z",
+"summary": "ADHS in der IT: Vom Chaos zum Code (Joshua Töpfer)",
+"title": "ADHS in der IT: Vom Chaos zum Code",
+"description": "Abstract ADHS ist mehr als nur das Bild des zappeligen Kindes — gerade in der IT-Branche sind viele Erwachsene betroffen, oft ohne es zu wissen. Doch ADHS kann sowohl Fluch als auch Segen sein: Die kreativen Höhenflüge und der tiefe Hyperfokus sind oft genauso präsent wie das chaotische Durcheinander und der ständige Kampf mit Prokrastination. In diesem Vortrag klären wir über die typischen Symptome von ADHS auf und geben erste Anhaltspunkte, wie man bei sich selbst mögliche Anzeichen erkennen kann. Außerdem beleuchten wir, wie Teams am besten mit ADHS-betroffenen Kollegen umgehen können, um deren Potenziale voll auszuschöpfen. Abschließend teilen wir...",
+"speaker": "Joshua Töpfer",
+"location": "tbd",
+"url": "https://www.jug-da.de/2026/11/ADHS/",
+"start": "2026-11-19T18:30:00",
+"end": "2026-11-19T20:30:00",
+"timezone": "Europe/Berlin",
+"hideRegistration": false,
+"canceled": false,
+"externalEvent": false
 }
 ]

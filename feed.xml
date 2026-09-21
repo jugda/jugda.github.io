@@ -8,6 +8,34 @@
     
       <item>
         <title>
+          19.11.2026: ADHS in der IT: Vom Chaos zum Code
+          
+            (Joshua Töpfer)
+          
+        </title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;ADHS ist mehr als nur das Bild des zappeligen Kindes — gerade in der IT-Branche sind viele Erwachsene betroffen, oft ohne es zu wissen. Doch ADHS kann sowohl Fluch als auch Segen sein: Die kreativen Höhenflüge und der tiefe Hyperfokus sind oft genauso präsent wie das chaotische Durcheinander und der ständige Kampf mit Prokrastination.&lt;/p&gt;
+
+&lt;p&gt;In diesem Vortrag klären wir über die typischen Symptome von ADHS auf und geben erste Anhaltspunkte, wie man bei sich selbst mögliche Anzeichen erkennen kann. Außerdem beleuchten wir, wie Teams am besten mit ADHS-betroffenen Kollegen umgehen können, um deren Potenziale voll auszuschöpfen. Abschließend teilen wir konkrete Strategien und Tipps für Softwareentwickler, wie sie mit den Herausforderungen von ADHS besser umgehen und ihre Stärken besser nutzen können. Dieser Vortrag richtet sich an alle, die in der IT arbeiten und mehr über ADHS erfahren wollen — egal, ob als Betroffene oder als Kollegen.&lt;/p&gt;
+
+&lt;h2 id=&quot;speaker&quot;&gt;Speaker&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/joshuatoepfer.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Joshua Töpfer&quot; title=&quot;Joshua Töpfer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Joshua Töpfer&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/joshua-toepfer&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/joshua-toepfer&lt;/a&gt;)
+ ist Senior Consultant bei INNOQ. Seit über vier Jahren arbeitet er ausschließlich mit der Methodik des Remote Mob Programming und entwickelt so verteilte Systeme und Webanwendungen. Er ist einer der Maintainer von mob.sh und coacht regelmäßig Teams, die Mob Programming ausprobieren wollen.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Nov 2026 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/11/ADHS/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/11/ADHS/</guid>
+      </item>
+    
+      <item>
+        <title>
           01.10.2026: Double Feature: Value Objects and Project Valhalla + Java for AI
           
             (Nicolai Parlog, Zoran Sevarac)
@@ -487,56 +515,6 @@ Bitte Stift und Papier mitbringen&lt;/p&gt;
         <pubDate>Thu, 19 Feb 2026 18:30:00 +0100</pubDate>
         <link>https://www.jug-da.de/2026/02/JavaLand-Newcomer/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2026/02/JavaLand-Newcomer/</guid>
-      </item>
-    
-      <item>
-        <title>
-          22.01.2026: Domain Rediscovery Patterns für Legacy Code
-          
-            (Richard Gross)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Lange bevor das Programmieren losgeht stehen Legacy-Code-Projekte bereits vor großen Problemen. Es ist oft unklar welche Funktionen implementiert sind, wo sie sich befinden und welchen Reifegrad sie haben. Kurz gesagt, es besteht eine Lücke zwischen der Geschäftsdomäne und dem, was im Code implementiert ist.&lt;/p&gt;
-
-&lt;p&gt;In Projekten auf der grünen Wiese verwenden wir Tools und Patterns des Domain-Driven Design, damit diese Lücke nicht entsteht. Ein zusätzlicher Satz von Patterns wird jedoch benötigt, wenn wir mit Legacy-Code beginnen.&lt;/p&gt;
-
-&lt;p&gt;In diesem Vortrag werden wir die Kernmuster zur Wiederentdeckung der Domäne untersuchen. Diese Patterns gehen über das bloße Entschlüsseln der Funktionalität des Codes hinaus. Sie bieten Strategien, um die zugrunde liegenden Konzepte, Verhaltensweisen und Beziehungen in der Domäne zu verstehen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Nach einer Pause wird es noch einen Lightning Talk von Richard geben:&lt;/p&gt;
-
-&lt;h3 id=&quot;destructoring-ist-die-zukunft-von-javas-encapsulation&quot;&gt;Destructoring ist die Zukunft von Javas Encapsulation&lt;/h3&gt;
-
-&lt;p&gt;Dekonstruktion – die Zerlegung eines Objekts in seine Bestandteile – ist der Schlüssel, damit Java Kapselung und Invarianten zuverlässig wahren kann. Dieses scheinbare Paradoxon lösen wir im Vortrag auf, indem wir uns vergangene und kommende Sprach- und Plattformfeatures im JDK ansehen.&lt;/p&gt;
-
-&lt;p&gt;Die klassische Java-Serialisierung bricht Kapselung: Sie greift direkt auf private Felder zu, umgeht damit Konstruktoren und die dort verankerten Prüfungen. Ursache ist, dass Dekonstruktion und Rekonstruktion bislang keine first-class Citizens im JDK waren.&lt;/p&gt;
-
-&lt;p&gt;Genau hier setzt aktuelle Arbeit im Rahmen von JDK Project Amber an – unter dem Arbeitstitel „Derived Record/Class Creation“. Der Ansatz erlaubt es, explizit festzulegen, wie Objekte de- und rekonstruiert werden. Damit lässt sich künftig nicht nur Serialisierung sicherer und robuster gestalten; wir gewinnen auch „Withers“ (zielgerichtete, unveränderliche Kopien mit einzelnen geänderten Komponenten) für Records sowie Pattern Matching, das über reine Record-Patterns hinaus auf normale Klassen erweitert wird.&lt;/p&gt;
-
-&lt;p&gt;Unter diesen Voraussetzungen lohnt sich ein genauer Blick: Was ist schon da, was kommt als Nächstes – und was bedeutet das für unsere tägliche Java-Praxis?&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/richardgross.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Richard Gross&quot; title=&quot;Richard Gross&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Richard Gross&lt;/strong&gt;
-(&lt;a href=&quot;https://bsky.app/profile/richargh.de&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-bluesky&quot;&gt;&lt;/i&gt; richargh.de&lt;/a&gt; | &lt;a href=&quot;https://www.linkedin.com/in/richargh&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/richargh&lt;/a&gt;)
- ist IT-Archäologe bei MaibornWolff und verfügt über mehr als zehn Jahre Sanierungserfahrung. Sein Fokus liegt auf hexagonalen Architekturen, Hypermedia-APIs, TestDSLs und der ausdrucksstarken und eindeutigen Modellierung der Domäne als Code. Er beherrscht TDD, BDD, DDD, entkoppeltes Design und sogar Praktiken, die keine zwei D’s beinhalten. Er hat auch das Open-Source-Projekt CodeCharta geformt, das es auch Nicht-Entwicklern ermöglicht, die Qualität ihrer Software zu greifen.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.maibornwolff.de/&quot;&gt;MaibornWolff&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.maibornwolff.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/maibornwolff.svg&quot; alt=&quot;logo&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Jan 2026 18:30:00 +0100</pubDate>
-        <link>https://www.jug-da.de/2026/01/Domain-Rediscovery/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2026/01/Domain-Rediscovery/</guid>
       </item>
     
   </channel>
