@@ -36,6 +36,54 @@
     
       <item>
         <title>
+          07.11.2026: Global Day of Code Retreat Frankfurt
+          
+        </title>
+        <description>&lt;h3 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h3&gt;
+
+&lt;p&gt;Sei dabei beim &lt;strong&gt;Global Day of Code Retreat 2026&lt;/strong&gt; in Frankfurt und erlebe einen inspirierenden Tag voller Coding und Zusammenarbeit! Der Global Day of Code Retreat ist eine weltweite Veranstaltung für Entwickler:innen aller Erfahrungsstufen, die ihre Programmierfähigkeiten in einem intensiven und lehrreichen Umfeld verfeinern möchten.&lt;/p&gt;
+
+&lt;p&gt;An diesem Tag hast du die Gelegenheit, an mehreren Sessions von je 45 Minuten teilzunehmen. In kleinen Teams (Pair Programming) wirst du in jeder Session das gleiche Problem lösen, jedoch mit unterschiedlichen Ansätzen und Techniken. Der Fokus liegt auf &lt;strong&gt;sauberem Code&lt;/strong&gt;, &lt;strong&gt;Testbarkeit&lt;/strong&gt; und &lt;strong&gt;Teamwork&lt;/strong&gt; – das perfekte Umfeld, um dich weiterzuentwickeln und neue Kontakte in der lokaler Entwickler:innen-Community zu knüpfen.&lt;/p&gt;
+
+&lt;h4 id=&quot;details&quot;&gt;Details:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Datum&lt;/strong&gt;: 7. November 2026&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Uhrzeit&lt;/strong&gt;: 9:00 Uhr bis 17:00 Uhr&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ort&lt;/strong&gt;: ING, 13. Stock, Theodor-Heuss-Allee 2, 60486 Frankfurt am Main&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Teilnehmeranzahl&lt;/strong&gt;: Max. 30&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Voraussetzungen&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bringe deinen eigenen Laptop mit, und stelle sicher, dass du ein Setup zum Entwickeln hast (IDE/Editor, Git, etc.). Wir empfehlen einen Gast-Account anzulegen, damit du ungestört und sicher arbeiten kannst.
+Vorkenntnisse in mindestens einer Programmiersprache sind erforderlich.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Kosten&lt;/strong&gt;: Kostenlos, Snacks und Getränke inklusive!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Verhaltensregeln&lt;/strong&gt;: https://andrena.github.io/gdcr2024-darmstadt/code-of-conduct.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;was-dich-erwartet&quot;&gt;Was dich erwartet:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6 Sessions &lt;strong&gt;Pair Programming&lt;/strong&gt; mit verschiedenen Partnern&lt;/li&gt;
+  &lt;li&gt;Fokus auf der &lt;strong&gt;Verbesserung deiner Programmierfähigkeiten&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Möglichkeit, neue &lt;strong&gt;Konzepte&lt;/strong&gt; und &lt;strong&gt;Programmiersprachen&lt;/strong&gt; auszuprobieren&lt;/li&gt;
+  &lt;li&gt;Networking mit der &lt;strong&gt;lokalen Entwickler:innen-Community&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Egal, ob du bereits viel Erfahrung in der Entwicklung hast oder gerade erst anfängst – beim Global Day of Code Retreat geht es um gemeinsames Lernen und gegenseitige Unterstützung. Die Atmosphäre ist entspannt, aber motivierend, und es geht vor allem darum, Spaß beim Programmieren zu haben.&lt;/p&gt;
+
+&lt;p&gt;Melde dich jetzt an und sichere dir deinen Platz!&lt;/p&gt;
+
+&lt;p&gt;Mehr Informationen unter: &lt;a href=&quot;https://coderetreat.org&quot;&gt;coderetreat.org&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/11/global-day-of-code-retreat/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/11/global-day-of-code-retreat/</guid>
+      </item>
+    
+      <item>
+        <title>
           01.10.2026: Double Feature: Value Objects and Project Valhalla + Java for AI
           
             (Nicolai Parlog, Zoran Sevarac)
@@ -431,90 +479,6 @@ Bitte Stift und Papier mitbringen&lt;/p&gt;
         <pubDate>Thu, 19 Mar 2026 18:30:00 +0100</pubDate>
         <link>https://www.jug-da.de/2026/03/Tiny-AI-Library/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2026/03/Tiny-AI-Library/</guid>
-      </item>
-    
-      <item>
-        <title>
-          19.02.2026: Drei Vorträge: &apos;Die Katastrophe im Release - wie rette ich das nächste Fuck-Up-Release&apos;, &apos;Antora &amp; Vale: How To Write Better Documentation and Bring Balance to the Force&apos; und &apos;Clean Architecture: Fundament wartbarer Software oder nur ein Hype?&apos;
-          
-            (Christoph Gerlach, Alexander Eimer, Fedor Zholud)
-          
-        </title>
-        <description>&lt;h2 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h2&gt;
-
-&lt;h3 id=&quot;die-katastrophe-im-release---wie-rette-ich-das-nächste-fuck-up-release&quot;&gt;Die Katastrophe im Release - wie rette ich das nächste Fuck-Up-Release&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Christoph Gerlach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Die neue Version wird aufgespielt und … Die Applikation startet nicht. Prod ist down und die User warten. Was jetzt? Fixen oder Rollback? Was ist jetzt der richtige Weg?&lt;/p&gt;
-
-&lt;p&gt;Auch unerfahrenere Entwickler können mithilfe von verschiedensten Maßnahmen wieder die Oberhand gewinnen. So können Handlungsweisen des Bevölkerungsschutzes helfen den Incident einzudämmen. Sei es mit der Struktur des PDCA-Ansatzes oder in Form von Akronymen die Standardhandlungsabläufe abbilden.&lt;/p&gt;
-
-&lt;p&gt;Zu einem besseren Handling von solchen akuten Situationen sind jedoch nicht nur Taktiken angemessen. Eine gelebte Fehlerkultur unterstützt die Vorbereitung und Post Mortems helfen bei einer strukturierten Nachbereitung von Incidents.&lt;/p&gt;
-
-&lt;p&gt;Der Vortrag soll zeigen, dass nicht nur gute Vorbereitung Fuck-Up-Releases verhindert, sondern, dass auch die richtige Handlungsweise während des Incidents hilft Katastrophen zu vermeiden. Sei es nur Ruhe in Stresssituationen zu bewahren oder sich die Notwendigkeit eines Rollbacks einzugestehen.&lt;/p&gt;
-
-&lt;h3 id=&quot;antora--vale-how-to-write-better-documentation-and-bring-balance-to-the-force&quot;&gt;Antora &amp;amp; Vale: How To Write Better Documentation and Bring Balance to the Force&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Alexander Eimer&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Zugängliche Dokumentation macht aus deinen Produktnutzern effiziente Power-User und ist somit der wichtigste Multiplikator für jede Technologie. Doch wie schaffst du es, dass die Dokumentation nicht zur Last, sondern zur wahren Stärke wird?&lt;/p&gt;
-
-&lt;p&gt;In diesem Vortrag erfährst du, wie du eine Dokumentationsarchitektur entwickelst, die mit deinem System mitwächst und von deinen Kunden wirklich genutzt wird. Ich teile meine Erfahrungen aus der Praxis, wo ich eine solche Architektur erfolgreich in einem großen Enterprise-Umfeld etabliert habe.&lt;/p&gt;
-
-&lt;p&gt;Zuerst beleuchten wir, welche Arten von Dokumentation es gibt und wie du sie mithilfe von Frameworks wie Diataxis und Arc42 logisch strukturierst.&lt;/p&gt;
-
-&lt;p&gt;Danach tauchen wir in den praktischen Teil ein: Du lernst, wie du mit Tools wie Antora Dokumentationen aus verschiedenen Repositories zu einer einzigen Seite bündelst, suchbare Inhalte erstellst und mit AsciiDoc und dem Linter Vale für einen einheitlichen Stil sorgst.&lt;/p&gt;
-
-&lt;p&gt;Nach dieser Session hast du konkrete Methoden und Tools an der Hand, um die Dokumentation in deinem Team zu revolutionieren und so die Effizienz der Anwender zu steigern.&lt;/p&gt;
-
-&lt;h3 id=&quot;clean-architecture-fundament-wartbarer-software-oder-nur-ein-hype&quot;&gt;Clean Architecture: Fundament wartbarer Software oder nur ein Hype?&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Fedor Zholud&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Viele Softwareprojekte starten vielversprechend – neue Features entstehen schnell, das Team ist motiviert, die Architektur wirkt übersichtlich. Doch nach einigen Monaten oder Jahren kippt die Situation: Jede Änderung scheint riskant, kleine Anpassungen ziehen unerwartete Seiteneffekte nach sich, und neue Teammitglieder verlieren schnell den Überblick. Der Grund liegt meist in einer schleichenden architektonischen Erosion. Fachlogik, Frameworks und technische Infrastruktur vermischen sich zunehmend, Verantwortlichkeiten verschwimmen, und Abhängigkeiten wachsen unkontrolliert. Dadurch wird die Software schwer testbar, kaum erweiterbar und immer teurer im Betrieb und in der Weiterentwicklung.&lt;/p&gt;
-
-&lt;p&gt;Clean Architecture bietet einen strukturierten Ansatz, um diesem Problem entgegenzuwirken. Sie stellt die Fachlogik in den Mittelpunkt, kehrt Abhängigkeiten bewusst um und trennt klar zwischen Kern und Infrastruktur. Dadurch bleibt der Kern unabhängig von Frameworks, Datenbanken oder UI-Technologien. In diesem Vortrag zeige ich anhand von praktischen Beispielen, wie Clean Architecture in der Praxis umgesetzt werden kann, wo sie echten Mehrwert bietet und wo sie an ihre Grenzen stößt. So wird deutlich, wann Clean Architecture tatsächlich das Fundament wartbarer Software ist – und wann sie zum Overengineering führt.&lt;/p&gt;
-
-&lt;h2 id=&quot;sprecher&quot;&gt;Sprecher&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/christophgerlach.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Christoph Gerlach&quot; title=&quot;Christoph Gerlach&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Christoph Gerlach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;arbeitet seit sechs Jahren als Software Engineer bei der rewe digital GmbH im Bereich der Logisitik. Hier nimmt er vor allem Aufgaben in der Entwicklung und der Software Architektur wahr. Sein Werdegang zeichnet sich weiterhin mit einer engen Verbundenheit mit dem nicht polizeilichen Bevölkerungsschutz aus. So hat er ein abgeschlossenes Studium zum Rettungsingenieur als auch langjährige Erfahrung im Katastrophenschutz. Mit dieser raren Verbindung versucht er alltägliche Probleme mit dem Besten aus beiden Welten zu beheben.&lt;/p&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/alexandereimer.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Alexander Eimer&quot; title=&quot;Alexander Eimer&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Alexander Eimer&lt;/strong&gt;
-(&lt;a href=&quot;https://www.linkedin.com/in/alexander-eimer&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/alexander-eimer&lt;/a&gt; | &lt;a href=&quot;https://github.com/https://github.com/aeimer/talk-history&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-github&quot;&gt;&lt;/i&gt; https://github.com/aeimer/talk-history&lt;/a&gt; | &lt;a href=&quot;https://eimer.it&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://eimer.it&lt;/a&gt;)
- ist Senior Software Engineer bei der QAware GmbH und ein Experte im Bereich von Plattformentwicklung. Er ist leidenschaftlich daran interessiert, Cloud-Plattformen zu bauen, die ein außergewöhnliches Entwicklererlebnis bieten und seinen Kollegen ein Lächeln ins Gesicht zaubern.&lt;/p&gt;
-
-&lt;p&gt;Mit Erfolgen im Aufbau sicherer Internal Developer Platforms (IDPs) weiß er, wie man Entwicklern “goldene Pfade” bereitet. Indem er angemessene Dokumentationen für diese IDPs bereitstellt, ermöglicht er den Nutzern, ihre Anwendungen schnell und sicher zu implementieren.&lt;/p&gt;
-
-&lt;p&gt;Bei der Entwicklung von Kundensystemen konnte er Erfahrung sammeln wie Dokumentation zu organisieren und strukturieren ist. Der Umgang mit verschiedenen Dokumentationsquellen und dennoch eine gute Struktur beizubehalten, erforderte sowohl ein hervorragendes technisches Fundament als auch Wissen darüber, wie man Dokumentation auf die richtige Weise erstellt.&lt;/p&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/fedorzholud.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Fedor Zholud&quot; title=&quot;Fedor Zholud&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Fedor Zholud&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;arbeitet bei MHP – A Porsche Company und verfügt über mehrere Jahre Berufserfahrung in der Java/Kotlin Backend Entwicklung sowie im AWS Serverless Umfeld. Er hat Clean Architecture nicht nur in klassischen Microservices, sondern auch in Serverless-Anwendungen erfolgreich umgesetzt. Genau das motiviert ihn, seine Erfahrungen mit anderen Entwicklerinnen und Entwicklern zu teilen und darüber zu sprechen. Besonders begeistert ihn das Erforschen verschiedener Architekturansätze und -muster, das Mentoring von Kolleginnen und Kollegen sowie der Wissensaustausch im Team. Komplexe Probleme einfach und verständlich zu lösen, ist für ihn nicht nur eine Fähigkeit, sondern auch eine Leidenschaft.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;Cosee&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cosee.biz&quot;&gt;&lt;img src=&quot;/images/sponsors/cosee.png&quot; alt=&quot;logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Feb 2026 18:30:00 +0100</pubDate>
-        <link>https://www.jug-da.de/2026/02/JavaLand-Newcomer/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2026/02/JavaLand-Newcomer/</guid>
       </item>
     
   </channel>
