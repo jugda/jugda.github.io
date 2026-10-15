@@ -84,6 +84,66 @@ Vorkenntnisse in mindestens einer Programmiersprache sind erforderlich.&lt;/p&gt
     
       <item>
         <title>
+          29.10.2026: Zwei Vorträge: Datenorientierte Programmierung mit Java und Speed Dating Java Secrets
+          
+            (Birgit Kratz, Bernd Müller)
+          
+        </title>
+        <description>&lt;h2 id=&quot;zusammenfassung&quot;&gt;Zusammenfassung&lt;/h2&gt;
+
+&lt;h3 id=&quot;datenorientierte-programmierung-mit-java&quot;&gt;Datenorientierte Programmierung mit Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Birgit Kratz&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Data Oriented Programming (DOP) ist ein aufkommendes Paradigma, das die Art und Weise verändert, wie wir in Java Daten modellieren und verarbeiten: Daten und Verhalten werden voneinander getrennt. Dieser Vortrag stellt die zentralen Prinzipien von DOP vor: Daten unveränderlich und transparent modellieren, an Systemgrenzen validieren, ungültige Zustände durch das Datenmodell ausschließen und Operationen von Datenstrukturen trennen.&lt;/p&gt;
+
+&lt;p&gt;Mit modernen Java-Sprachmitteln wie Records, Sealed Classes und Pattern Matching bietet DOP für viele Anwendungen eine einfachere und besser wartbare Alternative zur klassischen objektorientierten Programmierung (OOP). Anhand praktischer Beispiele erfährst du, wie DOP die Lesbarkeit, Testbarkeit und Erweiterbarkeit von Code verbessert und wann du dich für DOP oder OOP entscheiden solltest.&lt;/p&gt;
+
+&lt;p&gt;Du lernst, wie du die neuesten Möglichkeiten von Java nutzt, um klarere, sicherere und robustere Anwendungen zu entwickeln, in denen Daten als Daten im Mittelpunkt stehen.&lt;/p&gt;
+
+&lt;h3 id=&quot;speed-dating-java-secrets&quot;&gt;Speed Dating Java Secrets&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Bernd Müller&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Eine Folie Theorie, dann lauffähiger Code. Das ist das Format dieses Vortrags. Er zeigt eine Reihe kleiner Beispiele von Java-Features, die wenig bis nicht bekannt sind. Warum kennen wir sie nicht?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Weil sie für die eigenen Entwicklungsarbeiten nicht relevant sind.&lt;/li&gt;
+  &lt;li&gt;Weil sie eventuell relevant sind, es aber nie in die bekannten Blogs geschafft haben.&lt;/li&gt;
+  &lt;li&gt;Weil sie recht schräg und damit wenig sinnvoll einsetzbar sind.&lt;/li&gt;
+  &lt;li&gt;Weil sie ein Implementierungsdetail ohne sichtbare Auswirkungen sind.&lt;/li&gt;
+  &lt;li&gt;Und eventuell noch einige andere Gründe mehr …&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dieser Vortrag reiht Java-Geheimnisse, manchmal auch einfach nur Kuriositäten, in loser Folge aneinander. Du willst etwas Neues erfahren, auch wenn du es wahrscheinlich nie einsetzen wirst? Dann bist du hier richtig. Details können wir jetzt nicht verraten, sonst wäre es ja kein Geheimnis mehr. Du musst die Katze im Sack kaufen.&lt;/p&gt;
+
+&lt;p&gt;Nach dem Vortrag kennst du ein paar neue Features und Eigenheiten der Java-Plattform. In der Regel für den täglichen Einsatz wenig geeignet, aber Spaß gemacht hat es trotzdem und informativ war es auch.&lt;/p&gt;
+
+&lt;h2 id=&quot;sprecher&quot;&gt;Sprecher&lt;/h2&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/birgitkratz-2026.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Birgit Kratz&quot; title=&quot;Birgit Kratz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Birgit Kratz&lt;/strong&gt;
+(&lt;a href=&quot;https://www.linkedin.com/in/birgitkratz&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/birgitkratz&lt;/a&gt; | &lt;a href=&quot;https://github.com/bkratz&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-github&quot;&gt;&lt;/i&gt; bkratz&lt;/a&gt; | &lt;a href=&quot;https://www.birgitkratz.de&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://www.birgitkratz.de&lt;/a&gt;)
+ ist freiberufliche Softwareentwicklerin und Consultant mit mehr als 20 Jahren Erfahrung im Java-Umfeld. Ihre Schwerpunkte und ihre Leidenschaft liegen in der Anwendung agiler Entwicklungsmethoden und der Verbreitung des Software-Crafting-Gedankens. Seit vielen Jahren ist sie Co-Organisatorin der Softwerkskammern in Köln und Düsseldorf und hilft bei der Organisation der SoCraTes-Konferenz. In ihrer Freizeit ist sie passionierte Rennradfahrerin. Auf X ist sie als &lt;a href=&quot;https://x.com/bikratz&quot;&gt;@bikratz&lt;/a&gt; zu finden.&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speaker/berndmueller.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Bernd Müller&quot; title=&quot;Bernd Müller&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bernd Müller&lt;/strong&gt;
+(&lt;a href=&quot;https://github.com/BerndMuller&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-github&quot;&gt;&lt;/i&gt; BerndMuller&lt;/a&gt; | &lt;a href=&quot;https://www.pdbm.de/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-globe&quot;&gt;&lt;/i&gt; https://www.pdbm.de/&lt;/a&gt;)
+ ist Professor für Software-Technik an der Ostfalia Hochschule für angewandte Wissenschaften in Wolfenbüttel. Er ist Java Champion, Jakarta Ambassador und JUG-Mitorganisator, Autor mehrerer Bücher und Zeitschriftenartikel sowie Sprecher auf nationalen und internationalen Konferenzen. Auf X ist er als &lt;a href=&quot;https://x.com/berndmuller&quot;&gt;@berndmuller&lt;/a&gt; zu finden.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2026 18:30:00 +0100</pubDate>
+        <link>https://www.jug-da.de/2026/10/Data-Oriented-Programming-und-Java-Secrets/</link>
+        <guid isPermaLink="true">https://www.jug-da.de/2026/10/Data-Oriented-Programming-und-Java-Secrets/</guid>
+      </item>
+    
+      <item>
+        <title>
           01.10.2026: Double Feature: Value Objects and Project Valhalla + Java for AI
           
             (Nicolai Parlog, Zoran Sevarac)
@@ -441,44 +501,6 @@ Bitte Stift und Papier mitbringen&lt;/p&gt;
         <pubDate>Thu, 21 May 2026 18:30:00 +0200</pubDate>
         <link>https://www.jug-da.de/2026/05/Lesbarer-Code/</link>
         <guid isPermaLink="true">https://www.jug-da.de/2026/05/Lesbarer-Code/</guid>
-      </item>
-    
-      <item>
-        <title>
-          19.03.2026: Let’s create a tiny AI library together
-          
-            (Johannes Bechberger)
-          
-        </title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;We all want to it. When you want to integrate AI into your tools, what do you do? You add langchain4j or spring-ai and run with it. But do you know how these libraries interact with the AI service providers or your local ollama instance?&lt;/p&gt;
-
-&lt;p&gt;These libraries aren’t magic, so let’s peek behind the curtain and write a tiny AI library together. This way you’ll discover the REST APIs that power it all.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Der Vortrag wird auf Deutsch stattfinden. =&amp;gt; &lt;a href=&quot;https://github.com/parttimenerd/tiny-llm-library-demo&quot;&gt;Weitere Informationen&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
-
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/speaker/johannesbechberger.jpg&quot; class=&quot;speakerpic&quot; alt=&quot;Johannes Bechberger&quot; title=&quot;Johannes Bechberger&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Johannes Bechberger&lt;/strong&gt;
-(&lt;a href=&quot;https://www.linkedin.com/in/johannes-bechberger&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;bi bi-linkedin&quot;&gt;&lt;/i&gt; in/johannes-bechberger&lt;/a&gt;)
- is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP in 2022 after two years of research studies at the KIT in the field of Java security analyses. His work today is comprised of many open-source contributions and his blog (&lt;a href=&quot;https://mostlynerdless.de/&quot;&gt;https://mostlynerdless.de/&lt;/a&gt;), where he writes regularly on in-depth profiling and debugging topics, and of working on his JEP Candidate 435 to add a new profiling API to the OpenJDK.&lt;/p&gt;
-
-&lt;h2 id=&quot;sponsor&quot;&gt;Sponsor&lt;/h2&gt;
-
-&lt;p&gt;Die Firma &lt;a href=&quot;https://www.qaware.de/&quot;&gt;QAware&lt;/a&gt; stellt uns die Räumlichkeiten zur Verfügung und sorgt für unser leibliches Wohl. Vielen Dank dafür. Der übliche Abstecher in den Hotzenplotz nach dem Vortrag entfällt somit - wir bleiben einfach vor Ort!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.qaware.de/&quot;&gt;&lt;img src=&quot;/images/sponsors/qaware.png&quot; alt=&quot;QAware Logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Mar 2026 18:30:00 +0100</pubDate>
-        <link>https://www.jug-da.de/2026/03/Tiny-AI-Library/</link>
-        <guid isPermaLink="true">https://www.jug-da.de/2026/03/Tiny-AI-Library/</guid>
       </item>
     
   </channel>
