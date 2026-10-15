@@ -4,7 +4,7 @@ title: "Zwei Vorträge: Datenorientierte Programmierung mit Java und Speed Datin
 shortTitle: "Datenorientierte Programmierung + Java Secrets"
 speaker:
   - name: Birgit Kratz
-    pic: birgitkratz-2026.jpg
+    pic: birgitkratz.jpg
     linkedin: birgitkratz
     github: bkratz
     web: https://www.birgitkratz.de
