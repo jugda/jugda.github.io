@@ -59,4 +59,16 @@ DTSTAMP:20260921T125300Z
 URL:https://www.jug-da.de/2026/11/ADHS/
 CLASS:PUBLIC
 END:VEVENT
+BEGIN:VEVENT
+UID:20261210@jug-da.de
+ORGANIZER;CN="JUG Darmstadt":MAILTO:no-reply@jug-da.de
+SUMMARY:JUG DA: Eine Architektur, viele Sichten - Mit Bausteinsicht vom Modell zum Diagramm und wieder zurück (Gerd Aschemann, Falk Sippach)
+DESCRIPTION:Java User Group Darmstadt\n\nEine Architektur, viele Sichten - Mit Bausteinsicht vom Modell zum Diagramm und wieder zurück (Gerd Aschemann, Falk Sippach)\n\nZusammenfassung Softwarearchitektur lässt sich selten mit einem einzigen Diagramm erklären. Je nach Fragestellung brauchen wir unterschiedliche Sichten auf Kontext, Bausteine, Laufzeit oder Verteilung. Werden diese Diagramme getrennt gepflegt, widersprechen sie sich irgendwann – und verlieren ihren Wert für Entwurf, Kommunikation und Reviews. Nachdem wir geklärt haben, welche Fragen die Sichten...
+LOCATION:tbd
+DTSTART;TZID=Europe/Berlin:20261210T183000
+DTEND;TZID=Europe/Berlin:20261210T203000
+DTSTAMP:20261015T142900Z
+URL:https://www.jug-da.de/2026/12/Bausteinsicht/
+CLASS:PUBLIC
+END:VEVENT
 END:VCALENDAR

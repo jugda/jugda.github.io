@@ -46,5 +46,21 @@
 "hideRegistration": false,
 "canceled": false,
 "externalEvent": false
+},
+{
+"uid": "20261210@jug-da.de",
+"lastModified": "20261015T142900Z",
+"summary": "Eine Architektur, viele Sichten - Mit Bausteinsicht vom Modell zum Diagramm und wieder zurück (Gerd Aschemann, Falk Sippach)",
+"title": "Eine Architektur, viele Sichten - Mit Bausteinsicht vom Modell zum Diagramm und wieder zurück",
+"description": "Zusammenfassung Softwarearchitektur lässt sich selten mit einem einzigen Diagramm erklären. Je nach Fragestellung brauchen wir unterschiedliche Sichten auf Kontext, Bausteine, Laufzeit oder Verteilung. Werden diese Diagramme getrennt gepflegt, widersprechen sie sich irgendwann – und verlieren ihren Wert für Entwurf, Kommunikation und Reviews. Nachdem wir geklärt haben, welche Fragen die Sichten beantworten, wie sie sich in arc42 einordnen und wie sie z. B. mit C4 zusammenpassen, betrachten wir verschiedene Wege zur Umsetzung: klassische draw.io-Diagramme, Mermaid und PlantUML sowie modellbasierte Ansätze wie Structurizr und LikeC4. An einem Beispiel zeigen wir schließlich, welchen Weg Bausteinsicht einschlägt: Ein versionierbares Architekturmodell liefert mehrere Diagrammsichten; Änderungen...",
+"speaker": "Gerd Aschemann, Falk Sippach",
+"location": "tbd",
+"url": "https://www.jug-da.de/2026/12/Bausteinsicht/",
+"start": "2026-12-10T18:30:00",
+"end": "2026-12-10T20:30:00",
+"timezone": "Europe/Berlin",
+"hideRegistration": false,
+"canceled": false,
+"externalEvent": false
 }
 ]
