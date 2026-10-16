@@ -1,12 +1,12 @@
 [
 {
 "uid": "20261029@jug-da.de",
-"lastModified": "20261015T155000Z",
+"lastModified": "20261016T080500Z",
 "summary": "Zwei Vorträge: Datenorientierte Programmierung mit Java und Speed Dating Java Secrets (Birgit Kratz, Bernd Müller)",
 "title": "Zwei Vorträge: Datenorientierte Programmierung mit Java und Speed Dating Java Secrets",
 "description": "Zusammenfassung Datenorientierte Programmierung mit Java Birgit Kratz Data Oriented Programming (DOP) ist ein aufkommendes Paradigma, das die Art und Weise verändert, wie wir in Java Daten modellieren und verarbeiten: Daten und Verhalten werden voneinander getrennt. Dieser Vortrag stellt die zentralen Prinzipien von DOP vor: Daten unveränderlich und transparent modellieren, an Systemgrenzen validieren, ungültige Zustände durch das Datenmodell ausschließen und Operationen von Datenstrukturen trennen. Mit modernen Java-Sprachmitteln wie Records, Sealed Classes und Pattern Matching bietet DOP für viele Anwendungen eine einfachere und besser wartbare Alternative zur klassischen objektorientierten Programmierung (OOP). Anhand praktischer Beispiele erfährst du, wie DOP die Lesbarkeit, Testbarkeit und...",
 "speaker": "Birgit Kratz, Bernd Müller",
-"location": "tbd",
+"location": "h_da (Hochschule Darmstadt), Raum 0.04 (im Erdgerschoss links), Gebäude D14, Schöfferstraße 8B, 64295 Darmstadt",
 "url": "https://www.jug-da.de/2026/10/Data-Oriented-Programming-und-Java-Secrets/",
 "start": "2026-10-29T18:30:00",
 "end": "2026-10-29T20:30:00",
