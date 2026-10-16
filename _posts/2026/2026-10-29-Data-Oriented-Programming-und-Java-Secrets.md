@@ -13,8 +13,8 @@ speaker:
     github: BerndMuller
     web: https://www.pdbm.de/
 seatLimit: 30
-location: tbd
-direction: #
+location: h_da (Hochschule Darmstadt), Raum 0.04 (im Erdgerschoss links), Gebäude D14, Schöfferstraße 8B, 64295 Darmstadt
+direction: https://maps.app.goo.gl/psSdP7BZsAMbTYgC7
 ---
 
 ## Zusammenfassung
@@ -50,3 +50,9 @@ Nach dem Vortrag kennst du ein paar neue Features und Eigenheiten der Java-Platt
 {% include speakerinfo.html index=0 %} ist freiberufliche Softwareentwicklerin und Consultant mit mehr als 20 Jahren Erfahrung im Java-Umfeld. Ihre Schwerpunkte und ihre Leidenschaft liegen in der Anwendung agiler Entwicklungsmethoden und der Verbreitung des Software-Crafting-Gedankens. Seit vielen Jahren ist sie Co-Organisatorin der Softwerkskammern in Köln und Düsseldorf und hilft bei der Organisation der SoCraTes-Konferenz. In ihrer Freizeit ist sie passionierte Rennradfahrerin. Auf X ist sie als [@bikratz](https://x.com/bikratz) zu finden.
 
 {% include speakerinfo.html index=1 %} ist Professor für Software-Technik an der Ostfalia Hochschule für angewandte Wissenschaften in Wolfenbüttel. Er ist Java Champion, Jakarta Ambassador und JUG-Mitorganisator, Autor mehrerer Bücher und Zeitschriftenartikel sowie Sprecher auf nationalen und internationalen Konferenzen. Auf X ist er als [@berndmuller](https://x.com/berndmuller) zu finden.
+
+## Sponsors
+
+Die [h_da](https://h-da.de/) stellt uns die Räumlichkeiten zur Verfügung. Vielen Dank dafür.
+
+[![logo](/images/sponsors/hda.svg){:width="200"}](https://h-da.de/)
